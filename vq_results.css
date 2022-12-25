@@ -1,0 +1,291 @@
+
+
+body {
+    font-family: "Meiryo UI", "Meiryo", "MS PGothic", sans-serif;
+    background: #fcfcfc;
+    margin: 0px 20px 20px;
+    padding: 0px;
+    color: #223377;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0B76BB;
+    color: white;
+    text-align: center;
+}
+div.page_top {
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    padding: 15px;
+}
+div.main_block {
+    width: 800px;
+    margin : 0 auto;
+}
+div.system_conf_data {
+    padding : 10px;
+}
+div.first_message {
+    padding : 20px;
+}
+div.tableContainer {
+    display: flex;
+}
+a.first_message:link {
+    color: #7991F1;
+    font-size: small;
+}
+a.first_message:visited {
+    color: #7991F1;
+    font-size: small;
+}
+div.table_block {
+    margin: 0px;
+    padding: 0px;
+}
+div.quality-switch-header {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+div.quality-switch {
+    margin: 0px 20px 0px;
+    display:flex;
+    align-items: center;
+}
+div.quality-switch-button {
+    width:75px;
+}
+div.quality-switch-label {
+    margin: 2px 20px 2px;
+    text-align: left;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    margin: 0px;
+}
+
+p.table_block {
+   margin: 0px;
+   padding: 0px;
+}
+h1 {
+    text-shadow: 0 0 6px #ccc;
+    color: #CEF6F5;
+    background: #0B76BB;
+    border-collapse: collapse;
+    border: 0px;
+    margin: 0px;
+    padding: 10px;
+    border-spacing: 0px;
+}
+h2 {
+    padding: 0.5rem 0rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 3px solid #f6ba33;
+    font-weight: bold;
+    font-size: 26px;
+}
+a.table_block:link {
+    color: #7991F1;
+    font-size: small;
+}
+a.table_block:visited {
+    color: #7991F1;
+    font-size: small;
+}
+a.vpp_table_block:link {
+    color: #223377;
+}
+a.cpp_table_block:visited {
+    color: #223377;
+}
+a:link,
+a:visited {
+  text-decoration : underline; 
+  color : #6495ED; 
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #4169E1;
+}
+footer a:link,
+footer a:visited {
+  text-decoration : underline; 
+  color : #E0F0F7; 
+}
+
+footer a:focus,
+footer a:hover,
+footer a:active {
+  color: #F0F5F7;
+}
+
+hr {
+    margin: 4px;
+    padding: 0px;
+}
+ul li {
+  list-style: none;
+  position: relative;
+  padding: 4px 2px;
+}
+ul li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: .7em;
+  left: -1em;
+  width: 5px;
+  height: 5px;
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 100%;
+  box-shadow:  2px 1px 1px rgba(0, 0, 255, .2);
+}
+dl {
+  margin:0;
+  padding:.5em;
+  font-size:1em;
+}
+dt {
+  margin: 10px 0px 0px;
+  padding:.5em;
+  font-weight:bold;
+  background-color:rgba(0,137,167,.3);
+}
+dd {
+  margin:0px 2px 5px;
+  padding:0;
+  padding-top:.5em;
+  padding-bottom:.5em;
+}
+dd .div1 {padding-left:.5em;border-left:1px solid #333;font-size:.9em;clear:both;}
+dd .div2 {color:#900;font-size:.76em;margin-top:.5em;margin-bottom:.5em;clear:both;}
+
+
+img {
+    padding: 4px 0px;
+}
+
+.checkChartOnOff {
+  margin         : auto;
+  width          : 120px;
+  line-height    : 50%;
+}
+
+.checkChartOnOff input[type="checkbox"] {
+  display        : none;
+}
+
+.checkChartOnOff label {
+  display        : block;
+  box-sizing       : border-box;
+  text-align     : center;
+  border         : 2px solid #ccc;
+  border-radius    : 3px;
+  height         : 60px;
+  font-size      : 18px;
+  color          : #333;
+  line-height    : 125%;
+  font-weight    : bold;
+  background     : #eee;
+  box-shadow       : 3px 3px 6px #888;
+  transition       : .3s;
+  display        : flex;
+  align-items      : center;
+}
+
+.checkChartOnOff :checked + label {
+  background     : #00b284;
+  box-shadow       : none;
+  color          : #fff;
+  cursor         : pointer;
+}
+
+
+.checkChartOnOff label span {
+  margin: auto;
+}
+
+table.simpleGreen {
+    background-color: #01DFA5;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin : 5px auto;
+    padding: 1px;
+    border: 3px solid #01DFA5;
+}
+
+table.simpleGreen th,
+table.simpleGreen td {
+    background-color: #E0F8EC;
+    padding: 2px;
+    border: 1px solid #01DFA5;
+    color: #223377;
+    font-size: small;
+}
+table.simpleGreen tr:nth-child(1) {
+    padding: 1px;
+    border: 3px solid #01DFA5;
+}
+table.simpleGreen td:first-child {
+    padding: 1px;
+    border-left: 3px solid #01DFA5;
+    border-right: 3px solid #01DFA5;
+}
+
+table.simpleGreen td.ok {
+    background-color: #A9F5A9;
+    border: 1px solid #01DFA5;
+    text-align: center;
+    color: #223377;
+    font-size: small;
+}
+table.simpleGreen td.fail {
+    background-color: #F5A9A9;
+    border: 1px solid #01DFA5;
+    tex-align: center;
+    color: #223377;
+    font-size: small;
+}
+
+table.simpleBlue {
+    background-color: #58ACFA;
+    border-collapse: collapse;
+    border: 0px;
+    border-spacing: 0px;
+    margin : 0px 10px 0px;
+}
+
+table.simpleBlue th,
+table.simpleBlue td {
+    background-color: #F0FCFF;
+    padding: 2.5px 10px 2.5px;
+    border: 1px solid #58ACFA;
+    color: #223377;
+    font-size: small;
+    text-align: left;
+}
+
+#languageButtons input[type="radio"]{
+  display    : none;
+}
+ 
+#languageButtons label{
+  display    : inline-block;
+  border     : 1px solid #ccc;
+  box-shadow   : 2px 2px #999;
+  padding    : 2px 6px;
+  cursor         : pointer;
+}
+ 
+#languageButtons input[type="radio"]:checked + label {
+  background : #ffa64d;
+}
