@@ -3,6 +3,8 @@ vq_parse.py -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -drop "+HEVC +FF -Arc" ^
   -drop "+quality+motion" ^
   -hidden "+10bit" ^
+  -hidden "+normal" ^
+  -hidden "+AV1" ^
   -dashed "+10bit" ^
   -dotted "+normal" ^
   -dotted "+P6" ^
@@ -13,23 +15,39 @@ vq_parse.py -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -replace " QSVEncC , QSV " ^
   -replace " NVEncC , NVENC " ^
   -replace " VCEEncC , VCE " ^
-  -replace " FF , " ^
-  -color "QSVEncC,180-285" ^
-  -color "NVEncC,40-160" ^
+  -color "QSVEncC,161-299" ^
+  -color "NVEncC,31-160" ^
   -color "VCEEncC,300-30" ^
-  ",ssim1_log_RIGAYA7-PC_x264_x265_2028_20221031_175810.txt" ^
-  ",ssim1_log_RIGAYA7-PC_svtav1_20221212_124709.txt" ^
-  "i5 2410M,ssim1_log_RIGAYA8-PC_i5_2410M_3888_20221031_133105.txt" ^
-  "i3 4170,ssim1_log_RIGAYA3-PC_i3_4170_6200_20221031_133050.txt" ^
-  "i7 7700K,ssim1_log_RIGAYA5-PC_i7_7700K_3336_20221102_081822.txt" ^
-  "i9 12900K,ssim1_log_RIGAYA2-PC_i9_12900K_7084_20221101_141303.txt" ^
-  "Arc A380,ssim1_log_RIGAYA2-PC_ArcA380_1264_20221103_090821.txt" ^
-  "rtx1060,ssim1_log_RIGAYA2-PC_GTX1060_13048_20221104_082050.txt" ^
-  "rtx2070,ssim1_log_RIGAYA2-PC_RTX2070_8756_20221031_111033.txt" ^
-  "rtx4080,ssim1_log_RIGAYA2-PC_RTX4080_16900_20221119_144133.txt" ^
-  "7950x_iGPU,ssim1_log_RIGAYA7-PC_7950x_iGPU_12780_20221222_090645.txt" ^
-  "rx7900xt,ssim1_log_RIGAYA7-PC_rx7900xt_2200_20221222_090833.txt" ^
+  -replace " FF , " ^
+  ",ssim1_x264_log_RIGAYA7-PC_9456_20241215_112036.txt" ^
+  ",ssim1_x265_log_RIGAYA7-PC_14812_20241216_083507.txt" ^
+  ",ssim1_svtav1_log_RIGAYA7-PC_9040_20241216_145848.txt" ^
+  "Arc B580,ssim1_Arc_B580_log_RIGAYA10-PC_11544_20241215_171511.txt" ^
+  "Arc A380,ssim1_Arc_A380_log_RIGAYA2-PC_19660_20241214_091843.txt" ^
+  "i9 12900K,ssim1_i9_12900K_log_RIGAYA2-PC_11256_20241215_082308.txt" ^
+  "i5 1035G7,ssim1_i5_1035g7_log_RIGAYA7-PC_6000_20241223_130134.txt" ^
+  "i5 7500,ssim1_i5_7500_log_RIGAYA4-PC_7908_20241216_075304.txt" ^
+  "i5 5500u,ssim1_i5_5500u_log_RIGAYA7-PC_12736_20241223_080916.txt" ^
+  "i3 4170,ssim1_i3_4170_log_RIGAYA3-PC_2828_20241215_095746.txt" ^
+  "i5 2410m,ssim1_i5_2410m_log_RIGAYA7-PC_2268_20241222_124944.txt" ^
+  "rtx4080,ssim1_rtx4080_log_RIGAYA2-PC_12408_20241218_075035.txt" ^
+  "rtx2070,ssim1_rtx2070_log_RIGAYA10-PC_12660_20241221_155509.txt" ^
+  "gtx1080,ssim1_gtx1080_log_RIGAYA8-PC_14464_20241218_072550.txt" ^
+  "gtx950,ssim1_gtx950_log_RIGAYA7-PC_1848_20241219_092239.txt" ^
+  "rx7900xt,ssim1_rx7900xt_log_RIGAYA7-PC_16364_20241215_121720.txt" ^
+  "rx5500xt,ssim1_rx5500xt_log_RIGAYA10-PC_3220_20241222_121712.txt" ^
+  "rx550,ssim1_rx550_log_RIGAYA10-PC_7044_20241222_182304.txt" ^
+  "r9 9950x igpu,ssim1_r9_9950x_igpu_log_RIGAYA7-PC_3524_20241223_091435.txt" ^
+  "r3 3200G,ssim1_3200G_log_RIGAYA6-PC_4600_20241218_201021.txt" ^
   > vq_results.js
+
+  REM -color "QSVEncC,180-285" ^
+  REM -color "NVEncC,40-160" ^
+  REM -color "VCEEncC,300-30" ^
+  REM ",ssim1_log_RIGAYA7-PC_x264_x265_2028_20221031_175810.txt" ^
+  REM ",ssim1_log_RIGAYA7-PC_svtav1_20221212_124709.txt" ^
+  REM "i9 12900K,ssim1_i9_12900K_log_RIGAYA2-PC_11256_20241215_082308.txt" ^
+  REM "i7 10700K,ssim1_i7_10700K_log_RIGAYA8-PC_3976_20241216_082118.txt" ^
 
 vq_parse.py -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -no-write-aspect ^
@@ -37,6 +55,8 @@ vq_parse.py -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -drop "+HEVC +FF -Arc" ^
   -drop "+quality+motion" ^
   -hidden "+10bit" ^
+  -hidden "+normal" ^
+  -hidden "+AV1" ^
   -dashed "+10bit" ^
   -dotted "+normal" ^
   -dotted "+P6" ^
@@ -47,23 +67,39 @@ vq_parse.py -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -replace " QSVEncC , QSV " ^
   -replace " NVEncC , NVENC " ^
   -replace " VCEEncC , VCE " ^
-  -replace " FF , " ^
   -color "QSVEncC,161-299" ^
   -color "NVEncC,31-160" ^
   -color "VCEEncC,300-30" ^
-  ",ssim1_log_RIGAYA7-PC_x264_x265_2028_20221031_175810.txt" ^
-  ",ssim1_log_RIGAYA7-PC_svtav1_20221212_124709.txt" ^
-  "i5 2410M,ssim1_log_RIGAYA8-PC_i5_2410M_3888_20221031_133105.txt" ^
-  "i3 4170,ssim1_log_RIGAYA3-PC_i3_4170_6200_20221031_133050.txt" ^
-  "i7 7700K,ssim1_log_RIGAYA5-PC_i7_7700K_3336_20221102_081822.txt" ^
-  "i9 12900K,ssim1_log_RIGAYA2-PC_i9_12900K_7084_20221101_141303.txt" ^
-  "Arc A380,ssim1_log_RIGAYA2-PC_ArcA380_1264_20221103_090821.txt" ^
-  "rtx1060,ssim1_log_RIGAYA2-PC_GTX1060_13048_20221104_082050.txt" ^
-  "rtx2070,ssim1_log_RIGAYA2-PC_RTX2070_8756_20221031_111033.txt" ^
-  "rtx4080,ssim1_log_RIGAYA2-PC_RTX4080_16900_20221119_144133.txt" ^
-  "7950x_iGPU,ssim1_log_RIGAYA7-PC_7950x_iGPU_12780_20221222_090645.txt" ^
-  "rx7900xt,ssim1_log_RIGAYA7-PC_rx7900xt_2200_20221222_090833.txt" ^
+  -replace " FF , " ^
+  ",ssim1_x264_log_RIGAYA7-PC_9456_20241215_112036.txt" ^
+  ",ssim1_x265_log_RIGAYA7-PC_14812_20241216_083507.txt" ^
+  ",ssim1_svtav1_log_RIGAYA7-PC_9040_20241216_145848.txt" ^
+  "Arc B580,ssim1_Arc_B580_log_RIGAYA10-PC_11544_20241215_171511.txt" ^
+  "Arc A380,ssim1_Arc_A380_log_RIGAYA2-PC_19660_20241214_091843.txt" ^
+  "i9 12900K,ssim1_i9_12900K_log_RIGAYA2-PC_11256_20241215_082308.txt" ^
+  "i5 1035G7,ssim1_i5_1035g7_log_RIGAYA7-PC_6000_20241223_130134.txt" ^
+  "i5 7500,ssim1_i5_7500_log_RIGAYA4-PC_7908_20241216_075304.txt" ^
+  "i5 5500u,ssim1_i5_5500u_log_RIGAYA7-PC_12736_20241223_080916.txt" ^
+  "i3 4170,ssim1_i3_4170_log_RIGAYA3-PC_2828_20241215_095746.txt" ^
+  "i5 2410m,ssim1_i5_2410m_log_RIGAYA7-PC_2268_20241222_124944.txt" ^
+  "rtx4080,ssim1_rtx4080_log_RIGAYA2-PC_12408_20241218_075035.txt" ^
+  "rtx2070,ssim1_rtx2070_log_RIGAYA10-PC_12660_20241221_155509.txt" ^
+  "gtx1080,ssim1_gtx1080_log_RIGAYA8-PC_14464_20241218_072550.txt" ^
+  "gtx950,ssim1_gtx950_log_RIGAYA7-PC_1848_20241219_092239.txt" ^
+  "rx7900xt,ssim1_rx7900xt_log_RIGAYA7-PC_16364_20241215_121720.txt" ^
+  "rx5500xt,ssim1_rx5500xt_log_RIGAYA10-PC_3220_20241222_121712.txt" ^
+  "rx550,ssim1_rx550_log_RIGAYA10-PC_7044_20241222_182304.txt" ^
+  "r9 9950x igpu,ssim1_r9_9950x_igpu_log_RIGAYA7-PC_3524_20241223_091435.txt" ^
+  "r3 3200G,ssim1_3200G_log_RIGAYA6-PC_4600_20241218_201021.txt" ^
   >> vq_results.js
+
+  REM -color "QSVEncC,161-299" ^
+  REM -color "NVEncC,31-160" ^
+  REM -color "VCEEncC,300-30" ^
+  REM ",ssim1_log_RIGAYA7-PC_x264_x265_2028_20221031_175810.txt" ^
+  REM ",ssim1_log_RIGAYA7-PC_svtav1_20221212_124709.txt" ^
+  REM "i9 12900K,ssim1_i9_12900K_log_RIGAYA2-PC_11256_20241215_082308.txt" ^
+  REM "i7 10700K,ssim1_i7_10700K_log_RIGAYA8-PC_3976_20241216_082118.txt" ^
 
 vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -no-write-aspect ^
@@ -71,6 +107,8 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -drop "+HEVC +FF -Arc" ^
   -drop "+quality+motion" ^
   -hidden "+10bit" ^
+  -hidden "+normal" ^
+  -hidden "+AV1" ^
   -dashed "+10bit" ^
   -dotted "+normal" ^
   -dotted "+P6" ^
@@ -81,23 +119,39 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -replace " QSVEncC , QSV " ^
   -replace " NVEncC , NVENC " ^
   -replace " VCEEncC , VCE " ^
-  -replace " FF , " ^
   -color "QSVEncC,161-299" ^
   -color "NVEncC,31-160" ^
   -color "VCEEncC,300-30" ^
-  ",ssim2_log_x264_x265_sample_movie_1080p_new_short8_2.txt" ^
-  ",ssim2_log_RIGAYA7-PC_svtav1_6516_20221212_131706.txt" ^
-  "i5 2410M,ssim2_log_RIGAYA8-PC_i5_2410M_3928_20221101_083211.txt" ^
-  "i3 4170,ssim2_log_RIGAYA3-PC_i3_4170_8616_20221031_155938.txt" ^
-  "i7 7700K,ssim2_log_RIGAYA5-PC_i7_7700K_10440_20221102_135034.txt" ^
-  "i9 12900K,ssim2_log_RIGAYA2-PC_i9_12900K_17848_20221101_090309.txt" ^
-  "Arc A380,ssim2_log_RIGAYA2-PC_ArcA380_8884_20221103_104022.txt" ^
-  "rtx1060,ssim2_log_RIGAYA2-PC_GTX1060_3916_20221104_095410.txt" ^
-  "rtx2070,ssim2_log_RIGAYA2-PC_RTX2070_11328_20221031_124208.txt" ^
-  "rtx4080,ssim2_log_RIGAYA2-PC_RTX4080_18868_20221119_162556.txt" ^
-  "7950x_iGPU,ssim2_log_RIGAYA7-PC_7950x_iGPU_19780_20221222_103258.txt" ^
-  "rx7900xt,ssim2_log_RIGAYA7-PC_rx7900xt_17248_20221222_105932.txt" ^
+  -replace " FF , " ^
+  ",ssim2_x264_log_RIGAYA7-PC_5276_20241215_114640.txt" ^
+  ",ssim2_x265_log_RIGAYA7-PC_6404_20241216_110758.txt" ^
+  ",ssim2_svtav1_log_RIGAYA7-PC_8312_20241220_095355.txt" ^
+  "Arc B580,ssim2_Arc_B580_log_RIGAYA10-PC_19424_20241215_210319.txt" ^
+  "Arc A380,ssim2_Arc_A380_log_RIGAYA2-PC_22928_20241214_183411.txt" ^
+  "i9 12900K,ssim2_i9_12900K_log_RIGAYA2-PC_17568_20241215_123032.txt" ^
+  "i5 1035G7,ssim2_i5_1035g7_log_RIGAYA10-PC_19292_20241223_130306.txt" ^
+  "i5 7500,ssim2_i5_7500_log_RIGAYA4-PC_6468_20241217_010056.txt" ^
+  "i5 5500u,ssim2_i5_5500u_log_RIGAYA7-PC_8224_20241223_083625.txt" ^
+  "i3 4170,ssim2_i3_4170_log_RIGAYA3-PC_6236_20241216_072701.txt" ^
+  "i5 2410m,ssim2_i5_2410m_log_RIGAYA7-PC_1772_20241222_131629.txt" ^
+  "rtx4080,ssim2_rtx4080_log_RIGAYA2-PC_4504_20241218_120921.txt" ^
+  "rtx2070,ssim2_rtx2070_log_RIGAYA10-PC_3532_20241222_085857.txt" ^
+  "gtx1080,ssim2_gtx1080_log_RIGAYA8-PC_9920_20241218_115729.txt" ^
+  "gtx950,ssim2_gtx950_log_RIGAYA7-PC_4664_20241219_100757.txt" ^
+  "rx7900xt,ssim2_rx7900xt_log_RIGAYA7-PC_14632_20241215_125109.txt" ^
+  "rx5500xt,ssim2_rx5500xt_log_RIGAYA10-PC_11260_20241222_134854.txt" ^
+  "rx550,ssim2_rx550_log_RIGAYA10-PC_7388_20241222_191337.txt" ^
+  "r9 9950X,ssim2_r9_9950x_igpu_log_RIGAYA7-PC_10916_20241223_104537.txt" ^
+  "r3 3200G,ssim2_3200G_log_RIGAYA6-PC_10660_20241219_044359.txt" ^
   >> vq_results.js
+
+  REM -color "QSVEncC,161-299" ^
+  REM -color "NVEncC,31-160" ^
+  REM -color "VCEEncC,300-30" ^
+  REM ",ssim2_log_x264_x265_sample_movie_1080p_new_short8_2.txt" ^
+  REM ",ssim2_log_RIGAYA7-PC_svtav1_6516_20221212_131706.txt" ^
+  REM "i9 12900K,ssim2_i9_12900K_log_RIGAYA2-PC_17568_20241215_123032.txt" ^
+  REM "i7 10700K,ssim2_i7_10700K_log_RIGAYA8-PC_10208_20241216_122715.txt" ^
 
 vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -no-write-aspect ^
@@ -105,6 +159,8 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -drop "+HEVC +FF -Arc" ^
   -drop "+quality+motion" ^
   -hidden "+10bit" ^
+  -hidden "+normal" ^
+  -hidden "+AV1" ^
   -dashed "+10bit" ^
   -dotted "+normal" ^
   -dotted "+P6" ^
@@ -115,22 +171,38 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   -replace " QSVEncC , QSV " ^
   -replace " NVEncC , NVENC " ^
   -replace " VCEEncC , VCE " ^
-  -replace " FF , " ^
   -color "QSVEncC,161-299" ^
   -color "NVEncC,31-160" ^
   -color "VCEEncC,300-30" ^
-  ",ssim2_log_x264_x265_sample_movie_1080p_new_short8_2.txt" ^
-  ",ssim2_log_RIGAYA7-PC_svtav1_6516_20221212_131706.txt" ^
-  "i5 2410M,ssim2_log_RIGAYA8-PC_i5_2410M_3928_20221101_083211.txt" ^
-  "i3 4170,ssim2_log_RIGAYA3-PC_i3_4170_8616_20221031_155938.txt" ^
-  "i7 7700K,ssim2_log_RIGAYA5-PC_i7_7700K_10440_20221102_135034.txt" ^
-  "i9 12900K,ssim2_log_RIGAYA2-PC_i9_12900K_17848_20221101_090309.txt" ^
-  "Arc A380,ssim2_log_RIGAYA2-PC_ArcA380_8884_20221103_104022.txt" ^
-  "rtx1060,ssim2_log_RIGAYA2-PC_GTX1060_3916_20221104_095410.txt" ^
-  "rtx2070,ssim2_log_RIGAYA2-PC_RTX2070_11328_20221031_124208.txt" ^
-  "rtx4080,ssim2_log_RIGAYA2-PC_RTX4080_18868_20221119_162556.txt" ^
-  "7950x_iGPU,ssim2_log_RIGAYA7-PC_7950x_iGPU_19780_20221222_103258.txt" ^
-  "rx7900xt,ssim2_log_RIGAYA7-PC_rx7900xt_17248_20221222_105932.txt" ^
+  -replace " FF , " ^
+  ",ssim2_x264_log_RIGAYA7-PC_5276_20241215_114640.txt" ^
+  ",ssim2_x265_log_RIGAYA7-PC_6404_20241216_110758.txt" ^
+  ",ssim2_svtav1_log_RIGAYA7-PC_8312_20241220_095355.txt" ^
+  "Arc B580,ssim2_Arc_B580_log_RIGAYA10-PC_19424_20241215_210319.txt" ^
+  "Arc A380,ssim2_Arc_A380_log_RIGAYA2-PC_22928_20241214_183411.txt" ^
+  "i9 12900K,ssim2_i9_12900K_log_RIGAYA2-PC_17568_20241215_123032.txt" ^
+  "i5 1035G7,ssim2_i5_1035g7_log_RIGAYA10-PC_19292_20241223_130306.txt" ^
+  "i5 7500,ssim2_i5_7500_log_RIGAYA4-PC_6468_20241217_010056.txt" ^
+  "i5 5500u,ssim2_i5_5500u_log_RIGAYA7-PC_8224_20241223_083625.txt" ^
+  "i3 4170,ssim2_i3_4170_log_RIGAYA3-PC_6236_20241216_072701.txt" ^
+  "i5 2410m,ssim2_i5_2410m_log_RIGAYA7-PC_1772_20241222_131629.txt" ^
+  "rtx4080,ssim2_rtx4080_log_RIGAYA2-PC_4504_20241218_120921.txt" ^
+  "rtx2070,ssim2_rtx2070_log_RIGAYA10-PC_3532_20241222_085857.txt" ^
+  "gtx1080,ssim2_gtx1080_log_RIGAYA8-PC_9920_20241218_115729.txt" ^
+  "gtx950,ssim2_gtx950_log_RIGAYA7-PC_4664_20241219_100757.txt" ^
+  "rx7900xt,ssim2_rx7900xt_log_RIGAYA7-PC_14632_20241215_125109.txt" ^
+  "rx5500xt,ssim2_rx5500xt_log_RIGAYA10-PC_11260_20241222_134854.txt" ^
+  "rx550,ssim2_rx550_log_RIGAYA10-PC_7388_20241222_191337.txt" ^
+  "r9 9950X,ssim2_r9_9950x_igpu_log_RIGAYA7-PC_10916_20241223_104537.txt" ^
+  "r3 3200G,ssim2_3200G_log_RIGAYA6-PC_10660_20241219_044359.txt" ^
   >> vq_results.js
+
+  REM -color "QSVEncC,161-299" ^
+  REM -color "NVEncC,31-160" ^
+  REM -color "VCEEncC,300-30" ^
+  REM ",ssim2_log_x264_x265_sample_movie_1080p_new_short8_2.txt" ^
+  REM ",ssim2_log_RIGAYA7-PC_svtav1_6516_20221212_131706.txt" ^
+  REM "i9 12900K,ssim2_i9_12900K_log_RIGAYA2-PC_17568_20241215_123032.txt" ^
+  REM "i7 10700K,ssim2_i7_10700K_log_RIGAYA8-PC_10208_20241216_122715.txt" ^
   
 pause

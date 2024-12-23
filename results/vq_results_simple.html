@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+  <title>画質比較</title>
+</head>
+<body>
+<div class="main_block">
+  <h1>
+    <p class="langChange" lang="ja">画質比較 (2022.12)</p>
+    <p class="langChange" lang="en">Video Qualities (2022.12)</p>
+  </h1>
+  <h2>
+    言語切り替え / Switch Language
+  </h2>
+  <div id="languageButtons">
+    <input type="radio" name="langSwitch" id="sJa" onClick="langSet('ja')" checked>
+    <label for="sJa">
+      日本語
+    </label>
+    
+    <input type="radio" name="langSwitch" id="sEn" onClick="langSet('en')">
+    <label for="sEn">
+      English
+    </label>
+  </div>
+
+  <h2>
+    <p class="langChange" lang="ja">計測条件</p>
+    <p class="langChange" lang="en">Environments</p>
+  </h2>
+  <p class="langChange" lang="ja"><a href="vq_results_details.html">計測条件等はこちら。</a></p>
+  <p class="langChange" lang="en"><a href="vq_results_details.html?lang=en">Environments for testing shown here.</a></p>
+
+  <h2>
+    <p class="langChange" lang="ja">結果</p>
+    <p class="langChange" lang="en">Results</p>
+  </h2>
+  <div class="first_message">
+    <p class="langChange" lang="ja"><strong>下記ボタンで一括で 表示 ↔ 非表示 を切り替えられます。</strong><br></p>
+    <p class="langChange" lang="en"><strong>Data to be shown can be switched by the buttons below.</strong><br></p>
+  </div>
+  
+  
+  <canvas id="chart_t1_20240505_bitrate_ssim"></canvas>
+  <canvas id="chart_t1_20240505_bitrate_vmaf"></canvas>
+  <canvas id="chart_t2_20240505_bitrate_ssim"></canvas>
+  <canvas id="chart_t2_20240505_bitrate_vmaf"></canvas>
+
+  <footer>
+    <div>
+    <br>results by rigaya<br>
+    <a href="mailto:rigaya34589@live.jp">mail: rigaya34589@live.jp</a> 
+    <a href="https://rigaya34589.blog.fc2.com/">blog</a> 
+    <a href="https://twitter.com/rigaya34589">twitter</a> 
+    </div>
+  </footer>
+
+
+
+</div>
+<script src="vq_results.js"></script>
+</body>
+</html>

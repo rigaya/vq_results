@@ -7,7 +7,7 @@
   <link href="vq_results.css" rel="stylesheet" type="text/css">
   <link href="vq_results_tabs.css" rel="stylesheet" type="text/css">
   <link href="vq_results_toggle.css" rel="stylesheet" type="text/css">
-  <title>画質比較 (2022.12)</title>
+  <title>画質比較 (2024.12)</title>
   <script>
     window.onload = function() {
       const url = new URL(window.location.href);
@@ -31,8 +31,8 @@
 <div class="main_block">
   <div>
   <h1>
-    <p class="langChange" lang="ja">画質比較 (2022.12)</p>
-    <p class="langChange" lang="en">Video Qualities (2022.12)</p>
+    <p class="langChange" lang="ja">画質比較 (2024.12)</p>
+    <p class="langChange" lang="en">Video Qualities (2024.12)</p>
   </h1>
   <h2>
     言語切り替え / Switch Language
@@ -55,11 +55,11 @@
   </h2>
   <ul>
     <li>x264 r3095</li>
-    <li>x265 3.5+56</li>
-    <li>SVT-AV1 1.4.0+15</li>
-    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.23</li>
-    <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 7.02</li>
-    <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 7.18</li>
+    <li>x265 4.1+54</li>
+    <li>SVT-AV1 2.3.0-39</li>
+    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.76</li>
+    <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 7.77</li>
+    <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 8.24</li>
   </ul>
   
   <h2>
@@ -67,8 +67,8 @@
     <p class="langChange" lang="en">Input Files</p>
   </h2>
     <br>
-    <p class="langChange" lang="ja">AvisynthのLWLibavVideoSourceで読み込み (SWデコード)</p>
-    <p class="langChange" lang="en">Decoded by Avisynth LWLibavVideoSource.</p>
+    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し</p>
+    <p class="langChange" lang="en">Decoded by ffmpeg.</p>
     <dl>
       <dt>
         <p class="langChange" lang="ja">アニメ版</p>
@@ -118,7 +118,6 @@
         <tr><th colspan=2>Codec</th><td>-c h264,hevc,av1</td></tr>
         <tr><th colspan=2>Preset</th><td>-u 1,4</td></tr>
         <tr><th colspan=2>10bit</th><td>--output-depth 10</td></tr>
-        <tr><th colspan=2>FF</th><td>--fixed-func</td></tr>
       </table>
       </div>
     </dd>
@@ -127,7 +126,7 @@
     <dd>
       <div class=tableContainer>
       <table class=simpleBlue width=100%>
-        <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--qvbr [x]</td></tr>
+        <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--icq [x]</td></tr>
         <tr>                     <td>VBR</td>           <td>--vbr [x]</td></tr>
         <tr><th rowspan=3>Codec</th><td>H.264</td><td>-c h264 --level 5.1</td></tr>
         <tr>                      <td>HEVC</td><td>-c hevc --level 6</td></tr>
@@ -143,7 +142,7 @@
     <dd>
       <div class=tableContainer>
       <table class=simpleBlue width=100%>
-        <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--qvbr 0 --qvbr-quality [x] --pa lookahead=32,taq=2,paq=caq</td></tr>
+        <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--qvbr [x] --pa lookahead=32,taq=2,paq=caq</td></tr>
         <tr>                     <td>VBR</td>           <td>--vbr [x] (normal), --vbrhq [x] (quality)</td></tr>
         <tr><th rowspan=3>Codec</th><td>H.264</td><td>-c h264 --level 5.1 --max-bitrate 60000 -b 3 --b-pyramid</td></tr>
         <tr>                      <td>HEVC</td><td>-c hevc --level 6 --max-bitrate 60000</td></tr>
@@ -161,40 +160,729 @@
     <p class="langChange" lang="en">Test Environments</p>
   </h2>
 
-  <section>
+<section>
     <div class="env-tab-wrap">
-      <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" checked="checked" /><label class="env-tab-label" for="TAB-01">i9 12900K / Arc A380 / RTX4080 / RTX2070 / GTX1060</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>i9 12900K</td></tr><tr><td>コア数</td><td>8P+8E/24T</td></tr><tr><td>L2</td><td>14MB</td></tr><tr><td>L3</td><td>30MB</td></tr><tr><td>Boost</td><td>5.2GHz</td></tr><tr><td>メモリ</td><td>G.Skill F4-3600C16D-16GTZNC</td></tr><tr><td>速度</td><td>DDR4-3600</td></tr><tr><td>容量</td><td>8GBx4</td></tr><tr><td>タイミング</td><td>16-19-19-39-1</td></tr><tr><td>メモリFCLK</td><td>Gear1</td></tr><tr><td>iGPU</td><td>Intel UHD Graphics 770</td></tr><tr><td>dGPU0</td><td>INNO3D GeForce RTX 4080 16GB X3</td></tr><tr><td>dGPU1</td><td>EVGA GeForce RTX 2070 XC Gaming</td></tr><tr><td>dGPU2</td><td>GUNNIR Intel ARC A380 Photon 6G OC</td></tr><tr><td>dGPU3</td><td>ZOTAC GTX 1060 Mini</td></tr><tr><td>SSD1</td><td>Plextor M10PGN 1TB NVMe PCIe Gen4</td></tr><tr><td>SSD2</td><td>Plextor M8PeG 1TB NVMe PCIe Gen3</td></tr><tr><td>マザー</td><td>MSI MAG Z690 TOMAHAWK WIFI DDR4</td></tr><tr><td>冷却</td><td>Corsair iCUE H150i RGB PRO XT</td></tr><tr><td>電源</td><td>KRPW-PA1000W/92+ (80+ Platinum)</td></tr><tr><td>ケース</td><td>Thermaltake Core V71</td></tr><tr><td>OS</td><td>Windows 11</td></tr><tr><td>ドライバ</td><td>NVIDIA 526.47/526.98<br>Intel 31.10.101.3793</td></tr></table>
-      </div>
-      <input id="TAB-02" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-02">Ryzen9 7950X / RX7900XT / x264 / x265 / svtav1</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>Ryzen9 7950X</td></tr><tr><td>コア数</td><td>16C/32T</td></tr><tr><td>L2</td><td>16MB</td></tr><tr><td>L3</td><td>64MB</td></tr><tr><td>メモリ</td><td>G.skill F5-6000J3238G32GX2-TZ5RS</td></tr><tr><td>速度/電圧</td><td>DDR5-6000 @ 1.4V</td></tr><tr><td>容量</td><td>32GBx2</td></tr><tr><td>タイミング</td><td>32-38-38-96-1</td></tr><tr><td>dGPU1</td><td>SAPPHIRE Radeon RX7900XT 20GB</td></tr><tr><td>dGPU2</td><td>玄人志向 RD-RX5500XT-E8GB</tr><tr><td>dGPU3</td><td>玄人志向 RD-RX550-E4GB/LP</td></tr><tr><td>SSD1</td><td>KIOXIA EXCERIA Pro 1TB PCIe Gen4</td></tr><tr><td>SSD2</td><td>Plextor M9P 1TB NVMe PCIe Gen3</td></tr><tr><td>マザー</td><td>MSI Pro X670-P WIFI</td></tr><tr><td>冷却</td><td>Fractal Design Celsius+ S28 Prisma</td></tr><tr><td>電源</td><td>Seasonic FOCUS PX-750</td></tr><tr><td>ケース</td><td>Define 7 Compact LightTG</td></tr><tr><td>OS</td><td>Windows 11 22000</td></tr></table>
-      </div>
-      <input id="TAB-03" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-03">i7 11700K</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>i7 11700K</td></tr><tr><td>コア数</td><td>8C/16T</td></tr><tr><td>L2</td><td>4MB</td></tr><tr><td>L3</td><td>16MB</td></tr><tr><td>Boost</td><td>4.9GHz</td></tr><tr><td>メモリ</td><td>G.Skill F4-3600C18D-16GTZRX</td></tr><tr><td>速度</td><td>DDR4-3600</td></tr><tr><td>容量</td><td>8GBx2</td></tr><tr><td>タイミング</td><td>18-22-22-45-2</td></tr><tr><td>メモリFCLK</td><td>Gear2</td></tr><tr><td>iGPU</td><td>Intel UHD Graphics 750</td></tr><tr><td>dGPU1</td><td>ZOTAC GeForce GTX 1080 AMP Edition<br>(Kraken G12で簡易水冷化)</td></tr><tr><td>SSD1</td><td>KIOXIA EXCERIA NVMe PLUS SSD 1TB</td></tr><tr><td>SSD2</td><td>Intel SSDSA2CW120G3 120GB</td></tr><tr><td>マザー</td><td>Gigabyte Z590I AORUS ULTRA (F5a)</td></tr><tr><td>冷却</td><td>Thermaltake Water 3.0 Riing Edition 280</td></tr><tr><td>電源</td><td>COOLER MASTER V SFX Gold 650W</td></tr><tr><td>ケース</td><td>JONSBO Jonsplus i100 Pro S/G</td></tr><tr><td>OS</td><td>Windows 11</td></tr></table>
-      </div>
-      <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-04">i7 7700K</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>i7 7700K</td></tr><tr><td>コア数</td><td>4C/8T</td></tr><tr><td>L2</td><td>2MB</td></tr><tr><td>L3</td><td>8MB</td></tr><tr><td>Boost</td><td>4.5GHz</td></tr><tr><td>メモリ</td><td>G.Skill F4-3400C16-4GRBD</td></tr><tr><td>速度</td><td>DDR4-3600</td></tr><tr><td>容量</td><td>4GBx2</td></tr><tr><td>タイミング</td><td>18-20-20-42-2</td></tr><tr><td>iGPU</td><td>Intel UHD Graphics 630</td></tr><tr><td>dGPU1</td><td>玄人志向 RD-RX5500XT-E8GB<br>Radeon RX5500XT 8GB (PCIe3x1接続)</td></tr><tr><td>SSD1</td><td>Plextor M6Pro 256GB</td></tr><tr><td>SSD2</td><td>東芝 THNSNJ512GCSU 512GB</td></tr><tr><td>マザー</td><td>Asrock Fatal1ty Z270 Gaming-ITX/ac</td></tr><tr><td>電源</td><td>Enermax EPM600AWT</td></tr><tr><td>ケース</td><td>Phanteks Evolv Shift X</td></tr><tr><td>OS</td><td>Windows10</td></tr></table>
-      </div>
-      <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-05">i3 4170</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>Core i3 4170</td></tr><tr><td>コア数</td><td>2C/4T</td></tr><tr><td>L2</td><td>512K</td></tr><tr><td>L3</td><td>3MB</td></tr><tr><td>Boost</td><td>3.7GHz</td></tr><tr><td>メモリ</td><td>G.Skill F3-17000CL9-4GBZH</td></tr><tr><td>速度</td><td>DDR3-2133</td></tr><tr><td>容量</td><td>4GBx2</td></tr><tr><td>タイミング</td><td>9-11-10-28-2</td></tr><tr><td>iGPU</td><td>Intel HD Graphics 4400</td></tr><tr><td>SSD1</td><td>Plextor M5Pro 256GB</td></tr><tr><td>HDD2</td><td>東芝 MN08ACA14T 14TB</td></tr><tr><td>HDD2</td><td>WD WUH721414ALE6L4 14TB</td></tr><tr><td>マザー</td><td>Asrock Z97E-ITX/ac</td></tr><tr><td>冷却</td><td>リテール</td></tr><tr><td>電源</td><td>ケース付属 ACアダプタ 90W</td></tr><tr><td>ケース</td><td>Antec ISK-110 VESA</td></tr><tr><td>OS</td><td>Windows10</td></tr></table>
-      </div>
-      <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-06">i5 2410M</label>
-      <div class="env-tab-content">
-        <table class=simpleBlue><tr><td>CPU</td><td>i5 2410M</td></tr><tr><td>コア数</td><td>2C/4T</td></tr><tr><td>L2</td><td>512K</td></tr><tr><td>L3</td><td>3MB</td></tr><tr><td>Boost</td><td>2.9GHz</td></tr><tr><td>速度</td><td>DDR3-1333</td></tr><tr><td>容量</td><td>2GBx2</td></tr><tr><td>タイミング</td><td>9-9-9-24-1</td></tr><tr><td>iGPU</td><td>Intel HD Graphics 3000</td></tr><tr><td>SSD1</td><td>Samsung SSD 60GBx2 [壊れた]</td></tr><tr><td>SSD2</td><td>東芝 THNSNJ128GCST 128GB USB接続</td></tr><tr><td>ケース</td><td>SONY VAIO</td></tr><tr><td>OS</td><td>Windows 8.1</td></tr></table>
-      </div>
+        <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" checked="checked" /><label
+            class="env-tab-label" for="TAB-01">i9 12900K / Arc A380 / RTX4080</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i9 12900K</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>8P+8E/24T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>14MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>30MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>5.2GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>G.Skill F4-3600C16D-16GTZNC</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR4-3600</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>8GBx4</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>16-19-19-39-1</td>
+                </tr>
+                <tr>
+                    <td>メモリFCLK</td>
+                    <td>Gear1</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel UHD Graphics 770</td>
+                </tr>
+                <tr>
+                    <td>dGPU0</td>
+                    <td>INNO3D GeForce RTX 4080 16GB X3</td>
+                </tr>
+                <tr>
+                    <td>dGPU1</td>
+                    <td>GUNNIR Intel ARC A380 Photon 6G OC</td>
+                </tr>
+                <tr>
+                    <td>dGPU2</td>
+                    <td>ZOTAC GTX 1060 Mini</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Plextor M10PGN 1TB NVMe PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>Plextor M8PeG 1TB NVMe PCIe Gen3</td>
+                </tr>
+                <tr>
+                    <td>SSD3</td>
+                    <td>KIOXIA EXCERIA Pro 2TB PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>MSI MAG Z690 TOMAHAWK WIFI DDR4</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>Corsair iCUE H150i RGB PRO XT</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>KRPW-PA1000W/92+ (80+ Platinum)</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>Thermaltake Core V71</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>NVIDIA 565.90<br>Intel 32.0.101.6325</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-02" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-02">Ryzen9 9950X / RX7900XT / GTX950 / x264 / x265 / svtav1</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ryzen9 9950X</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>16C/32T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>16MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>64MB</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>G.skill F5-6000J3238G32GX2-TZ5RS</td>
+                </tr>
+                <tr>
+                    <td>速度/電圧</td>
+                    <td>DDR5-6000 @ 1.4V</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>32GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>32-38-38-96-1</td>
+                </tr>
+                <tr>
+                    <td>dGPU1</td>
+                    <td>SAPPHIRE Radeon RX7900XT 20GB</td>
+                </tr>
+                <tr>
+                    <td>dGPU2</td>
+                    <td>GIGABYTE GV-N950OC-2GD GTX950/2GB</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>KIOXIA EXCERIA Pro 1TB PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>KIOXIA EXCERIA PLUS G3 1TB PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>MSI Pro X670-P WIFI</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>Fractal Design Celsius+ S28 Prisma</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>Seasonic FOCUS PX-750</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>Define 7 Compact LightTG</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>NVIDIA 566.03<br>AMD 24.12.1</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-03" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-03">Ryzen9 7950X / Arc B580 / RTX 2070 / RX5500XT / RX550</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ryzen9 7950X</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>16C/32T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>16MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>64MB</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>Crucial CP2K48G56C46U5</td>
+                </tr>
+                <tr>
+                    <td>速度/電圧</td>
+                    <td>DDR5-5600 @ 1.1V</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>48GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>46-45-45</td>
+                </tr>
+                <tr>
+                    <td>dGPU1</td>
+                    <td>ASRock Intel Arc B580 Challenger 12GB OC</td>
+                </tr>
+                <tr>
+                    <td>dGPU2</td>
+                    <td>EVGA GeForce RTX 2070 XC Gaming</td>
+                </tr>
+                <tr>
+                    <td>dGPU3</td>
+                    <td>玄人志向 RD-RX5500XT-E8GB
+                </tr>
+                <tr>
+                    <td>dGPU4</td>
+                    <td>玄人志向 RD-RX550-E4GB/LP</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Plextor M9P 1TB NVMe PCIe Gen3</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>ASRock B650 LiveMixer</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>Noctua NH-D14</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ENERMAX EPM600AWT</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>FSP CMT580W</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 32.0.101.6325 / NVIDIA 566.36 / AMD 24.12.1</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-04">i7 11700K / GTX1080</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i7 11700K</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>8C/16T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>4MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>16MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>4.9GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>G.Skill F4-3600C18D-16GTZRX</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR4-3600</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>8GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>18-22-22-45-2</td>
+                </tr>
+                <tr>
+                    <td>メモリFCLK</td>
+                    <td>Gear2</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel UHD Graphics 750</td>
+                </tr>
+                <tr>
+                    <td>dGPU1</td>
+                    <td>ZOTAC GeForce GTX 1080 AMP Edition<br>(Kraken G12で簡易水冷化)</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>KIOXIA EXCERIA NVMe PLUS SSD 1TB</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>Intel SSDSA2CW120G3 120GB</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>Gigabyte Z590I AORUS ULTRA (F5a)</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>Thermaltake Water 3.0 Riing Edition 280</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>COOLER MASTER V SFX Gold 650W</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>JONSBO Jonsplus i100 Pro S/G</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-05">i5 1035G7</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i5 1035G7</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>4C/8T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>1MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>6MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>3.7GHz</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>LPDDR4X-3733</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>8GB</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel Iris Plus Graphics</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>NVMe 128GB (TOSHIBA KBG40ZNS128G)</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>Surface Laptop 3 13.5"</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 31.0.101.2134</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-06">i5 7500</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i5 7500</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>4C/4T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>2MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>6MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>3.6GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>AVEXIR AVD4U24001608G-4M</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR4-2400</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>8GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>16-16-16-39-2</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel UHD Graphics 630</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>SanDisk SDSSDXPS480G 480GB</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>Corsair MP510 1.92TB x2</td>
+                </tr>
+                <tr>
+                    <td>SSD3</td>
+                    <td>Sandisk SDSSDH3 4T00 4TB x3</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>Asrock H270M Pro4</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ケース付属</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>InWin IW-CE685/300P</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows10 22H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 31.0.101.2121</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-07" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-07">i5 5500U</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i5 5500U</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>2C/4T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>512K</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>3MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>3.0GHz</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR3-1600</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>4GBx2</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel HD Graphics 5500</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>dynabook KIRA VZ83/TS</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 10 22H2</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-08" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-08">i3 4170</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Core i3 4170</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>2C/4T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>512K</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>3MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>3.7GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>G.Skill F3-17000CL9-4GBZH</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR3-2133</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>4GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>9-11-10-28-2</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel HD Graphics 4400</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Plextor M5Pro 256GB</td>
+                </tr>
+                <tr>
+                    <td>HDD2</td>
+                    <td>東芝 MN08ACA14T 14TB</td>
+                </tr>
+                <tr>
+                    <td>HDD2</td>
+                    <td>WD WUH721414ALE6L4 14TB</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>Asrock Z97E-ITX/ac</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>リテール</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ケース付属 ACアダプタ 90W</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>Antec ISK-110 VESA</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows10</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-09" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-09">i5 2410M</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>i5 2410M</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>2C/4T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>512K</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>3MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>2.9GHz</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR3-1333</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>2GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>9-9-9-24-1</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel HD Graphics 3000</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Samsung SSD 60GBx2 [壊れた]</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>東芝 THNSNJ128GCST 128GB USB接続</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>SONY VAIO</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 8.1</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-10" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-10">R3 3200G</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>R3 3200G</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>4C/4T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>2MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>4MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>4.0GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>AVEXIR AVD4U24001608G-4M</td>
+                </tr>
+                <tr>
+                    <td>速度</td>
+                    <td>DDR4-2400</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>8GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>16-16-16-39-2</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Radeon Vega 8 Graphics</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>ASUS ROG STRIX B450-I Gaming</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ENERMAX EPM600AWT</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>Phanteks ENTHOO EVOLV SHIFT</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>AMD 24.12.1</td>
+                </tr>
+            </table>
+        </div>
     </div>
-  </section>
+</section>
 
   <h2>
     <p class="langChange" lang="ja">結果</p>
     <p class="langChange" lang="en">Results</p>
   </h2>
-  <a href="index.html">
+  <a href="vq_results.html">
     <p class="langChange" lang="ja">結果ページに戻る</p>
     <p class="langChange" lang="en">Return to result page</p>
   </a>

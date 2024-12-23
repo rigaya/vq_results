@@ -9,16 +9,20 @@ class EncodeData:
     set     = ''
     quality = ''
     bitrate = ''
+    psnr_y  = ''
     ssim    = ''
+    ms_ssim    = ''
     vmaf    = ''
     fps     = ''
 
-    def __init__(self, encoder_, set_, quality_, bitrate_, ssim_, vmaf_, fps_):
+    def __init__(self, encoder_, set_, quality_, bitrate_, psnr_y_, ssim_, ms_ssim_, vmaf_, fps_):
         self.encoder = encoder_
         self.set     = set_
         self.quality = quality_
         self.bitrate = bitrate_
+        self.psnr_y  = psnr_y_
         self.ssim    = ssim_
+        self.ms_ssim = ms_ssim_
         self.vmaf    = vmaf_
         self.fps     = fps_
         
@@ -31,8 +35,12 @@ class EncodeData:
             return self.quality
         if param == 'bitrate':
             return self.bitrate
+        if param == 'psnr_y':
+            return self.psnr_y
         if param == 'ssim':
             return self.ssim
+        if param == 'ms_ssim':
+            return self.ms_ssim
         if param == 'vmaf':
             return self.vmaf
         if param == 'fps':
@@ -48,9 +56,11 @@ def read_file(dataname, filename, dict_enc_set_data):
                 set     = line_data[1].strip()
                 quality = line_data[2].strip()
                 bitrate = line_data[3].strip()
-                ssim    = line_data[4].strip()
-                vmaf    = line_data[5].strip()
-                fps     = line_data[6].strip()
+                psnr_y  = line_data[4].strip()
+                ssim    = line_data[5].strip()
+                ms_ssim = line_data[6].strip()
+                vmaf    = line_data[7].strip()
+                fps     = line_data[8].strip()
 
                 if not encoder in dict_enc_set_data:
                     dict_enc_set_data[encoder] = dict()
@@ -60,7 +70,7 @@ def read_file(dataname, filename, dict_enc_set_data):
                     enc_set_data[set] = []
                     
                 set_data = enc_set_data[set]
-                set_data.append(EncodeData(encoder, set, quality, bitrate, ssim, vmaf, fps))
+                set_data.append(EncodeData(encoder, set, quality, bitrate, psnr_y, ssim, ms_ssim, vmaf, fps))
             
     return dict_enc_set_data
 
@@ -71,9 +81,10 @@ def get_date_prefix():
     
 def create_aspect_ratio_stg():
     return '' + \
-        'var aspect_ratio_bitrate_ssim = 0.75;\n' + \
-        'var aspect_ratio_bitrate_vmaf = 0.75;\n' + \
-        'var aspect_ratio_bitrate_fps = 0.75;\n' + \
+        'var aspect_ratio_bitrate_ssim = 0.6;\n' + \
+        'var aspect_ratio_bitrate_ms_ssim = 0.6;\n' + \
+        'var aspect_ratio_bitrate_vmaf = 0.6;\n' + \
+        'var aspect_ratio_bitrate_fps = 0.6;\n' + \
         '\n'
 
 def get_scatter_header(target_id, name):
@@ -363,6 +374,13 @@ def create_scatter_bitrate_ssim(target_id, dict_enc_set_data, dict_enc_colorhue,
         get_chart_options('bitrate - ssim', 'aspect_ratio_bitrate_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ssim', 0.95, 1.00) + \
         get_chart_footer()
 
+def create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
+    vbr_data_prefix = '_vbr' if vbr_mode else ''
+    return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_ms_ssim') + \
+        create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ms_ssim', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list) + \
+        get_chart_options('bitrate - ms_ssim', 'aspect_ratio_bitrate_ms_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ms_ssim', 0.95, 1.00) + \
+        get_chart_footer()
+
 def create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
     return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_vmaf') + \
@@ -449,5 +467,6 @@ if __name__ == '__main__':
     if write_aspect:
         print(create_aspect_ratio_stg())
     print(create_scatter_bitrate_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
+    print(create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
     print(create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
     print(create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
