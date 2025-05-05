@@ -4,8 +4,8 @@ var aspect_ratio_bitrate_vmaf = 0.8;
 var aspect_ratio_bitrate_fps = 0.8;
 
 
-var ctx_t1_20241223_bitrate_ssim_data = document.getElementById('chart_t1_20241223_bitrate_ssim');
-const chart_t1_20241223_bitrate_ssim_data = new Chart(ctx_t1_20241223_bitrate_ssim_data,
+var ctx_t1_20250505_bitrate_ssim_data = document.getElementById('chart_t1_20250505_bitrate_ssim');
+const chart_t1_20250505_bitrate_ssim_data = new Chart(ctx_t1_20250505_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1812,13 +1812,13 @@ const chart_t1_20241223_bitrate_ssim_data = new Chart(ctx_t1_20241223_bitrate_ss
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ssim',
         display: true,
@@ -1826,7 +1826,7 @@ const chart_t1_20241223_bitrate_ssim_data = new Chart(ctx_t1_20241223_bitrate_ss
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -1844,7 +1844,7 @@ const chart_t1_20241223_bitrate_ssim_data = new Chart(ctx_t1_20241223_bitrate_ss
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -1878,8 +1878,8 @@ const chart_t1_20241223_bitrate_ssim_data = new Chart(ctx_t1_20241223_bitrate_ss
 
 });
 
-var ctx_t1_20241223_bitrate_ms_ssim_data = document.getElementById('chart_t1_20241223_bitrate_ms_ssim');
-const chart_t1_20241223_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_bitrate_ms_ssim_data,
+var ctx_t1_20250505_bitrate_ms_ssim_data = document.getElementById('chart_t1_20250505_bitrate_ms_ssim');
+const chart_t1_20250505_bitrate_ms_ssim_data = new Chart(ctx_t1_20250505_bitrate_ms_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -3686,13 +3686,13 @@ const chart_t1_20241223_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_bitrate
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ms_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ms_ssim',
         display: true,
@@ -3700,7 +3700,7 @@ const chart_t1_20241223_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_bitrate
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -3718,7 +3718,7 @@ const chart_t1_20241223_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_bitrate
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -3752,8 +3752,8 @@ const chart_t1_20241223_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_bitrate
 
 });
 
-var ctx_t1_20241223_bitrate_vmaf_data = document.getElementById('chart_t1_20241223_bitrate_vmaf');
-const chart_t1_20241223_bitrate_vmaf_data = new Chart(ctx_t1_20241223_bitrate_vmaf_data,
+var ctx_t1_20250505_bitrate_vmaf_data = document.getElementById('chart_t1_20250505_bitrate_vmaf');
+const chart_t1_20250505_bitrate_vmaf_data = new Chart(ctx_t1_20250505_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -5560,13 +5560,13 @@ const chart_t1_20241223_bitrate_vmaf_data = new Chart(ctx_t1_20241223_bitrate_vm
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_vmaf,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - vmaf',
         display: true,
@@ -5574,7 +5574,7 @@ const chart_t1_20241223_bitrate_vmaf_data = new Chart(ctx_t1_20241223_bitrate_vm
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -5592,7 +5592,7 @@ const chart_t1_20241223_bitrate_vmaf_data = new Chart(ctx_t1_20241223_bitrate_vm
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -5626,8 +5626,8 @@ const chart_t1_20241223_bitrate_vmaf_data = new Chart(ctx_t1_20241223_bitrate_vm
 
 });
 
-var ctx_t1_20241223_bitrate_fps_data = document.getElementById('chart_t1_20241223_bitrate_fps');
-const chart_t1_20241223_bitrate_fps_data = new Chart(ctx_t1_20241223_bitrate_fps_data,
+var ctx_t1_20250505_bitrate_fps_data = document.getElementById('chart_t1_20250505_bitrate_fps');
+const chart_t1_20250505_bitrate_fps_data = new Chart(ctx_t1_20250505_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -7434,13 +7434,13 @@ const chart_t1_20241223_bitrate_fps_data = new Chart(ctx_t1_20241223_bitrate_fps
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_fps,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - fps',
         display: true,
@@ -7448,7 +7448,7 @@ const chart_t1_20241223_bitrate_fps_data = new Chart(ctx_t1_20241223_bitrate_fps
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -7466,7 +7466,7 @@ const chart_t1_20241223_bitrate_fps_data = new Chart(ctx_t1_20241223_bitrate_fps
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -7500,8 +7500,8 @@ const chart_t1_20241223_bitrate_fps_data = new Chart(ctx_t1_20241223_bitrate_fps
 
 });
 
-var ctx_t1_20241223_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20241223_vbr_bitrate_ssim');
-const chart_t1_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t1_20241223_vbr_bitrate_ssim_data,
+var ctx_t1_20250505_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20250505_vbr_bitrate_ssim');
+const chart_t1_20250505_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250505_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -9153,13 +9153,13 @@ const chart_t1_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t1_20241223_vbr_bi
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ssim',
         display: true,
@@ -9167,7 +9167,7 @@ const chart_t1_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t1_20241223_vbr_bi
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -9185,7 +9185,7 @@ const chart_t1_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t1_20241223_vbr_bi
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -9219,8 +9219,8 @@ const chart_t1_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t1_20241223_vbr_bi
 
 });
 
-var ctx_t1_20241223_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t1_20241223_vbr_bitrate_ms_ssim');
-const chart_t1_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_vbr_bitrate_ms_ssim_data,
+var ctx_t1_20250505_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t1_20250505_vbr_bitrate_ms_ssim');
+const chart_t1_20250505_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20250505_vbr_bitrate_ms_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -10872,13 +10872,13 @@ const chart_t1_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_vbr
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ms_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ms_ssim',
         display: true,
@@ -10886,7 +10886,7 @@ const chart_t1_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_vbr
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -10904,7 +10904,7 @@ const chart_t1_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_vbr
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -10938,8 +10938,8 @@ const chart_t1_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20241223_vbr
 
 });
 
-var ctx_t1_20241223_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20241223_vbr_bitrate_vmaf');
-const chart_t1_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20241223_vbr_bitrate_vmaf_data,
+var ctx_t1_20250505_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20250505_vbr_bitrate_vmaf');
+const chart_t1_20250505_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250505_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -12591,13 +12591,13 @@ const chart_t1_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20241223_vbr_bi
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_vmaf,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - vmaf',
         display: true,
@@ -12605,7 +12605,7 @@ const chart_t1_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20241223_vbr_bi
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -12623,7 +12623,7 @@ const chart_t1_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20241223_vbr_bi
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -12657,8 +12657,8 @@ const chart_t1_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20241223_vbr_bi
 
 });
 
-var ctx_t1_20241223_vbr_bitrate_fps_data = document.getElementById('chart_t1_20241223_vbr_bitrate_fps');
-const chart_t1_20241223_vbr_bitrate_fps_data = new Chart(ctx_t1_20241223_vbr_bitrate_fps_data,
+var ctx_t1_20250505_vbr_bitrate_fps_data = document.getElementById('chart_t1_20250505_vbr_bitrate_fps');
+const chart_t1_20250505_vbr_bitrate_fps_data = new Chart(ctx_t1_20250505_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -14310,13 +14310,13 @@ const chart_t1_20241223_vbr_bitrate_fps_data = new Chart(ctx_t1_20241223_vbr_bit
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_fps,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - fps',
         display: true,
@@ -14324,7 +14324,7 @@ const chart_t1_20241223_vbr_bitrate_fps_data = new Chart(ctx_t1_20241223_vbr_bit
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -14342,7 +14342,7 @@ const chart_t1_20241223_vbr_bitrate_fps_data = new Chart(ctx_t1_20241223_vbr_bit
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -14376,8 +14376,8 @@ const chart_t1_20241223_vbr_bitrate_fps_data = new Chart(ctx_t1_20241223_vbr_bit
 
 });
 
-var ctx_t2_20241223_bitrate_ssim_data = document.getElementById('chart_t2_20241223_bitrate_ssim');
-const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ssim_data,
+var ctx_t2_20250505_bitrate_ssim_data = document.getElementById('chart_t2_20250505_bitrate_ssim');
+const chart_t2_20250505_bitrate_ssim_data = new Chart(ctx_t2_20250505_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -15928,7 +15928,7 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
         ]
       },
       {
-        label: "rx7900xt VCE H.264 quality",
+        label: "rx9070xt VCE H.264 quality",
         showLine: true,
         pointStyle: "cross",
         hidden: false,
@@ -15936,6 +15936,123 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
         borderColor: 'rgba(93, 0, 63, 0.9)',
+        data:[
+          { x: 1028.13, y: 0.980027 },
+          { x: 1412.25, y: 0.982832 },
+          { x: 1986.27, y: 0.984586 },
+          { x: 2655.53, y: 0.985952 },
+          { x: 3320.60, y: 0.986803 },
+          { x: 4007.46, y: 0.987267 },
+          { x: 5138.29, y: 0.987688 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE H.264 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1020.63, y: 0.979763 },
+          { x: 1404.63, y: 0.982644 },
+          { x: 1979.47, y: 0.984446 },
+          { x: 2647.66, y: 0.98586 },
+          { x: 3314.26, y: 0.986737 },
+          { x: 4003.07, y: 0.987212 },
+          { x: 5132.82, y: 0.987643 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(184, 0, 128, 0.9)',
+        data:[
+          { x: 965.07, y: 0.982171 },
+          { x: 1346.73, y: 0.983782 },
+          { x: 1722.24, y: 0.984925 },
+          { x: 2214.71, y: 0.985806 },
+          { x: 2698.91, y: 0.986365 },
+          { x: 3260.19, y: 0.986894 },
+          { x: 3852.86, y: 0.987281 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 950.50, y: 0.981807 },
+          { x: 1334.19, y: 0.983486 },
+          { x: 1711.94, y: 0.984685 },
+          { x: 2210.68, y: 0.985602 },
+          { x: 2717.67, y: 0.986186 },
+          { x: 3297.89, y: 0.986736 },
+          { x: 3931.13, y: 0.987148 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 191, 242, 0.9)',
+        data:[
+          { x: 1128.58, y: 0.983057 },
+          { x: 1545.82, y: 0.984522 },
+          { x: 2132.25, y: 0.985666 },
+          { x: 2770.56, y: 0.986395 },
+          { x: 3396.61, y: 0.986891 },
+          { x: 4187.31, y: 0.987317 },
+          { x: 5115.23, y: 0.987635 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1194.28, y: 0.983273 },
+          { x: 1623.77, y: 0.984666 },
+          { x: 2234.81, y: 0.985757 },
+          { x: 2904.93, y: 0.986453 },
+          { x: 3564.69, y: 0.986933 },
+          { x: 4407.52, y: 0.987347 },
+          { x: 5400.13, y: 0.987656 }
+        ]
+      },
+      {
+        label: "rx7900xt VCE H.264 quality",
+        showLine: true,
+        pointStyle: "crossRot",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 1, 140, 0.9)',
         data:[
           { x: 1367.08, y: 0.991856 },
           { x: 1801.91, y: 0.994054 },
@@ -15949,12 +16066,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx7900xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderColor: 'rgba(182, 86, 0, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.30, y: 0.991706 },
@@ -15969,12 +16086,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx7900xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(184, 0, 128, 0.9)',
+        borderColor: 'rgba(165, 96, 137, 0.9)',
         data:[
           { x: 1163.62, y: 0.993397 },
           { x: 1574.32, y: 0.995007 },
@@ -15988,12 +16105,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx7900xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderColor: 'rgba(188, 124, 117, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1163.83, y: 0.993387 },
@@ -16008,12 +16125,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx7900xt VCE AV1 quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 191, 242, 0.9)',
+        borderColor: 'rgba(138, 40, 68, 0.9)',
         data:[
           { x: 1225.73, y: 0.994318 },
           { x: 1677.60, y: 0.995748 },
@@ -16027,12 +16144,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx7900xt VCE AV1 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderColor: 'rgba(98, 59, 65, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1242.84, y: 0.994346 },
@@ -16047,12 +16164,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx5500xt VCE H.264 quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 1, 140, 0.9)',
+        borderColor: 'rgba(255, 158, 181, 0.9)',
         data:[
           { x: 1611.77, y: 0.992489 },
           { x: 2089.59, y: 0.994666 },
@@ -16066,12 +16183,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx5500xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(182, 86, 0, 0.9)',
+        borderColor: 'rgba(205, 79, 107, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1631.10, y: 0.992275 },
@@ -16086,12 +16203,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx5500xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(165, 96, 137, 0.9)',
+        borderColor: 'rgba(255, 7, 214, 0.9)',
         data:[
           { x: 960.61, y: 0.992332 },
           { x: 1337.83, y: 0.994087 },
@@ -16105,12 +16222,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "rx5500xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(188, 124, 117, 0.9)',
+        borderColor: 'rgba(138, 58, 5, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1055.22, y: 0.992267 },
@@ -16125,12 +16242,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "r9 9950X VCE H.264 quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(138, 40, 68, 0.9)',
+        borderColor: 'rgba(126, 61, 112, 0.9)',
         data:[
           { x: 1367.33, y: 0.991854 },
           { x: 1801.97, y: 0.994054 },
@@ -16144,12 +16261,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "r9 9950X VCE H.264 normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(98, 59, 65, 0.9)',
+        borderColor: 'rgba(255, 73, 1, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.91, y: 0.991706 },
@@ -16164,12 +16281,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "r9 9950X VCE HEVC quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 158, 181, 0.9)',
+        borderColor: 'rgba(255, 154, 117, 0.9)',
         data:[
           { x: 1073.30, y: 0.992055 },
           { x: 1535.92, y: 0.994313 },
@@ -16183,12 +16300,12 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
       {
         label: "r9 9950X VCE HEVC normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(205, 79, 107, 0.9)',
+        borderColor: 'rgba(188, 0, 73, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1072.96, y: 0.992049 },
@@ -16204,13 +16321,13 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ssim',
         display: true,
@@ -16218,7 +16335,7 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -16236,7 +16353,7 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -16270,8 +16387,8 @@ const chart_t2_20241223_bitrate_ssim_data = new Chart(ctx_t2_20241223_bitrate_ss
 
 });
 
-var ctx_t2_20241223_bitrate_ms_ssim_data = document.getElementById('chart_t2_20241223_bitrate_ms_ssim');
-const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate_ms_ssim_data,
+var ctx_t2_20250505_bitrate_ms_ssim_data = document.getElementById('chart_t2_20250505_bitrate_ms_ssim');
+const chart_t2_20250505_bitrate_ms_ssim_data = new Chart(ctx_t2_20250505_bitrate_ms_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -17822,7 +17939,7 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
         ]
       },
       {
-        label: "rx7900xt VCE H.264 quality",
+        label: "rx9070xt VCE H.264 quality",
         showLine: true,
         pointStyle: "cross",
         hidden: false,
@@ -17830,6 +17947,123 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
         borderColor: 'rgba(93, 0, 63, 0.9)',
+        data:[
+          { x: 1028.13, y: 0.98591 },
+          { x: 1412.25, y: 0.989157 },
+          { x: 1986.27, y: 0.991125 },
+          { x: 2655.53, y: 0.992754 },
+          { x: 3320.60, y: 0.993831 },
+          { x: 4007.46, y: 0.994386 },
+          { x: 5138.29, y: 0.994929 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE H.264 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1020.63, y: 0.985611 },
+          { x: 1404.63, y: 0.988944 },
+          { x: 1979.47, y: 0.99096 },
+          { x: 2647.66, y: 0.99264 },
+          { x: 3314.26, y: 0.993751 },
+          { x: 4003.07, y: 0.99432 },
+          { x: 5132.82, y: 0.994874 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(184, 0, 128, 0.9)',
+        data:[
+          { x: 965.07, y: 0.988237 },
+          { x: 1346.73, y: 0.990144 },
+          { x: 1722.24, y: 0.991502 },
+          { x: 2214.71, y: 0.992644 },
+          { x: 2698.91, y: 0.993336 },
+          { x: 3260.19, y: 0.993977 },
+          { x: 3852.86, y: 0.994515 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 950.50, y: 0.987818 },
+          { x: 1334.19, y: 0.989798 },
+          { x: 1711.94, y: 0.991213 },
+          { x: 2210.68, y: 0.992394 },
+          { x: 2717.67, y: 0.993117 },
+          { x: 3297.89, y: 0.993781 },
+          { x: 3931.13, y: 0.994345 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 191, 242, 0.9)',
+        data:[
+          { x: 1128.58, y: 0.9895 },
+          { x: 1545.82, y: 0.991194 },
+          { x: 2132.25, y: 0.992581 },
+          { x: 2770.56, y: 0.993449 },
+          { x: 3396.61, y: 0.99406 },
+          { x: 4187.31, y: 0.994588 },
+          { x: 5115.23, y: 0.994999 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1194.28, y: 0.989648 },
+          { x: 1623.77, y: 0.991279 },
+          { x: 2234.81, y: 0.99262 },
+          { x: 2904.93, y: 0.993464 },
+          { x: 3564.69, y: 0.994063 },
+          { x: 4407.52, y: 0.994584 },
+          { x: 5400.13, y: 0.994992 }
+        ]
+      },
+      {
+        label: "rx7900xt VCE H.264 quality",
+        showLine: true,
+        pointStyle: "crossRot",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 1, 140, 0.9)',
         data:[
           { x: 1367.08, y: 0.990291 },
           { x: 1801.91, y: 0.992802 },
@@ -17843,12 +18077,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx7900xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderColor: 'rgba(182, 86, 0, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.30, y: 0.990086 },
@@ -17863,12 +18097,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx7900xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(184, 0, 128, 0.9)',
+        borderColor: 'rgba(165, 96, 137, 0.9)',
         data:[
           { x: 1163.62, y: 0.991589 },
           { x: 1574.32, y: 0.993501 },
@@ -17882,12 +18116,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx7900xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderColor: 'rgba(188, 124, 117, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1163.83, y: 0.991573 },
@@ -17902,12 +18136,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx7900xt VCE AV1 quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 191, 242, 0.9)',
+        borderColor: 'rgba(138, 40, 68, 0.9)',
         data:[
           { x: 1225.73, y: 0.992855 },
           { x: 1677.60, y: 0.994543 },
@@ -17921,12 +18155,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx7900xt VCE AV1 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderColor: 'rgba(98, 59, 65, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1242.84, y: 0.992772 },
@@ -17941,12 +18175,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx5500xt VCE H.264 quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 1, 140, 0.9)',
+        borderColor: 'rgba(255, 158, 181, 0.9)',
         data:[
           { x: 1611.77, y: 0.990985 },
           { x: 2089.59, y: 0.993433 },
@@ -17960,12 +18194,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx5500xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(182, 86, 0, 0.9)',
+        borderColor: 'rgba(205, 79, 107, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1631.10, y: 0.990696 },
@@ -17980,12 +18214,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx5500xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(165, 96, 137, 0.9)',
+        borderColor: 'rgba(255, 7, 214, 0.9)',
         data:[
           { x: 960.61, y: 0.990454 },
           { x: 1337.83, y: 0.992522 },
@@ -17999,12 +18233,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "rx5500xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(188, 124, 117, 0.9)',
+        borderColor: 'rgba(138, 58, 5, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1055.22, y: 0.990397 },
@@ -18019,12 +18253,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "r9 9950X VCE H.264 quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(138, 40, 68, 0.9)',
+        borderColor: 'rgba(126, 61, 112, 0.9)',
         data:[
           { x: 1367.33, y: 0.990288 },
           { x: 1801.97, y: 0.992803 },
@@ -18038,12 +18272,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "r9 9950X VCE H.264 normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(98, 59, 65, 0.9)',
+        borderColor: 'rgba(255, 73, 1, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.91, y: 0.990083 },
@@ -18058,12 +18292,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "r9 9950X VCE HEVC quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 158, 181, 0.9)',
+        borderColor: 'rgba(255, 154, 117, 0.9)',
         data:[
           { x: 1073.30, y: 0.990027 },
           { x: 1535.92, y: 0.992567 },
@@ -18077,12 +18311,12 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
       {
         label: "r9 9950X VCE HEVC normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(205, 79, 107, 0.9)',
+        borderColor: 'rgba(188, 0, 73, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1072.96, y: 0.99002 },
@@ -18098,13 +18332,13 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ms_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ms_ssim',
         display: true,
@@ -18112,7 +18346,7 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -18130,7 +18364,7 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -18164,8 +18398,8 @@ const chart_t2_20241223_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_bitrate
 
 });
 
-var ctx_t2_20241223_bitrate_vmaf_data = document.getElementById('chart_t2_20241223_bitrate_vmaf');
-const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vmaf_data,
+var ctx_t2_20250505_bitrate_vmaf_data = document.getElementById('chart_t2_20250505_bitrate_vmaf');
+const chart_t2_20250505_bitrate_vmaf_data = new Chart(ctx_t2_20250505_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -19716,7 +19950,7 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
         ]
       },
       {
-        label: "rx7900xt VCE H.264 quality",
+        label: "rx9070xt VCE H.264 quality",
         showLine: true,
         pointStyle: "cross",
         hidden: false,
@@ -19724,6 +19958,123 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
         borderColor: 'rgba(93, 0, 63, 0.9)',
+        data:[
+          { x: 1028.13, y: 75.788595 },
+          { x: 1412.25, y: 80.363585 },
+          { x: 1986.27, y: 83.696857 },
+          { x: 2655.53, y: 87.013573 },
+          { x: 3320.60, y: 89.624064 },
+          { x: 4007.46, y: 91.145302 },
+          { x: 5138.29, y: 92.744161 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE H.264 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1020.63, y: 75.326557 },
+          { x: 1404.63, y: 79.916024 },
+          { x: 1979.47, y: 83.339911 },
+          { x: 2647.66, y: 86.728677 },
+          { x: 3314.26, y: 89.386328 },
+          { x: 4003.07, y: 90.929043 },
+          { x: 5132.82, y: 92.566631 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(184, 0, 128, 0.9)',
+        data:[
+          { x: 965.07, y: 85.276768 },
+          { x: 1346.73, y: 88.067963 },
+          { x: 1722.24, y: 90.004947 },
+          { x: 2214.71, y: 91.854823 },
+          { x: 2698.91, y: 92.962187 },
+          { x: 3260.19, y: 93.989723 },
+          { x: 3852.86, y: 95.028136 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 950.50, y: 84.385271 },
+          { x: 1334.19, y: 87.308215 },
+          { x: 1711.94, y: 89.343159 },
+          { x: 2210.68, y: 91.248708 },
+          { x: 2717.67, y: 92.414228 },
+          { x: 3297.89, y: 93.516344 },
+          { x: 3931.13, y: 94.617043 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 191, 242, 0.9)',
+        data:[
+          { x: 1128.58, y: 87.108803 },
+          { x: 1545.82, y: 89.603595 },
+          { x: 2132.25, y: 91.797313 },
+          { x: 2770.56, y: 93.139703 },
+          { x: 3396.61, y: 94.200372 },
+          { x: 4187.31, y: 95.143468 },
+          { x: 5115.23, y: 95.909583 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1194.28, y: 87.018973 },
+          { x: 1623.77, y: 89.530557 },
+          { x: 2234.81, y: 91.717133 },
+          { x: 2904.93, y: 93.058853 },
+          { x: 3564.69, y: 94.130378 },
+          { x: 4407.52, y: 95.086083 },
+          { x: 5400.13, y: 95.867928 }
+        ]
+      },
+      {
+        label: "rx7900xt VCE H.264 quality",
+        showLine: true,
+        pointStyle: "crossRot",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 1, 140, 0.9)',
         data:[
           { x: 1367.08, y: 76.672184 },
           { x: 1801.91, y: 80.73872 },
@@ -19737,12 +20088,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx7900xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderColor: 'rgba(182, 86, 0, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.30, y: 76.141011 },
@@ -19757,12 +20108,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx7900xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(184, 0, 128, 0.9)',
+        borderColor: 'rgba(165, 96, 137, 0.9)',
         data:[
           { x: 1163.62, y: 84.158982 },
           { x: 1574.32, y: 87.0849 },
@@ -19776,12 +20127,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx7900xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderColor: 'rgba(188, 124, 117, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1163.83, y: 84.146775 },
@@ -19796,12 +20147,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx7900xt VCE AV1 quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 191, 242, 0.9)',
+        borderColor: 'rgba(138, 40, 68, 0.9)',
         data:[
           { x: 1225.73, y: 86.542293 },
           { x: 1677.60, y: 89.180064 },
@@ -19815,12 +20166,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx7900xt VCE AV1 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderColor: 'rgba(98, 59, 65, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1242.84, y: 86.181539 },
@@ -19835,12 +20186,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx5500xt VCE H.264 quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 1, 140, 0.9)',
+        borderColor: 'rgba(255, 158, 181, 0.9)',
         data:[
           { x: 1611.77, y: 78.207322 },
           { x: 2089.59, y: 82.091907 },
@@ -19854,12 +20205,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx5500xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(182, 86, 0, 0.9)',
+        borderColor: 'rgba(205, 79, 107, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1631.10, y: 77.678554 },
@@ -19874,12 +20225,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx5500xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(165, 96, 137, 0.9)',
+        borderColor: 'rgba(255, 7, 214, 0.9)',
         data:[
           { x: 960.61, y: 81.883681 },
           { x: 1337.83, y: 84.97573 },
@@ -19893,12 +20244,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "rx5500xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(188, 124, 117, 0.9)',
+        borderColor: 'rgba(138, 58, 5, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1055.22, y: 81.889357 },
@@ -19913,12 +20264,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "r9 9950X VCE H.264 quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(138, 40, 68, 0.9)',
+        borderColor: 'rgba(126, 61, 112, 0.9)',
         data:[
           { x: 1367.33, y: 76.66955 },
           { x: 1801.97, y: 80.736578 },
@@ -19932,12 +20283,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "r9 9950X VCE H.264 normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(98, 59, 65, 0.9)',
+        borderColor: 'rgba(255, 73, 1, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.91, y: 76.116551 },
@@ -19952,12 +20303,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "r9 9950X VCE HEVC quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 158, 181, 0.9)',
+        borderColor: 'rgba(255, 154, 117, 0.9)',
         data:[
           { x: 1073.30, y: 81.98704 },
           { x: 1535.92, y: 85.389274 },
@@ -19971,12 +20322,12 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
       {
         label: "r9 9950X VCE HEVC normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(205, 79, 107, 0.9)',
+        borderColor: 'rgba(188, 0, 73, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1072.96, y: 81.988453 },
@@ -19992,13 +20343,13 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_vmaf,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - vmaf',
         display: true,
@@ -20006,7 +20357,7 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -20024,7 +20375,7 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -20058,8 +20409,8 @@ const chart_t2_20241223_bitrate_vmaf_data = new Chart(ctx_t2_20241223_bitrate_vm
 
 });
 
-var ctx_t2_20241223_bitrate_fps_data = document.getElementById('chart_t2_20241223_bitrate_fps');
-const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps_data,
+var ctx_t2_20250505_bitrate_fps_data = document.getElementById('chart_t2_20250505_bitrate_fps');
+const chart_t2_20250505_bitrate_fps_data = new Chart(ctx_t2_20250505_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -21610,7 +21961,7 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
         ]
       },
       {
-        label: "rx7900xt VCE H.264 quality",
+        label: "rx9070xt VCE H.264 quality",
         showLine: true,
         pointStyle: "cross",
         hidden: false,
@@ -21618,6 +21969,123 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
         borderColor: 'rgba(93, 0, 63, 0.9)',
+        data:[
+          { x: 1028.13, y: 121.69 },
+          { x: 1412.25, y: 121.05 },
+          { x: 1986.27, y: 120.73 },
+          { x: 2655.53, y: 120.95 },
+          { x: 3320.60, y: 120.99 },
+          { x: 4007.46, y: 120.54 },
+          { x: 5138.29, y: 121.60 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE H.264 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1020.63, y: 177.93 },
+          { x: 1404.63, y: 176.10 },
+          { x: 1979.47, y: 175.45 },
+          { x: 2647.66, y: 174.93 },
+          { x: 3314.26, y: 171.81 },
+          { x: 4003.07, y: 169.25 },
+          { x: 5132.82, y: 175.79 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(184, 0, 128, 0.9)',
+        data:[
+          { x: 965.07, y: 114.22 },
+          { x: 1346.73, y: 116.23 },
+          { x: 1722.24, y: 115.23 },
+          { x: 2214.71, y: 113.20 },
+          { x: 2698.91, y: 112.62 },
+          { x: 3260.19, y: 112.88 },
+          { x: 3852.86, y: 112.69 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE HEVC normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 950.50, y: 421.92 },
+          { x: 1334.19, y: 419.05 },
+          { x: 1711.94, y: 417.47 },
+          { x: 2210.68, y: 421.80 },
+          { x: 2717.67, y: 417.58 },
+          { x: 3297.89, y: 417.32 },
+          { x: 3931.13, y: 424.48 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 quality",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 191, 242, 0.9)',
+        data:[
+          { x: 1128.58, y: 94.25 },
+          { x: 1545.82, y: 93.95 },
+          { x: 2132.25, y: 93.54 },
+          { x: 2770.56, y: 93.42 },
+          { x: 3396.61, y: 93.54 },
+          { x: 4187.31, y: 93.35 },
+          { x: 5115.23, y: 93.13 }
+        ]
+      },
+      {
+        label: "rx9070xt VCE AV1 normal",
+        showLine: true,
+        pointStyle: "cross",
+        hidden: true,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderDash: [4,2],
+        data:[
+          { x: 1194.28, y: 467.34 },
+          { x: 1623.77, y: 471.84 },
+          { x: 2234.81, y: 472.33 },
+          { x: 2904.93, y: 467.91 },
+          { x: 3564.69, y: 472.33 },
+          { x: 4407.52, y: 469.70 },
+          { x: 5400.13, y: 464.14 }
+        ]
+      },
+      {
+        label: "rx7900xt VCE H.264 quality",
+        showLine: true,
+        pointStyle: "crossRot",
+        hidden: false,
+        lineTension: 0.4,
+        borderWidth: 1.5,
+        backgroundColor: 'rgba(255, 255, 255, 0.0)',
+        borderColor: 'rgba(255, 1, 140, 0.9)',
         data:[
           { x: 1367.08, y: 212.75 },
           { x: 1801.91, y: 212.89 },
@@ -21631,12 +22099,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx7900xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(216, 175, 161, 0.9)',
+        borderColor: 'rgba(182, 86, 0, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.30, y: 378.79 },
@@ -21651,12 +22119,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx7900xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(184, 0, 128, 0.9)',
+        borderColor: 'rgba(165, 96, 137, 0.9)',
         data:[
           { x: 1163.62, y: 541.80 },
           { x: 1574.32, y: 544.39 },
@@ -21670,12 +22138,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx7900xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(124, 1, 0, 0.9)',
+        borderColor: 'rgba(188, 124, 117, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1163.83, y: 657.80 },
@@ -21690,12 +22158,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx7900xt VCE AV1 quality",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 191, 242, 0.9)',
+        borderColor: 'rgba(138, 40, 68, 0.9)',
         data:[
           { x: 1225.73, y: 115.60 },
           { x: 1677.60, y: 115.73 },
@@ -21709,12 +22177,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx7900xt VCE AV1 normal",
         showLine: true,
-        pointStyle: "cross",
+        pointStyle: "crossRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 110, 117, 0.9)',
+        borderColor: 'rgba(98, 59, 65, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1242.84, y: 786.52 },
@@ -21729,12 +22197,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx5500xt VCE H.264 quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 1, 140, 0.9)',
+        borderColor: 'rgba(255, 158, 181, 0.9)',
         data:[
           { x: 1611.77, y: 115.49 },
           { x: 2089.59, y: 115.25 },
@@ -21748,12 +22216,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx5500xt VCE H.264 normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(182, 86, 0, 0.9)',
+        borderColor: 'rgba(205, 79, 107, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1631.10, y: 209.75 },
@@ -21768,12 +22236,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx5500xt VCE HEVC quality",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(165, 96, 137, 0.9)',
+        borderColor: 'rgba(255, 7, 214, 0.9)',
         data:[
           { x: 960.61, y: 194.26 },
           { x: 1337.83, y: 195.99 },
@@ -21787,12 +22255,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "rx5500xt VCE HEVC normal",
         showLine: true,
-        pointStyle: "crossRot",
+        pointStyle: "rect",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(188, 124, 117, 0.9)',
+        borderColor: 'rgba(138, 58, 5, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1055.22, y: 217.29 },
@@ -21807,12 +22275,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "r9 9950X VCE H.264 quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(138, 40, 68, 0.9)',
+        borderColor: 'rgba(126, 61, 112, 0.9)',
         data:[
           { x: 1367.33, y: 63.59 },
           { x: 1801.97, y: 63.44 },
@@ -21826,12 +22294,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "r9 9950X VCE H.264 normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(98, 59, 65, 0.9)',
+        borderColor: 'rgba(255, 73, 1, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1370.91, y: 132.42 },
@@ -21846,12 +22314,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "r9 9950X VCE HEVC quality",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: false,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(255, 158, 181, 0.9)',
+        borderColor: 'rgba(255, 154, 117, 0.9)',
         data:[
           { x: 1073.30, y: 68.53 },
           { x: 1535.92, y: 68.49 },
@@ -21865,12 +22333,12 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
       {
         label: "r9 9950X VCE HEVC normal",
         showLine: true,
-        pointStyle: "rect",
+        pointStyle: "rectRot",
         hidden: true,
         lineTension: 0.4,
         borderWidth: 1.5,
         backgroundColor: 'rgba(255, 255, 255, 0.0)',
-        borderColor: 'rgba(205, 79, 107, 0.9)',
+        borderColor: 'rgba(188, 0, 73, 0.9)',
         borderDash: [4,2],
         data:[
           { x: 1072.96, y: 68.72 },
@@ -21886,13 +22354,13 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_fps,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - fps',
         display: true,
@@ -21900,7 +22368,7 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -21918,7 +22386,7 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -21952,8 +22420,8 @@ const chart_t2_20241223_bitrate_fps_data = new Chart(ctx_t2_20241223_bitrate_fps
 
 });
 
-var ctx_t2_20241223_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20241223_vbr_bitrate_ssim');
-const chart_t2_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t2_20241223_vbr_bitrate_ssim_data,
+var ctx_t2_20250505_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20250505_vbr_bitrate_ssim');
+const chart_t2_20250505_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250505_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -23597,13 +24065,13 @@ const chart_t2_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t2_20241223_vbr_bi
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ssim',
         display: true,
@@ -23611,7 +24079,7 @@ const chart_t2_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t2_20241223_vbr_bi
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -23629,7 +24097,7 @@ const chart_t2_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t2_20241223_vbr_bi
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -23663,8 +24131,8 @@ const chart_t2_20241223_vbr_bitrate_ssim_data = new Chart(ctx_t2_20241223_vbr_bi
 
 });
 
-var ctx_t2_20241223_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t2_20241223_vbr_bitrate_ms_ssim');
-const chart_t2_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_vbr_bitrate_ms_ssim_data,
+var ctx_t2_20250505_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t2_20250505_vbr_bitrate_ms_ssim');
+const chart_t2_20250505_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20250505_vbr_bitrate_ms_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -25308,13 +25776,13 @@ const chart_t2_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_vbr
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_ms_ssim,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - ms_ssim',
         display: true,
@@ -25322,7 +25790,7 @@ const chart_t2_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_vbr
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -25340,7 +25808,7 @@ const chart_t2_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_vbr
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -25374,8 +25842,8 @@ const chart_t2_20241223_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20241223_vbr
 
 });
 
-var ctx_t2_20241223_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20241223_vbr_bitrate_vmaf');
-const chart_t2_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20241223_vbr_bitrate_vmaf_data,
+var ctx_t2_20250505_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20250505_vbr_bitrate_vmaf');
+const chart_t2_20250505_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250505_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -27019,13 +27487,13 @@ const chart_t2_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20241223_vbr_bi
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_vmaf,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - vmaf',
         display: true,
@@ -27033,7 +27501,7 @@ const chart_t2_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20241223_vbr_bi
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -27051,7 +27519,7 @@ const chart_t2_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20241223_vbr_bi
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',
@@ -27085,8 +27553,8 @@ const chart_t2_20241223_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20241223_vbr_bi
 
 });
 
-var ctx_t2_20241223_vbr_bitrate_fps_data = document.getElementById('chart_t2_20241223_vbr_bitrate_fps');
-const chart_t2_20241223_vbr_bitrate_fps_data = new Chart(ctx_t2_20241223_vbr_bitrate_fps_data,
+var ctx_t2_20250505_vbr_bitrate_fps_data = document.getElementById('chart_t2_20250505_vbr_bitrate_fps');
+const chart_t2_20250505_vbr_bitrate_fps_data = new Chart(ctx_t2_20250505_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -28730,13 +29198,13 @@ const chart_t2_20241223_vbr_bitrate_fps_data = new Chart(ctx_t2_20241223_vbr_bit
   },
 
   options: {
-    // ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰
+    // ï¿½ï¿½ï¿½Xï¿½|ï¿½ï¿½ï¿½Vï¿½uï¿½Î‰ï¿½
     responsive: true,
     maintainAspectRatio: true,
     aspectRatio: aspect_ratio_bitrate_fps,
     locale: 'ja-JP',
     plugins: {
-      // ƒOƒ‰ƒtƒ^ƒCƒgƒ‹‚Ìİ’è
+      // ï¿½Oï¿½ï¿½ï¿½tï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½Ìİ’ï¿½
       title: {
         text: 'bitrate - fps',
         display: true,
@@ -28744,7 +29212,7 @@ const chart_t2_20241223_vbr_bitrate_fps_data = new Chart(ctx_t2_20241223_vbr_bit
           size: 16,
         }
       },
-      // –}—á‚Ìİ’è
+      // ï¿½}ï¿½ï¿½Ìİ’ï¿½
       legend: {
         display: true,
         position: 'top',
@@ -28762,7 +29230,7 @@ const chart_t2_20241223_vbr_bitrate_fps_data = new Chart(ctx_t2_20241223_vbr_bit
         },
       },
     },
-    // x²,y²‚Ìİ’è
+    // xï¿½ï¿½,yï¿½ï¿½ï¿½Ìİ’ï¿½
     scales: {
       x: {
         type: 'linear',

@@ -138,6 +138,7 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   "rtx2070,ssim2_rtx2070_log_RIGAYA10-PC_3532_20241222_085857.txt" ^
   "gtx1080,ssim2_gtx1080_log_RIGAYA8-PC_9920_20241218_115729.txt" ^
   "gtx950,ssim2_gtx950_log_RIGAYA7-PC_4664_20241219_100757.txt" ^
+  "rx9070xt,ssim2_rx9070xt_log_DESKTOP_25604_20250502_230640.txt" ^
   "rx7900xt,ssim2_rx7900xt_log_RIGAYA7-PC_14632_20241215_125109.txt" ^
   "rx5500xt,ssim2_rx5500xt_log_RIGAYA10-PC_11260_20241222_134854.txt" ^
   "rx550,ssim2_rx550_log_RIGAYA10-PC_7388_20241222_191337.txt" ^
@@ -190,6 +191,7 @@ vq_parse.py -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 -vbr ^
   "rtx2070,ssim2_rtx2070_log_RIGAYA10-PC_3532_20241222_085857.txt" ^
   "gtx1080,ssim2_gtx1080_log_RIGAYA8-PC_9920_20241218_115729.txt" ^
   "gtx950,ssim2_gtx950_log_RIGAYA7-PC_4664_20241219_100757.txt" ^
+  "rx9070xt,ssim2_rx9070xt_log_DESKTOP_25604_20250502_230640.txt" ^
   "rx7900xt,ssim2_rx7900xt_log_RIGAYA7-PC_14632_20241215_125109.txt" ^
   "rx5500xt,ssim2_rx5500xt_log_RIGAYA10-PC_11260_20241222_134854.txt" ^
   "rx550,ssim2_rx550_log_RIGAYA10-PC_7388_20241222_191337.txt" ^
