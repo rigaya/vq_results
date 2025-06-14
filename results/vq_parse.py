@@ -3,6 +3,8 @@ import sys
 import colorcet as cc
 import datetime
 import colorsys
+import re
+import os
 
 class EncodeData:
     encoder = ''
@@ -87,8 +89,9 @@ def create_aspect_ratio_stg():
         'var aspect_ratio_bitrate_fps = 0.6;\n' + \
         '\n'
 
-def get_scatter_header(target_id, name):
-    header = 'var ctx_t' + str(target_id) + '_' + name + '_data = document.getElementById(\'chart_t' + str(target_id) + '_' + name + '\');\n'
+def get_scatter_header(target_id, name, imports_str):
+    header = '' # imports_str
+    header = header + 'var ctx_t' + str(target_id) + '_' + name + '_data = document.getElementById(\'chart_t' + str(target_id) + '_' + name + '\');\n'
     header = header + 'const chart_t' + str(target_id) + '_' + name + '_data = new Chart(ctx_t' + str(target_id) + '_' + name + '_data,\n'
     header = header + '{\n'
     header = header + '  type: \'scatter\',\n'
@@ -299,101 +302,137 @@ def get_point_style(label, used_point_style):
     return default_point_style
 
 
-def create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, label_x, label_y, quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
-    lines = 0
-    for enc_set_data in dict_enc_set_data.values():
-        lines += len(enc_set_data)
-    
+def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, label_x, label_y, quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     color_list = cc.glasbey_category10
     color_list += cc.glasbey_bw_minc_20_minl_30
     used_color_idx = []
     used_point_style = dict()
     
-    datastring = ''
-    datastring = datastring + '  data: {\n'
-    datastring = datastring + '    datasets: [\n'
-    coloridx = 0
+    data_definitions = []
+    dataset_vars = []
+
+    vbr_str = 'vbr' if vbr_mode else 'cbr'
 
     for encoder, enc_set_data in dict_enc_set_data.items():
-        # エンコーダの色テーブルの選択
-        enc_colorhue = None # デフォルト
+        enc_colorhue = None
         for colorenc_name in dict_enc_colorhue:
             if colorenc_name in encoder:
                 enc_colorhue = dict_enc_colorhue[colorenc_name]
                 break
 
-        for set, set_data in enc_set_data.items():
-            if ('VBR' in set) == vbr_mode:
-                label = encoder + ' ' + set.replace('_preset_', ' P')
-                if check_is_target(label, drop_list):
+        for set_name, set_data in enc_set_data.items():
+            if ('VBR' in set_name) == vbr_mode:
+                original_label = f"{encoder} {set_name.replace('_preset_', ' P')}"
+                if check_is_target(original_label, drop_list):
                     continue
-                hidden = 'true' if check_is_target(label, hidden_list) else 'false'
-                dotted_line = check_is_target(label, dotted_list)
-                dashed_line = check_is_target(label, dashed_list)
-                color = get_new_color(color_list, used_color_idx, enc_colorhue)
-                point_style = get_point_style(label, used_point_style)
-                
+
+                label = original_label
                 for replace_data in replace_list:
                     label = label.replace(replace_data[0], replace_data[1])
+
+                safe_encoder_name = re.sub(r'[^a-zA-Z0-9_]', '_', encoder)
+                safe_set_name = re.sub(r'[^a-zA-Z0-9_]', '_', set_name)
                 
-                datastring += '      {\n' \
-                 + '        label: \"' + label + '\",\n' \
-                 + '        showLine: true,\n' \
-                 + '        pointStyle: \"' + point_style + '\",\n' \
-                 + '        hidden: ' + hidden + ',\n' \
-                 + '        lineTension: 0.4,\n' \
-                 + '        borderWidth: 1.5,\n' \
-                 + "        backgroundColor: 'rgba(255, 255, 255, 0.0)',\n" \
-                 + "        borderColor: 'rgba(" + str(int(color[0]*255)) + ", " + str(int(color[1]*255)) + ", " + str(int(color[2]*255)) + ", 0.9)',\n"
+                variable_name = f"data_{target_id}_{vbr_str}_{label_x}_{label_y}_{safe_encoder_name}_{safe_set_name}"
+                dataset_vars.append(variable_name)
+                
+                hidden = 'true' if check_is_target(original_label, hidden_list) else 'false'
+                dotted_line = check_is_target(original_label, dotted_list)
+                dashed_line = check_is_target(original_label, dashed_list)
+                color = get_new_color(color_list, used_color_idx, enc_colorhue)
+                point_style = get_point_style(original_label, used_point_style)
+
+                border_dash = ''
                 if dashed_line and dotted_line:
-                    datastring += '        borderDash: [3,1],\n'
+                    border_dash = 'borderDash: [3,1],'
                 elif dashed_line:
-                    datastring += '        borderDash: [12,2],\n'
+                    border_dash = 'borderDash: [12,2],'
                 elif dotted_line:
-                    datastring += '        borderDash: [4,2],\n'
-                datastring += '        data:['
-                for data in set_data:
-                    data_x = data.get_value(label_x)
-                    data_y = data.get_value(label_y)
-                    if float(data_x) < bitrate_max_cut:
-                        datastring += '\n          { x: ' + data_x + ', y: ' + data_y + ' },'
-                datastring = datastring.rstrip(',')
-                datastring += '\n        ]\n'
-                datastring += '      },\n'
+                    border_dash = 'borderDash: [4,2],'
 
-    datastring += '    ],\n'
-    datastring += '  },\n'
+                points = ',\n'.join([f"          {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut])
+                
+                data_object_str = f"""const {variable_name} = {{
+    label: "{label}",
+    showLine: true,
+    pointStyle: "{point_style}",
+    hidden: {hidden},
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba({int(color[0]*255)}, {int(color[1]*255)}, {int(color[2]*255)}, 0.9)',
+    {border_dash}
+    data: [
+{points}
+    ]
+}};"""
+                data_definitions.append(data_object_str)
 
-    return datastring
-
+    return data_definitions, dataset_vars
 
 def create_scatter_bitrate_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
-    return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_ssim') + \
-        create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ssim', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list) + \
-        get_chart_options('bitrate - ssim', 'aspect_ratio_bitrate_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ssim', 0.95, 1.00) + \
-        get_chart_footer()
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_ssim'
+    data_defs, var_names = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ssim', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    
+    datasets_string = ',\n      '.join(var_names)
+    chart_body = f"""  data: {{
+    datasets: [
+      {datasets_string}
+    ]
+  }},
+"""
+    chart_body += get_chart_options('bitrate - ssim', 'aspect_ratio_bitrate_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ssim', 0.95, 1.00)
+    
+    return name, chart_body, data_defs, var_names
 
 def create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
-    return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_ms_ssim') + \
-        create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ms_ssim', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list) + \
-        get_chart_options('bitrate - ms_ssim', 'aspect_ratio_bitrate_ms_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ms_ssim', 0.95, 1.00) + \
-        get_chart_footer()
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_ms_ssim'
+    data_defs, var_names = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ms_ssim', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+
+    datasets_string = ',\n      '.join(var_names)
+    chart_body = f"""  data: {{
+    datasets: [
+      {datasets_string}
+    ]
+  }},
+"""
+    chart_body += get_chart_options('bitrate - ms_ssim', 'aspect_ratio_bitrate_ms_ssim', 'bitrate (kbps)', 0, bitrate_max, 'ms_ssim', 0.95, 1.00)
+
+    return name, chart_body, data_defs, var_names
 
 def create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
-    return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_vmaf') + \
-        create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'vmaf', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list) + \
-        get_chart_options('bitrate - vmaf', 'aspect_ratio_bitrate_vmaf', 'bitrate (kbps)', 0, bitrate_max, 'vmaf', 80, 100) + \
-        get_chart_footer()
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_vmaf'
+    data_defs, var_names = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'vmaf', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+
+    datasets_string = ',\n      '.join(var_names)
+    chart_body = f"""  data: {{
+    datasets: [
+      {datasets_string}
+    ]
+  }},
+"""
+    chart_body += get_chart_options('bitrate - vmaf', 'aspect_ratio_bitrate_vmaf', 'bitrate (kbps)', 0, bitrate_max, 'vmaf', 80, 100)
+    
+    return name, chart_body, data_defs, var_names
 
 def create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
-    return get_scatter_header(target_id, get_date_prefix() + vbr_data_prefix + '_bitrate_fps') + \
-        create_chart_js(dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'fps', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list) + \
-        get_chart_options('bitrate - fps', 'aspect_ratio_bitrate_fps', 'bitrate (kbps)', 0, bitrate_max, 'fps', 0, None) + \
-        get_chart_footer()
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_fps'
+    data_defs, var_names = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'fps', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+
+    datasets_string = ',\n      '.join(var_names)
+    chart_body = f"""  data: {{
+    datasets: [
+      {datasets_string}
+    ]
+  }},
+"""
+    chart_body += get_chart_options('bitrate - fps', 'aspect_ratio_bitrate_fps', 'bitrate (kbps)', 0, bitrate_max, 'fps', 0, None)
+
+    return name, chart_body, data_defs, var_names
 
 if __name__ == '__main__':
     dict_enc_set_data = dict()
@@ -411,6 +450,7 @@ if __name__ == '__main__':
     replace_list = []
     bitrate_max_cut = 100000000
     dict_enc_colorhue = dict()
+    output_file = None
     while iarg < len(sys.argv):
         if sys.argv[iarg] == '-no-write-aspect':
             write_aspect = False
@@ -442,6 +482,9 @@ if __name__ == '__main__':
         elif sys.argv[iarg] == '-replace':
             replace_list.append(sys.argv[iarg+1].split(','))
             iarg += 1
+        elif sys.argv[iarg] == '-o':
+            output_file = sys.argv[iarg+1]
+            iarg += 1
         elif sys.argv[iarg] == '-color':
             enc_color = sys.argv[iarg+1].split(',')
             enc_color_encoder = enc_color[0]
@@ -464,9 +507,49 @@ if __name__ == '__main__':
         arg_data = sys.argv[ifile].split(',')
         read_file(arg_data[0], arg_data[1], dict_enc_set_data)
 
-    if write_aspect:
-        print(create_aspect_ratio_stg())
-    print(create_scatter_bitrate_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
-    print(create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
-    print(create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
-    print(create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list))
+    all_data_definitions = []
+    chart_info_list = []
+
+    # SSIM
+    name, chart_body, data_defs, var_names = create_scatter_bitrate_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'var_names': var_names})
+
+    # MS-SSIM
+    name, chart_body, data_defs, var_names = create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'var_names': var_names})
+
+    # VMAF
+    name, chart_body, data_defs, var_names = create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'var_names': var_names})
+
+    # FPS
+    name, chart_body, data_defs, var_names = create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'var_names': var_names})
+
+    if output_file:
+        data_output_file = os.path.splitext(output_file)[0] + '_data.js'
+        with open(data_output_file, 'a', encoding='utf-8') as f:
+            for item in all_data_definitions:
+                f.write(item + '\n\n')
+        
+        with open(output_file, 'a', encoding='utf-8') as f:
+            if write_aspect:
+                f.write(create_aspect_ratio_stg())
+
+            for chart_info in chart_info_list:
+                import_vars = chart_info['var_names']
+                
+                imports_str = f"import {{ {', '.join(import_vars)} }} from './{os.path.basename(data_output_file)}';\n"
+                
+                header = get_scatter_header(target_id, chart_info['name'], imports_str)
+                footer = get_chart_footer()
+                full_chart_str = f"{header}{chart_info['chart_body']}{footer}\n"
+                f.write(full_chart_str)
+    else:
+        # If no output file, print to stdout (or handle as error)
+        # For now, printing a message as the logic is complex for stdout
+        print("Please specify an output file with -o to generate chart scripts.", file=sys.stderr)
