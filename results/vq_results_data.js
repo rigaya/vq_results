@@ -1,4 +1,4 @@
-export const data_1_cbr_bitrate_ssim__x264_medium_crf = {
+const data_1_cbr_bitrate_ssim__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -18,7 +18,7 @@ export const data_1_cbr_bitrate_ssim__x264_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__x264_veryslow_crf = {
+const data_1_cbr_bitrate_ssim__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -38,7 +38,7 @@ export const data_1_cbr_bitrate_ssim__x264_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__x265_medium_crf = {
+const data_1_cbr_bitrate_ssim__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -59,7 +59,7 @@ export const data_1_cbr_bitrate_ssim__x265_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__x265_medium_10bit_crf = {
+const data_1_cbr_bitrate_ssim__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -80,7 +80,7 @@ export const data_1_cbr_bitrate_ssim__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__x265_veryslow_crf = {
+const data_1_cbr_bitrate_ssim__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -101,7 +101,7 @@ export const data_1_cbr_bitrate_ssim__x265_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
+const data_1_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -122,7 +122,7 @@ export const data_1_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
+const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -143,7 +143,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
+const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -164,7 +164,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
+const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -185,7 +185,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
+const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -206,7 +206,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
+const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -226,7 +226,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
+const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -246,7 +246,7 @@ export const data_1_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -267,7 +267,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -288,7 +288,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -309,7 +309,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -330,7 +330,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -350,7 +350,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -370,7 +370,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -390,7 +390,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -410,7 +410,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -430,7 +430,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -450,7 +450,7 @@ export const data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -469,7 +469,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -488,7 +488,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -507,7 +507,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -526,7 +526,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -545,7 +545,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -564,7 +564,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -584,7 +584,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -604,7 +604,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -624,7 +624,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -644,7 +644,7 @@ export const data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -665,7 +665,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -686,7 +686,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -707,7 +707,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -728,7 +728,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -749,7 +749,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
+const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -770,7 +770,7 @@ export const data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x264_medium_crf = {
+const data_1_cbr_bitrate_ms_ssim__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -790,7 +790,7 @@ export const data_1_cbr_bitrate_ms_ssim__x264_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
+const data_1_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -810,7 +810,7 @@ export const data_1_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x265_medium_crf = {
+const data_1_cbr_bitrate_ms_ssim__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -831,7 +831,7 @@ export const data_1_cbr_bitrate_ms_ssim__x265_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
+const data_1_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -852,7 +852,7 @@ export const data_1_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
+const data_1_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -873,7 +873,7 @@ export const data_1_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
+const data_1_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -894,7 +894,7 @@ export const data_1_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -915,7 +915,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -936,7 +936,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -957,7 +957,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -978,7 +978,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -998,7 +998,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
+const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -1018,7 +1018,7 @@ export const data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1039,7 +1039,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1060,7 +1060,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1081,7 +1081,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1102,7 +1102,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1122,7 +1122,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1142,7 +1142,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -1162,7 +1162,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -1182,7 +1182,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1202,7 +1202,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality =
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1222,7 +1222,7 @@ export const data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = 
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1241,7 +1241,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1260,7 +1260,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -1279,7 +1279,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -1298,7 +1298,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1317,7 +1317,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1336,7 +1336,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1356,7 +1356,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1376,7 +1376,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1396,7 +1396,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1416,7 +1416,7 @@ export const data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1437,7 +1437,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1458,7 +1458,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -1479,7 +1479,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -1500,7 +1500,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1521,7 +1521,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
+const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1542,7 +1542,7 @@ export const data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x264_medium_crf = {
+const data_1_cbr_bitrate_vmaf__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -1562,7 +1562,7 @@ export const data_1_cbr_bitrate_vmaf__x264_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x264_veryslow_crf = {
+const data_1_cbr_bitrate_vmaf__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -1582,7 +1582,7 @@ export const data_1_cbr_bitrate_vmaf__x264_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x265_medium_crf = {
+const data_1_cbr_bitrate_vmaf__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -1603,7 +1603,7 @@ export const data_1_cbr_bitrate_vmaf__x265_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
+const data_1_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -1624,7 +1624,7 @@ export const data_1_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x265_veryslow_crf = {
+const data_1_cbr_bitrate_vmaf__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -1645,7 +1645,7 @@ export const data_1_cbr_bitrate_vmaf__x265_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
+const data_1_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -1666,7 +1666,7 @@ export const data_1_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
+const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -1687,7 +1687,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
+const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -1708,7 +1708,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
+const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -1729,7 +1729,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
+const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -1750,7 +1750,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
+const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -1770,7 +1770,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
+const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -1790,7 +1790,7 @@ export const data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1811,7 +1811,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1832,7 +1832,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1853,7 +1853,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1874,7 +1874,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -1894,7 +1894,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -1914,7 +1914,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -1934,7 +1934,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -1954,7 +1954,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -1974,7 +1974,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -1994,7 +1994,7 @@ export const data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2013,7 +2013,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2032,7 +2032,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -2051,7 +2051,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -2070,7 +2070,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2089,7 +2089,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2108,7 +2108,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2128,7 +2128,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2148,7 +2148,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2168,7 +2168,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2188,7 +2188,7 @@ export const data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2209,7 +2209,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2230,7 +2230,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -2251,7 +2251,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -2272,7 +2272,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2293,7 +2293,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
+const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2314,7 +2314,7 @@ export const data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x264_medium_crf = {
+const data_1_cbr_bitrate_fps__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -2334,7 +2334,7 @@ export const data_1_cbr_bitrate_fps__x264_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x264_veryslow_crf = {
+const data_1_cbr_bitrate_fps__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -2354,7 +2354,7 @@ export const data_1_cbr_bitrate_fps__x264_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x265_medium_crf = {
+const data_1_cbr_bitrate_fps__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -2375,7 +2375,7 @@ export const data_1_cbr_bitrate_fps__x265_medium_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x265_medium_10bit_crf = {
+const data_1_cbr_bitrate_fps__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -2396,7 +2396,7 @@ export const data_1_cbr_bitrate_fps__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x265_veryslow_crf = {
+const data_1_cbr_bitrate_fps__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -2417,7 +2417,7 @@ export const data_1_cbr_bitrate_fps__x265_veryslow_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
+const data_1_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -2438,7 +2438,7 @@ export const data_1_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
+const data_1_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -2459,7 +2459,7 @@ export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
+const data_1_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -2480,7 +2480,7 @@ export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
+const data_1_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -2501,7 +2501,7 @@ export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
+const data_1_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -2522,7 +2522,7 @@ export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
+const data_1_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -2542,7 +2542,7 @@ export const data_1_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
+const data_1_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -2562,7 +2562,7 @@ export const data_1_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2583,7 +2583,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2604,7 +2604,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2625,7 +2625,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2646,7 +2646,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2666,7 +2666,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2686,7 +2686,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -2706,7 +2706,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -2726,7 +2726,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2746,7 +2746,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2766,7 +2766,7 @@ export const data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2785,7 +2785,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2804,7 +2804,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -2823,7 +2823,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -2842,7 +2842,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2861,7 +2861,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2880,7 +2880,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2900,7 +2900,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -2920,7 +2920,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -2940,7 +2940,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -2960,7 +2960,7 @@ export const data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -2981,7 +2981,7 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3002,7 +3002,7 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -3023,7 +3023,7 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -3044,7 +3044,7 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3065,7 +3065,7 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
+const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3086,7 +3086,171 @@ export const data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const datasets_1_cbr_bitrate_ssim = [
+  data_1_cbr_bitrate_ssim__x264_medium_crf,
+  data_1_cbr_bitrate_ssim__x264_veryslow_crf,
+  data_1_cbr_bitrate_ssim__x265_medium_crf,
+  data_1_cbr_bitrate_ssim__x265_medium_10bit_crf,
+  data_1_cbr_bitrate_ssim__x265_veryslow_crf,
+  data_1_cbr_bitrate_ssim__x265_veryslow_10bit_crf,
+  data_1_cbr_bitrate_ssim__svtav1_8bit_preset_4,
+  data_1_cbr_bitrate_ssim__svtav1_10bit_preset_4,
+  data_1_cbr_bitrate_ssim__svtav1_8bit_preset_6,
+  data_1_cbr_bitrate_ssim__svtav1_10bit_preset_6,
+  data_1_cbr_bitrate_ssim__svtav1_8bit_preset_10,
+  data_1_cbr_bitrate_ssim__svtav1_10bit_preset_10,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
+  data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_1_cbr_bitrate_ms_ssim = [
+  data_1_cbr_bitrate_ms_ssim__x264_medium_crf,
+  data_1_cbr_bitrate_ms_ssim__x264_veryslow_crf,
+  data_1_cbr_bitrate_ms_ssim__x265_medium_crf,
+  data_1_cbr_bitrate_ms_ssim__x265_medium_10bit_crf,
+  data_1_cbr_bitrate_ms_ssim__x265_veryslow_crf,
+  data_1_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf,
+  data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4,
+  data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4,
+  data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6,
+  data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6,
+  data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10,
+  data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality,
+  data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_1_cbr_bitrate_vmaf = [
+  data_1_cbr_bitrate_vmaf__x264_medium_crf,
+  data_1_cbr_bitrate_vmaf__x264_veryslow_crf,
+  data_1_cbr_bitrate_vmaf__x265_medium_crf,
+  data_1_cbr_bitrate_vmaf__x265_medium_10bit_crf,
+  data_1_cbr_bitrate_vmaf__x265_veryslow_crf,
+  data_1_cbr_bitrate_vmaf__x265_veryslow_10bit_crf,
+  data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_4,
+  data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_4,
+  data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_6,
+  data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_6,
+  data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_10,
+  data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_10,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
+  data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_1_cbr_bitrate_fps = [
+  data_1_cbr_bitrate_fps__x264_medium_crf,
+  data_1_cbr_bitrate_fps__x264_veryslow_crf,
+  data_1_cbr_bitrate_fps__x265_medium_crf,
+  data_1_cbr_bitrate_fps__x265_medium_10bit_crf,
+  data_1_cbr_bitrate_fps__x265_veryslow_crf,
+  data_1_cbr_bitrate_fps__x265_veryslow_10bit_crf,
+  data_1_cbr_bitrate_fps__svtav1_8bit_preset_4,
+  data_1_cbr_bitrate_fps__svtav1_10bit_preset_4,
+  data_1_cbr_bitrate_fps__svtav1_8bit_preset_6,
+  data_1_cbr_bitrate_fps__svtav1_10bit_preset_6,
+  data_1_cbr_bitrate_fps__svtav1_8bit_preset_10,
+  data_1_cbr_bitrate_fps__svtav1_10bit_preset_10,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality,
+  data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
+  data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal
+];
+
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3108,7 +3272,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3130,7 +3294,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -3152,7 +3316,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -3174,7 +3338,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3196,7 +3360,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3218,7 +3382,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3240,7 +3404,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3262,7 +3426,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3284,7 +3448,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3306,7 +3470,7 @@ export const data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3328,7 +3492,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3350,7 +3514,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -3372,7 +3536,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -3394,7 +3558,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3416,7 +3580,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3438,7 +3602,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3460,7 +3624,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3482,7 +3646,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3504,7 +3668,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3526,7 +3690,7 @@ export const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3548,7 +3712,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3570,7 +3734,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -3592,7 +3756,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -3614,7 +3778,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3636,7 +3800,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality 
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3658,7 +3822,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal =
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3680,7 +3844,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3702,7 +3866,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3724,7 +3888,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality =
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3746,7 +3910,7 @@ export const data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = 
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3768,7 +3932,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3790,7 +3954,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -3812,7 +3976,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -3834,7 +3998,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3856,7 +4020,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = 
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3878,7 +4042,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3900,7 +4064,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -3922,7 +4086,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -3944,7 +4108,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -3966,7 +4130,7 @@ export const data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -3988,7 +4152,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4010,7 +4174,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -4032,7 +4196,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -4054,7 +4218,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4076,7 +4240,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4098,7 +4262,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4120,7 +4284,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4142,7 +4306,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4164,7 +4328,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4186,7 +4350,7 @@ export const data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4208,7 +4372,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4230,7 +4394,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -4252,7 +4416,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -4274,7 +4438,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4296,7 +4460,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4318,7 +4482,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4340,7 +4504,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4362,7 +4526,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4384,7 +4548,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4406,7 +4570,7 @@ export const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4428,7 +4592,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4450,7 +4614,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -4472,7 +4636,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -4494,7 +4658,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4516,7 +4680,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4538,7 +4702,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4560,7 +4724,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4582,7 +4746,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4604,7 +4768,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4626,7 +4790,7 @@ export const data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4648,7 +4812,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4670,7 +4834,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -4692,7 +4856,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -4714,7 +4878,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4736,7 +4900,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4758,7 +4922,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -4780,7 +4944,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -4802,7 +4966,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -4824,7 +4988,7 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -4846,7 +5010,99 @@ export const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x264_medium_crf = {
+const datasets_1_vbr_bitrate_ssim = [
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_1_vbr_bitrate_ms_ssim = [
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_1_vbr_bitrate_vmaf = [
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_1_vbr_bitrate_fps = [
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const data_2_cbr_bitrate_ssim__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -4866,7 +5122,7 @@ export const data_2_cbr_bitrate_ssim__x264_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x264_veryslow_crf = {
+const data_2_cbr_bitrate_ssim__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -4887,7 +5143,7 @@ export const data_2_cbr_bitrate_ssim__x264_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x265_medium_crf = {
+const data_2_cbr_bitrate_ssim__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -4908,7 +5164,7 @@ export const data_2_cbr_bitrate_ssim__x265_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x265_medium_10bit_crf = {
+const data_2_cbr_bitrate_ssim__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -4929,7 +5185,7 @@ export const data_2_cbr_bitrate_ssim__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x265_veryslow_crf = {
+const data_2_cbr_bitrate_ssim__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -4950,7 +5206,7 @@ export const data_2_cbr_bitrate_ssim__x265_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
+const data_2_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -4971,7 +5227,7 @@ export const data_2_cbr_bitrate_ssim__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
+const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -4992,7 +5248,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
+const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -5012,7 +5268,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
+const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -5033,7 +5289,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
+const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -5054,7 +5310,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
+const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -5075,7 +5331,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
+const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -5096,7 +5352,7 @@ export const data_2_cbr_bitrate_ssim__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5117,7 +5373,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5138,7 +5394,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -5159,7 +5415,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -5180,7 +5436,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5200,7 +5456,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5220,7 +5476,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -5240,7 +5496,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -5260,7 +5516,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -5280,7 +5536,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -5300,7 +5556,7 @@ export const data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5319,7 +5575,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5338,7 +5594,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -5357,7 +5613,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -5376,7 +5632,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -5395,7 +5651,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -5414,7 +5670,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5434,7 +5690,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5454,7 +5710,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -5474,7 +5730,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -5494,7 +5750,7 @@ export const data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_quality = {
     label: "rx9070xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5515,7 +5771,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_normal = {
     label: "rx9070xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5536,7 +5792,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality = {
     label: "rx9070xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -5557,7 +5813,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal = {
     label: "rx9070xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -5578,7 +5834,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_quality = {
     label: "rx9070xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -5599,7 +5855,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_normal = {
     label: "rx9070xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -5620,7 +5876,7 @@ export const data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -5641,7 +5897,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -5662,7 +5918,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -5683,7 +5939,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -5704,7 +5960,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -5725,7 +5981,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -5746,7 +6002,7 @@ export const data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x264_medium_crf = {
+const data_2_cbr_bitrate_ms_ssim__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -5766,7 +6022,7 @@ export const data_2_cbr_bitrate_ms_ssim__x264_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
+const data_2_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -5787,7 +6043,7 @@ export const data_2_cbr_bitrate_ms_ssim__x264_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x265_medium_crf = {
+const data_2_cbr_bitrate_ms_ssim__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -5808,7 +6064,7 @@ export const data_2_cbr_bitrate_ms_ssim__x265_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
+const data_2_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -5829,7 +6085,7 @@ export const data_2_cbr_bitrate_ms_ssim__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
+const data_2_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -5850,7 +6106,7 @@ export const data_2_cbr_bitrate_ms_ssim__x265_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
+const data_2_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -5871,7 +6127,7 @@ export const data_2_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -5892,7 +6148,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -5912,7 +6168,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -5933,7 +6189,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -5954,7 +6210,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -5975,7 +6231,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
+const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -5996,7 +6252,7 @@ export const data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6017,7 +6273,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6038,7 +6294,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -6059,7 +6315,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -6080,7 +6336,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6100,7 +6356,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6120,7 +6376,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -6140,7 +6396,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -6160,7 +6416,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -6180,7 +6436,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality =
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -6200,7 +6456,7 @@ export const data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = 
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6219,7 +6475,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6238,7 +6494,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -6257,7 +6513,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -6276,7 +6532,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -6295,7 +6551,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -6314,7 +6570,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6334,7 +6590,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6354,7 +6610,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -6374,7 +6630,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -6394,7 +6650,7 @@ export const data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_quality = {
     label: "rx9070xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6415,7 +6671,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_normal = {
     label: "rx9070xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6436,7 +6692,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_quality = {
     label: "rx9070xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -6457,7 +6713,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_normal = {
     label: "rx9070xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -6478,7 +6734,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_quality = {
     label: "rx9070xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6499,7 +6755,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_normal = {
     label: "rx9070xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6520,7 +6776,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -6541,7 +6797,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -6562,7 +6818,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -6583,7 +6839,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -6604,7 +6860,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -6625,7 +6881,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -6646,7 +6902,7 @@ export const data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x264_medium_crf = {
+const data_2_cbr_bitrate_vmaf__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -6666,7 +6922,7 @@ export const data_2_cbr_bitrate_vmaf__x264_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x264_veryslow_crf = {
+const data_2_cbr_bitrate_vmaf__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -6687,7 +6943,7 @@ export const data_2_cbr_bitrate_vmaf__x264_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x265_medium_crf = {
+const data_2_cbr_bitrate_vmaf__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -6708,7 +6964,7 @@ export const data_2_cbr_bitrate_vmaf__x265_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
+const data_2_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -6729,7 +6985,7 @@ export const data_2_cbr_bitrate_vmaf__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x265_veryslow_crf = {
+const data_2_cbr_bitrate_vmaf__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -6750,7 +7006,7 @@ export const data_2_cbr_bitrate_vmaf__x265_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
+const data_2_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -6771,7 +7027,7 @@ export const data_2_cbr_bitrate_vmaf__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
+const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -6792,7 +7048,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
+const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -6812,7 +7068,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
+const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -6833,7 +7089,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
+const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -6854,7 +7110,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
+const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -6875,7 +7131,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
+const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -6896,7 +7152,7 @@ export const data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -6917,7 +7173,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -6938,7 +7194,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -6959,7 +7215,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -6980,7 +7236,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7000,7 +7256,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7020,7 +7276,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -7040,7 +7296,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -7060,7 +7316,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -7080,7 +7336,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -7100,7 +7356,7 @@ export const data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7119,7 +7375,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7138,7 +7394,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -7157,7 +7413,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -7176,7 +7432,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -7195,7 +7451,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -7214,7 +7470,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7234,7 +7490,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7254,7 +7510,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -7274,7 +7530,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -7294,7 +7550,7 @@ export const data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality = {
     label: "rx9070xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7315,7 +7571,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal = {
     label: "rx9070xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7336,7 +7592,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality = {
     label: "rx9070xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -7357,7 +7613,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal = {
     label: "rx9070xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -7378,7 +7634,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality = {
     label: "rx9070xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7399,7 +7655,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal = {
     label: "rx9070xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7420,7 +7676,7 @@ export const data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -7441,7 +7697,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -7462,7 +7718,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -7483,7 +7739,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -7504,7 +7760,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -7525,7 +7781,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -7546,7 +7802,7 @@ export const data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x264_medium_crf = {
+const data_2_cbr_bitrate_fps__x264_medium_crf = {
     label: " x264 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -7566,7 +7822,7 @@ export const data_2_cbr_bitrate_fps__x264_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x264_veryslow_crf = {
+const data_2_cbr_bitrate_fps__x264_veryslow_crf = {
     label: " x264 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -7587,7 +7843,7 @@ export const data_2_cbr_bitrate_fps__x264_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x265_medium_crf = {
+const data_2_cbr_bitrate_fps__x265_medium_crf = {
     label: " x265 medium crf",
     showLine: true,
     pointStyle: "circle",
@@ -7608,7 +7864,7 @@ export const data_2_cbr_bitrate_fps__x265_medium_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x265_medium_10bit_crf = {
+const data_2_cbr_bitrate_fps__x265_medium_10bit_crf = {
     label: " x265 medium 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -7629,7 +7885,7 @@ export const data_2_cbr_bitrate_fps__x265_medium_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x265_veryslow_crf = {
+const data_2_cbr_bitrate_fps__x265_veryslow_crf = {
     label: " x265 veryslow crf",
     showLine: true,
     pointStyle: "circle",
@@ -7650,7 +7906,7 @@ export const data_2_cbr_bitrate_fps__x265_veryslow_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
+const data_2_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
     label: " x265 veryslow 10bit crf",
     showLine: true,
     pointStyle: "circle",
@@ -7671,7 +7927,7 @@ export const data_2_cbr_bitrate_fps__x265_veryslow_10bit_crf = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
+const data_2_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
     label: " svtav1 8bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -7692,7 +7948,7 @@ export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
+const data_2_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
     label: " svtav1 10bit P4",
     showLine: true,
     pointStyle: "circle",
@@ -7712,7 +7968,7 @@ export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_4 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
+const data_2_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
     label: " svtav1 8bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -7733,7 +7989,7 @@ export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
+const data_2_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
     label: " svtav1 10bit P6",
     showLine: true,
     pointStyle: "circle",
@@ -7754,7 +8010,7 @@ export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_6 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
+const data_2_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
     label: " svtav1 8bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -7775,7 +8031,7 @@ export const data_2_cbr_bitrate_fps__svtav1_8bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
+const data_2_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
     label: " svtav1 10bit P10",
     showLine: true,
     pointStyle: "circle",
@@ -7796,7 +8052,7 @@ export const data_2_cbr_bitrate_fps__svtav1_10bit_preset_10 = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
     label: "Arc B580 QSV AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7817,7 +8073,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
     label: "Arc B580 QSV AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7838,7 +8094,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
     label: "Arc B580 QSV AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -7859,7 +8115,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
     label: "Arc B580 QSV AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -7880,7 +8136,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
     label: "Arc B580 QSV H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -7900,7 +8156,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
     label: "Arc B580 QSV H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -7920,7 +8176,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
     label: "Arc B580 QSV HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -7940,7 +8196,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
     label: "Arc B580 QSV HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -7960,7 +8216,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     label: "Arc B580 QSV HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -7980,7 +8236,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
+const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     label: "Arc B580 QSV HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8000,7 +8256,7 @@ export const data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     label: "rtx4080 NVENC H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8019,7 +8275,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     label: "rtx4080 NVENC H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8038,7 +8294,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     label: "rtx4080 NVENC HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -8057,7 +8313,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     label: "rtx4080 NVENC HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -8076,7 +8332,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     label: "rtx4080 NVENC HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8095,7 +8351,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     label: "rtx4080 NVENC HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8114,7 +8370,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     label: "rtx4080 NVENC AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8134,7 +8390,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     label: "rtx4080 NVENC AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8154,7 +8410,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     label: "rtx4080 NVENC AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8174,7 +8430,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
+const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     label: "rtx4080 NVENC AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8194,7 +8450,7 @@ export const data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_quality = {
     label: "rx9070xt VCE H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8215,7 +8471,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_normal = {
     label: "rx9070xt VCE H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8236,7 +8492,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_quality = {
     label: "rx9070xt VCE HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -8257,7 +8513,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_normal = {
     label: "rx9070xt VCE HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -8278,7 +8534,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_quality = {
     label: "rx9070xt VCE AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8299,7 +8555,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_normal = {
     label: "rx9070xt VCE AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8320,7 +8576,7 @@ export const data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     label: "rx7900xt VCE H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -8341,7 +8597,7 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     label: "rx7900xt VCE H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -8362,7 +8618,7 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     label: "rx7900xt VCE HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -8383,7 +8639,7 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     label: "rx7900xt VCE HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -8404,7 +8660,7 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     label: "rx7900xt VCE AV1 quality",
     showLine: true,
     pointStyle: "crossRot",
@@ -8425,7 +8681,7 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     ]
 };
 
-export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
+const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     label: "rx7900xt VCE AV1 normal",
     showLine: true,
     pointStyle: "crossRot",
@@ -8446,7 +8702,195 @@ export const data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const datasets_2_cbr_bitrate_ssim = [
+  data_2_cbr_bitrate_ssim__x264_medium_crf,
+  data_2_cbr_bitrate_ssim__x264_veryslow_crf,
+  data_2_cbr_bitrate_ssim__x265_medium_crf,
+  data_2_cbr_bitrate_ssim__x265_medium_10bit_crf,
+  data_2_cbr_bitrate_ssim__x265_veryslow_crf,
+  data_2_cbr_bitrate_ssim__x265_veryslow_10bit_crf,
+  data_2_cbr_bitrate_ssim__svtav1_8bit_preset_4,
+  data_2_cbr_bitrate_ssim__svtav1_10bit_preset_4,
+  data_2_cbr_bitrate_ssim__svtav1_8bit_preset_6,
+  data_2_cbr_bitrate_ssim__svtav1_10bit_preset_6,
+  data_2_cbr_bitrate_ssim__svtav1_8bit_preset_10,
+  data_2_cbr_bitrate_ssim__svtav1_10bit_preset_10,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_normal,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_2_cbr_bitrate_ms_ssim = [
+  data_2_cbr_bitrate_ms_ssim__x264_medium_crf,
+  data_2_cbr_bitrate_ms_ssim__x264_veryslow_crf,
+  data_2_cbr_bitrate_ms_ssim__x265_medium_crf,
+  data_2_cbr_bitrate_ms_ssim__x265_medium_10bit_crf,
+  data_2_cbr_bitrate_ms_ssim__x265_veryslow_crf,
+  data_2_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf,
+  data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4,
+  data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4,
+  data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6,
+  data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6,
+  data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10,
+  data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_normal,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_2_cbr_bitrate_vmaf = [
+  data_2_cbr_bitrate_vmaf__x264_medium_crf,
+  data_2_cbr_bitrate_vmaf__x264_veryslow_crf,
+  data_2_cbr_bitrate_vmaf__x265_medium_crf,
+  data_2_cbr_bitrate_vmaf__x265_medium_10bit_crf,
+  data_2_cbr_bitrate_vmaf__x265_veryslow_crf,
+  data_2_cbr_bitrate_vmaf__x265_veryslow_10bit_crf,
+  data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_4,
+  data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_4,
+  data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_6,
+  data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_6,
+  data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_10,
+  data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_10,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal
+];
+
+const datasets_2_cbr_bitrate_fps = [
+  data_2_cbr_bitrate_fps__x264_medium_crf,
+  data_2_cbr_bitrate_fps__x264_veryslow_crf,
+  data_2_cbr_bitrate_fps__x265_medium_crf,
+  data_2_cbr_bitrate_fps__x265_medium_10bit_crf,
+  data_2_cbr_bitrate_fps__x265_veryslow_crf,
+  data_2_cbr_bitrate_fps__x265_veryslow_10bit_crf,
+  data_2_cbr_bitrate_fps__svtav1_8bit_preset_4,
+  data_2_cbr_bitrate_fps__svtav1_10bit_preset_4,
+  data_2_cbr_bitrate_fps__svtav1_8bit_preset_6,
+  data_2_cbr_bitrate_fps__svtav1_10bit_preset_6,
+  data_2_cbr_bitrate_fps__svtav1_8bit_preset_10,
+  data_2_cbr_bitrate_fps__svtav1_10bit_preset_10,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
+  data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality,
+  data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_normal,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
+  data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal
+];
+
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8468,7 +8912,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8490,7 +8934,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -8512,7 +8956,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -8534,7 +8978,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8556,7 +9000,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8578,7 +9022,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8600,7 +9044,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8622,7 +9066,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8644,7 +9088,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8666,7 +9110,7 @@ export const data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8688,7 +9132,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8710,7 +9154,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -8731,7 +9175,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -8753,7 +9197,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8774,7 +9218,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8795,7 +9239,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8817,7 +9261,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8839,7 +9283,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8861,7 +9305,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -8883,7 +9327,7 @@ export const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -8905,7 +9349,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -8927,7 +9371,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -8949,7 +9393,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -8971,7 +9415,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -8993,7 +9437,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality 
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9015,7 +9459,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal =
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9037,7 +9481,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9059,7 +9503,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9081,7 +9525,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality =
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9103,7 +9547,7 @@ export const data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = 
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9125,7 +9569,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9147,7 +9591,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -9168,7 +9612,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -9190,7 +9634,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9211,7 +9655,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = 
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9232,7 +9676,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9254,7 +9698,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9276,7 +9720,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9298,7 +9742,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9320,7 +9764,7 @@ export const data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9342,7 +9786,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9364,7 +9808,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -9386,7 +9830,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -9408,7 +9852,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9430,7 +9874,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9452,7 +9896,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9474,7 +9918,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9496,7 +9940,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9518,7 +9962,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9540,7 +9984,7 @@ export const data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9562,7 +10006,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9584,7 +10028,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -9605,7 +10049,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -9627,7 +10071,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9648,7 +10092,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9669,7 +10113,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9691,7 +10135,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9713,7 +10157,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9735,7 +10179,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9757,7 +10201,7 @@ export const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
     label: "Arc B580 QSV VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9779,7 +10223,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
     label: "Arc B580 QSV VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9801,7 +10245,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     label: "Arc B580 QSV VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -9823,7 +10267,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     label: "Arc B580 QSV VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -9845,7 +10289,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     label: "Arc B580 QSV VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9867,7 +10311,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     label: "Arc B580 QSV VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9889,7 +10333,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
     label: "Arc B580 QSV VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9911,7 +10355,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
     label: "Arc B580 QSV VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -9933,7 +10377,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     label: "Arc B580 QSV VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -9955,7 +10399,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     label: "Arc B580 QSV VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -9977,7 +10421,7 @@ export const data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     label: "rtx4080 NVENC VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
@@ -9999,7 +10443,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     label: "rtx4080 NVENC VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
@@ -10021,7 +10465,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     label: "rtx4080 NVENC VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
@@ -10042,7 +10486,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     label: "rtx4080 NVENC VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
@@ -10064,7 +10508,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     label: "rtx4080 NVENC VBR HEVC 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -10085,7 +10529,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     label: "rtx4080 NVENC VBR HEVC 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -10106,7 +10550,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     label: "rtx4080 NVENC VBR AV1 quality",
     showLine: true,
     pointStyle: "cross",
@@ -10128,7 +10572,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     label: "rtx4080 NVENC VBR AV1 normal",
     showLine: true,
     pointStyle: "cross",
@@ -10150,7 +10594,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     label: "rtx4080 NVENC VBR AV1 10bit quality",
     showLine: true,
     pointStyle: "cross",
@@ -10172,7 +10616,7 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     ]
 };
 
-export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
+const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     label: "rtx4080 NVENC VBR AV1 10bit normal",
     showLine: true,
     pointStyle: "cross",
@@ -10193,4 +10637,96 @@ export const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
           { x: 8166.96, y: 312.29 }
     ]
 };
+
+const datasets_2_vbr_bitrate_ssim = [
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_2_vbr_bitrate_ms_ssim = [
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_2_vbr_bitrate_vmaf = [
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
+
+const datasets_2_vbr_bitrate_fps = [
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality,
+  data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal
+];
 

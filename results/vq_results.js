@@ -10,46 +10,7 @@ const chart_t1_20250614_bitrate_ssim_data = new Chart(ctx_t1_20250614_bitrate_ss
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_cbr_bitrate_ssim__x264_medium_crf,
-      data_1_cbr_bitrate_ssim__x264_veryslow_crf,
-      data_1_cbr_bitrate_ssim__x265_medium_crf,
-      data_1_cbr_bitrate_ssim__x265_medium_10bit_crf,
-      data_1_cbr_bitrate_ssim__x265_veryslow_crf,
-      data_1_cbr_bitrate_ssim__x265_veryslow_10bit_crf,
-      data_1_cbr_bitrate_ssim__svtav1_8bit_preset_4,
-      data_1_cbr_bitrate_ssim__svtav1_10bit_preset_4,
-      data_1_cbr_bitrate_ssim__svtav1_8bit_preset_6,
-      data_1_cbr_bitrate_ssim__svtav1_10bit_preset_6,
-      data_1_cbr_bitrate_ssim__svtav1_8bit_preset_10,
-      data_1_cbr_bitrate_ssim__svtav1_10bit_preset_10,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_1_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
-      data_1_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_1_cbr_bitrate_ssim
   },
 
   options: {
@@ -126,46 +87,7 @@ const chart_t1_20250614_bitrate_ms_ssim_data = new Chart(ctx_t1_20250614_bitrate
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_cbr_bitrate_ms_ssim__x264_medium_crf,
-      data_1_cbr_bitrate_ms_ssim__x264_veryslow_crf,
-      data_1_cbr_bitrate_ms_ssim__x265_medium_crf,
-      data_1_cbr_bitrate_ms_ssim__x265_medium_10bit_crf,
-      data_1_cbr_bitrate_ms_ssim__x265_veryslow_crf,
-      data_1_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf,
-      data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4,
-      data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4,
-      data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6,
-      data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6,
-      data_1_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10,
-      data_1_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_1_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality,
-      data_1_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_1_cbr_bitrate_ms_ssim
   },
 
   options: {
@@ -242,46 +164,7 @@ const chart_t1_20250614_bitrate_vmaf_data = new Chart(ctx_t1_20250614_bitrate_vm
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_cbr_bitrate_vmaf__x264_medium_crf,
-      data_1_cbr_bitrate_vmaf__x264_veryslow_crf,
-      data_1_cbr_bitrate_vmaf__x265_medium_crf,
-      data_1_cbr_bitrate_vmaf__x265_medium_10bit_crf,
-      data_1_cbr_bitrate_vmaf__x265_veryslow_crf,
-      data_1_cbr_bitrate_vmaf__x265_veryslow_10bit_crf,
-      data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_4,
-      data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_4,
-      data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_6,
-      data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_6,
-      data_1_cbr_bitrate_vmaf__svtav1_8bit_preset_10,
-      data_1_cbr_bitrate_vmaf__svtav1_10bit_preset_10,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_1_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
-      data_1_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_1_cbr_bitrate_vmaf
   },
 
   options: {
@@ -358,46 +241,7 @@ const chart_t1_20250614_bitrate_fps_data = new Chart(ctx_t1_20250614_bitrate_fps
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_cbr_bitrate_fps__x264_medium_crf,
-      data_1_cbr_bitrate_fps__x264_veryslow_crf,
-      data_1_cbr_bitrate_fps__x265_medium_crf,
-      data_1_cbr_bitrate_fps__x265_medium_10bit_crf,
-      data_1_cbr_bitrate_fps__x265_veryslow_crf,
-      data_1_cbr_bitrate_fps__x265_veryslow_10bit_crf,
-      data_1_cbr_bitrate_fps__svtav1_8bit_preset_4,
-      data_1_cbr_bitrate_fps__svtav1_10bit_preset_4,
-      data_1_cbr_bitrate_fps__svtav1_8bit_preset_6,
-      data_1_cbr_bitrate_fps__svtav1_10bit_preset_6,
-      data_1_cbr_bitrate_fps__svtav1_8bit_preset_10,
-      data_1_cbr_bitrate_fps__svtav1_10bit_preset_10,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_1_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality,
-      data_1_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
-      data_1_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_1_cbr_bitrate_fps
   },
 
   options: {
@@ -474,28 +318,7 @@ const chart_t1_20250614_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250614_vbr_bi
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_1_vbr_bitrate_ssim
   },
 
   options: {
@@ -572,28 +395,7 @@ const chart_t1_20250614_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20250614_vbr
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_1_vbr_bitrate_ms_ssim
   },
 
   options: {
@@ -670,28 +472,7 @@ const chart_t1_20250614_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250614_vbr_bi
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_1_vbr_bitrate_vmaf
   },
 
   options: {
@@ -768,28 +549,7 @@ const chart_t1_20250614_vbr_bitrate_fps_data = new Chart(ctx_t1_20250614_vbr_bit
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_1_vbr_bitrate_fps
   },
 
   options: {
@@ -866,52 +626,7 @@ const chart_t2_20250614_bitrate_ssim_data = new Chart(ctx_t2_20250614_bitrate_ss
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_cbr_bitrate_ssim__x264_medium_crf,
-      data_2_cbr_bitrate_ssim__x264_veryslow_crf,
-      data_2_cbr_bitrate_ssim__x265_medium_crf,
-      data_2_cbr_bitrate_ssim__x265_medium_10bit_crf,
-      data_2_cbr_bitrate_ssim__x265_veryslow_crf,
-      data_2_cbr_bitrate_ssim__x265_veryslow_10bit_crf,
-      data_2_cbr_bitrate_ssim__svtav1_8bit_preset_4,
-      data_2_cbr_bitrate_ssim__svtav1_10bit_preset_4,
-      data_2_cbr_bitrate_ssim__svtav1_8bit_preset_6,
-      data_2_cbr_bitrate_ssim__svtav1_10bit_preset_6,
-      data_2_cbr_bitrate_ssim__svtav1_8bit_preset_10,
-      data_2_cbr_bitrate_ssim__svtav1_10bit_preset_10,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_quality,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_normal,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_2_cbr_bitrate_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_quality,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_H_264_normal,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_quality,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_normal,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_quality,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_normal,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_ssim_rx9070xt_VCEEncC_AV1_normal,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_ssim_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_2_cbr_bitrate_ssim
   },
 
   options: {
@@ -988,52 +703,7 @@ const chart_t2_20250614_bitrate_ms_ssim_data = new Chart(ctx_t2_20250614_bitrate
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_cbr_bitrate_ms_ssim__x264_medium_crf,
-      data_2_cbr_bitrate_ms_ssim__x264_veryslow_crf,
-      data_2_cbr_bitrate_ms_ssim__x265_medium_crf,
-      data_2_cbr_bitrate_ms_ssim__x265_medium_10bit_crf,
-      data_2_cbr_bitrate_ms_ssim__x265_veryslow_crf,
-      data_2_cbr_bitrate_ms_ssim__x265_veryslow_10bit_crf,
-      data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_4,
-      data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_4,
-      data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_6,
-      data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_6,
-      data_2_cbr_bitrate_ms_ssim__svtav1_8bit_preset_10,
-      data_2_cbr_bitrate_ms_ssim__svtav1_10bit_preset_10,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_quality,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_normal,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_2_cbr_bitrate_ms_ssim_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_quality,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_H_264_normal,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_quality,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_normal,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_quality,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_normal,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_ms_ssim_rtx4080_NVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_ms_ssim_rx9070xt_VCEEncC_AV1_normal,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_ms_ssim_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_2_cbr_bitrate_ms_ssim
   },
 
   options: {
@@ -1110,52 +780,7 @@ const chart_t2_20250614_bitrate_vmaf_data = new Chart(ctx_t2_20250614_bitrate_vm
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_cbr_bitrate_vmaf__x264_medium_crf,
-      data_2_cbr_bitrate_vmaf__x264_veryslow_crf,
-      data_2_cbr_bitrate_vmaf__x265_medium_crf,
-      data_2_cbr_bitrate_vmaf__x265_medium_10bit_crf,
-      data_2_cbr_bitrate_vmaf__x265_veryslow_crf,
-      data_2_cbr_bitrate_vmaf__x265_veryslow_10bit_crf,
-      data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_4,
-      data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_4,
-      data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_6,
-      data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_6,
-      data_2_cbr_bitrate_vmaf__svtav1_8bit_preset_10,
-      data_2_cbr_bitrate_vmaf__svtav1_10bit_preset_10,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_quality,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_normal,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_2_cbr_bitrate_vmaf_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_quality,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_H_264_normal,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_quality,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_normal,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_quality,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_normal,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_2_cbr_bitrate_vmaf
   },
 
   options: {
@@ -1232,52 +857,7 @@ const chart_t2_20250614_bitrate_fps_data = new Chart(ctx_t2_20250614_bitrate_fps
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_cbr_bitrate_fps__x264_medium_crf,
-      data_2_cbr_bitrate_fps__x264_veryslow_crf,
-      data_2_cbr_bitrate_fps__x265_medium_crf,
-      data_2_cbr_bitrate_fps__x265_medium_10bit_crf,
-      data_2_cbr_bitrate_fps__x265_veryslow_crf,
-      data_2_cbr_bitrate_fps__x265_veryslow_10bit_crf,
-      data_2_cbr_bitrate_fps__svtav1_8bit_preset_4,
-      data_2_cbr_bitrate_fps__svtav1_10bit_preset_4,
-      data_2_cbr_bitrate_fps__svtav1_8bit_preset_6,
-      data_2_cbr_bitrate_fps__svtav1_10bit_preset_6,
-      data_2_cbr_bitrate_fps__svtav1_8bit_preset_10,
-      data_2_cbr_bitrate_fps__svtav1_10bit_preset_10,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_quality,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_normal,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_quality,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_H_264_FF_normal,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_quality,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_normal,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_quality,
-      data_2_cbr_bitrate_fps_Arc_B580_QSVEncC_HEVC_FF_10bit_normal,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_quality,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_H_264_normal,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_quality,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_normal,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_quality,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_normal,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality,
-      data_2_cbr_bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_fps_rx9070xt_VCEEncC_AV1_normal,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_quality,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_H_264_normal,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_quality,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
-      data_2_cbr_bitrate_fps_rx7900xt_VCEEncC_AV1_normal
-    ]
+    datasets: datasets_2_cbr_bitrate_fps
   },
 
   options: {
@@ -1354,28 +934,7 @@ const chart_t2_20250614_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250614_vbr_bi
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_2_vbr_bitrate_ssim
   },
 
   options: {
@@ -1452,28 +1011,7 @@ const chart_t2_20250614_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20250614_vbr
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_ms_ssim_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_ms_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_2_vbr_bitrate_ms_ssim
   },
 
   options: {
@@ -1550,28 +1088,7 @@ const chart_t2_20250614_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250614_vbr_bi
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_vmaf_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_2_vbr_bitrate_vmaf
   },
 
   options: {
@@ -1648,28 +1165,7 @@ const chart_t2_20250614_vbr_bitrate_fps_data = new Chart(ctx_t2_20250614_vbr_bit
   parsing: false,
   normalized: true,
   data: {
-    datasets: [
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_fps_Arc_B580_QSVEncC_VBR_AV1_10bit_normal,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality,
-      data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal
-    ]
+    datasets: datasets_2_vbr_bitrate_fps
   },
 
   options: {
@@ -1739,3 +1235,30 @@ const chart_t2_20250614_vbr_bitrate_fps_data = new Chart(ctx_t2_20250614_vbr_bit
 
 });
 
+
+window.all_charts = [
+    chart_t1_20250614_bitrate_ssim_data,
+    chart_t1_20250614_bitrate_ms_ssim_data,
+    chart_t1_20250614_bitrate_vmaf_data,
+    chart_t1_20250614_bitrate_fps_data,
+    chart_t1_20250614_vbr_bitrate_ssim_data,
+    chart_t1_20250614_vbr_bitrate_ms_ssim_data,
+    chart_t1_20250614_vbr_bitrate_vmaf_data,
+    chart_t1_20250614_vbr_bitrate_fps_data,
+    chart_t2_20250614_bitrate_ssim_data,
+    chart_t2_20250614_bitrate_ms_ssim_data,
+    chart_t2_20250614_bitrate_vmaf_data,
+    chart_t2_20250614_bitrate_fps_data,
+    chart_t2_20250614_vbr_bitrate_ssim_data,
+    chart_t2_20250614_vbr_bitrate_ms_ssim_data,
+    chart_t2_20250614_vbr_bitrate_vmaf_data,
+    chart_t2_20250614_vbr_bitrate_fps_data
+];
+
+window.all_charts.forEach(chart => {
+    if (chart && chart.data && chart.data.datasets) {
+        chart.all_datasets = chart.data.datasets;
+        chart.data.datasets = [];
+        chart.update('none');
+    }
+});

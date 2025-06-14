@@ -98,7 +98,7 @@ vq_parse.py -o vq_results.js  -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 
   REM "gtx1080,ssim1_gtx1080_log_RIGAYA8-PC_14464_20241218_072550.txt" ^
   REM "gtx950,ssim1_gtx950_log_RIGAYA7-PC_1848_20241219_092239.txt" ^
   REM "rx5500xt,ssim1_rx5500xt_log_RIGAYA10-PC_3220_20241222_121712.txt"
-  REM "rx550,ssim1_rx550_log_RIGAYA10-PC_7044_20241222_182304.txt" ^
+  REM "rx550,ssim1_rx550_log_RIGAYA10-PC_7044_20241222_182304.txt"
   REM "r9 9950x igpu,ssim1_r9_9950x_igpu_log_RIGAYA7-PC_3524_20241223_091435.txt" ^
   REM "r3 3200G,ssim1_3200G_log_RIGAYA6-PC_4600_20241218_201021.txt" ^
 
@@ -206,4 +206,6 @@ vq_parse.py -o vq_results.js  -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 
   REM "r9 9950X,ssim2_r9_9950x_igpu_log_RIGAYA7-PC_10916_20241223_104537.txt" ^
   REM "r3 3200G,ssim2_3200G_log_RIGAYA6-PC_10660_20241219_044359.txt" ^
   
+vq_parse.py -o vq_results.js -add-summary
+
 pause
