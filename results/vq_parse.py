@@ -311,7 +311,7 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
     data_definitions = []
     dataset_vars = []
 
-    vbr_str = 'vbr' if vbr_mode else 'cbr'
+    vbr_str = 'vbr' if vbr_mode else ''
     
     # datasets配列名を生成
     datasets_array_name = f"datasets_{target_id}_{vbr_str}_{label_x}_{label_y}"
@@ -430,6 +430,26 @@ def create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, 
     chart_body += get_chart_options('bitrate - fps', 'aspect_ratio_bitrate_fps', 'bitrate (kbps)', 0, bitrate_max, 'fps', 0, None)
 
     return name, chart_body, data_defs, datasets_array_name, datasets_array_def
+
+def create_encoder_array(dict_enc_set_data, target_id, vbr_mode, replace_list):
+    # datasets配列名を生成
+    vbr_str = 'vbr' if vbr_mode else ''
+    datasets_array_name = f"encoders_{target_id}_{vbr_str}"
+
+    encoder_array = []
+    for encoder in dict_enc_set_data.keys():
+        encoder = encoder.strip()
+        for replace_data in replace_list:
+            encoder = encoder.replace(replace_data[0].strip(), replace_data[1].strip())
+        encoder_array.append(encoder)
+
+    # datasets配列の定義を作成
+    newline_sep = ',\n  '
+    datasets_array_str = f"const {datasets_array_name} = [\n"
+    datasets_array_str += newline_sep.join([f'    "{var}"' for var in encoder_array])
+    datasets_array_str += "\n];"
+
+    return datasets_array_str
 
 def add_summary_to_js(output_file):
     if not output_file or not os.path.exists(output_file):
@@ -583,6 +603,8 @@ if __name__ == '__main__':
             # datasets配列を書き込み
             for datasets_array in all_datasets_arrays:
                 f.write(datasets_array + '\n\n')
+
+            f.write(create_encoder_array(dict_enc_set_data, target_id, vbr_mode, replace_list) + '\n\n')
         
         with open(output_file, 'a', encoding='utf-8') as f:
             if write_aspect:
