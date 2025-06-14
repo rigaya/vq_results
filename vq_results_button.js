@@ -74,8 +74,10 @@ function update_charts(with_animation) {
     const charts = window.all_charts || [];
     if (charts.length === 0) return;
 
-    const show_slow_preset_only = document.getElementById('toggle_only_quality').checked;
-    const show_no_10bit = document.getElementById('toggle_only_8bit').checked;
+    const show_max_quality = document.getElementById('toggle_show_max_quality').checked;
+    const show_std_quality = document.getElementById('toggle_show_std_quality').checked;
+    const show_8bit = document.getElementById('toggle_show_8bit').checked;
+    const show_10bit = document.getElementById('toggle_show_10bit').checked;
     const show_latest_gpu_only = document.getElementById('toggle_only_latest_gpu').checked;
 
     const active_rules = [];
@@ -90,8 +92,12 @@ function update_charts(with_animation) {
 
         const new_datasets = chart.all_datasets.filter(dataset => {
             const label_name = dataset.label;
+            const is_10bit = label_name.indexOf('10bit') !== -1;
 
-            if (show_no_10bit && label_name.indexOf('10bit') !== -1) {
+            if (is_10bit && !show_10bit) {
+                return false;
+            }
+            if (!is_10bit && !show_8bit) {
                 return false;
             }
 
@@ -103,11 +109,15 @@ function update_charts(with_animation) {
                 if (!rule.keywords.some(kw => label_name.indexOf(kw) !== -1)) {
                     return false;
                 }
-                if (show_slow_preset_only && rule.presets.length > 0) {
-                    if (!rule.presets.some(p => label_name.indexOf(p) !== -1)) {
-                        return false;
-                    }
+
+                const is_max_quality_dataset = rule.presets.some(p => label_name.indexOf(p) !== -1);
+                if (is_max_quality_dataset && !show_max_quality) {
+                    return false;
                 }
+                if (!is_max_quality_dataset && !show_std_quality) {
+                    return false;
+                }
+
                 if (show_latest_gpu_only && rule.devices.length > 0) {
                     const is_gpu_label = rule.devices.length > 0;
                     if (is_gpu_label && !rule.devices.some(d => label_name.indexOf(d) !== -1)) {
@@ -184,8 +194,10 @@ window.addEventListener('load', function() {
         }
     });
 
-    document.getElementById('toggle_only_quality').addEventListener('change', on_toggle_change);
-    document.getElementById('toggle_only_8bit').addEventListener('change', on_toggle_change);
+    document.getElementById('toggle_show_max_quality').addEventListener('change', on_toggle_change);
+    document.getElementById('toggle_show_std_quality').addEventListener('change', on_toggle_change);
+    document.getElementById('toggle_show_8bit').addEventListener('change', on_toggle_change);
+    document.getElementById('toggle_show_10bit').addEventListener('change', on_toggle_change);
     document.getElementById('toggle_only_latest_gpu').addEventListener('change', on_toggle_change);
 
     check_button_names.forEach(check_id => {

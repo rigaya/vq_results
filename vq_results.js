@@ -1,7 +1,7 @@
-var aspect_ratio_bitrate_ssim = 0.6;
-var aspect_ratio_bitrate_ms_ssim = 0.6;
-var aspect_ratio_bitrate_vmaf = 0.6;
-var aspect_ratio_bitrate_fps = 0.6;
+var aspect_ratio_bitrate_ssim = 1.0;
+var aspect_ratio_bitrate_ms_ssim = 1.0;
+var aspect_ratio_bitrate_vmaf = 1.0;
+var aspect_ratio_bitrate_fps = 1.0;
 
 var ctx_t1_20250614_bitrate_ssim_data = document.getElementById('chart_t1_20250614_bitrate_ssim');
 const chart_t1_20250614_bitrate_ssim_data = new Chart(ctx_t1_20250614_bitrate_ssim_data,

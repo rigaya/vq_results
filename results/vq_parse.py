@@ -83,10 +83,10 @@ def get_date_prefix():
     
 def create_aspect_ratio_stg():
     return '' + \
-        'var aspect_ratio_bitrate_ssim = 0.6;\n' + \
-        'var aspect_ratio_bitrate_ms_ssim = 0.6;\n' + \
-        'var aspect_ratio_bitrate_vmaf = 0.6;\n' + \
-        'var aspect_ratio_bitrate_fps = 0.6;\n' + \
+        'var aspect_ratio_bitrate_ssim = 1.0;\n' + \
+        'var aspect_ratio_bitrate_ms_ssim = 1.0;\n' + \
+        'var aspect_ratio_bitrate_vmaf = 1.0;\n' + \
+        'var aspect_ratio_bitrate_fps = 1.0;\n' + \
         '\n'
 
 def get_scatter_header(target_id, name, imports_str):
