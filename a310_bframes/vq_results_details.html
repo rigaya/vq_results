@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+  <link href="../vq_results.css" rel="stylesheet" type="text/css">
+  <link href="../vq_results_tabs.css" rel="stylesheet" type="text/css">
+  <link href="../vq_results_toggle.css" rel="stylesheet" type="text/css">
+  <title>画質比較 (QSV A310 2025.07)</title>
+  <script>
+    window.onload = function() {
+      const url = new URL(window.location.href);
+      const params = url.searchParams;
+      var lang = params.get("lang");
+      if (!lang || lang.length == 0) {
+        lang = "ja";
+      }
+
+      buttonId = "sJa";
+      if (lang == 'en') {
+        buttonId = "sEn";
+      }
+      var langButton = document.getElementById(buttonId);
+      langButton.checked = true;
+      langSet(lang);	
+    }
+  </script>
+</head>
+<body>
+<div class="main_block">
+  <div>
+  <h1>
+    <p class="langChange" lang="ja">画質比較 (QSV A310 2025.07)</p>
+    <p class="langChange" lang="en">Video Qualities (QSV A310 2025.07)</p>
+  </h1>
+  <h2>
+    言語切り替え / Switch Language
+  </h2>
+  <div id="languageButtons">
+    <input type="radio" name="langSwitch" id="sJa" onClick="langSet('ja')" checked>
+    <label for="sJa">
+      日本語
+    </label>
+    
+    <input type="radio" name="langSwitch" id="sEn" onClick="langSet('en')">
+    <label for="sEn">
+      English
+    </label>
+  </div>
+
+  <h2>
+    <p class="langChange" lang="ja">使用ソフト</p>
+    <p class="langChange" lang="en">Applications Used</p>
+  </h2>
+  <ul>
+    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.92</li>
+  </ul>
+  
+  <h2>
+    <p class="langChange" lang="ja">入力ファイル</p>
+    <p class="langChange" lang="en">Input Files</p>
+  </h2>
+    <br>
+    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し</p>
+    <p class="langChange" lang="en">Decoded by ffmpeg.</p>
+    <dl>
+      <dt>
+        <p class="langChange" lang="ja">アニメ版</p>
+        <p class="langChange" lang="en">Anime</p>
+      </dt>
+      <dd>sakuranotoki_op.mp4<br>H.264 1920x1080 30fps 3194frame 16.3Mbps (Max 18Mbps)</dd>
+        <img class="img_sample" src="../img/sakuranotoki_op_01.webp" width=40%>
+        <img class="img_sample" src="../img/sakuranotoki_op_02.webp" width=40%>
+
+      <dt>
+        <p class="langChange" lang="ja">実写版</p>
+        <p class="langChange" lang="en">Scenery</p>
+      </dt>
+      <dd>
+        sample_movie_1080p_new_short8.mp4<br>H.264 1920x1080 29.97fps 4550frame 6.5Mbps (Max 49.6Mbps)<br>
+        <img class="img_sample" src="../img/sample_movie_1080p_new_short8_01.webp" width=40%>
+        <img class="img_sample" src="../img/sample_movie_1080p_new_short8_02.webp" width=40%>
+      </dd>
+    </dl>
+
+  <h2>
+    <p class="langChange" lang="ja">実行条件</p>
+    <p class="langChange" lang="en">Options Used</p>
+  </h2>
+  <dl>
+  
+    <dt>QSVEncC</dt>
+    <dd>
+      <div class=tableContainer>
+      <table class=simpleBlue width=100%>
+        <tr><th width=40px>Mode</th><td width=90px>Const. Quality</td><td>--icq [x] --extbrc --mbbrc --scenario-info game_streaming --i-adapt --b-adapt --b-pyramid --weightp --weightb --adapt-ref --adapt-ltr --adapt-cqm --la-depth 60 --la-quality slow</td></tr>
+        <tr><th colspan=2>Codec</th><td>-c h264,hevc,av1</td></tr>
+        <tr><th colspan=2>Preset</th><td>-u 1</td></tr>
+        <tr><th colspan=2>10bit</th><td>--output-depth 10</td></tr>
+      </table>
+      </div>
+    </dd>
+  </dl>
+
+  <h2>
+    <p class="langChange" lang="ja">実行環境</p>
+    <p class="langChange" lang="en">Test Environments</p>
+  </h2>
+
+<section>
+    <div class="env-tab-wrap">
+        <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-01">Ryzen9 7950X / Arc A310 / RTX 2070</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ryzen9 7950X</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>16C/32T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>16MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>64MB</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>Crucial CP2K48G56C46U5</td>
+                </tr>
+                <tr>
+                    <td>速度/電圧</td>
+                    <td>DDR5-5600 @ 1.1V</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>48GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>46-45-45</td>
+                </tr>
+                <tr>
+                    <td>dGPU1</td>
+                    <td>ASRock Intel Arc A310</td>
+                </tr>
+                <tr>
+                    <td>dGPU2</td>
+                    <td>EVGA GeForce RTX 2070 XC Gaming</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Plextor M9P 1TB NVMe PCIe Gen3</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>ASRock B650 LiveMixer</td>
+                </tr>
+                <tr>
+                    <td>冷却</td>
+                    <td>Noctua NH-D14</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ENERMAX EPM600AWT</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>FSP CMT580W</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 32.0.101.6739</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+  <h2>
+    <p class="langChange" lang="ja">結果</p>
+    <p class="langChange" lang="en">Results</p>
+  </h2>
+  <a href="vq_results.html">
+    <p class="langChange" lang="ja">結果ページに戻る</p>
+    <p class="langChange" lang="en">Return to result page</p>
+  </a>
+  <br>
+  <br>
+  <footer>
+    <div>
+    <br>results by rigaya<br>
+    <a href="mailto:rigaya34589@live.jp">mail: rigaya34589@live.jp</a> 
+    <a href="https://rigaya34589.blog.fc2.com/">blog</a> 
+    <a href="https://twitter.com/rigaya34589">twitter</a> 
+    </div>
+  </footer>
+  <script src="../vq_results_lang.js"></script>
+</body>
+</html>
