@@ -67,8 +67,8 @@
     <p class="langChange" lang="en">Input Files</p>
   </h2>
     <br>
-    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し</p>
-    <p class="langChange" lang="en">Decoded by ffmpeg.</p>
+    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し<br>ただし、10bitテスト時は、ffmpegで10bitへの変換を実施<br>(そうしないと8bit→10bit変換のffmpegとQSV/NV/VCEEncの差で謎な結果になる)</p>
+    <p class="langChange" lang="en">Decoded by ffmpeg.<br>10bit test is performed by converting to 10bit with ffmpeg. <br>(Otherwise, the results will be invalid because of the difference in 8bit→10bit conversion between ffmpeg and QSV/NV/VCEEnc.)</p>
     <dl>
       <dt>
         <p class="langChange" lang="ja">アニメ版</p>

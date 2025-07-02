@@ -31,8 +31,8 @@
 <div class="main_block">
   <div>
   <h1>
-    <p class="langChange" lang="ja">画質比較 (QSV A310 2025.07)</p>
-    <p class="langChange" lang="en">Video Qualities (QSV A310 2025.07)</p>
+    <p class="langChange" lang="ja">画質比較 QSV Arc A310 Bフレーム振り (2025.07)</p>
+    <p class="langChange" lang="en">Video Qualities QSV Arc A310 B-frame test (2025.07)</p>
   </h1>
   <h2>
     言語切り替え / Switch Language
@@ -62,8 +62,8 @@
     <p class="langChange" lang="en">Input Files</p>
   </h2>
     <br>
-    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し</p>
-    <p class="langChange" lang="en">Decoded by ffmpeg.</p>
+    <p class="langChange" lang="ja">ffmpegでデコードしてパイプ渡し<br>ただし、10bitテスト時は、ffmpegで10bitへの変換を実施<br>(そうしないと8bit→10bit変換のffmpegとQSV/NV/VCEEncの差で謎な結果になる)</p>
+    <p class="langChange" lang="en">Decoded by ffmpeg.<br>10bit test is performed by converting to 10bit with ffmpeg. <br>(Otherwise, the results will be invalid because of the difference in 8bit→10bit conversion between ffmpeg and QSV/NV/VCEEnc.)</p>
     <dl>
       <dt>
         <p class="langChange" lang="ja">アニメ版</p>
@@ -95,6 +95,8 @@
       <div class=tableContainer>
       <table class=simpleBlue width=100%>
         <tr><th width=40px>Mode</th><td width=90px>Const. Quality</td><td>--icq [x] --extbrc --mbbrc --scenario-info game_streaming --i-adapt --b-adapt --b-pyramid --weightp --weightb --adapt-ref --adapt-ltr --adapt-cqm --la-depth 60 --la-quality slow</td></tr>
+        <tr><th width=40px rowspan=2>B frames</th><td width=90px>H.264/HEVC</td><td>-b [3,4,5,6,7,8,9,10,12,15]</td></tr>
+        <tr><td width=90px>AV1</td><td>-b [3,4,5,9] --gop-len 300<br>-b 6 --gop-len 301<br>-b 7 --gop-len 304<br>-b 8 --gop-len 297<br>-b 10 --gop-len 297<br>-b 12 --gop-len 299<br>-b 15 --gop-len 304</td></tr>
         <tr><th colspan=2>Codec</th><td>-c h264,hevc,av1</td></tr>
         <tr><th colspan=2>Preset</th><td>-u 1</td></tr>
         <tr><th colspan=2>10bit</th><td>--output-depth 10</td></tr>
