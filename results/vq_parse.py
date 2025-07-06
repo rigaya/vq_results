@@ -576,10 +576,10 @@ if __name__ == '__main__':
     chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
 
     # MS-SSIM
-    name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
-    all_data_definitions.extend(data_defs)
-    all_datasets_arrays.append(datasets_array_def)
-    chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
+    #name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_ms_ssim(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    #all_data_definitions.extend(data_defs)
+    #all_datasets_arrays.append(datasets_array_def)
+    #chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
 
     # VMAF
     name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)

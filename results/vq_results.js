@@ -3,8 +3,8 @@ var aspect_ratio_bitrate_ms_ssim = 1.0;
 var aspect_ratio_bitrate_vmaf = 1.0;
 var aspect_ratio_bitrate_fps = 1.0;
 
-var ctx_t1_20250615_bitrate_ssim_data = document.getElementById('chart_t1_20250615_bitrate_ssim');
-const chart_t1_20250615_bitrate_ssim_data = new Chart(ctx_t1_20250615_bitrate_ssim_data,
+var ctx_t1_20250706_bitrate_ssim_data = document.getElementById('chart_t1_20250706_bitrate_ssim');
+const chart_t1_20250706_bitrate_ssim_data = new Chart(ctx_t1_20250706_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -80,85 +80,8 @@ const chart_t1_20250615_bitrate_ssim_data = new Chart(ctx_t1_20250615_bitrate_ss
 
 });
 
-var ctx_t1_20250615_bitrate_ms_ssim_data = document.getElementById('chart_t1_20250615_bitrate_ms_ssim');
-const chart_t1_20250615_bitrate_ms_ssim_data = new Chart(ctx_t1_20250615_bitrate_ms_ssim_data,
-{
-  type: 'scatter',
-  parsing: false,
-  normalized: true,
-  data: {
-    datasets: datasets_1__bitrate_ms_ssim
-  },
-
-  options: {
-    // レスポンシブ対応
-    responsive: true,
-    maintainAspectRatio: true,
-    aspectRatio: aspect_ratio_bitrate_ms_ssim,
-    locale: 'ja-JP',
-    plugins: {
-      // グラフタイトルの設定
-      title: {
-        text: 'bitrate - ms_ssim',
-        display: true,
-        font: {
-          size: 16,
-        }
-      },
-      // 凡例の設定
-      legend: {
-        display: true,
-        position: 'top',
-        align: 'center',
-        labels: {
-          fontSize: 12,
-        }
-      },
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ms_ssim = ' + value.y;
-          },
-        },
-      },
-    },
-    // x軸,y軸の設定
-    scales: {
-      x: {
-        type: 'linear',
-        display: true,
-        position: 'bottom',
-        min: 0,
-        max: 8000,
-        title: {
-          display: true,
-          text: 'bitrate (kbps)',
-          font: {
-            size: 12,
-          }
-        },
-      },
-      y: {
-        type: 'linear',
-        display: true,
-        min: 0.95,
-        max: 1.0,
-        title: {
-          display: true,
-          text: 'ms_ssim',
-          font: {
-            size: 12,
-          }
-        },
-      }
-    },
-  },
-
-});
-
-var ctx_t1_20250615_bitrate_vmaf_data = document.getElementById('chart_t1_20250615_bitrate_vmaf');
-const chart_t1_20250615_bitrate_vmaf_data = new Chart(ctx_t1_20250615_bitrate_vmaf_data,
+var ctx_t1_20250706_bitrate_vmaf_data = document.getElementById('chart_t1_20250706_bitrate_vmaf');
+const chart_t1_20250706_bitrate_vmaf_data = new Chart(ctx_t1_20250706_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -234,8 +157,8 @@ const chart_t1_20250615_bitrate_vmaf_data = new Chart(ctx_t1_20250615_bitrate_vm
 
 });
 
-var ctx_t1_20250615_bitrate_fps_data = document.getElementById('chart_t1_20250615_bitrate_fps');
-const chart_t1_20250615_bitrate_fps_data = new Chart(ctx_t1_20250615_bitrate_fps_data,
+var ctx_t1_20250706_bitrate_fps_data = document.getElementById('chart_t1_20250706_bitrate_fps');
+const chart_t1_20250706_bitrate_fps_data = new Chart(ctx_t1_20250706_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -311,8 +234,8 @@ const chart_t1_20250615_bitrate_fps_data = new Chart(ctx_t1_20250615_bitrate_fps
 
 });
 
-var ctx_t1_20250615_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20250615_vbr_bitrate_ssim');
-const chart_t1_20250615_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250615_vbr_bitrate_ssim_data,
+var ctx_t1_20250706_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20250706_vbr_bitrate_ssim');
+const chart_t1_20250706_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250706_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -388,85 +311,8 @@ const chart_t1_20250615_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250615_vbr_bi
 
 });
 
-var ctx_t1_20250615_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t1_20250615_vbr_bitrate_ms_ssim');
-const chart_t1_20250615_vbr_bitrate_ms_ssim_data = new Chart(ctx_t1_20250615_vbr_bitrate_ms_ssim_data,
-{
-  type: 'scatter',
-  parsing: false,
-  normalized: true,
-  data: {
-    datasets: datasets_1_vbr_bitrate_ms_ssim
-  },
-
-  options: {
-    // レスポンシブ対応
-    responsive: true,
-    maintainAspectRatio: true,
-    aspectRatio: aspect_ratio_bitrate_ms_ssim,
-    locale: 'ja-JP',
-    plugins: {
-      // グラフタイトルの設定
-      title: {
-        text: 'bitrate - ms_ssim',
-        display: true,
-        font: {
-          size: 16,
-        }
-      },
-      // 凡例の設定
-      legend: {
-        display: true,
-        position: 'top',
-        align: 'center',
-        labels: {
-          fontSize: 12,
-        }
-      },
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ms_ssim = ' + value.y;
-          },
-        },
-      },
-    },
-    // x軸,y軸の設定
-    scales: {
-      x: {
-        type: 'linear',
-        display: true,
-        position: 'bottom',
-        min: 0,
-        max: 8000,
-        title: {
-          display: true,
-          text: 'bitrate (kbps)',
-          font: {
-            size: 12,
-          }
-        },
-      },
-      y: {
-        type: 'linear',
-        display: true,
-        min: 0.95,
-        max: 1.0,
-        title: {
-          display: true,
-          text: 'ms_ssim',
-          font: {
-            size: 12,
-          }
-        },
-      }
-    },
-  },
-
-});
-
-var ctx_t1_20250615_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20250615_vbr_bitrate_vmaf');
-const chart_t1_20250615_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250615_vbr_bitrate_vmaf_data,
+var ctx_t1_20250706_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20250706_vbr_bitrate_vmaf');
+const chart_t1_20250706_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250706_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -542,8 +388,8 @@ const chart_t1_20250615_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250615_vbr_bi
 
 });
 
-var ctx_t1_20250615_vbr_bitrate_fps_data = document.getElementById('chart_t1_20250615_vbr_bitrate_fps');
-const chart_t1_20250615_vbr_bitrate_fps_data = new Chart(ctx_t1_20250615_vbr_bitrate_fps_data,
+var ctx_t1_20250706_vbr_bitrate_fps_data = document.getElementById('chart_t1_20250706_vbr_bitrate_fps');
+const chart_t1_20250706_vbr_bitrate_fps_data = new Chart(ctx_t1_20250706_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -619,8 +465,8 @@ const chart_t1_20250615_vbr_bitrate_fps_data = new Chart(ctx_t1_20250615_vbr_bit
 
 });
 
-var ctx_t2_20250615_bitrate_ssim_data = document.getElementById('chart_t2_20250615_bitrate_ssim');
-const chart_t2_20250615_bitrate_ssim_data = new Chart(ctx_t2_20250615_bitrate_ssim_data,
+var ctx_t2_20250706_bitrate_ssim_data = document.getElementById('chart_t2_20250706_bitrate_ssim');
+const chart_t2_20250706_bitrate_ssim_data = new Chart(ctx_t2_20250706_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -696,85 +542,8 @@ const chart_t2_20250615_bitrate_ssim_data = new Chart(ctx_t2_20250615_bitrate_ss
 
 });
 
-var ctx_t2_20250615_bitrate_ms_ssim_data = document.getElementById('chart_t2_20250615_bitrate_ms_ssim');
-const chart_t2_20250615_bitrate_ms_ssim_data = new Chart(ctx_t2_20250615_bitrate_ms_ssim_data,
-{
-  type: 'scatter',
-  parsing: false,
-  normalized: true,
-  data: {
-    datasets: datasets_2__bitrate_ms_ssim
-  },
-
-  options: {
-    // レスポンシブ対応
-    responsive: true,
-    maintainAspectRatio: true,
-    aspectRatio: aspect_ratio_bitrate_ms_ssim,
-    locale: 'ja-JP',
-    plugins: {
-      // グラフタイトルの設定
-      title: {
-        text: 'bitrate - ms_ssim',
-        display: true,
-        font: {
-          size: 16,
-        }
-      },
-      // 凡例の設定
-      legend: {
-        display: true,
-        position: 'top',
-        align: 'center',
-        labels: {
-          fontSize: 12,
-        }
-      },
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ms_ssim = ' + value.y;
-          },
-        },
-      },
-    },
-    // x軸,y軸の設定
-    scales: {
-      x: {
-        type: 'linear',
-        display: true,
-        position: 'bottom',
-        min: 0,
-        max: 8000,
-        title: {
-          display: true,
-          text: 'bitrate (kbps)',
-          font: {
-            size: 12,
-          }
-        },
-      },
-      y: {
-        type: 'linear',
-        display: true,
-        min: 0.95,
-        max: 1.0,
-        title: {
-          display: true,
-          text: 'ms_ssim',
-          font: {
-            size: 12,
-          }
-        },
-      }
-    },
-  },
-
-});
-
-var ctx_t2_20250615_bitrate_vmaf_data = document.getElementById('chart_t2_20250615_bitrate_vmaf');
-const chart_t2_20250615_bitrate_vmaf_data = new Chart(ctx_t2_20250615_bitrate_vmaf_data,
+var ctx_t2_20250706_bitrate_vmaf_data = document.getElementById('chart_t2_20250706_bitrate_vmaf');
+const chart_t2_20250706_bitrate_vmaf_data = new Chart(ctx_t2_20250706_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -850,8 +619,8 @@ const chart_t2_20250615_bitrate_vmaf_data = new Chart(ctx_t2_20250615_bitrate_vm
 
 });
 
-var ctx_t2_20250615_bitrate_fps_data = document.getElementById('chart_t2_20250615_bitrate_fps');
-const chart_t2_20250615_bitrate_fps_data = new Chart(ctx_t2_20250615_bitrate_fps_data,
+var ctx_t2_20250706_bitrate_fps_data = document.getElementById('chart_t2_20250706_bitrate_fps');
+const chart_t2_20250706_bitrate_fps_data = new Chart(ctx_t2_20250706_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -927,8 +696,8 @@ const chart_t2_20250615_bitrate_fps_data = new Chart(ctx_t2_20250615_bitrate_fps
 
 });
 
-var ctx_t2_20250615_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20250615_vbr_bitrate_ssim');
-const chart_t2_20250615_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250615_vbr_bitrate_ssim_data,
+var ctx_t2_20250706_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20250706_vbr_bitrate_ssim');
+const chart_t2_20250706_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250706_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1004,85 +773,8 @@ const chart_t2_20250615_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250615_vbr_bi
 
 });
 
-var ctx_t2_20250615_vbr_bitrate_ms_ssim_data = document.getElementById('chart_t2_20250615_vbr_bitrate_ms_ssim');
-const chart_t2_20250615_vbr_bitrate_ms_ssim_data = new Chart(ctx_t2_20250615_vbr_bitrate_ms_ssim_data,
-{
-  type: 'scatter',
-  parsing: false,
-  normalized: true,
-  data: {
-    datasets: datasets_2_vbr_bitrate_ms_ssim
-  },
-
-  options: {
-    // レスポンシブ対応
-    responsive: true,
-    maintainAspectRatio: true,
-    aspectRatio: aspect_ratio_bitrate_ms_ssim,
-    locale: 'ja-JP',
-    plugins: {
-      // グラフタイトルの設定
-      title: {
-        text: 'bitrate - ms_ssim',
-        display: true,
-        font: {
-          size: 16,
-        }
-      },
-      // 凡例の設定
-      legend: {
-        display: true,
-        position: 'top',
-        align: 'center',
-        labels: {
-          fontSize: 12,
-        }
-      },
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ms_ssim = ' + value.y;
-          },
-        },
-      },
-    },
-    // x軸,y軸の設定
-    scales: {
-      x: {
-        type: 'linear',
-        display: true,
-        position: 'bottom',
-        min: 0,
-        max: 8000,
-        title: {
-          display: true,
-          text: 'bitrate (kbps)',
-          font: {
-            size: 12,
-          }
-        },
-      },
-      y: {
-        type: 'linear',
-        display: true,
-        min: 0.95,
-        max: 1.0,
-        title: {
-          display: true,
-          text: 'ms_ssim',
-          font: {
-            size: 12,
-          }
-        },
-      }
-    },
-  },
-
-});
-
-var ctx_t2_20250615_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20250615_vbr_bitrate_vmaf');
-const chart_t2_20250615_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250615_vbr_bitrate_vmaf_data,
+var ctx_t2_20250706_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20250706_vbr_bitrate_vmaf');
+const chart_t2_20250706_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250706_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1158,8 +850,8 @@ const chart_t2_20250615_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250615_vbr_bi
 
 });
 
-var ctx_t2_20250615_vbr_bitrate_fps_data = document.getElementById('chart_t2_20250615_vbr_bitrate_fps');
-const chart_t2_20250615_vbr_bitrate_fps_data = new Chart(ctx_t2_20250615_vbr_bitrate_fps_data,
+var ctx_t2_20250706_vbr_bitrate_fps_data = document.getElementById('chart_t2_20250706_vbr_bitrate_fps');
+const chart_t2_20250706_vbr_bitrate_fps_data = new Chart(ctx_t2_20250706_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1237,22 +929,18 @@ const chart_t2_20250615_vbr_bitrate_fps_data = new Chart(ctx_t2_20250615_vbr_bit
 
 
 window.all_charts = [
-    chart_t1_20250615_bitrate_ssim_data,
-    chart_t1_20250615_bitrate_ms_ssim_data,
-    chart_t1_20250615_bitrate_vmaf_data,
-    chart_t1_20250615_bitrate_fps_data,
-    chart_t1_20250615_vbr_bitrate_ssim_data,
-    chart_t1_20250615_vbr_bitrate_ms_ssim_data,
-    chart_t1_20250615_vbr_bitrate_vmaf_data,
-    chart_t1_20250615_vbr_bitrate_fps_data,
-    chart_t2_20250615_bitrate_ssim_data,
-    chart_t2_20250615_bitrate_ms_ssim_data,
-    chart_t2_20250615_bitrate_vmaf_data,
-    chart_t2_20250615_bitrate_fps_data,
-    chart_t2_20250615_vbr_bitrate_ssim_data,
-    chart_t2_20250615_vbr_bitrate_ms_ssim_data,
-    chart_t2_20250615_vbr_bitrate_vmaf_data,
-    chart_t2_20250615_vbr_bitrate_fps_data
+    chart_t1_20250706_bitrate_ssim_data,
+    chart_t1_20250706_bitrate_vmaf_data,
+    chart_t1_20250706_bitrate_fps_data,
+    chart_t1_20250706_vbr_bitrate_ssim_data,
+    chart_t1_20250706_vbr_bitrate_vmaf_data,
+    chart_t1_20250706_vbr_bitrate_fps_data,
+    chart_t2_20250706_bitrate_ssim_data,
+    chart_t2_20250706_bitrate_vmaf_data,
+    chart_t2_20250706_bitrate_fps_data,
+    chart_t2_20250706_vbr_bitrate_ssim_data,
+    chart_t2_20250706_vbr_bitrate_vmaf_data,
+    chart_t2_20250706_vbr_bitrate_fps_data
 ];
 
 window.all_charts.forEach(chart => {

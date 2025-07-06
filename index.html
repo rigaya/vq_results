@@ -7,13 +7,13 @@
   <link href="vq_results.css" rel="stylesheet" type="text/css">
   <link href="vq_results_tabs.css" rel="stylesheet" type="text/css">
   <link href="vq_results_toggle.css" rel="stylesheet" type="text/css">
-  <title>画質比較 (2025.05)</title>
+  <title>画質比較 (2025.07)</title>
 </head>
 <body>
 <div class="main_block">
   <h1>
-    <p class="langChange" lang="ja">画質比較 (2025.05)</p>
-    <p class="langChange" lang="en">Video Qualities (2025.05)</p>
+    <p class="langChange" lang="ja">画質比較 (2025.07)</p>
+    <p class="langChange" lang="en">Video Qualities (2025.07)</p>
   </h1>
   <h2>
     言語切り替え / Switch Language
@@ -95,7 +95,7 @@
     <div class="quality-switch">
       <div class="quality-switch-button">
         <div class="toggle-switch">
-          <input id="toggle_show_10bit" class="toggle-input" type='checkbox' checked />
+          <input id="toggle_show_10bit" class="toggle-input" type='checkbox' />
           <label for="toggle_show_10bit" class="toggle-label"/>
         </div>
       </div>
@@ -204,22 +204,17 @@
         <input id="TAB-A01-B01" type="radio" name="TAB-B01" class="tab-switch">
         <label class="tab-label" for="TAB-A01-B01">quality(1)<br>bitrate - SSIM</label>
         <div class="tab-content" id="resultTabA01-1"><div>
-          <canvas id="chart_t1_20250614_bitrate_ssim"></canvas>
+          <canvas id="chart_t1_20250706_bitrate_ssim"></canvas>
         </div></div>
         <input id="TAB-A01-B02" type="radio" name="TAB-B01" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A01-B02">quality(2)<br>bitrate - MS-SSIM</label>
+        <label class="tab-label" for="TAB-A01-B02">quality(2)<br>bitrate - VMAF</label>
         <div class="tab-content" id="resultTabA01-2"><div>
-          <canvas id="chart_t1_20250614_bitrate_ms_ssim"></canvas>
+          <canvas id="chart_t1_20250706_bitrate_vmaf"></canvas>
         </div></div>
-        <input id="TAB-A01-B03" type="radio" name="TAB-B01" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A01-B03">quality(3)<br>bitrate - VMAF</label>
+        <input id="TAB-A01-B03" type="radio" name="TAB-B01" class="tab-switch" >
+        <label class="tab-label" for="TAB-A01-B03">encode speed<br>bitrate - fps</label>
         <div class="tab-content" id="resultTabA01-3"><div>
-          <canvas id="chart_t1_20250614_bitrate_vmaf"></canvas>
-        </div></div>
-        <input id="TAB-A01-B04" type="radio" name="TAB-B01" class="tab-switch" >
-        <label class="tab-label" for="TAB-A01-B04">encode speed<br>bitrate - fps</label>
-        <div class="tab-content" id="resultTabA01-4"><div>
-          <canvas id="chart_t1_20250614_bitrate_fps"></canvas>
+          <canvas id="chart_t1_20250706_bitrate_fps"></canvas>
         </div></div>
       </section>
 
@@ -237,22 +232,17 @@
         <input id="TAB-A02-B01" type="radio" name="TAB-B02" class="tab-switch">
         <label class="tab-label" for="TAB-A02-B01">quality(1)<br>bitrate - SSIM</label>
         <div class="tab-content" id="resultTabA02-1"><div>
-          <canvas id="chart_t1_20250614_vbr_bitrate_ssim"></canvas>
+          <canvas id="chart_t1_20250706_vbr_bitrate_ssim"></canvas>
         </div></div>
         <input id="TAB-A02-B02" type="radio" name="TAB-B02" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A02-B02">quality(2)<br>bitrate - MS-SSIM</label>
+        <label class="tab-label" for="TAB-A02-B02">quality(2)<br>bitrate - VMAF</label>
         <div class="tab-content" id="resultTabA02-2"><div>
-          <canvas id="chart_t1_20250614_vbr_bitrate_ms_ssim"></canvas>
+          <canvas id="chart_t1_20250706_vbr_bitrate_vmaf"></canvas>
         </div></div>
-        <input id="TAB-A02-B03" type="radio" name="TAB-B02" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A02-B03">quality(3)<br>bitrate - VMAF</label>
+        <input id="TAB-A02-B03" type="radio" name="TAB-B02" class="tab-switch" >
+        <label class="tab-label" for="TAB-A02-B03">encode speed<br>bitrate - fps</label>
         <div class="tab-content" id="resultTabA02-3"><div>
-          <canvas id="chart_t1_20250614_vbr_bitrate_vmaf"></canvas>
-        </div></div>
-        <input id="TAB-A02-B04" type="radio" name="TAB-B02" class="tab-switch" >
-        <label class="tab-label" for="TAB-A02-B04">encode speed<br>bitrate - fps</label>
-        <div class="tab-content" id="resultTabA02-4"><div>
-          <canvas id="chart_t1_20250614_vbr_bitrate_fps"></canvas>
+          <canvas id="chart_t1_20250706_vbr_bitrate_fps"></canvas>
         </div></div>
       </section>
 
@@ -270,22 +260,17 @@
         <input id="TAB-A03-B01" type="radio" name="TAB-B03" class="tab-switch">
         <label class="tab-label" for="TAB-A03-B01">quality(1)<br>bitrate - SSIM</label>
         <div class="tab-content" id="resultTabA03-1"><div>
-          <canvas id="chart_t2_20250614_bitrate_ssim"></canvas>
+          <canvas id="chart_t2_20250706_bitrate_ssim"></canvas>
         </div></div>
         <input id="TAB-A03-B02" type="radio" name="TAB-B03" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A03-B02">quality(2)<br>bitrate - MS-SSIM</label>
+        <label class="tab-label" for="TAB-A03-B02">quality(2)<br>bitrate - VMAF</label>
         <div class="tab-content" id="resultTabA03-2"><div>
-          <canvas id="chart_t2_20250614_bitrate_ms_ssim"></canvas>
+          <canvas id="chart_t2_20250706_bitrate_vmaf"></canvas>
         </div></div>
-        <input id="TAB-A03-B03" type="radio" name="TAB-B03" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A03-B03">quality(3)<br>bitrate - VMAF</label>
+        <input id="TAB-A03-B03" type="radio" name="TAB-B03" class="tab-switch" >
+        <label class="tab-label" for="TAB-A03-B03">encode speed<br>bitrate - fps</label>
         <div class="tab-content" id="resultTabA03-3"><div>
-          <canvas id="chart_t2_20250614_bitrate_vmaf"></canvas>
-        </div></div>
-        <input id="TAB-A03-B04" type="radio" name="TAB-B03" class="tab-switch" >
-        <label class="tab-label" for="TAB-A03-B04">encode speed<br>bitrate - fps</label>
-        <div class="tab-content" id="resultTabA03-4"><div>
-          <canvas id="chart_t2_20250614_bitrate_fps"></canvas>
+          <canvas id="chart_t2_20250706_bitrate_fps"></canvas>
         </div></div>
       </section>
 
@@ -303,22 +288,17 @@
         <input id="TAB-A04-B01" type="radio" name="TAB-B04" class="tab-switch">
         <label class="tab-label" for="TAB-A04-B01">quality(1)<br>bitrate - SSIM</label>
         <div class="tab-content" id="resultTabA04-1"><div>
-          <canvas id="chart_t2_20250614_vbr_bitrate_ssim"></canvas>
+          <canvas id="chart_t2_20250706_vbr_bitrate_ssim"></canvas>
         </div></div>
         <input id="TAB-A04-B02" type="radio" name="TAB-B04" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A04-B02">quality(2)<br>bitrate - MS-SSIM</label>
+        <label class="tab-label" for="TAB-A04-B02">quality(2)<br>bitrate - VMAF</label>
         <div class="tab-content" id="resultTabA04-2"><div>
-          <canvas id="chart_t2_20250614_vbr_bitrate_ms_ssim"></canvas>
+          <canvas id="chart_t2_20250706_vbr_bitrate_vmaf"></canvas>
         </div></div>
-        <input id="TAB-A04-B03" type="radio" name="TAB-B04" class="tab-switch" checked="checked">
-        <label class="tab-label" for="TAB-A04-B03">quality(3)<br>bitrate - VMAF</label>
+        <input id="TAB-A04-B03" type="radio" name="TAB-B04" class="tab-switch" >
+        <label class="tab-label" for="TAB-A04-B03">encode speed<br>bitrate - fps</label>
         <div class="tab-content" id="resultTabA04-3"><div>
-          <canvas id="chart_t2_20250614_vbr_bitrate_vmaf"></canvas>
-        </div></div>
-        <input id="TAB-A04-B04" type="radio" name="TAB-B04" class="tab-switch" >
-        <label class="tab-label" for="TAB-A04-B04">encode speed<br>bitrate - fps</label>
-        <div class="tab-content" id="resultTabA04-4"><div>
-          <canvas id="chart_t2_20250614_vbr_bitrate_fps"></canvas>
+          <canvas id="chart_t2_20250706_vbr_bitrate_fps"></canvas>
         </div></div>
       </section>
 

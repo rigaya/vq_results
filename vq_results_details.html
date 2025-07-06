@@ -7,7 +7,7 @@
   <link href="vq_results.css" rel="stylesheet" type="text/css">
   <link href="vq_results_tabs.css" rel="stylesheet" type="text/css">
   <link href="vq_results_toggle.css" rel="stylesheet" type="text/css">
-  <title>画質比較 (2025.05)</title>
+  <title>画質比較 (2025.07)</title>
   <script>
     window.onload = function() {
       const url = new URL(window.location.href);
@@ -31,8 +31,8 @@
 <div class="main_block">
   <div>
   <h1>
-    <p class="langChange" lang="ja">画質比較 (2025.05)</p>
-    <p class="langChange" lang="en">Video Qualities (2025.05)</p>
+    <p class="langChange" lang="ja">画質比較 (2025.07)</p>
+    <p class="langChange" lang="en">Video Qualities (2025.07)</p>
   </h1>
   <h2>
     言語切り替え / Switch Language
@@ -57,7 +57,7 @@
     <li>x264 r3095</li>
     <li>x265 4.1+54</li>
     <li>SVT-AV1 2.3.0-39</li>
-    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.76</li>
+    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.92</li>
     <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 7.77</li>
     <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 8.24</li>
   </ul>
@@ -114,9 +114,12 @@
       <div class=tableContainer>
       <table class=simpleBlue width=100%>
         <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--icq [x]</td></tr>
-        <tr>                     <td>VBR</td>           <td>--la [x] --fallback-rc</td></tr>
-        <tr><th colspan=2>Codec</th><td>-c h264,hevc,av1</td></tr>
-        <tr><th colspan=2>Preset</th><td>-u 1,4</td></tr>
+        <tr>                     <td>VBR</td>           <td>--vbr [x] --max-bitrate 60000</td></tr>
+        <tr><th rowspan=3>Codec</th><td>H.264</td><td>-c h264 --level 5.1</td></tr>
+        <tr>                      <td>HEVC</td><td>-c hevc --level 6 -b 8</td></tr>
+        <tr>                      <td>AV1</td><td>-c av1 --gop-ref-dist 8</td></tr>
+        <tr><th rowspan=2>Preset</th><td>quality</td><td>-b 8 --extbrc --mbbrc --scenario-info game_streaming --tune perceptual --i-adapt --b-adapt --b-pyramid --weightp --weightb --adapt-ref --adapt-ltr --adapt-cqm [[HEVC only] --la-depth 60 --la-quality slow]</td></tr>
+        <tr>                       <td>normal</td><td>-b 8</td></tr>
         <tr><th colspan=2>10bit</th><td>--output-depth 10</td></tr>
       </table>
       </div>
@@ -163,7 +166,7 @@
 <section>
     <div class="env-tab-wrap">
         <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" checked="checked" /><label
-            class="env-tab-label" for="TAB-01">i9 12900K / Arc A380 / RTX4080</label>
+            class="env-tab-label" for="TAB-01">i9 12900K / Arc B580 / RTX4080</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -216,7 +219,7 @@
                 </tr>
                 <tr>
                     <td>dGPU1</td>
-                    <td>GUNNIR Intel ARC A380 Photon 6G OC</td>
+                    <td>ASRock Intel Arc B580 Challenger 12GB OC</td>
                 </tr>
                 <tr>
                     <td>dGPU2</td>
@@ -256,12 +259,148 @@
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>NVIDIA 565.90<br>Intel 32.0.101.6325</td>
+                    <td>NVIDIA 565.90<br>Intel 32.0.101.6913</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-02" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
-            for="TAB-02">Ryzen9 9950X / RX7900XT / GTX950 / x264 / x265 / svtav1</label>
+        <input id="TAB-02" type="radio" name="TAB" class="env-tab-switch" /><label
+            class="env-tab-label" for="TAB-02">Core U7 258V</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ultra7 258V</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>4P+4E/8T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>18MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>12MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>4.8GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>LPDDR5 8533</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>32GB</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>92-80-80-180</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel Arc 140V</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>KIOXIA KXG80ZNV1T02 1TB PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>PC型番</td>
+                    <td>HP OmniBook Ultra Flip Laptop 14-fh</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 32.0.101.6913</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-03" type="radio" name="TAB" class="env-tab-switch" /><label
+            class="env-tab-label" for="TAB-03">Core U5 245K</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ultra5 245K</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>6P+8E/14T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>26MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>24MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>P 5.1GHz / E 4.5GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>Team TPBD564G6400HC52DC01</td>
+                </tr>
+                <tr>
+                    <td>メモリ速度</td>
+                    <td>DDR5-6400 @ 1.1V</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>32GBx2</td>
+                </tr>
+                <tr>
+                    <td>タイミング</td>
+                    <td>52-52-52-103</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel 4 Xe Core 1.9GHz</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>Plextor PX-256M6Pro 256GB</td>
+                </tr>
+                <tr>
+                    <td>SSD2</td>
+                    <td>Corsair MP510 1.92TB x2</td>
+                </tr>
+                <tr>
+                    <td>SSD3</td>
+                    <td>Sandisk SDSSDH3 4T00 4TB x3</td>
+                </tr>
+                <tr>
+                    <td>マザー</td>
+                    <td>ASUS PRIME Z890M-PLUS WIFI-CSM</td>
+                </tr>
+                <tr>
+                    <td>電源</td>
+                    <td>ケース付属</td>
+                </tr>
+                <tr>
+                    <td>ケース</td>
+                    <td>InWin IW-CE685/300P</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 24H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>Intel 32.0.101.6913</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-04">Ryzen9 9950X / RX7900XT / GTX950 / x264 / x265 / svtav1</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -338,8 +477,8 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-03" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
-            for="TAB-03">Ryzen9 7950X / Arc B580 / RTX 2070 / RX5500XT / RX550</label>
+        <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-05">Ryzen9 7950X / Arc B380 / Arc A310 / RTX 2070 / RX5500XT / RX550</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -376,7 +515,7 @@
                 </tr>
                 <tr>
                     <td>dGPU1</td>
-                    <td>ASRock Intel Arc B580 Challenger 12GB OC</td>
+                    <td>GUNNIR Intel ARC A380 Photon 6G OC</td>
                 </tr>
                 <tr>
                     <td>dGPU2</td>
@@ -389,6 +528,10 @@
                 <tr>
                     <td>dGPU4</td>
                     <td>玄人志向 RD-RX550-E4GB/LP</td>
+                </tr>
+                <tr>
+                    <td>dGPU5</td>
+                    <td>SPARKLE Intel Arc A310 ECO</td>
                 </tr>
                 <tr>
                     <td>SSD1</td>
@@ -416,11 +559,11 @@
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 32.0.101.6325 / NVIDIA 566.36 / AMD 24.12.1</td>
+                    <td>Intel 32.0.101.6913 / NVIDIA 566.36 / AMD 24.12.1</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-04">i7 11700K / GTX1080</label>
+        <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-06">i7 11700K / GTX1080</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -501,7 +644,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-05">i5 1035G7</label>
+        <input id="TAB-07" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-07">i5 1035G7</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -550,11 +693,11 @@
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 31.0.101.2134</td>
+                    <td>Intel 32.0.101.6913</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-06">i5 7500</label>
+        <input id="TAB-08" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-08">i5 7500</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -602,14 +745,6 @@
                     <td>SanDisk SDSSDXPS480G 480GB</td>
                 </tr>
                 <tr>
-                    <td>SSD2</td>
-                    <td>Corsair MP510 1.92TB x2</td>
-                </tr>
-                <tr>
-                    <td>SSD3</td>
-                    <td>Sandisk SDSSDH3 4T00 4TB x3</td>
-                </tr>
-                <tr>
                     <td>マザー</td>
                     <td>Asrock H270M Pro4</td>
                 </tr>
@@ -627,11 +762,11 @@
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 31.0.101.2121</td>
+                    <td>Intel 31.0.101.2135</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-07" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-07">i5 5500U</label>
+        <input id="TAB-09" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-09">i5 5500U</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -676,7 +811,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-08" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-08">i3 4170</label>
+        <input id="TAB-10" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-10">i3 4170</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -753,7 +888,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-09" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-09">i5 2410M</label>
+        <input id="TAB-11" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-11">i5 2410M</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -810,7 +945,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-10" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-10">R3 3200G</label>
+        <input id="TAB-12" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-12">R3 3200G</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -875,7 +1010,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-11" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-11">RX9070XT</label>
+        <input id="TAB-13" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-13">RX9070XT</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>

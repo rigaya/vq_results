@@ -24,9 +24,9 @@ function get_rule_for_checkbox(check_name) {
 
     const enabled_presets_cpu = [ "veryslow", "P4" ];
     const enabled_presets_gpu = [ "quality" ];
-    const enabled_devices_qsv = [ "Arc A380" ];
+    const enabled_devices_qsv = [ "Arc B580", "u7 258v", "u5 245k" ];
     const enabled_devices_nvenc = [ "rtx4080" ];
-    const enabled_devices_vce = [ "rx7900xt" ];
+    const enabled_devices_vce = [ "rx7900xt", "rx9070xt" ];
 
     presets = enabled_presets_gpu;
 
