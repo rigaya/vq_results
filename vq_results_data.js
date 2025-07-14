@@ -9,12 +9,12 @@ const data_1__bitrate_ssim__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6723.26, y: 0.998802 },
-          { x: 4297.34, y: 0.997666 },
-          { x: 2758.00, y: 0.995394 },
-          { x: 1789.04, y: 0.990914 },
-          { x: 1196.61, y: 0.982222 },
-          { x: 815.70, y: 0.965485 }
+          { x: 6723.02, y: 0.991451 },
+          { x: 4297.37, y: 0.987975 },
+          { x: 2757.99, y: 0.982558 },
+          { x: 1789.04, y: 0.974669 },
+          { x: 1196.61, y: 0.963768 },
+          { x: 815.68, y: 0.94876 }
     ]
 };
 
@@ -29,12 +29,12 @@ const data_1__bitrate_ssim__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 5864.37, y: 0.996148 },
-          { x: 3739.81, y: 0.995945 },
-          { x: 2417.55, y: 0.993998 },
-          { x: 1572.95, y: 0.989678 },
-          { x: 1061.48, y: 0.981334 },
-          { x: 735.36, y: 0.965874 }
+          { x: 5864.33, y: 0.990202 },
+          { x: 3739.86, y: 0.987074 },
+          { x: 2417.56, y: 0.981854 },
+          { x: 1572.94, y: 0.97408 },
+          { x: 1061.48, y: 0.963533 },
+          { x: 735.36, y: 0.949338 }
     ]
 };
 
@@ -49,13 +49,13 @@ const data_1__bitrate_ssim__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7952.01, y: 0.999089 },
-          { x: 4955.72, y: 0.998398 },
-          { x: 3091.93, y: 0.997164 },
-          { x: 1925.04, y: 0.994921 },
-          { x: 1192.35, y: 0.99074 },
-          { x: 744.75, y: 0.982982 },
-          { x: 465.87, y: 0.96916 }
+          { x: 7952.01, y: 0.993327 },
+          { x: 4955.72, y: 0.991265 },
+          { x: 3091.93, y: 0.988111 },
+          { x: 1925.04, y: 0.98328 },
+          { x: 1192.35, y: 0.976047 },
+          { x: 744.75, y: 0.965728 },
+          { x: 465.87, y: 0.951623 }
     ]
 };
 
@@ -70,13 +70,13 @@ const data_1__bitrate_ssim__x265_medium_10bit_crf = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7793.56, y: 0.999265 },
-          { x: 4866.57, y: 0.998649 },
-          { x: 3047.20, y: 0.997498 },
-          { x: 1896.93, y: 0.995309 },
-          { x: 1173.26, y: 0.991169 },
-          { x: 733.48, y: 0.983512 },
-          { x: 458.42, y: 0.969888 }
+          { x: 7793.56, y: 0.995672 },
+          { x: 4866.57, y: 0.993693 },
+          { x: 3047.20, y: 0.990536 },
+          { x: 1896.93, y: 0.985595 },
+          { x: 1173.26, y: 0.978275 },
+          { x: 733.48, y: 0.967893 },
+          { x: 458.42, y: 0.953709 }
     ]
 };
 
@@ -91,13 +91,13 @@ const data_1__bitrate_ssim__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 8064.40, y: 0.99936 },
-          { x: 4995.34, y: 0.998845 },
-          { x: 3142.57, y: 0.997942 },
-          { x: 1972.09, y: 0.99632 },
-          { x: 1225.19, y: 0.993344 },
-          { x: 753.09, y: 0.987973 },
-          { x: 449.37, y: 0.978557 }
+          { x: 8064.40, y: 0.994134 },
+          { x: 4995.34, y: 0.99239 },
+          { x: 3142.57, y: 0.989806 },
+          { x: 1972.09, y: 0.985876 },
+          { x: 1225.19, y: 0.980015 },
+          { x: 753.09, y: 0.971847 },
+          { x: 449.37, y: 0.960677 }
     ]
 };
 
@@ -112,18 +112,18 @@ const data_1__bitrate_ssim__x265_veryslow_10bit_crf = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 8056.42, y: 0.999455 },
-          { x: 5017.69, y: 0.998997 },
-          { x: 3165.74, y: 0.998164 },
-          { x: 1990.87, y: 0.996621 },
-          { x: 1241.85, y: 0.99375 },
-          { x: 763.69, y: 0.988499 },
-          { x: 454.11, y: 0.979374 }
+          { x: 8056.42, y: 0.996319 },
+          { x: 5017.69, y: 0.994701 },
+          { x: 3165.74, y: 0.992186 },
+          { x: 1990.87, y: 0.98825 },
+          { x: 1241.85, y: 0.982425 },
+          { x: 763.69, y: 0.974229 },
+          { x: 454.11, y: 0.963117 }
     ]
 };
 
-const data_1__bitrate_ssim__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_1__bitrate_ssim__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -133,18 +133,19 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 6365.60, y: 0.999025 },
-          { x: 5220.48, y: 0.998822 },
-          { x: 4398.78, y: 0.998604 },
-          { x: 3493.53, y: 0.998218 },
-          { x: 2751.10, y: 0.997712 },
-          { x: 2147.26, y: 0.997043 },
-          { x: 1673.62, y: 0.996175 }
+          { x: 5478.06, y: 0.993087 },
+          { x: 4148.40, y: 0.992176 },
+          { x: 2942.42, y: 0.990696 },
+          { x: 2014.13, y: 0.988606 },
+          { x: 1401.62, y: 0.986035 },
+          { x: 990.45, y: 0.982914 },
+          { x: 706.88, y: 0.978955 },
+          { x: 424.18, y: 0.971603 }
     ]
 };
 
-const data_1__bitrate_ssim__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_1__bitrate_ssim__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -154,18 +155,19 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6454.79, y: 0.999206 },
-          { x: 5180.47, y: 0.999 },
-          { x: 4312.63, y: 0.998783 },
-          { x: 3425.17, y: 0.998413 },
-          { x: 2707.60, y: 0.99792 },
-          { x: 2122.82, y: 0.997254 },
-          { x: 1661.80, y: 0.996424 }
+          { x: 5341.10, y: 0.995256 },
+          { x: 4022.48, y: 0.994337 },
+          { x: 2867.99, y: 0.992876 },
+          { x: 1975.41, y: 0.990811 },
+          { x: 1383.86, y: 0.988252 },
+          { x: 982.47, y: 0.98514 },
+          { x: 702.04, y: 0.981169 },
+          { x: 422.71, y: 0.973796 }
     ]
 };
 
-const data_1__bitrate_ssim__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_1__bitrate_ssim__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -173,20 +175,21 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 7091.96, y: 0.998943 },
-          { x: 5834.18, y: 0.99872 },
-          { x: 4938.35, y: 0.998493 },
-          { x: 3918.69, y: 0.998078 },
-          { x: 3064.90, y: 0.99751 },
-          { x: 2360.05, y: 0.996749 },
-          { x: 1816.27, y: 0.995823 }
+          { x: 5916.54, y: 0.992451 },
+          { x: 4493.54, y: 0.991416 },
+          { x: 3160.83, y: 0.989707 },
+          { x: 2151.25, y: 0.987294 },
+          { x: 1475.89, y: 0.984383 },
+          { x: 1021.34, y: 0.980957 },
+          { x: 720.62, y: 0.976576 },
+          { x: 428.51, y: 0.968615 }
     ]
 };
 
-const data_1__bitrate_ssim__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_1__bitrate_ssim__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -194,15 +197,60 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 7305.05, y: 0.999129 },
-          { x: 5871.19, y: 0.9989 },
-          { x: 4910.43, y: 0.998669 },
-          { x: 3888.38, y: 0.998266 },
-          { x: 3042.21, y: 0.997712 },
-          { x: 2345.65, y: 0.99697 },
-          { x: 1811.47, y: 0.996075 }
+          { x: 5970.42, y: 0.994758 },
+          { x: 4478.32, y: 0.993695 },
+          { x: 3143.77, y: 0.992002 },
+          { x: 2143.91, y: 0.98962 },
+          { x: 1473.04, y: 0.986747 },
+          { x: 1021.19, y: 0.983299 },
+          { x: 721.96, y: 0.978904 },
+          { x: 428.77, y: 0.970925 }
+    ]
+};
+
+const data_1__bitrate_ssim__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 7054.43, y: 0.99198 },
+          { x: 5277.89, y: 0.990813 },
+          { x: 3636.01, y: 0.988909 },
+          { x: 2425.47, y: 0.986068 },
+          { x: 1621.14, y: 0.982561 },
+          { x: 1088.96, y: 0.978366 },
+          { x: 737.81, y: 0.973031 },
+          { x: 420.72, y: 0.963038 }
+    ]
+};
+
+const data_1__bitrate_ssim__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 7214.90, y: 0.994464 },
+          { x: 5293.99, y: 0.993252 },
+          { x: 3635.44, y: 0.991316 },
+          { x: 2421.54, y: 0.988472 },
+          { x: 1618.52, y: 0.984954 },
+          { x: 1089.89, y: 0.980741 },
+          { x: 738.49, y: 0.97536 },
+          { x: 421.03, y: 0.965202 }
     ]
 };
 
@@ -214,15 +262,16 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7140.42, y: 0.998206 },
-          { x: 5965.97, y: 0.997871 },
-          { x: 4639.91, y: 0.99729 },
-          { x: 3544.62, y: 0.996497 },
-          { x: 2698.04, y: 0.995425 },
-          { x: 2029.74, y: 0.994053 }
+          { x: 6454.36, y: 0.987751 },
+          { x: 4419.92, y: 0.985404 },
+          { x: 2873.33, y: 0.981509 },
+          { x: 1841.54, y: 0.976668 },
+          { x: 1168.02, y: 0.970583 },
+          { x: 742.27, y: 0.962964 },
+          { x: 401.76, y: 0.94883 }
     ]
 };
 
@@ -234,15 +283,16 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7224.40, y: 0.998406 },
-          { x: 5974.01, y: 0.99808 },
-          { x: 4647.73, y: 0.997529 },
-          { x: 3536.82, y: 0.996725 },
-          { x: 2689.06, y: 0.995676 },
-          { x: 2028.23, y: 0.994283 }
+          { x: 6463.53, y: 0.990012 },
+          { x: 4436.40, y: 0.98746 },
+          { x: 2869.88, y: 0.98376 },
+          { x: 1841.40, y: 0.978869 },
+          { x: 1163.91, y: 0.972676 },
+          { x: 742.27, y: 0.964875 },
+          { x: 400.24, y: 0.950485 }
     ]
 };
 
@@ -1590,14 +1640,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 7405.71, y: 0.998643 },
-          { x: 4626.38, y: 0.997339 },
-          { x: 2891.10, y: 0.994989 },
-          { x: 1809.07, y: 0.990427 },
-          { x: 1170.24, y: 0.981605 }
+          { x: 7263.91, y: 0.99115 },
+          { x: 4517.29, y: 0.987527 },
+          { x: 2821.62, y: 0.982421 },
+          { x: 1780.11, y: 0.974942 },
+          { x: 1152.15, y: 0.963936 }
     ]
 };
 
@@ -1609,14 +1659,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7405.71, y: 0.998643 },
-          { x: 4626.38, y: 0.997339 },
-          { x: 2891.10, y: 0.994989 },
-          { x: 1809.07, y: 0.990427 },
-          { x: 1170.24, y: 0.981605 }
+          { x: 7263.91, y: 0.99115 },
+          { x: 4517.29, y: 0.987527 },
+          { x: 2821.62, y: 0.982421 },
+          { x: 1780.11, y: 0.974942 },
+          { x: 1152.15, y: 0.963936 }
     ]
 };
 
@@ -1628,14 +1678,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 6369.28, y: 0.998606 },
-          { x: 3932.50, y: 0.997548 },
-          { x: 2430.86, y: 0.995724 },
-          { x: 1530.74, y: 0.992482 },
-          { x: 978.52, y: 0.986757 }
+          { x: 6205.39, y: 0.991404 },
+          { x: 3842.28, y: 0.988481 },
+          { x: 2381.17, y: 0.984285 },
+          { x: 1503.87, y: 0.97839 },
+          { x: 961.72, y: 0.970027 }
     ]
 };
 
@@ -1647,14 +1697,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6369.28, y: 0.998606 },
-          { x: 3932.50, y: 0.997548 },
-          { x: 2430.86, y: 0.995724 },
-          { x: 1530.74, y: 0.992482 },
-          { x: 978.52, y: 0.986757 }
+          { x: 6205.39, y: 0.991404 },
+          { x: 3842.28, y: 0.988481 },
+          { x: 2381.17, y: 0.984285 },
+          { x: 1503.87, y: 0.97839 },
+          { x: 961.72, y: 0.970027 }
     ]
 };
 
@@ -1666,14 +1716,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6335.11, y: 0.998759 },
-          { x: 3922.08, y: 0.99775 },
-          { x: 2418.53, y: 0.99599 },
-          { x: 1519.14, y: 0.992803 },
-          { x: 965.84, y: 0.987087 }
+          { x: 6184.09, y: 0.993796 },
+          { x: 3841.47, y: 0.990941 },
+          { x: 2372.44, y: 0.986714 },
+          { x: 1490.48, y: 0.980796 },
+          { x: 948.63, y: 0.972357 }
     ]
 };
 
@@ -1685,14 +1735,14 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6335.11, y: 0.998759 },
-          { x: 3922.08, y: 0.99775 },
-          { x: 2418.53, y: 0.99599 },
-          { x: 1519.14, y: 0.992803 },
-          { x: 965.84, y: 0.987087 }
+          { x: 6184.09, y: 0.993796 },
+          { x: 3841.47, y: 0.990941 },
+          { x: 2372.44, y: 0.986714 },
+          { x: 1490.48, y: 0.980796 },
+          { x: 948.63, y: 0.972357 }
     ]
 };
 
@@ -1704,15 +1754,13 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6637.16, y: 0.998651 },
-          { x: 4584.36, y: 0.997951 },
-          { x: 3204.05, y: 0.99688 },
-          { x: 2266.87, y: 0.995282 },
-          { x: 1499.15, y: 0.992144 },
-          { x: 932.27, y: 0.985544 }
+          { x: 6706.90, y: 0.99158 },
+          { x: 4617.56, y: 0.989593 },
+          { x: 3225.40, y: 0.986998 },
+          { x: 2296.71, y: 0.983664 }
     ]
 };
 
@@ -1724,15 +1772,13 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6637.16, y: 0.998651 },
-          { x: 4584.36, y: 0.997951 },
-          { x: 3204.05, y: 0.99688 },
-          { x: 2266.87, y: 0.995282 },
-          { x: 1499.15, y: 0.992144 },
-          { x: 932.27, y: 0.985544 }
+          { x: 6706.90, y: 0.99158 },
+          { x: 4617.56, y: 0.989593 },
+          { x: 3225.40, y: 0.986998 },
+          { x: 2296.71, y: 0.983664 }
     ]
 };
 
@@ -1744,15 +1790,13 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6401.70, y: 0.998776 },
-          { x: 4419.70, y: 0.998115 },
-          { x: 3123.03, y: 0.997081 },
-          { x: 2225.33, y: 0.995488 },
-          { x: 1492.52, y: 0.992421 },
-          { x: 928.04, y: 0.985721 }
+          { x: 6381.80, y: 0.993929 },
+          { x: 4458.97, y: 0.991971 },
+          { x: 3160.17, y: 0.989424 },
+          { x: 2256.18, y: 0.986024 }
     ]
 };
 
@@ -1764,15 +1808,13 @@ const data_1__bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6401.70, y: 0.998776 },
-          { x: 4419.70, y: 0.998115 },
-          { x: 3123.03, y: 0.997081 },
-          { x: 2225.33, y: 0.995488 },
-          { x: 1492.52, y: 0.992421 },
-          { x: 928.04, y: 0.985721 }
+          { x: 6381.80, y: 0.993929 },
+          { x: 4458.97, y: 0.991971 },
+          { x: 3160.17, y: 0.989424 },
+          { x: 2256.18, y: 0.986024 }
     ]
 };
 
@@ -1784,14 +1826,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 7398.66, y: 0.998648 },
-          { x: 4619.87, y: 0.997338 },
-          { x: 2888.26, y: 0.994986 },
-          { x: 1810.53, y: 0.990426 },
-          { x: 1173.20, y: 0.981575 }
+          { x: 7255.85, y: 0.991158 },
+          { x: 4514.82, y: 0.987522 },
+          { x: 2820.76, y: 0.982394 },
+          { x: 1779.74, y: 0.974844 },
+          { x: 1155.52, y: 0.963754 }
     ]
 };
 
@@ -1803,14 +1845,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7398.66, y: 0.998648 },
-          { x: 4619.87, y: 0.997338 },
-          { x: 2888.26, y: 0.994986 },
-          { x: 1810.53, y: 0.990426 },
-          { x: 1173.20, y: 0.981575 }
+          { x: 7255.85, y: 0.991158 },
+          { x: 4514.82, y: 0.987522 },
+          { x: 2820.76, y: 0.982394 },
+          { x: 1779.74, y: 0.974844 },
+          { x: 1155.52, y: 0.963754 }
     ]
 };
 
@@ -1822,14 +1864,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 6363.67, y: 0.998607 },
-          { x: 3929.63, y: 0.997544 },
-          { x: 2432.29, y: 0.99573 },
-          { x: 1533.77, y: 0.992482 },
-          { x: 980.71, y: 0.986726 }
+          { x: 6198.14, y: 0.991402 },
+          { x: 3837.09, y: 0.98847 },
+          { x: 2380.38, y: 0.984239 },
+          { x: 1504.66, y: 0.978339 },
+          { x: 964.17, y: 0.969927 }
     ]
 };
 
@@ -1841,14 +1883,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6363.67, y: 0.998607 },
-          { x: 3929.63, y: 0.997544 },
-          { x: 2432.29, y: 0.99573 },
-          { x: 1533.77, y: 0.992482 },
-          { x: 980.71, y: 0.986726 }
+          { x: 6198.14, y: 0.991402 },
+          { x: 3837.09, y: 0.98847 },
+          { x: 2380.38, y: 0.984239 },
+          { x: 1504.66, y: 0.978339 },
+          { x: 964.17, y: 0.969927 }
     ]
 };
 
@@ -1860,14 +1902,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6330.47, y: 0.998759 },
-          { x: 3921.38, y: 0.99775 },
-          { x: 2418.53, y: 0.995985 },
-          { x: 1519.73, y: 0.992807 },
-          { x: 969.27, y: 0.987083 }
+          { x: 6180.86, y: 0.993793 },
+          { x: 3835.72, y: 0.99092 },
+          { x: 2370.04, y: 0.986688 },
+          { x: 1492.63, y: 0.980744 },
+          { x: 952.28, y: 0.972227 }
     ]
 };
 
@@ -1879,14 +1921,14 @@ const data_1__bitrate_ssim_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6330.47, y: 0.998759 },
-          { x: 3921.38, y: 0.99775 },
-          { x: 2418.53, y: 0.995985 },
-          { x: 1519.73, y: 0.992807 },
-          { x: 969.27, y: 0.987083 }
+          { x: 6180.86, y: 0.993793 },
+          { x: 3835.72, y: 0.99092 },
+          { x: 2370.04, y: 0.986688 },
+          { x: 1492.63, y: 0.980744 },
+          { x: 952.28, y: 0.972227 }
     ]
 };
 
@@ -1898,14 +1940,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 7906.51, y: 0.99851 },
-          { x: 5009.43, y: 0.997119 },
-          { x: 3142.98, y: 0.994499 },
-          { x: 2009.98, y: 0.98949 },
-          { x: 1303.04, y: 0.979551 }
+          { x: 7687.05, y: 0.990818 },
+          { x: 4851.95, y: 0.987245 },
+          { x: 3052.23, y: 0.98214 },
+          { x: 1966.09, y: 0.974709 },
+          { x: 1278.78, y: 0.963645 }
     ]
 };
 
@@ -1917,14 +1959,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7906.51, y: 0.99851 },
-          { x: 5009.43, y: 0.997119 },
-          { x: 3142.98, y: 0.994499 },
-          { x: 2009.98, y: 0.98949 },
-          { x: 1303.04, y: 0.979551 }
+          { x: 7687.05, y: 0.990818 },
+          { x: 4851.95, y: 0.987245 },
+          { x: 3052.23, y: 0.98214 },
+          { x: 1966.09, y: 0.974709 },
+          { x: 1278.78, y: 0.963645 }
     ]
 };
 
@@ -1936,14 +1978,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7903.18, y: 0.998609 },
-          { x: 4887.37, y: 0.99751 },
-          { x: 3006.13, y: 0.99563 },
-          { x: 1869.05, y: 0.992385 },
-          { x: 1171.73, y: 0.986683 }
+          { x: 7985.88, y: 0.991289 },
+          { x: 4972.29, y: 0.98828 },
+          { x: 3050.59, y: 0.983932 },
+          { x: 1898.21, y: 0.977899 },
+          { x: 1186.32, y: 0.969407 }
     ]
 };
 
@@ -1955,14 +1997,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7903.18, y: 0.998609 },
-          { x: 4887.37, y: 0.99751 },
-          { x: 3006.13, y: 0.99563 },
-          { x: 1869.05, y: 0.992385 },
-          { x: 1171.73, y: 0.986683 }
+          { x: 7985.63, y: 0.9913 },
+          { x: 4964.83, y: 0.988259 },
+          { x: 3050.46, y: 0.983945 },
+          { x: 1899.36, y: 0.977898 },
+          { x: 1186.38, y: 0.969418 }
     ]
 };
 
@@ -1974,14 +2016,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 7448.74, y: 0.998584 },
-          { x: 4611.80, y: 0.997363 },
-          { x: 2827.00, y: 0.995138 },
-          { x: 1769.29, y: 0.991076 },
-          { x: 1105.97, y: 0.983544 }
+          { x: 7546.52, y: 0.993172 },
+          { x: 4661.91, y: 0.98987 },
+          { x: 2869.11, y: 0.985107 },
+          { x: 1793.07, y: 0.978182 },
+          { x: 1121.27, y: 0.96808 }
     ]
 };
 
@@ -1993,14 +2035,14 @@ const data_1__bitrate_ssim_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7448.74, y: 0.998584 },
-          { x: 4612.42, y: 0.997364 },
-          { x: 2827.00, y: 0.995138 },
-          { x: 1769.29, y: 0.991076 },
-          { x: 1105.97, y: 0.983544 }
+          { x: 7549.64, y: 0.993183 },
+          { x: 4663.96, y: 0.989874 },
+          { x: 2870.01, y: 0.98511 },
+          { x: 1793.83, y: 0.978181 },
+          { x: 1117.68, y: 0.860319 }
     ]
 };
 
@@ -2012,14 +2054,14 @@ const data_1__bitrate_ssim_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 7904.97, y: 0.998511 },
-          { x: 5007.80, y: 0.997123 },
-          { x: 3149.23, y: 0.994522 },
-          { x: 2011.67, y: 0.989498 },
-          { x: 1303.15, y: 0.979571 }
+          { x: 7904.97, y: 0.990906 },
+          { x: 5007.80, y: 0.98736 },
+          { x: 3149.23, y: 0.982183 },
+          { x: 2011.67, y: 0.974749 },
+          { x: 1303.15, y: 0.963641 }
     ]
 };
 
@@ -2031,14 +2073,14 @@ const data_1__bitrate_ssim_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7904.97, y: 0.998511 },
-          { x: 5007.80, y: 0.997123 },
-          { x: 3149.23, y: 0.994522 },
-          { x: 2011.67, y: 0.989498 },
-          { x: 1303.15, y: 0.979571 }
+          { x: 7904.97, y: 0.990906 },
+          { x: 5007.80, y: 0.98736 },
+          { x: 3149.23, y: 0.982183 },
+          { x: 2011.67, y: 0.974749 },
+          { x: 1303.15, y: 0.963641 }
     ]
 };
 
@@ -2050,14 +2092,14 @@ const data_1__bitrate_ssim_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7975.41, y: 0.998564 },
-          { x: 4928.05, y: 0.997428 },
-          { x: 3024.11, y: 0.995481 },
-          { x: 1888.56, y: 0.992218 },
-          { x: 1178.32, y: 0.986401 }
+          { x: 7975.41, y: 0.990639 },
+          { x: 4928.05, y: 0.987416 },
+          { x: 3024.11, y: 0.982895 },
+          { x: 1888.56, y: 0.976907 },
+          { x: 1178.32, y: 0.968245 }
     ]
 };
 
@@ -2069,14 +2111,14 @@ const data_1__bitrate_ssim_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7975.41, y: 0.998564 },
-          { x: 4928.05, y: 0.997428 },
-          { x: 3024.11, y: 0.995481 },
-          { x: 1888.56, y: 0.992218 },
-          { x: 1178.32, y: 0.986401 }
+          { x: 7975.41, y: 0.990639 },
+          { x: 4928.05, y: 0.987416 },
+          { x: 3024.11, y: 0.982895 },
+          { x: 1888.56, y: 0.976907 },
+          { x: 1178.32, y: 0.968245 }
     ]
 };
 
@@ -2088,16 +2130,14 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
-          { x: 2310.36, y: 0.989984 },
-          { x: 2839.31, y: 0.992841 },
-          { x: 3562.48, y: 0.994705 },
-          { x: 4447.24, y: 0.996213 },
-          { x: 5287.80, y: 0.997133 },
-          { x: 6320.24, y: 0.997724 },
-          { x: 7108.83, y: 0.998132 }
+          { x: 2099.17, y: 0.968277 },
+          { x: 2839.32, y: 0.975778 },
+          { x: 3952.62, y: 0.980618 },
+          { x: 5287.82, y: 0.985128 },
+          { x: 6727.12, y: 0.987707 }
     ]
 };
 
@@ -2109,16 +2149,14 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.22, y: 0.989805 },
-          { x: 2876.54, y: 0.992709 },
-          { x: 3606.19, y: 0.994597 },
-          { x: 4502.61, y: 0.996133 },
-          { x: 5361.50, y: 0.997078 },
-          { x: 6396.19, y: 0.997678 },
-          { x: 7198.57, y: 0.998099 }
+          { x: 2128.85, y: 0.967768 },
+          { x: 2876.54, y: 0.975369 },
+          { x: 4001.75, y: 0.980246 },
+          { x: 5361.49, y: 0.984852 },
+          { x: 6815.57, y: 0.987491 }
     ]
 };
 
@@ -2130,16 +2168,16 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
-          { x: 1780.48, y: 0.993237 },
-          { x: 2199.88, y: 0.994887 },
-          { x: 2704.70, y: 0.996088 },
-          { x: 3224.10, y: 0.996861 },
-          { x: 3739.93, y: 0.997385 },
-          { x: 4379.31, y: 0.997884 },
-          { x: 5064.02, y: 0.998234 }
+          { x: 1601.19, y: 0.973816 },
+          { x: 2200.50, y: 0.979198 },
+          { x: 2961.45, y: 0.983051 },
+          { x: 3740.04, y: 0.98588 },
+          { x: 4693.66, y: 0.987924 },
+          { x: 5826.99, y: 0.989697 },
+          { x: 7062.88, y: 0.990881 }
     ]
 };
 
@@ -2151,16 +2189,16 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1787.72, y: 0.993224 },
-          { x: 2208.30, y: 0.994873 },
-          { x: 2714.27, y: 0.99608 },
-          { x: 3235.64, y: 0.996856 },
-          { x: 3753.56, y: 0.997381 },
-          { x: 4396.02, y: 0.997878 },
-          { x: 5087.14, y: 0.99823 }
+          { x: 1607.29, y: 0.973761 },
+          { x: 2208.37, y: 0.979144 },
+          { x: 2970.57, y: 0.983005 },
+          { x: 3754.08, y: 0.985841 },
+          { x: 4713.34, y: 0.98789 },
+          { x: 5855.47, y: 0.989669 },
+          { x: 7097.85, y: 0.990854 }
     ]
 };
 
@@ -2172,16 +2210,16 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
-          { x: 1846.90, y: 0.994392 },
-          { x: 2324.83, y: 0.995863 },
-          { x: 2947.59, y: 0.996981 },
-          { x: 3613.60, y: 0.997691 },
-          { x: 4265.40, y: 0.99813 },
-          { x: 5011.65, y: 0.998486 },
-          { x: 5866.71, y: 0.998753 }
+          { x: 1646.50, y: 0.976206 },
+          { x: 2324.22, y: 0.981559 },
+          { x: 3298.41, y: 0.985838 },
+          { x: 4264.79, y: 0.988154 },
+          { x: 5476.38, y: 0.990266 },
+          { x: 6798.48, y: 0.991443 },
+          { x: 8131.83, y: 0.992349 }
     ]
 };
 
@@ -2193,184 +2231,95 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1954.18, y: 0.994316 },
-          { x: 2464.34, y: 0.995806 },
-          { x: 3129.23, y: 0.996948 },
-          { x: 3837.39, y: 0.997665 },
-          { x: 4534.00, y: 0.998111 },
-          { x: 5324.84, y: 0.99847 },
-          { x: 6222.99, y: 0.998735 }
-    ]
-};
-
-const data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 1, 140, 0.9)',
-    
-    data: [
-          { x: 2398.26, y: 0.990975 },
-          { x: 2935.62, y: 0.993647 },
-          { x: 3661.42, y: 0.995388 },
-          { x: 4518.15, y: 0.996712 },
-          { x: 5372.39, y: 0.997517 },
-          { x: 6371.12, y: 0.998074 },
-          { x: 7215.96, y: 0.998447 }
-    ]
-};
-
-const data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2450.96, y: 0.990746 },
-          { x: 2993.03, y: 0.993493 },
-          { x: 3721.15, y: 0.995266 },
-          { x: 4584.66, y: 0.996617 },
-          { x: 5454.23, y: 0.997447 },
-          { x: 6438.07, y: 0.998007 },
-          { x: 7301.61, y: 0.998394 }
-    ]
-};
-
-const data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
-    
-    data: [
-          { x: 1617.19, y: 0.991508 },
-          { x: 2021.25, y: 0.993537 },
-          { x: 2525.83, y: 0.995074 },
-          { x: 3013.89, y: 0.996008 },
-          { x: 3519.49, y: 0.996667 },
-          { x: 4105.69, y: 0.99724 },
-          { x: 4770.54, y: 0.997682 }
-    ]
-};
-
-const data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1737.44, y: 0.991489 },
-          { x: 2143.40, y: 0.993519 },
-          { x: 2651.06, y: 0.995091 },
-          { x: 3143.25, y: 0.996025 },
-          { x: 3645.89, y: 0.996677 },
-          { x: 4236.89, y: 0.997258 },
-          { x: 4903.76, y: 0.997697 }
+          { x: 1740.35, y: 0.97521 },
+          { x: 2463.71, y: 0.980833 },
+          { x: 3506.99, y: 0.985337 },
+          { x: 4533.75, y: 0.987751 },
+          { x: 5836.73, y: 0.989969 },
+          { x: 7199.78, y: 0.991177 }
     ]
 };
 
 const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_quality = {
     label: "r9 9950x igpu VCE H.264 quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 2310.32, y: 0.989984 },
-          { x: 2839.27, y: 0.992841 },
-          { x: 3562.43, y: 0.994704 },
-          { x: 4447.17, y: 0.996213 },
-          { x: 5287.73, y: 0.997133 },
-          { x: 6320.17, y: 0.997724 },
-          { x: 7108.74, y: 0.998132 }
+          { x: 2099.13, y: 0.968276 },
+          { x: 2839.27, y: 0.975778 },
+          { x: 3952.57, y: 0.980618 },
+          { x: 5287.73, y: 0.985128 },
+          { x: 6727.04, y: 0.987707 }
     ]
 };
 
 const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_normal = {
     label: "r9 9950x igpu VCE H.264 normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.20, y: 0.989804 },
-          { x: 2876.75, y: 0.992709 },
-          { x: 3606.26, y: 0.994596 },
-          { x: 4502.41, y: 0.996133 },
-          { x: 5361.44, y: 0.997078 },
-          { x: 6396.33, y: 0.997678 },
-          { x: 7198.58, y: 0.998099 }
+          { x: 2128.90, y: 0.967763 },
+          { x: 2876.70, y: 0.975367 },
+          { x: 4001.79, y: 0.980247 },
+          { x: 5361.47, y: 0.984852 },
+          { x: 6815.59, y: 0.98749 }
     ]
 };
 
 const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_quality = {
     label: "r9 9950x igpu VCE HEVC quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 158, 181, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1584.46, y: 0.991311 },
-          { x: 2071.68, y: 0.993785 },
-          { x: 2593.05, y: 0.995339 },
-          { x: 3107.55, y: 0.99634 },
-          { x: 3665.11, y: 0.997023 },
-          { x: 4359.45, y: 0.997637 },
-          { x: 5093.53, y: 0.998084 }
+          { x: 1435.68, y: 0.970342 },
+          { x: 2071.68, y: 0.97689 },
+          { x: 2868.36, y: 0.981515 },
+          { x: 3665.11, y: 0.984843 },
+          { x: 4680.84, y: 0.987254 },
+          { x: 5902.39, y: 0.9894 },
+          { x: 7131.12, y: 0.99072 }
     ]
 };
 
 const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_normal = {
     label: "r9 9950x igpu VCE HEVC normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1607.85, y: 0.991294 },
-          { x: 2098.54, y: 0.993768 },
-          { x: 2622.52, y: 0.995327 },
-          { x: 3137.78, y: 0.996326 },
-          { x: 3694.49, y: 0.997011 },
-          { x: 4383.32, y: 0.997626 },
-          { x: 5108.19, y: 0.998072 }
+          { x: 1458.47, y: 0.970301 },
+          { x: 2098.54, y: 0.976847 },
+          { x: 2897.47, y: 0.981458 },
+          { x: 3694.49, y: 0.984788 },
+          { x: 4702.23, y: 0.987198 },
+          { x: 5905.20, y: 0.989339 },
+          { x: 7128.42, y: 0.990662 }
     ]
 };
 
@@ -2385,12 +2334,12 @@ const data_1__bitrate_vmaf__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6723.26, y: 97.982675 },
-          { x: 4297.34, y: 96.348598 },
-          { x: 2758.00, y: 92.901989 },
-          { x: 1789.04, y: 86.641654 },
-          { x: 1196.61, y: 76.816868 },
-          { x: 815.70, y: 63.575232 }
+          { x: 6723.02, y: 98.400651 },
+          { x: 4297.37, y: 96.971211 },
+          { x: 2757.99, y: 93.726825 },
+          { x: 1789.04, y: 87.514863 },
+          { x: 1196.61, y: 77.690071 },
+          { x: 815.68, y: 64.413015 }
     ]
 };
 
@@ -2405,12 +2354,12 @@ const data_1__bitrate_vmaf__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 5864.37, y: 97.698715 },
-          { x: 3739.81, y: 96.210102 },
-          { x: 2417.55, y: 93.007998 },
-          { x: 1572.95, y: 86.951785 },
-          { x: 1061.48, y: 77.489864 },
-          { x: 735.36, y: 64.854591 }
+          { x: 5864.33, y: 98.162272 },
+          { x: 3739.86, y: 96.84309 },
+          { x: 2417.56, y: 93.794848 },
+          { x: 1572.94, y: 87.766279 },
+          { x: 1061.48, y: 78.311774 },
+          { x: 735.36, y: 65.638765 }
     ]
 };
 
@@ -2425,13 +2374,13 @@ const data_1__bitrate_vmaf__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7952.01, y: 98.642661 },
-          { x: 4955.72, y: 97.985327 },
-          { x: 3091.93, y: 96.625592 },
-          { x: 1925.04, y: 93.850177 },
-          { x: 1192.35, y: 88.706724 },
-          { x: 744.75, y: 80.457433 },
-          { x: 465.87, y: 68.571043 }
+          { x: 7952.01, y: 98.866608 },
+          { x: 4955.72, y: 98.407048 },
+          { x: 3091.93, y: 97.251787 },
+          { x: 1925.04, y: 94.665871 },
+          { x: 1192.35, y: 89.600381 },
+          { x: 744.75, y: 81.364138 },
+          { x: 465.87, y: 69.432405 }
     ]
 };
 
@@ -2467,13 +2416,13 @@ const data_1__bitrate_vmaf__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 8064.40, y: 98.95547 },
-          { x: 4995.34, y: 98.597265 },
-          { x: 3142.57, y: 97.850987 },
-          { x: 1972.09, y: 96.239122 },
-          { x: 1225.19, y: 92.869013 },
-          { x: 753.09, y: 86.943181 },
-          { x: 449.37, y: 77.494858 }
+          { x: 8064.40, y: 99.083026 },
+          { x: 4995.34, y: 98.838461 },
+          { x: 3142.57, y: 98.3045 },
+          { x: 1972.09, y: 96.898564 },
+          { x: 1225.19, y: 93.700136 },
+          { x: 753.09, y: 87.811054 },
+          { x: 449.37, y: 78.357715 }
     ]
 };
 
@@ -2498,8 +2447,8 @@ const data_1__bitrate_vmaf__x265_veryslow_10bit_crf = {
     ]
 };
 
-const data_1__bitrate_vmaf__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_1__bitrate_vmaf__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -2509,18 +2458,19 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 6365.60, y: 98.769302 },
-          { x: 5220.48, y: 98.625346 },
-          { x: 4398.78, y: 98.471383 },
-          { x: 3493.53, y: 98.169461 },
-          { x: 2751.10, y: 97.733287 },
-          { x: 2147.26, y: 97.098659 },
-          { x: 1673.62, y: 96.23246 }
+          { x: 5478.06, y: 98.776878 },
+          { x: 4148.40, y: 98.592573 },
+          { x: 2942.42, y: 98.206228 },
+          { x: 2014.13, y: 97.421535 },
+          { x: 1401.62, y: 96.101343 },
+          { x: 990.45, y: 94.029132 },
+          { x: 706.88, y: 90.908518 },
+          { x: 424.18, y: 84.661789 }
     ]
 };
 
-const data_1__bitrate_vmaf__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_1__bitrate_vmaf__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -2530,18 +2480,19 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6454.79, y: 98.838312 },
-          { x: 5180.47, y: 98.691489 },
-          { x: 4312.63, y: 98.533283 },
-          { x: 3425.17, y: 98.233401 },
-          { x: 2707.60, y: 97.794676 },
-          { x: 2122.82, y: 97.159494 },
-          { x: 1661.80, y: 96.29596 }
+          { x: 5341.10, y: 98.759618 },
+          { x: 4022.48, y: 98.526637 },
+          { x: 2867.99, y: 98.056069 },
+          { x: 1975.41, y: 97.152577 },
+          { x: 1383.86, y: 95.699957 },
+          { x: 982.47, y: 93.481511 },
+          { x: 702.04, y: 90.257954 },
+          { x: 422.71, y: 83.925812 }
     ]
 };
 
-const data_1__bitrate_vmaf__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_1__bitrate_vmaf__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -2549,20 +2500,21 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 7091.96, y: 98.666193 },
-          { x: 5834.18, y: 98.513933 },
-          { x: 4938.35, y: 98.344609 },
-          { x: 3918.69, y: 98.007677 },
-          { x: 3064.90, y: 97.484154 },
-          { x: 2360.05, y: 96.75381 },
-          { x: 1816.27, y: 95.780668 }
+          { x: 5916.54, y: 98.691757 },
+          { x: 4493.54, y: 98.473091 },
+          { x: 3160.83, y: 97.981478 },
+          { x: 2151.25, y: 96.987726 },
+          { x: 1475.89, y: 95.43184 },
+          { x: 1021.34, y: 93.043402 },
+          { x: 720.62, y: 89.540986 },
+          { x: 428.51, y: 82.686421 }
     ]
 };
 
-const data_1__bitrate_vmaf__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_1__bitrate_vmaf__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -2570,15 +2522,60 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 7305.05, y: 98.742915 },
-          { x: 5871.19, y: 98.574036 },
-          { x: 4910.43, y: 98.395707 },
-          { x: 3888.38, y: 98.056104 },
-          { x: 3042.21, y: 97.529684 },
-          { x: 2345.65, y: 96.799764 },
-          { x: 1811.47, y: 95.852993 }
+          { x: 5970.42, y: 98.618366 },
+          { x: 4478.32, y: 98.325207 },
+          { x: 3143.77, y: 97.721755 },
+          { x: 2143.91, y: 96.603978 },
+          { x: 1473.04, y: 94.930479 },
+          { x: 1021.19, y: 92.414874 },
+          { x: 721.96, y: 88.837257 },
+          { x: 428.77, y: 81.887212 }
+    ]
+};
+
+const data_1__bitrate_vmaf__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 7054.43, y: 98.574432 },
+          { x: 5277.89, y: 98.307453 },
+          { x: 3636.01, y: 97.709341 },
+          { x: 2425.47, y: 96.476384 },
+          { x: 1621.14, y: 94.561221 },
+          { x: 1088.96, y: 91.635671 },
+          { x: 737.81, y: 87.365002 },
+          { x: 420.72, y: 78.677939 }
+    ]
+};
+
+const data_1__bitrate_vmaf__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 7214.90, y: 98.499441 },
+          { x: 5293.99, y: 98.154112 },
+          { x: 3635.44, y: 97.430581 },
+          { x: 2421.54, y: 96.060438 },
+          { x: 1618.52, y: 94.018732 },
+          { x: 1089.89, y: 90.956924 },
+          { x: 738.49, y: 86.573644 },
+          { x: 421.03, y: 77.662164 }
     ]
 };
 
@@ -2590,15 +2587,16 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7140.42, y: 97.955225 },
-          { x: 5965.97, y: 97.669412 },
-          { x: 4639.91, y: 97.074766 },
-          { x: 3544.62, y: 96.212635 },
-          { x: 2698.04, y: 95.008917 },
-          { x: 2029.74, y: 93.464477 }
+          { x: 6454.36, y: 97.504717 },
+          { x: 4419.92, y: 96.357998 },
+          { x: 2873.33, y: 94.377275 },
+          { x: 1841.54, y: 91.271157 },
+          { x: 1168.02, y: 86.770676 },
+          { x: 742.27, y: 80.627174 },
+          { x: 401.76, y: 69.530495 }
     ]
 };
 
@@ -2610,15 +2608,16 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7224.40, y: 97.961837 },
-          { x: 5974.01, y: 97.664879 },
-          { x: 4647.73, y: 97.055146 },
-          { x: 3536.82, y: 96.173321 },
-          { x: 2689.06, y: 94.994577 },
-          { x: 2028.23, y: 93.399696 }
+          { x: 6463.53, y: 97.16096 },
+          { x: 4436.40, y: 95.963462 },
+          { x: 2869.88, y: 93.862519 },
+          { x: 1841.40, y: 90.642291 },
+          { x: 1163.91, y: 85.941899 },
+          { x: 742.27, y: 79.673229 },
+          { x: 400.24, y: 68.300541 }
     ]
 };
 
@@ -3966,14 +3965,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 7405.71, y: 98.515194 },
-          { x: 4626.38, y: 97.322863 },
-          { x: 2891.10, y: 94.64983 },
-          { x: 1809.07, y: 89.401486 },
-          { x: 1170.24, y: 80.684502 }
+          { x: 7263.91, y: 98.770486 },
+          { x: 4517.29, y: 97.803164 },
+          { x: 2821.62, y: 95.252685 },
+          { x: 1780.11, y: 90.119184 },
+          { x: 1152.15, y: 81.554124 }
     ]
 };
 
@@ -3985,14 +3984,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7405.71, y: 98.515194 },
-          { x: 4626.38, y: 97.322863 },
-          { x: 2891.10, y: 94.64983 },
-          { x: 1809.07, y: 89.401486 },
-          { x: 1170.24, y: 80.684502 }
+          { x: 7263.91, y: 98.770486 },
+          { x: 4517.29, y: 97.803164 },
+          { x: 2821.62, y: 95.252685 },
+          { x: 1780.11, y: 90.119184 },
+          { x: 1152.15, y: 81.554124 }
     ]
 };
 
@@ -4004,14 +4003,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 6369.28, y: 98.455533 },
-          { x: 3932.50, y: 97.516733 },
-          { x: 2430.86, y: 95.466007 },
-          { x: 1530.74, y: 91.42533 },
-          { x: 978.52, y: 84.751379 }
+          { x: 6205.39, y: 98.722119 },
+          { x: 3842.28, y: 97.988011 },
+          { x: 2381.17, y: 96.117425 },
+          { x: 1503.87, y: 92.214023 },
+          { x: 961.72, y: 85.690337 }
     ]
 };
 
@@ -4023,14 +4022,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6369.28, y: 98.455533 },
-          { x: 3932.50, y: 97.516733 },
-          { x: 2430.86, y: 95.466007 },
-          { x: 1530.74, y: 91.42533 },
-          { x: 978.52, y: 84.751379 }
+          { x: 6205.39, y: 98.722119 },
+          { x: 3842.28, y: 97.988011 },
+          { x: 2381.17, y: 96.117425 },
+          { x: 1503.87, y: 92.214023 },
+          { x: 961.72, y: 85.690337 }
     ]
 };
 
@@ -4042,14 +4041,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6335.11, y: 98.526949 },
-          { x: 3922.08, y: 97.616007 },
-          { x: 2418.53, y: 95.621128 },
-          { x: 1519.14, y: 91.628422 },
-          { x: 965.84, y: 84.887671 }
+          { x: 6184.09, y: 98.500115 },
+          { x: 3841.47, y: 97.585397 },
+          { x: 2372.44, y: 95.539217 },
+          { x: 1490.48, y: 91.541222 },
+          { x: 948.63, y: 84.940743 }
     ]
 };
 
@@ -4061,14 +4060,14 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6335.11, y: 98.526949 },
-          { x: 3922.08, y: 97.616007 },
-          { x: 2418.53, y: 95.621128 },
-          { x: 1519.14, y: 91.628422 },
-          { x: 965.84, y: 84.887671 }
+          { x: 6184.09, y: 98.500115 },
+          { x: 3841.47, y: 97.585397 },
+          { x: 2372.44, y: 95.539217 },
+          { x: 1490.48, y: 91.541222 },
+          { x: 948.63, y: 84.940743 }
     ]
 };
 
@@ -4080,15 +4079,13 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6637.16, y: 98.607313 },
-          { x: 4584.36, y: 98.081238 },
-          { x: 3204.05, y: 97.120915 },
-          { x: 2266.87, y: 95.414117 },
-          { x: 1499.15, y: 91.776889 },
-          { x: 932.27, y: 84.599578 }
+          { x: 6706.90, y: 98.816655 },
+          { x: 4617.56, y: 98.446582 },
+          { x: 3225.40, y: 97.653617 },
+          { x: 2296.71, y: 96.180374 }
     ]
 };
 
@@ -4100,15 +4097,13 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6637.16, y: 98.607313 },
-          { x: 4584.36, y: 98.081238 },
-          { x: 3204.05, y: 97.120915 },
-          { x: 2266.87, y: 95.414117 },
-          { x: 1499.15, y: 91.776889 },
-          { x: 932.27, y: 84.599578 }
+          { x: 6706.90, y: 98.816655 },
+          { x: 4617.56, y: 98.446582 },
+          { x: 3225.40, y: 97.653617 },
+          { x: 2296.71, y: 96.180374 }
     ]
 };
 
@@ -4120,15 +4115,13 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6401.70, y: 98.62252 },
-          { x: 4419.70, y: 98.089899 },
-          { x: 3123.03, y: 97.136537 },
-          { x: 2225.33, y: 95.389656 },
-          { x: 1492.52, y: 91.810392 },
-          { x: 928.04, y: 84.578483 }
+          { x: 6381.80, y: 98.620739 },
+          { x: 4458.97, y: 98.093344 },
+          { x: 3160.17, y: 97.158176 },
+          { x: 2256.18, y: 95.466691 }
     ]
 };
 
@@ -4140,15 +4133,13 @@ const data_1__bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6401.70, y: 98.62252 },
-          { x: 4419.70, y: 98.089899 },
-          { x: 3123.03, y: 97.136537 },
-          { x: 2225.33, y: 95.389656 },
-          { x: 1492.52, y: 91.810392 },
-          { x: 928.04, y: 84.578483 }
+          { x: 6381.80, y: 98.620739 },
+          { x: 4458.97, y: 98.093344 },
+          { x: 3160.17, y: 97.158176 },
+          { x: 2256.18, y: 95.466691 }
     ]
 };
 
@@ -4160,14 +4151,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 7398.66, y: 98.521736 },
-          { x: 4619.87, y: 97.31934 },
-          { x: 2888.26, y: 94.621651 },
-          { x: 1810.53, y: 89.388259 },
-          { x: 1173.20, y: 80.647865 }
+          { x: 7255.85, y: 98.767938 },
+          { x: 4514.82, y: 97.798723 },
+          { x: 2820.76, y: 95.245104 },
+          { x: 1779.74, y: 90.094732 },
+          { x: 1155.52, y: 81.533027 }
     ]
 };
 
@@ -4179,14 +4170,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7398.66, y: 98.521736 },
-          { x: 4619.87, y: 97.31934 },
-          { x: 2888.26, y: 94.621651 },
-          { x: 1810.53, y: 89.388259 },
-          { x: 1173.20, y: 80.647865 }
+          { x: 7255.85, y: 98.767938 },
+          { x: 4514.82, y: 97.798723 },
+          { x: 2820.76, y: 95.245104 },
+          { x: 1779.74, y: 90.094732 },
+          { x: 1155.52, y: 81.533027 }
     ]
 };
 
@@ -4198,14 +4189,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 6363.67, y: 98.457234 },
-          { x: 3929.63, y: 97.51054 },
-          { x: 2432.29, y: 95.469157 },
-          { x: 1533.77, y: 91.437665 },
-          { x: 980.71, y: 84.720415 }
+          { x: 6198.14, y: 98.719487 },
+          { x: 3837.09, y: 97.990345 },
+          { x: 2380.38, y: 96.115918 },
+          { x: 1504.66, y: 92.208415 },
+          { x: 964.17, y: 85.649643 }
     ]
 };
 
@@ -4217,14 +4208,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6363.67, y: 98.457234 },
-          { x: 3929.63, y: 97.51054 },
-          { x: 2432.29, y: 95.469157 },
-          { x: 1533.77, y: 91.437665 },
-          { x: 980.71, y: 84.720415 }
+          { x: 6198.14, y: 98.719487 },
+          { x: 3837.09, y: 97.990345 },
+          { x: 2380.38, y: 96.115918 },
+          { x: 1504.66, y: 92.208415 },
+          { x: 964.17, y: 85.649643 }
     ]
 };
 
@@ -4236,14 +4227,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6330.47, y: 98.529778 },
-          { x: 3921.38, y: 97.621824 },
-          { x: 2418.53, y: 95.613127 },
-          { x: 1519.73, y: 91.609808 },
-          { x: 969.27, y: 84.903307 }
+          { x: 6180.86, y: 98.503025 },
+          { x: 3835.72, y: 97.580888 },
+          { x: 2370.04, y: 95.530681 },
+          { x: 1492.63, y: 91.522696 },
+          { x: 952.28, y: 84.917417 }
     ]
 };
 
@@ -4255,14 +4246,14 @@ const data_1__bitrate_vmaf_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6330.47, y: 98.529778 },
-          { x: 3921.38, y: 97.621824 },
-          { x: 2418.53, y: 95.613127 },
-          { x: 1519.73, y: 91.609808 },
-          { x: 969.27, y: 84.903307 }
+          { x: 6180.86, y: 98.503025 },
+          { x: 3835.72, y: 97.580888 },
+          { x: 2370.04, y: 95.530681 },
+          { x: 1492.63, y: 91.522696 },
+          { x: 952.28, y: 84.917417 }
     ]
 };
 
@@ -4274,14 +4265,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 7906.51, y: 98.446733 },
-          { x: 5009.43, y: 97.18115 },
-          { x: 3142.98, y: 94.26626 },
-          { x: 2009.98, y: 88.824509 },
-          { x: 1303.04, y: 79.8561 }
+          { x: 7687.05, y: 98.701987 },
+          { x: 4851.95, y: 97.621588 },
+          { x: 3052.23, y: 94.855968 },
+          { x: 1966.09, y: 89.478832 },
+          { x: 1278.78, y: 80.657377 }
     ]
 };
 
@@ -4293,14 +4284,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7906.51, y: 98.446733 },
-          { x: 5009.43, y: 97.18115 },
-          { x: 3142.98, y: 94.26626 },
-          { x: 2009.98, y: 88.824509 },
-          { x: 1303.04, y: 79.8561 }
+          { x: 7687.05, y: 98.701987 },
+          { x: 4851.95, y: 97.621588 },
+          { x: 3052.23, y: 94.855968 },
+          { x: 1966.09, y: 89.478832 },
+          { x: 1278.78, y: 80.657377 }
     ]
 };
 
@@ -4312,14 +4303,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7903.18, y: 98.545028 },
-          { x: 4887.37, y: 97.637305 },
-          { x: 3006.13, y: 95.58806 },
-          { x: 1869.05, y: 91.722305 },
-          { x: 1171.73, y: 85.314847 }
+          { x: 7985.88, y: 98.778411 },
+          { x: 4972.29, y: 98.153654 },
+          { x: 3050.59, y: 96.388926 },
+          { x: 1898.21, y: 92.736274 },
+          { x: 1186.32, y: 86.477581 }
     ]
 };
 
@@ -4331,14 +4322,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7903.18, y: 98.545028 },
-          { x: 4887.37, y: 97.637305 },
-          { x: 3006.13, y: 95.58806 },
-          { x: 1869.05, y: 91.722305 },
-          { x: 1171.73, y: 85.314847 }
+          { x: 7985.63, y: 98.77663 },
+          { x: 4964.83, y: 98.140548 },
+          { x: 3050.46, y: 96.389199 },
+          { x: 1899.36, y: 92.718063 },
+          { x: 1186.38, y: 86.509338 }
     ]
 };
 
@@ -4350,14 +4341,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 7448.74, y: 98.466112 },
-          { x: 4611.80, y: 97.35807 },
-          { x: 2827.00, y: 94.789775 },
-          { x: 1769.29, y: 90.023466 },
-          { x: 1105.97, y: 82.044477 }
+          { x: 7546.52, y: 98.460257 },
+          { x: 4661.91, y: 97.370062 },
+          { x: 2869.11, y: 94.877988 },
+          { x: 1793.07, y: 90.181278 },
+          { x: 1121.27, y: 82.465682 }
     ]
 };
 
@@ -4369,14 +4360,14 @@ const data_1__bitrate_vmaf_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7448.74, y: 98.466112 },
-          { x: 4612.42, y: 97.360463 },
-          { x: 2827.00, y: 94.789775 },
-          { x: 1769.29, y: 90.023466 },
-          { x: 1105.97, y: 82.044477 }
+          { x: 7549.64, y: 98.463232 },
+          { x: 4663.96, y: 97.36926 },
+          { x: 2870.01, y: 94.877376 },
+          { x: 1793.83, y: 90.204031 },
+          { x: 1117.68, y: 54.629465 }
     ]
 };
 
@@ -4388,14 +4379,14 @@ const data_1__bitrate_vmaf_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 7904.97, y: 98.445338 },
-          { x: 5007.80, y: 97.185485 },
-          { x: 3149.23, y: 94.279926 },
-          { x: 2011.67, y: 88.797403 },
-          { x: 1303.15, y: 79.82932 }
+          { x: 7904.97, y: 98.751808 },
+          { x: 5007.80, y: 97.758265 },
+          { x: 3149.23, y: 95.077881 },
+          { x: 2011.67, y: 89.693864 },
+          { x: 1303.15, y: 80.755038 }
     ]
 };
 
@@ -4407,14 +4398,14 @@ const data_1__bitrate_vmaf_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7904.97, y: 98.445338 },
-          { x: 5007.80, y: 97.185485 },
-          { x: 3149.23, y: 94.279926 },
-          { x: 2011.67, y: 88.797403 },
-          { x: 1303.15, y: 79.82932 }
+          { x: 7904.97, y: 98.751808 },
+          { x: 5007.80, y: 97.758265 },
+          { x: 3149.23, y: 95.077881 },
+          { x: 2011.67, y: 89.693864 },
+          { x: 1303.15, y: 80.755038 }
     ]
 };
 
@@ -4426,14 +4417,14 @@ const data_1__bitrate_vmaf_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7975.41, y: 98.646007 },
-          { x: 4928.05, y: 97.807326 },
-          { x: 3024.11, y: 95.819543 },
-          { x: 1888.56, y: 92.010774 },
-          { x: 1178.32, y: 85.456988 }
+          { x: 7975.41, y: 98.852458 },
+          { x: 4928.05, y: 98.260431 },
+          { x: 3024.11, y: 96.524918 },
+          { x: 1888.56, y: 92.843011 },
+          { x: 1178.32, y: 86.335419 }
     ]
 };
 
@@ -4445,14 +4436,14 @@ const data_1__bitrate_vmaf_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7975.41, y: 98.646007 },
-          { x: 4928.05, y: 97.807326 },
-          { x: 3024.11, y: 95.819543 },
-          { x: 1888.56, y: 92.010774 },
-          { x: 1178.32, y: 85.456988 }
+          { x: 7975.41, y: 98.852458 },
+          { x: 4928.05, y: 98.260431 },
+          { x: 3024.11, y: 96.524918 },
+          { x: 1888.56, y: 92.843011 },
+          { x: 1178.32, y: 86.335419 }
     ]
 };
 
@@ -4464,16 +4455,14 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
-          { x: 2310.36, y: 77.869198 },
-          { x: 2839.31, y: 82.521034 },
-          { x: 3562.48, y: 85.94326 },
-          { x: 4447.24, y: 89.361233 },
-          { x: 5287.80, y: 92.067251 },
-          { x: 6320.24, y: 93.576772 },
-          { x: 7108.83, y: 94.905856 }
+          { x: 2099.17, y: 75.953568 },
+          { x: 2839.32, y: 83.333391 },
+          { x: 3952.62, y: 88.226304 },
+          { x: 5287.82, y: 92.778559 },
+          { x: 6727.12, y: 95.291542 }
     ]
 };
 
@@ -4485,16 +4474,14 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.22, y: 77.33854 },
-          { x: 2876.54, y: 82.045727 },
-          { x: 3606.19, y: 85.484524 },
-          { x: 4502.61, y: 88.99466 },
-          { x: 5361.50, y: 91.776205 },
-          { x: 6396.19, y: 93.349643 },
-          { x: 7198.57, y: 94.725088 }
+          { x: 2128.85, y: 75.342127 },
+          { x: 2876.54, y: 82.856928 },
+          { x: 4001.75, y: 87.845284 },
+          { x: 5361.49, y: 92.494313 },
+          { x: 6815.57, y: 95.106374 }
     ]
 };
 
@@ -4506,16 +4493,16 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
-          { x: 1780.48, y: 87.686352 },
-          { x: 2199.88, y: 90.412994 },
-          { x: 2704.70, y: 92.465456 },
-          { x: 3224.10, y: 94.204987 },
-          { x: 3739.93, y: 95.268284 },
-          { x: 4379.31, y: 96.170692 },
-          { x: 5064.02, y: 96.953277 }
+          { x: 1601.19, y: 86.862022 },
+          { x: 2200.50, y: 91.018099 },
+          { x: 2961.45, y: 93.848705 },
+          { x: 3740.04, y: 95.821477 },
+          { x: 4693.66, y: 97.007738 },
+          { x: 5826.99, y: 97.828375 },
+          { x: 7062.88, y: 98.165819 }
     ]
 };
 
@@ -4527,16 +4514,16 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1787.72, y: 87.6145 },
-          { x: 2208.30, y: 90.355432 },
-          { x: 2714.27, y: 92.434166 },
-          { x: 3235.64, y: 94.182447 },
-          { x: 3753.56, y: 95.248312 },
-          { x: 4396.02, y: 96.152531 },
-          { x: 5087.14, y: 96.941583 }
+          { x: 1607.29, y: 86.809837 },
+          { x: 2208.37, y: 90.977978 },
+          { x: 2970.57, y: 93.815029 },
+          { x: 3754.08, y: 95.803002 },
+          { x: 4713.34, y: 96.989052 },
+          { x: 5855.47, y: 97.819162 },
+          { x: 7097.85, y: 98.161911 }
     ]
 };
 
@@ -4548,16 +4535,16 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
-          { x: 1846.90, y: 90.265405 },
-          { x: 2324.83, y: 92.620798 },
-          { x: 2947.59, y: 94.535324 },
-          { x: 3613.60, y: 95.72599 },
-          { x: 4265.40, y: 96.610001 },
-          { x: 5011.65, y: 97.251649 },
-          { x: 5866.71, y: 97.705083 }
+          { x: 1646.50, y: 89.474495 },
+          { x: 2324.22, y: 93.225888 },
+          { x: 3298.41, y: 95.838608 },
+          { x: 4264.79, y: 97.048862 },
+          { x: 5476.38, y: 97.952001 },
+          { x: 6798.48, y: 98.3229 },
+          { x: 8131.83, y: 98.521797 }
     ]
 };
 
@@ -4569,184 +4556,95 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1954.18, y: 89.79774 },
-          { x: 2464.34, y: 92.256241 },
-          { x: 3129.23, y: 94.272353 },
-          { x: 3837.39, y: 95.515552 },
-          { x: 4534.00, y: 96.452772 },
-          { x: 5324.84, y: 97.130679 },
-          { x: 6222.99, y: 97.613485 }
-    ]
-};
-
-const data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 1, 140, 0.9)',
-    
-    data: [
-          { x: 2398.26, y: 79.788753 },
-          { x: 2935.62, y: 84.262629 },
-          { x: 3661.42, y: 87.460779 },
-          { x: 4518.15, y: 90.540328 },
-          { x: 5372.39, y: 93.033669 },
-          { x: 6371.12, y: 94.382037 },
-          { x: 7215.96, y: 95.576979 }
-    ]
-};
-
-const data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2450.96, y: 79.18064 },
-          { x: 2993.03, y: 83.74479 },
-          { x: 3721.15, y: 86.985374 },
-          { x: 4584.66, y: 90.182508 },
-          { x: 5454.23, y: 92.745322 },
-          { x: 6438.07, y: 94.174558 },
-          { x: 7301.61, y: 95.395193 }
-    ]
-};
-
-const data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
-    
-    data: [
-          { x: 1617.19, y: 84.419503 },
-          { x: 2021.25, y: 87.687869 },
-          { x: 2525.83, y: 90.187168 },
-          { x: 3013.89, y: 92.288756 },
-          { x: 3519.49, y: 93.647575 },
-          { x: 4105.69, y: 94.811251 },
-          { x: 4770.54, y: 95.812025 }
-    ]
-};
-
-const data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1737.44, y: 84.322695 },
-          { x: 2143.40, y: 87.593208 },
-          { x: 2651.06, y: 90.15449 },
-          { x: 3143.25, y: 92.261494 },
-          { x: 3645.89, y: 93.615821 },
-          { x: 4236.89, y: 94.786748 },
-          { x: 4903.76, y: 95.803231 }
+          { x: 1740.35, y: 88.941802 },
+          { x: 2463.71, y: 92.853796 },
+          { x: 3506.99, y: 95.637805 },
+          { x: 4533.75, y: 96.906479 },
+          { x: 5836.73, y: 97.867376 },
+          { x: 7199.78, y: 98.264414 }
     ]
 };
 
 const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_quality = {
     label: "r9 9950x igpu VCE H.264 quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 2310.32, y: 77.868241 },
-          { x: 2839.27, y: 82.520401 },
-          { x: 3562.43, y: 85.942614 },
-          { x: 4447.17, y: 89.360638 },
-          { x: 5287.73, y: 92.066441 },
-          { x: 6320.17, y: 93.576516 },
-          { x: 7108.74, y: 94.905372 }
+          { x: 2099.13, y: 75.952801 },
+          { x: 2839.27, y: 83.332803 },
+          { x: 3952.57, y: 88.225553 },
+          { x: 5287.73, y: 92.778189 },
+          { x: 6727.04, y: 95.291304 }
     ]
 };
 
 const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_normal = {
     label: "r9 9950x igpu VCE H.264 normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.20, y: 77.33797 },
-          { x: 2876.75, y: 82.045342 },
-          { x: 3606.26, y: 85.484004 },
-          { x: 4502.41, y: 88.994331 },
-          { x: 5361.44, y: 91.775657 },
-          { x: 6396.33, y: 93.349449 },
-          { x: 7198.58, y: 94.724393 }
+          { x: 2128.90, y: 75.337674 },
+          { x: 2876.70, y: 82.855925 },
+          { x: 4001.79, y: 87.844316 },
+          { x: 5361.47, y: 92.494184 },
+          { x: 6815.59, y: 95.106101 }
     ]
 };
 
 const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_quality = {
     label: "r9 9950x igpu VCE HEVC quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 158, 181, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1584.46, y: 84.304665 },
-          { x: 2071.68, y: 87.913668 },
-          { x: 2593.05, y: 90.530551 },
-          { x: 3107.55, y: 92.73681 },
-          { x: 3665.11, y: 94.146115 },
-          { x: 4359.45, y: 95.330184 },
-          { x: 5093.53, y: 96.404355 }
+          { x: 1435.68, y: 83.287429 },
+          { x: 2071.68, y: 88.564622 },
+          { x: 2868.36, y: 92.172656 },
+          { x: 3665.11, y: 94.738515 },
+          { x: 4680.84, y: 96.365107 },
+          { x: 5902.39, y: 97.531788 },
+          { x: 7131.12, y: 98.005411 }
     ]
 };
 
 const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_normal = {
     label: "r9 9950x igpu VCE HEVC normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1607.85, y: 84.26948 },
-          { x: 2098.54, y: 87.88582 },
-          { x: 2622.52, y: 90.485603 },
-          { x: 3137.78, y: 92.700816 },
-          { x: 3694.49, y: 94.115772 },
-          { x: 4383.32, y: 95.314962 },
-          { x: 5108.19, y: 96.391538 }
+          { x: 1458.47, y: 83.222347 },
+          { x: 2098.54, y: 88.531494 },
+          { x: 2897.47, y: 92.1365 },
+          { x: 3694.49, y: 94.703759 },
+          { x: 4702.23, y: 96.352113 },
+          { x: 5905.20, y: 97.517576 },
+          { x: 7128.42, y: 97.988866 }
     ]
 };
 
@@ -4761,12 +4659,12 @@ const data_1__bitrate_fps__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6723.26, y: 231.55 },
-          { x: 4297.34, y: 259.11 },
-          { x: 2758.00, y: 284.54 },
-          { x: 1789.04, y: 305.47 },
-          { x: 1196.61, y: 312.68 },
-          { x: 815.70, y: 330.37 }
+          { x: 6723.02, y: 229.37 },
+          { x: 4297.37, y: 258.37 },
+          { x: 2757.99, y: 280.94 },
+          { x: 1789.04, y: 302.95 },
+          { x: 1196.61, y: 313.63 },
+          { x: 815.68, y: 332.29 }
     ]
 };
 
@@ -4781,12 +4679,12 @@ const data_1__bitrate_fps__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 5864.37, y: 30.86 },
-          { x: 3739.81, y: 34.74 },
-          { x: 2417.55, y: 38.26 },
-          { x: 1572.95, y: 41.72 },
-          { x: 1061.48, y: 44.76 },
-          { x: 735.36, y: 47.77 }
+          { x: 5864.33, y: 35.52 },
+          { x: 3739.86, y: 40.06 },
+          { x: 2417.56, y: 44.34 },
+          { x: 1572.94, y: 48.03 },
+          { x: 1061.48, y: 51.62 },
+          { x: 735.36, y: 55.07 }
     ]
 };
 
@@ -4801,13 +4699,13 @@ const data_1__bitrate_fps__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7952.01, y: 93.90 },
-          { x: 4955.72, y: 104.79 },
-          { x: 3091.93, y: 114.44 },
-          { x: 1925.04, y: 124.35 },
-          { x: 1192.35, y: 134.33 },
-          { x: 744.75, y: 140.53 },
-          { x: 465.87, y: 149.59 }
+          { x: 7952.01, y: 83.68 },
+          { x: 4955.72, y: 93.36 },
+          { x: 3091.93, y: 103.96 },
+          { x: 1925.04, y: 112.41 },
+          { x: 1192.35, y: 120.42 },
+          { x: 744.75, y: 128.31 },
+          { x: 465.87, y: 135.22 }
     ]
 };
 
@@ -4822,13 +4720,13 @@ const data_1__bitrate_fps__x265_medium_10bit_crf = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7793.56, y: 75.47 },
-          { x: 4866.57, y: 83.38 },
-          { x: 3047.20, y: 91.09 },
-          { x: 1896.93, y: 98.03 },
-          { x: 1173.26, y: 104.77 },
-          { x: 733.48, y: 108.53 },
-          { x: 458.42, y: 114.87 }
+          { x: 7793.56, y: 67.09 },
+          { x: 4866.57, y: 75.15 },
+          { x: 3047.20, y: 81.96 },
+          { x: 1896.93, y: 80.04 },
+          { x: 1173.26, y: 75.09 },
+          { x: 733.48, y: 92.38 },
+          { x: 458.42, y: 96.89 }
     ]
 };
 
@@ -4843,13 +4741,13 @@ const data_1__bitrate_fps__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 8064.40, y: 4.76 },
-          { x: 4995.34, y: 5.69 },
-          { x: 3142.57, y: 6.70 },
-          { x: 1972.09, y: 7.90 },
-          { x: 1225.19, y: 9.39 },
-          { x: 753.09, y: 11.26 },
-          { x: 449.37, y: 13.72 }
+          { x: 8064.40, y: 3.89 },
+          { x: 4995.34, y: 4.62 },
+          { x: 3142.57, y: 5.38 },
+          { x: 1972.09, y: 6.44 },
+          { x: 1225.19, y: 8.06 },
+          { x: 753.09, y: 9.60 },
+          { x: 449.37, y: 11.60 }
     ]
 };
 
@@ -4864,18 +4762,18 @@ const data_1__bitrate_fps__x265_veryslow_10bit_crf = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 8056.42, y: 3.79 },
-          { x: 5017.69, y: 4.44 },
-          { x: 3165.74, y: 5.16 },
-          { x: 1990.87, y: 6.01 },
-          { x: 1241.85, y: 7.03 },
-          { x: 763.69, y: 8.28 },
-          { x: 454.11, y: 9.87 }
+          { x: 8056.42, y: 3.19 },
+          { x: 5017.69, y: 3.71 },
+          { x: 3165.74, y: 4.31 },
+          { x: 1990.87, y: 5.02 },
+          { x: 1241.85, y: 5.88 },
+          { x: 763.69, y: 6.93 },
+          { x: 454.11, y: 8.30 }
     ]
 };
 
-const data_1__bitrate_fps__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_1__bitrate_fps__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -4885,18 +4783,19 @@ const data_1__bitrate_fps__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 6365.60, y: 46.689 },
-          { x: 5220.48, y: 48.017 },
-          { x: 4398.78, y: 47.846 },
-          { x: 3493.53, y: 49.109 },
-          { x: 2751.10, y: 51.114 },
-          { x: 2147.26, y: 51.296 },
-          { x: 1673.62, y: 51.561 }
+          { x: 5478.06, y: 29.116 },
+          { x: 4148.40, y: 29.896 },
+          { x: 2942.42, y: 31.632 },
+          { x: 2014.13, y: 32.821 },
+          { x: 1401.62, y: 33.711 },
+          { x: 990.45, y: 34.733 },
+          { x: 706.88, y: 36.130 },
+          { x: 424.18, y: 27.389 }
     ]
 };
 
-const data_1__bitrate_fps__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_1__bitrate_fps__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -4906,18 +4805,19 @@ const data_1__bitrate_fps__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6454.79, y: 33.756 },
-          { x: 5180.47, y: 35.186 },
-          { x: 4312.63, y: 35.445 },
-          { x: 3425.17, y: 36.847 },
-          { x: 2707.60, y: 39.009 },
-          { x: 2122.82, y: 40.248 },
-          { x: 1661.80, y: 40.978 }
+          { x: 5341.10, y: 25.266 },
+          { x: 4022.48, y: 25.454 },
+          { x: 2867.99, y: 27.023 },
+          { x: 1975.41, y: 28.315 },
+          { x: 1383.86, y: 28.967 },
+          { x: 982.47, y: 29.483 },
+          { x: 702.04, y: 30.550 },
+          { x: 422.71, y: 22.948 }
     ]
 };
 
-const data_1__bitrate_fps__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_1__bitrate_fps__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -4925,20 +4825,21 @@ const data_1__bitrate_fps__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 7091.96, y: 111.493 },
-          { x: 5834.18, y: 114.388 },
-          { x: 4938.35, y: 116.190 },
-          { x: 3918.69, y: 117.766 },
-          { x: 3064.90, y: 123.318 },
-          { x: 2360.05, y: 127.284 },
-          { x: 1816.27, y: 123.700 }
+          { x: 5916.54, y: 101.660 },
+          { x: 4493.54, y: 104.706 },
+          { x: 3160.83, y: 109.784 },
+          { x: 2151.25, y: 114.973 },
+          { x: 1475.89, y: 119.373 },
+          { x: 1021.34, y: 118.774 },
+          { x: 720.62, y: 121.129 },
+          { x: 428.51, y: 81.572 }
     ]
 };
 
-const data_1__bitrate_fps__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_1__bitrate_fps__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -4946,15 +4847,60 @@ const data_1__bitrate_fps__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 7305.05, y: 95.067 },
-          { x: 5871.19, y: 97.448 },
-          { x: 4910.43, y: 97.698 },
-          { x: 3888.38, y: 99.376 },
-          { x: 3042.21, y: 103.532 },
-          { x: 2345.65, y: 105.893 },
-          { x: 1811.47, y: 103.855 }
+          { x: 5970.42, y: 85.505 },
+          { x: 4478.32, y: 88.187 },
+          { x: 3143.77, y: 90.516 },
+          { x: 2143.91, y: 95.513 },
+          { x: 1473.04, y: 98.315 },
+          { x: 1021.19, y: 98.284 },
+          { x: 721.96, y: 100.730 },
+          { x: 428.77, y: 71.920 }
+    ]
+};
+
+const data_1__bitrate_fps__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 7054.43, y: 179.949 },
+          { x: 5277.89, y: 187.205 },
+          { x: 3636.01, y: 193.511 },
+          { x: 2425.47, y: 202.338 },
+          { x: 1621.14, y: 206.191 },
+          { x: 1088.96, y: 211.979 },
+          { x: 737.81, y: 216.037 },
+          { x: 420.72, y: 222.245 }
+    ]
+};
+
+const data_1__bitrate_fps__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 7214.90, y: 136.347 },
+          { x: 5293.99, y: 139.090 },
+          { x: 3635.44, y: 141.946 },
+          { x: 2421.54, y: 146.484 },
+          { x: 1618.52, y: 149.619 },
+          { x: 1089.89, y: 150.927 },
+          { x: 738.49, y: 153.547 },
+          { x: 421.03, y: 156.427 }
     ]
 };
 
@@ -4966,15 +4912,16 @@ const data_1__bitrate_fps__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7140.42, y: 275.262 },
-          { x: 5965.97, y: 270.437 },
-          { x: 4639.91, y: 285.344 },
-          { x: 3544.62, y: 300.824 },
-          { x: 2698.04, y: 317.101 },
-          { x: 2029.74, y: 323.099 }
+          { x: 6454.36, y: 366.179 },
+          { x: 4419.92, y: 385.074 },
+          { x: 2873.33, y: 399.375 },
+          { x: 1841.54, y: 407.009 },
+          { x: 1168.02, y: 410.725 },
+          { x: 742.27, y: 413.597 },
+          { x: 401.76, y: 409.987 }
     ]
 };
 
@@ -4986,15 +4933,16 @@ const data_1__bitrate_fps__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7224.40, y: 199.332 },
-          { x: 5974.01, y: 199.146 },
-          { x: 4647.73, y: 201.724 },
-          { x: 3536.82, y: 204.122 },
-          { x: 2689.06, y: 204.908 },
-          { x: 2028.23, y: 205.541 }
+          { x: 6463.53, y: 231.307 },
+          { x: 4436.40, y: 232.943 },
+          { x: 2869.88, y: 237.269 },
+          { x: 1841.40, y: 239.045 },
+          { x: 1163.91, y: 239.493 },
+          { x: 742.27, y: 242.475 },
+          { x: 400.24, y: 245.910 }
     ]
 };
 
@@ -6342,14 +6290,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 7405.71, y: 206.12 },
-          { x: 4626.38, y: 206.44 },
-          { x: 2891.10, y: 206.61 },
-          { x: 1809.07, y: 203.82 },
-          { x: 1170.24, y: 203.87 }
+          { x: 7263.91, y: 200.80 },
+          { x: 4517.29, y: 201.32 },
+          { x: 2821.62, y: 202.24 },
+          { x: 1780.11, y: 196.51 },
+          { x: 1152.15, y: 196.29 }
     ]
 };
 
@@ -6361,14 +6309,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7405.71, y: 205.51 },
-          { x: 4626.38, y: 206.38 },
-          { x: 2891.10, y: 206.32 },
-          { x: 1809.07, y: 203.52 },
-          { x: 1170.24, y: 204.04 }
+          { x: 7263.91, y: 199.82 },
+          { x: 4517.29, y: 200.03 },
+          { x: 2821.62, y: 199.75 },
+          { x: 1780.11, y: 196.45 },
+          { x: 1152.15, y: 194.28 }
     ]
 };
 
@@ -6380,14 +6328,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 6369.28, y: 133.51 },
-          { x: 3932.50, y: 133.71 },
-          { x: 2430.86, y: 133.46 },
-          { x: 1530.74, y: 133.77 },
-          { x: 978.52, y: 134.22 }
+          { x: 6205.39, y: 129.17 },
+          { x: 3842.28, y: 128.62 },
+          { x: 2381.17, y: 128.64 },
+          { x: 1503.87, y: 129.18 },
+          { x: 961.72, y: 129.28 }
     ]
 };
 
@@ -6399,14 +6347,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6369.28, y: 134.00 },
-          { x: 3932.50, y: 134.29 },
-          { x: 2430.86, y: 134.04 },
-          { x: 1530.74, y: 134.25 },
-          { x: 978.52, y: 134.24 }
+          { x: 6205.39, y: 128.51 },
+          { x: 3842.28, y: 128.82 },
+          { x: 2381.17, y: 128.86 },
+          { x: 1503.87, y: 128.37 },
+          { x: 961.72, y: 127.48 }
     ]
 };
 
@@ -6418,14 +6366,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6335.11, y: 137.28 },
-          { x: 3922.08, y: 137.48 },
-          { x: 2418.53, y: 137.46 },
-          { x: 1519.14, y: 137.81 },
-          { x: 965.84, y: 137.71 }
+          { x: 6184.09, y: 135.72 },
+          { x: 3841.47, y: 136.79 },
+          { x: 2372.44, y: 136.93 },
+          { x: 1490.48, y: 136.98 },
+          { x: 948.63, y: 137.22 }
     ]
 };
 
@@ -6437,14 +6385,14 @@ const data_1__bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6335.11, y: 136.96 },
-          { x: 3922.08, y: 137.45 },
-          { x: 2418.53, y: 137.65 },
-          { x: 1519.14, y: 137.57 },
-          { x: 965.84, y: 137.77 }
+          { x: 6184.09, y: 136.32 },
+          { x: 3841.47, y: 136.52 },
+          { x: 2372.44, y: 136.79 },
+          { x: 1490.48, y: 136.83 },
+          { x: 948.63, y: 136.99 }
     ]
 };
 
@@ -6456,15 +6404,13 @@ const data_1__bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6637.16, y: 188.09 },
-          { x: 4584.36, y: 187.46 },
-          { x: 3204.05, y: 186.52 },
-          { x: 2266.87, y: 185.99 },
-          { x: 1499.15, y: 187.13 },
-          { x: 932.27, y: 185.47 }
+          { x: 6706.90, y: 182.42 },
+          { x: 4617.56, y: 185.87 },
+          { x: 3225.40, y: 182.23 },
+          { x: 2296.71, y: 179.59 }
     ]
 };
 
@@ -6476,15 +6422,13 @@ const data_1__bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6637.16, y: 188.00 },
-          { x: 4584.36, y: 187.10 },
-          { x: 3204.05, y: 186.87 },
-          { x: 2266.87, y: 186.52 },
-          { x: 1499.15, y: 186.02 },
-          { x: 932.27, y: 185.60 }
+          { x: 6706.90, y: 179.19 },
+          { x: 4617.56, y: 181.16 },
+          { x: 3225.40, y: 180.56 },
+          { x: 2296.71, y: 180.45 }
     ]
 };
 
@@ -6496,15 +6440,13 @@ const data_1__bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6401.70, y: 189.76 },
-          { x: 4419.70, y: 187.73 },
-          { x: 3123.03, y: 187.05 },
-          { x: 2225.33, y: 185.20 },
-          { x: 1492.52, y: 183.57 },
-          { x: 928.04, y: 182.00 }
+          { x: 6381.80, y: 160.25 },
+          { x: 4458.97, y: 175.52 },
+          { x: 3160.17, y: 157.14 },
+          { x: 2256.18, y: 157.20 }
     ]
 };
 
@@ -6516,15 +6458,13 @@ const data_1__bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6401.70, y: 189.63 },
-          { x: 4419.70, y: 188.16 },
-          { x: 3123.03, y: 186.70 },
-          { x: 2225.33, y: 185.26 },
-          { x: 1492.52, y: 183.59 },
-          { x: 928.04, y: 182.03 }
+          { x: 6381.80, y: 177.71 },
+          { x: 4458.97, y: 182.74 },
+          { x: 3160.17, y: 185.35 },
+          { x: 2256.18, y: 183.63 }
     ]
 };
 
@@ -6536,14 +6476,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 7398.66, y: 163.21 },
-          { x: 4619.87, y: 164.08 },
-          { x: 2888.26, y: 164.13 },
-          { x: 1810.53, y: 162.33 },
-          { x: 1173.20, y: 161.80 }
+          { x: 7255.85, y: 164.25 },
+          { x: 4514.82, y: 165.13 },
+          { x: 2820.76, y: 164.80 },
+          { x: 1779.74, y: 162.15 },
+          { x: 1155.52, y: 161.64 }
     ]
 };
 
@@ -6555,14 +6495,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7398.66, y: 163.04 },
-          { x: 4619.87, y: 163.68 },
-          { x: 2888.26, y: 164.14 },
-          { x: 1810.53, y: 162.37 },
-          { x: 1173.20, y: 162.01 }
+          { x: 7255.85, y: 163.23 },
+          { x: 4514.82, y: 163.93 },
+          { x: 2820.76, y: 164.09 },
+          { x: 1779.74, y: 162.51 },
+          { x: 1155.52, y: 161.60 }
     ]
 };
 
@@ -6574,14 +6514,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 6363.67, y: 107.88 },
-          { x: 3929.63, y: 108.08 },
-          { x: 2432.29, y: 108.27 },
-          { x: 1533.77, y: 108.15 },
-          { x: 980.71, y: 108.17 }
+          { x: 6198.14, y: 107.95 },
+          { x: 3837.09, y: 108.04 },
+          { x: 2380.38, y: 108.05 },
+          { x: 1504.66, y: 108.09 },
+          { x: 964.17, y: 108.06 }
     ]
 };
 
@@ -6593,14 +6533,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6363.67, y: 107.99 },
-          { x: 3929.63, y: 108.16 },
-          { x: 2432.29, y: 108.08 },
-          { x: 1533.77, y: 108.26 },
-          { x: 980.71, y: 108.11 }
+          { x: 6198.14, y: 108.06 },
+          { x: 3837.09, y: 108.03 },
+          { x: 2380.38, y: 108.06 },
+          { x: 1504.66, y: 108.12 },
+          { x: 964.17, y: 108.03 }
     ]
 };
 
@@ -6612,14 +6552,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6330.47, y: 109.38 },
-          { x: 3921.38, y: 109.61 },
-          { x: 2418.53, y: 109.78 },
-          { x: 1519.73, y: 109.92 },
-          { x: 969.27, y: 109.91 }
+          { x: 6180.86, y: 109.65 },
+          { x: 3835.72, y: 109.99 },
+          { x: 2370.04, y: 110.17 },
+          { x: 1492.63, y: 110.18 },
+          { x: 952.28, y: 110.05 }
     ]
 };
 
@@ -6631,14 +6571,14 @@ const data_1__bitrate_fps_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6330.47, y: 109.46 },
-          { x: 3921.38, y: 109.68 },
-          { x: 2418.53, y: 109.46 },
-          { x: 1519.73, y: 109.82 },
-          { x: 969.27, y: 109.98 }
+          { x: 6180.86, y: 109.50 },
+          { x: 3835.72, y: 109.94 },
+          { x: 2370.04, y: 109.80 },
+          { x: 1492.63, y: 110.27 },
+          { x: 952.28, y: 110.13 }
     ]
 };
 
@@ -6650,14 +6590,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 7906.51, y: 201.10 },
-          { x: 5009.43, y: 202.79 },
-          { x: 3142.98, y: 204.89 },
-          { x: 2009.98, y: 207.19 },
-          { x: 1303.04, y: 210.64 }
+          { x: 7687.05, y: 199.69 },
+          { x: 4851.95, y: 200.84 },
+          { x: 3052.23, y: 204.00 },
+          { x: 1966.09, y: 206.87 },
+          { x: 1278.78, y: 209.72 }
     ]
 };
 
@@ -6669,14 +6609,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7906.51, y: 200.21 },
-          { x: 5009.43, y: 201.86 },
-          { x: 3142.98, y: 204.39 },
-          { x: 2009.98, y: 207.36 },
-          { x: 1303.04, y: 211.44 }
+          { x: 7687.05, y: 200.08 },
+          { x: 4851.95, y: 201.04 },
+          { x: 3052.23, y: 203.74 },
+          { x: 1966.09, y: 206.88 },
+          { x: 1278.78, y: 211.45 }
     ]
 };
 
@@ -6688,14 +6628,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7903.18, y: 131.31 },
-          { x: 4887.37, y: 148.94 },
-          { x: 3006.13, y: 166.22 },
-          { x: 1869.05, y: 181.81 },
-          { x: 1171.73, y: 195.05 }
+          { x: 7985.88, y: 134.62 },
+          { x: 4972.29, y: 152.47 },
+          { x: 3050.59, y: 167.07 },
+          { x: 1898.21, y: 184.94 },
+          { x: 1186.32, y: 198.19 }
     ]
 };
 
@@ -6707,14 +6647,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7903.18, y: 131.11 },
-          { x: 4887.37, y: 148.97 },
-          { x: 3006.13, y: 166.22 },
-          { x: 1869.05, y: 181.62 },
-          { x: 1171.73, y: 194.60 }
+          { x: 7985.63, y: 134.52 },
+          { x: 4964.83, y: 152.52 },
+          { x: 3050.46, y: 170.06 },
+          { x: 1899.36, y: 185.37 },
+          { x: 1186.38, y: 197.61 }
     ]
 };
 
@@ -6726,14 +6666,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 7448.74, y: 128.36 },
-          { x: 4611.80, y: 137.37 },
-          { x: 2827.00, y: 140.46 },
-          { x: 1769.29, y: 148.84 },
-          { x: 1105.97, y: 156.71 }
+          { x: 7546.52, y: 141.52 },
+          { x: 4661.91, y: 154.57 },
+          { x: 2869.11, y: 169.34 },
+          { x: 1793.07, y: 183.04 },
+          { x: 1121.27, y: 193.20 }
     ]
 };
 
@@ -6745,14 +6685,14 @@ const data_1__bitrate_fps_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 7448.74, y: 127.20 },
-          { x: 4612.42, y: 118.20 },
-          { x: 2827.00, y: 115.17 },
-          { x: 1769.29, y: 145.14 },
-          { x: 1105.97, y: 147.64 }
+          { x: 7549.64, y: 141.36 },
+          { x: 4663.96, y: 155.49 },
+          { x: 2870.01, y: 169.73 },
+          { x: 1793.83, y: 181.76 },
+          { x: 1117.68, y: 192.44 }
     ]
 };
 
@@ -6764,14 +6704,14 @@ const data_1__bitrate_fps_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 7904.97, y: 123.50 },
-          { x: 5007.80, y: 124.67 },
-          { x: 3149.23, y: 126.08 },
-          { x: 2011.67, y: 127.67 },
-          { x: 1303.15, y: 128.90 }
+          { x: 7904.97, y: 124.86 },
+          { x: 5007.80, y: 126.31 },
+          { x: 3149.23, y: 127.74 },
+          { x: 2011.67, y: 129.15 },
+          { x: 1303.15, y: 130.99 }
     ]
 };
 
@@ -6783,14 +6723,14 @@ const data_1__bitrate_fps_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7904.97, y: 123.42 },
-          { x: 5007.80, y: 124.64 },
-          { x: 3149.23, y: 126.04 },
-          { x: 2011.67, y: 127.54 },
-          { x: 1303.15, y: 129.28 }
+          { x: 7904.97, y: 125.07 },
+          { x: 5007.80, y: 126.30 },
+          { x: 3149.23, y: 127.79 },
+          { x: 2011.67, y: 129.29 },
+          { x: 1303.15, y: 131.03 }
     ]
 };
 
@@ -6802,14 +6742,14 @@ const data_1__bitrate_fps_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7975.41, y: 71.38 },
-          { x: 4928.05, y: 77.75 },
-          { x: 3024.11, y: 83.46 },
-          { x: 1888.56, y: 87.77 },
-          { x: 1178.32, y: 91.37 }
+          { x: 7975.41, y: 71.87 },
+          { x: 4928.05, y: 78.43 },
+          { x: 3024.11, y: 84.19 },
+          { x: 1888.56, y: 88.50 },
+          { x: 1178.32, y: 92.23 }
     ]
 };
 
@@ -6821,14 +6761,14 @@ const data_1__bitrate_fps_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7975.41, y: 71.36 },
-          { x: 4928.05, y: 77.76 },
-          { x: 3024.11, y: 83.43 },
-          { x: 1888.56, y: 87.72 },
-          { x: 1178.32, y: 91.39 }
+          { x: 7975.41, y: 71.93 },
+          { x: 4928.05, y: 78.49 },
+          { x: 3024.11, y: 84.19 },
+          { x: 1888.56, y: 88.66 },
+          { x: 1178.32, y: 92.22 }
     ]
 };
 
@@ -6840,16 +6780,14 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
-          { x: 2310.36, y: 212.41 },
-          { x: 2839.31, y: 211.68 },
-          { x: 3562.48, y: 211.73 },
-          { x: 4447.24, y: 212.54 },
-          { x: 5287.80, y: 212.65 },
-          { x: 6320.24, y: 212.34 },
-          { x: 7108.83, y: 212.35 }
+          { x: 2099.17, y: 209.51 },
+          { x: 2839.32, y: 210.06 },
+          { x: 3952.62, y: 210.60 },
+          { x: 5287.82, y: 210.23 },
+          { x: 6727.12, y: 210.30 }
     ]
 };
 
@@ -6861,16 +6799,14 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.22, y: 376.16 },
-          { x: 2876.54, y: 375.15 },
-          { x: 3606.19, y: 374.44 },
-          { x: 4502.61, y: 375.41 },
-          { x: 5361.50, y: 375.32 },
-          { x: 6396.19, y: 375.90 },
-          { x: 7198.57, y: 375.32 }
+          { x: 2128.85, y: 364.95 },
+          { x: 2876.54, y: 367.93 },
+          { x: 4001.75, y: 368.27 },
+          { x: 5361.49, y: 368.57 },
+          { x: 6815.57, y: 367.80 }
     ]
 };
 
@@ -6882,16 +6818,16 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
-          { x: 1780.48, y: 540.53 },
-          { x: 2199.88, y: 538.34 },
-          { x: 2704.70, y: 536.90 },
-          { x: 3224.10, y: 537.71 },
-          { x: 3739.93, y: 536.63 },
-          { x: 4379.31, y: 537.44 },
-          { x: 5064.02, y: 533.94 }
+          { x: 1601.19, y: 471.86 },
+          { x: 2200.50, y: 470.88 },
+          { x: 2961.45, y: 471.65 },
+          { x: 3740.04, y: 471.44 },
+          { x: 4693.66, y: 470.95 },
+          { x: 5826.99, y: 470.95 },
+          { x: 7062.88, y: 472.76 }
     ]
 };
 
@@ -6903,16 +6839,16 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1787.72, y: 655.85 },
-          { x: 2208.30, y: 657.34 },
-          { x: 2714.27, y: 652.50 },
-          { x: 3235.64, y: 653.17 },
-          { x: 3753.56, y: 651.70 },
-          { x: 4396.02, y: 652.10 },
-          { x: 5087.14, y: 651.84 }
+          { x: 1607.29, y: 470.47 },
+          { x: 2208.37, y: 472.00 },
+          { x: 2970.57, y: 472.76 },
+          { x: 3754.08, y: 471.37 },
+          { x: 4713.34, y: 473.05 },
+          { x: 5855.47, y: 471.72 },
+          { x: 7097.85, y: 472.00 }
     ]
 };
 
@@ -6924,16 +6860,16 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
-          { x: 1846.90, y: 115.85 },
-          { x: 2324.83, y: 115.23 },
-          { x: 2947.59, y: 115.42 },
-          { x: 3613.60, y: 115.38 },
-          { x: 4265.40, y: 115.46 },
-          { x: 5011.65, y: 115.41 },
-          { x: 5866.71, y: 115.44 }
+          { x: 1646.50, y: 115.21 },
+          { x: 2324.22, y: 115.59 },
+          { x: 3298.41, y: 115.62 },
+          { x: 4264.79, y: 115.50 },
+          { x: 5476.38, y: 115.47 },
+          { x: 6798.48, y: 115.42 },
+          { x: 8131.83, y: 115.48 }
     ]
 };
 
@@ -6945,184 +6881,95 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1954.18, y: 768.90 },
-          { x: 2464.34, y: 755.62 },
-          { x: 3129.23, y: 765.58 },
-          { x: 3837.39, y: 772.80 },
-          { x: 4534.00, y: 771.50 },
-          { x: 5324.84, y: 770.38 },
-          { x: 6222.99, y: 753.66 }
-    ]
-};
-
-const data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 1, 140, 0.9)',
-    
-    data: [
-          { x: 2398.26, y: 116.89 },
-          { x: 2935.62, y: 116.87 },
-          { x: 3661.42, y: 116.77 },
-          { x: 4518.15, y: 116.86 },
-          { x: 5372.39, y: 116.88 },
-          { x: 6371.12, y: 116.86 },
-          { x: 7215.96, y: 116.78 }
-    ]
-};
-
-const data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2450.96, y: 206.87 },
-          { x: 2993.03, y: 206.74 },
-          { x: 3721.15, y: 206.32 },
-          { x: 4584.66, y: 206.50 },
-          { x: 5454.23, y: 206.09 },
-          { x: 6438.07, y: 205.68 },
-          { x: 7301.61, y: 205.57 }
-    ]
-};
-
-const data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
-    
-    data: [
-          { x: 1617.19, y: 193.44 },
-          { x: 2021.25, y: 190.69 },
-          { x: 2525.83, y: 191.09 },
-          { x: 3013.89, y: 190.88 },
-          { x: 3519.49, y: 192.04 },
-          { x: 4105.69, y: 190.83 },
-          { x: 4770.54, y: 191.42 }
-    ]
-};
-
-const data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "crossRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1737.44, y: 212.32 },
-          { x: 2143.40, y: 212.34 },
-          { x: 2651.06, y: 211.59 },
-          { x: 3143.25, y: 211.96 },
-          { x: 3645.89, y: 212.89 },
-          { x: 4236.89, y: 211.31 },
-          { x: 4903.76, y: 212.40 }
+          { x: 1740.35, y: 477.00 },
+          { x: 2463.71, y: 477.29 },
+          { x: 3506.99, y: 475.30 },
+          { x: 4533.75, y: 473.89 },
+          { x: 5836.73, y: 474.80 },
+          { x: 7199.78, y: 475.79 }
     ]
 };
 
 const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_quality = {
     label: "r9 9950x igpu VCE H.264 quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 2310.32, y: 64.00 },
-          { x: 2839.27, y: 63.87 },
-          { x: 3562.43, y: 63.96 },
-          { x: 4447.17, y: 64.06 },
-          { x: 5287.73, y: 63.90 },
-          { x: 6320.17, y: 63.89 },
-          { x: 7108.74, y: 63.93 }
+          { x: 2099.13, y: 63.86 },
+          { x: 2839.27, y: 63.91 },
+          { x: 3952.57, y: 64.02 },
+          { x: 5287.73, y: 63.99 },
+          { x: 6727.04, y: 63.97 }
     ]
 };
 
 const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_normal = {
     label: "r9 9950x igpu VCE H.264 normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 2342.20, y: 131.95 },
-          { x: 2876.75, y: 131.86 },
-          { x: 3606.26, y: 131.58 },
-          { x: 4502.41, y: 131.35 },
-          { x: 5361.44, y: 131.27 },
-          { x: 6396.33, y: 131.18 },
-          { x: 7198.58, y: 131.16 }
+          { x: 2128.90, y: 116.45 },
+          { x: 2876.70, y: 115.85 },
+          { x: 4001.79, y: 116.62 },
+          { x: 5361.47, y: 117.49 },
+          { x: 6815.59, y: 116.07 }
     ]
 };
 
 const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_quality = {
     label: "r9 9950x igpu VCE HEVC quality",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 158, 181, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1584.46, y: 65.72 },
-          { x: 2071.68, y: 65.73 },
-          { x: 2593.05, y: 66.44 },
-          { x: 3107.55, y: 66.04 },
-          { x: 3665.11, y: 65.94 },
-          { x: 4359.45, y: 65.52 },
-          { x: 5093.53, y: 65.80 }
+          { x: 1435.68, y: 131.83 },
+          { x: 2071.68, y: 132.53 },
+          { x: 2868.36, y: 131.81 },
+          { x: 3665.11, y: 129.80 },
+          { x: 4680.84, y: 130.36 },
+          { x: 5902.39, y: 132.35 },
+          { x: 7131.12, y: 133.38 }
     ]
 };
 
 const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_normal = {
     label: "r9 9950x igpu VCE HEVC normal",
     showLine: true,
-    pointStyle: "rect",
+    pointStyle: "crossRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1607.85, y: 65.77 },
-          { x: 2098.54, y: 65.74 },
-          { x: 2622.52, y: 65.66 },
-          { x: 3137.78, y: 66.46 },
-          { x: 3694.49, y: 65.78 },
-          { x: 4383.32, y: 65.94 },
-          { x: 5108.19, y: 66.02 }
+          { x: 1458.47, y: 130.91 },
+          { x: 2098.54, y: 133.51 },
+          { x: 2897.47, y: 133.67 },
+          { x: 3694.49, y: 132.56 },
+          { x: 4702.23, y: 132.83 },
+          { x: 5905.20, y: 129.48 },
+          { x: 7128.42, y: 133.34 }
     ]
 };
 
@@ -7133,10 +6980,12 @@ const datasets_1__bitrate_ssim = [
   data_1__bitrate_ssim__x265_medium_10bit_crf,
   data_1__bitrate_ssim__x265_veryslow_crf,
   data_1__bitrate_ssim__x265_veryslow_10bit_crf,
-  data_1__bitrate_ssim__svtav1_8bit_preset_4,
-  data_1__bitrate_ssim__svtav1_10bit_preset_4,
-  data_1__bitrate_ssim__svtav1_8bit_preset_6,
-  data_1__bitrate_ssim__svtav1_10bit_preset_6,
+  data_1__bitrate_ssim__svtav1_8bit_preset_3,
+  data_1__bitrate_ssim__svtav1_10bit_preset_3,
+  data_1__bitrate_ssim__svtav1_8bit_preset_5,
+  data_1__bitrate_ssim__svtav1_10bit_preset_5,
+  data_1__bitrate_ssim__svtav1_8bit_preset_7,
+  data_1__bitrate_ssim__svtav1_10bit_preset_7,
   data_1__bitrate_ssim__svtav1_8bit_preset_10,
   data_1__bitrate_ssim__svtav1_10bit_preset_10,
   data_1__bitrate_ssim_u7_258v_QSVEncC_AV1_quality,
@@ -7237,10 +7086,6 @@ const datasets_1__bitrate_ssim = [
   data_1__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
   data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
   data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal,
-  data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality,
-  data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal,
-  data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality,
-  data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal,
   data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_quality,
   data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_normal,
   data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_quality,
@@ -7254,10 +7099,12 @@ const datasets_1__bitrate_vmaf = [
   data_1__bitrate_vmaf__x265_medium_10bit_crf,
   data_1__bitrate_vmaf__x265_veryslow_crf,
   data_1__bitrate_vmaf__x265_veryslow_10bit_crf,
-  data_1__bitrate_vmaf__svtav1_8bit_preset_4,
-  data_1__bitrate_vmaf__svtav1_10bit_preset_4,
-  data_1__bitrate_vmaf__svtav1_8bit_preset_6,
-  data_1__bitrate_vmaf__svtav1_10bit_preset_6,
+  data_1__bitrate_vmaf__svtav1_8bit_preset_3,
+  data_1__bitrate_vmaf__svtav1_10bit_preset_3,
+  data_1__bitrate_vmaf__svtav1_8bit_preset_5,
+  data_1__bitrate_vmaf__svtav1_10bit_preset_5,
+  data_1__bitrate_vmaf__svtav1_8bit_preset_7,
+  data_1__bitrate_vmaf__svtav1_10bit_preset_7,
   data_1__bitrate_vmaf__svtav1_8bit_preset_10,
   data_1__bitrate_vmaf__svtav1_10bit_preset_10,
   data_1__bitrate_vmaf_u7_258v_QSVEncC_AV1_quality,
@@ -7358,10 +7205,6 @@ const datasets_1__bitrate_vmaf = [
   data_1__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
   data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
   data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal,
-  data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality,
-  data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal,
-  data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality,
-  data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal,
   data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_quality,
   data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_normal,
   data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_quality,
@@ -7375,10 +7218,12 @@ const datasets_1__bitrate_fps = [
   data_1__bitrate_fps__x265_medium_10bit_crf,
   data_1__bitrate_fps__x265_veryslow_crf,
   data_1__bitrate_fps__x265_veryslow_10bit_crf,
-  data_1__bitrate_fps__svtav1_8bit_preset_4,
-  data_1__bitrate_fps__svtav1_10bit_preset_4,
-  data_1__bitrate_fps__svtav1_8bit_preset_6,
-  data_1__bitrate_fps__svtav1_10bit_preset_6,
+  data_1__bitrate_fps__svtav1_8bit_preset_3,
+  data_1__bitrate_fps__svtav1_10bit_preset_3,
+  data_1__bitrate_fps__svtav1_8bit_preset_5,
+  data_1__bitrate_fps__svtav1_10bit_preset_5,
+  data_1__bitrate_fps__svtav1_8bit_preset_7,
+  data_1__bitrate_fps__svtav1_10bit_preset_7,
   data_1__bitrate_fps__svtav1_8bit_preset_10,
   data_1__bitrate_fps__svtav1_10bit_preset_10,
   data_1__bitrate_fps_u7_258v_QSVEncC_AV1_quality,
@@ -7479,10 +7324,6 @@ const datasets_1__bitrate_fps = [
   data_1__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
   data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
   data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_normal,
-  data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_quality,
-  data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_normal,
-  data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality,
-  data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal,
   data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_quality,
   data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_normal,
   data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_quality,
@@ -7509,7 +7350,6 @@ const encoders_1_ = [
       "gtx1080 NVENC",
       "gtx950 NVENC",
       "rx7900xt VCE",
-      "rx5500xt VCE",
       "rx550 VCE",
       "r9 9950x igpu VCE",
       "r3 3200G VCE"
@@ -8796,14 +8636,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 439.60, y: 0.899704 },
-          { x: 839.87, y: 0.960217 },
-          { x: 1095.74, y: 0.97493 },
-          { x: 1575.88, y: 0.985663 },
-          { x: 2052.30, y: 0.990343 },
-          { x: 3967.27, y: 0.996096 },
-          { x: 5884.01, y: 0.997656 },
-          { x: 7809.38, y: 0.99839 }
+          { x: 502.78, y: 0.910625 },
+          { x: 836.62, y: 0.943778 },
+          { x: 1094.34, y: 0.955965 },
+          { x: 2053.98, y: 0.975074 },
+          { x: 3966.45, y: 0.984817 },
+          { x: 6857.04, y: 0.989595 }
     ]
 };
 
@@ -8818,14 +8656,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 498.47, y: 0.898169 },
-          { x: 829.18, y: 0.957388 },
-          { x: 1068.08, y: 0.971494 },
-          { x: 1545.94, y: 0.984078 },
-          { x: 2023.40, y: 0.989437 },
-          { x: 3926.19, y: 0.995861 },
-          { x: 5826.99, y: 0.997572 },
-          { x: 7725.17, y: 0.998339 }
+          { x: 498.92, y: 0.909758 },
+          { x: 829.90, y: 0.944781 },
+          { x: 1067.92, y: 0.956164 },
+          { x: 2023.08, y: 0.974903 },
+          { x: 3925.98, y: 0.984975 },
+          { x: 6778.05, y: 0.989742 }
     ]
 };
 
@@ -8840,14 +8676,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 475.97, y: 0.951893 },
-          { x: 912.45, y: 0.982024 },
-          { x: 1293.44, y: 0.988566 },
-          { x: 1687.38, y: 0.991984 },
-          { x: 2089.99, y: 0.993917 },
-          { x: 4049.64, y: 0.997134 },
-          { x: 6005.96, y: 0.998154 },
-          { x: 7954.92, y: 0.998669 }
+          { x: 497.85, y: 0.935421 },
+          { x: 920.50, y: 0.963719 },
+          { x: 1296.43, y: 0.972018 },
+          { x: 2093.45, y: 0.980713 },
+          { x: 4055.13, y: 0.987411 },
+          { x: 6988.87, y: 0.990998 }
     ]
 };
 
@@ -8862,14 +8696,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 420.54, y: 0.949074 },
-          { x: 890.75, y: 0.98021 },
-          { x: 1262.26, y: 0.987221 },
-          { x: 1655.25, y: 0.99096 },
-          { x: 2068.59, y: 0.992962 },
-          { x: 4009.81, y: 0.996792 },
-          { x: 5948.33, y: 0.997951 },
-          { x: 7868.71, y: 0.99852 }
+          { x: 421.26, y: 0.93633 },
+          { x: 891.05, y: 0.962767 },
+          { x: 1261.19, y: 0.971003 },
+          { x: 2068.79, y: 0.979716 },
+          { x: 4011.73, y: 0.986947 },
+          { x: 6908.38, y: 0.99062 }
     ]
 };
 
@@ -8884,14 +8716,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 476.61, y: 0.951921 },
-          { x: 910.48, y: 0.982791 },
-          { x: 1292.41, y: 0.988928 },
-          { x: 1687.66, y: 0.992398 },
-          { x: 2089.06, y: 0.99419 },
-          { x: 4047.22, y: 0.997329 },
-          { x: 6005.79, y: 0.998311 },
-          { x: 7950.64, y: 0.998805 }
+          { x: 503.86, y: 0.937708 },
+          { x: 919.96, y: 0.96646 },
+          { x: 1294.06, y: 0.97458 },
+          { x: 2093.74, y: 0.983155 },
+          { x: 4053.46, y: 0.98981 },
+          { x: 6984.20, y: 0.993373 }
     ]
 };
 
@@ -8906,14 +8736,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 418.70, y: 0.950008 },
-          { x: 888.06, y: 0.981519 },
-          { x: 1260.72, y: 0.987497 },
-          { x: 1654.13, y: 0.9912 },
-          { x: 2067.82, y: 0.993333 },
-          { x: 4008.64, y: 0.996983 },
-          { x: 5945.20, y: 0.998111 },
-          { x: 7871.35, y: 0.998661 }
+          { x: 417.58, y: 0.938622 },
+          { x: 890.82, y: 0.965777 },
+          { x: 1260.95, y: 0.973612 },
+          { x: 2069.52, y: 0.982158 },
+          { x: 4014.35, y: 0.989256 },
+          { x: 6908.44, y: 0.992931 }
     ]
 };
 
@@ -8928,14 +8756,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 394.12, y: 0.955323 },
-          { x: 877.03, y: 0.983035 },
-          { x: 1238.51, y: 0.988881 },
-          { x: 1646.78, y: 0.992094 },
-          { x: 2050.87, y: 0.99382 },
-          { x: 3999.88, y: 0.997069 },
-          { x: 5923.29, y: 0.998073 },
-          { x: 7843.46, y: 0.998567 }
+          { x: 402.62, y: 0.938318 },
+          { x: 886.34, y: 0.964881 },
+          { x: 1243.69, y: 0.97252 },
+          { x: 2067.70, y: 0.980694 },
+          { x: 4012.51, y: 0.987323 },
+          { x: 6892.40, y: 0.990689 }
     ]
 };
 
@@ -8950,14 +8776,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 388.73, y: 0.955542 },
-          { x: 870.05, y: 0.982704 },
-          { x: 1230.01, y: 0.988508 },
-          { x: 1633.61, y: 0.991821 },
-          { x: 2043.20, y: 0.993698 },
-          { x: 3963.41, y: 0.996987 },
-          { x: 5887.90, y: 0.998003 },
-          { x: 7775.31, y: 0.998521 }
+          { x: 409.97, y: 0.938688 },
+          { x: 889.52, y: 0.964536 },
+          { x: 1250.07, y: 0.972078 },
+          { x: 2077.96, y: 0.980444 },
+          { x: 4014.58, y: 0.987142 },
+          { x: 6880.06, y: 0.990584 }
     ]
 };
 
@@ -8972,14 +8796,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 394.72, y: 0.955703 },
-          { x: 875.28, y: 0.983224 },
-          { x: 1235.77, y: 0.989121 },
-          { x: 1647.34, y: 0.992418 },
-          { x: 2050.32, y: 0.994145 },
-          { x: 3990.27, y: 0.997314 },
-          { x: 5910.17, y: 0.99829 },
-          { x: 7822.21, y: 0.998755 }
+          { x: 401.43, y: 0.94031 },
+          { x: 884.50, y: 0.967135 },
+          { x: 1242.35, y: 0.974872 },
+          { x: 2061.72, y: 0.983202 },
+          { x: 4002.27, y: 0.98982 },
+          { x: 6887.33, y: 0.993232 }
     ]
 };
 
@@ -8994,14 +8816,12 @@ const data_1_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 388.76, y: 0.955601 },
-          { x: 870.69, y: 0.983049 },
-          { x: 1227.34, y: 0.988752 },
-          { x: 1634.37, y: 0.992055 },
-          { x: 2044.15, y: 0.993978 },
-          { x: 3971.27, y: 0.997202 },
-          { x: 5885.03, y: 0.998207 },
-          { x: 7789.98, y: 0.998685 }
+          { x: 410.54, y: 0.941295 },
+          { x: 889.48, y: 0.966861 },
+          { x: 1249.17, y: 0.974386 },
+          { x: 2083.97, y: 0.982812 },
+          { x: 4014.72, y: 0.989683 },
+          { x: 6882.11, y: 0.99301 }
     ]
 };
 
@@ -9016,12 +8836,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 456.47, y: 0.899351 },
-          { x: 840.79, y: 0.961132 },
-          { x: 1096.46, y: 0.974929 },
-          { x: 2052.36, y: 0.990541 },
-          { x: 3968.60, y: 0.996119 },
-          { x: 6849.76, y: 0.998098 }
+          { x: 501.01, y: 0.909324 },
+          { x: 834.30, y: 0.943165 },
+          { x: 1094.08, y: 0.95606 },
+          { x: 2056.58, y: 0.974904 },
+          { x: 3968.62, y: 0.984823 },
+          { x: 6850.20, y: 0.989612 }
     ]
 };
 
@@ -9036,12 +8856,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 499.92, y: 0.897849 },
-          { x: 829.68, y: 0.957013 },
-          { x: 1067.98, y: 0.972044 },
-          { x: 2023.69, y: 0.989428 },
-          { x: 3925.20, y: 0.995864 },
-          { x: 6772.60, y: 0.998019 }
+          { x: 499.81, y: 0.908482 },
+          { x: 830.94, y: 0.944376 },
+          { x: 1068.76, y: 0.955601 },
+          { x: 2024.03, y: 0.974842 },
+          { x: 3926.81, y: 0.984957 },
+          { x: 6771.78, y: 0.989725 }
     ]
 };
 
@@ -9056,12 +8876,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 471.01, y: 0.951911 },
-          { x: 911.50, y: 0.982098 },
-          { x: 1291.72, y: 0.988497 },
-          { x: 2091.40, y: 0.993879 },
-          { x: 4048.72, y: 0.997147 },
-          { x: 6983.50, y: 0.998465 }
+          { x: 500.40, y: 0.934763 },
+          { x: 918.80, y: 0.963515 },
+          { x: 1295.25, y: 0.971898 },
+          { x: 2094.31, y: 0.980663 },
+          { x: 4051.42, y: 0.987414 },
+          { x: 6987.63, y: 0.990999 }
     ]
 };
 
@@ -9076,12 +8896,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.14, y: 0.948572 },
-          { x: 888.59, y: 0.980737 },
-          { x: 1262.42, y: 0.987163 },
-          { x: 2068.26, y: 0.993103 },
-          { x: 4013.45, y: 0.996817 },
-          { x: 6908.14, y: 0.998291 }
+          { x: 421.67, y: 0.935502 },
+          { x: 891.94, y: 0.962872 },
+          { x: 1260.96, y: 0.970836 },
+          { x: 2070.19, y: 0.979793 },
+          { x: 4012.60, y: 0.986928 },
+          { x: 6908.77, y: 0.990647 }
     ]
 };
 
@@ -9096,12 +8916,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 478.59, y: 0.951234 },
-          { x: 912.22, y: 0.982615 },
-          { x: 1292.90, y: 0.98889 },
-          { x: 2086.98, y: 0.994187 },
-          { x: 4048.61, y: 0.997332 },
-          { x: 6980.69, y: 0.998607 }
+          { x: 496.58, y: 0.936886 },
+          { x: 916.49, y: 0.966483 },
+          { x: 1294.78, y: 0.974506 },
+          { x: 2091.44, y: 0.98313 },
+          { x: 4049.71, y: 0.989821 },
+          { x: 6982.53, y: 0.99338 }
     ]
 };
 
@@ -9116,12 +8936,12 @@ const data_1_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 420.50, y: 0.949449 },
-          { x: 888.62, y: 0.981415 },
-          { x: 1261.91, y: 0.987454 },
-          { x: 2067.95, y: 0.993315 },
-          { x: 4009.27, y: 0.996989 },
-          { x: 6909.31, y: 0.998436 }
+          { x: 419.96, y: 0.937919 },
+          { x: 889.94, y: 0.965572 },
+          { x: 1261.10, y: 0.973368 },
+          { x: 2069.22, y: 0.98209 },
+          { x: 4008.06, y: 0.98923 },
+          { x: 6910.56, y: 0.992934 }
     ]
 };
 
@@ -9136,14 +8956,12 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 463.95, y: 0.892276 },
-          { x: 827.78, y: 0.95312 },
-          { x: 1067.01, y: 0.967953 },
-          { x: 1546.10, y: 0.98215 },
-          { x: 2033.23, y: 0.988268 },
-          { x: 3973.90, y: 0.995396 },
-          { x: 5900.26, y: 0.997284 },
-          { x: 7843.44, y: 0.998143 }
+          { x: 463.95, y: 0.910448 },
+          { x: 827.78, y: 0.94381 },
+          { x: 1067.01, y: 0.954365 },
+          { x: 2033.23, y: 0.973452 },
+          { x: 3973.90, y: 0.983902 },
+          { x: 6874.16, y: 0.98898 }
     ]
 };
 
@@ -9158,14 +8976,12 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 470.87, y: 0.884937 },
-          { x: 817.54, y: 0.950425 },
-          { x: 1054.65, y: 0.964903 },
-          { x: 1536.23, y: 0.97958 },
-          { x: 2018.33, y: 0.986375 },
-          { x: 3918.16, y: 0.994857 },
-          { x: 5819.54, y: 0.997053 },
-          { x: 7734.63, y: 0.998014 }
+          { x: 470.87, y: 0.906866 },
+          { x: 817.54, y: 0.943602 },
+          { x: 1054.65, y: 0.953899 },
+          { x: 2018.33, y: 0.972783 },
+          { x: 3918.16, y: 0.983804 },
+          { x: 6780.20, y: 0.989027 }
     ]
 };
 
@@ -9180,14 +8996,12 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 385.48, y: 0.950938 },
-          { x: 868.33, y: 0.980056 },
-          { x: 1229.09, y: 0.986477 },
-          { x: 1635.66, y: 0.990296 },
-          { x: 2050.95, y: 0.992522 },
-          { x: 4005.91, y: 0.996413 },
-          { x: 5949.66, y: 0.997663 },
-          { x: 7888.41, y: 0.998296 }
+          { x: 385.72, y: 0.934924 },
+          { x: 868.01, y: 0.960692 },
+          { x: 1230.39, y: 0.968689 },
+          { x: 2052.28, y: 0.977787 },
+          { x: 4005.53, y: 0.98532 },
+          { x: 6927.07, y: 0.989461 }
     ]
 };
 
@@ -9202,14 +9016,12 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 397.60, y: 0.947062 },
-          { x: 875.36, y: 0.977475 },
-          { x: 1239.87, y: 0.984705 },
-          { x: 1647.28, y: 0.988996 },
-          { x: 2061.13, y: 0.991576 },
-          { x: 4009.54, y: 0.995992 },
-          { x: 5946.24, y: 0.997415 },
-          { x: 7888.07, y: 0.998114 }
+          { x: 397.60, y: 0.931068 },
+          { x: 875.36, y: 0.957086 },
+          { x: 1239.87, y: 0.965709 },
+          { x: 2061.13, y: 0.975742 },
+          { x: 4009.54, y: 0.984196 },
+          { x: 6919.87, y: 0.988747 }
     ]
 };
 
@@ -9224,14 +9036,12 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.56, y: 0.935533 },
-          { x: 860.37, y: 0.975849 },
-          { x: 1225.85, y: 0.984204 },
-          { x: 1633.73, y: 0.989113 },
-          { x: 2041.19, y: 0.991782 },
-          { x: 3988.11, y: 0.99635 },
-          { x: 5943.94, y: 0.997708 },
-          { x: 7880.73, y: 0.998375 }
+          { x: 376.57, y: 0.926767 },
+          { x: 860.21, y: 0.958966 },
+          { x: 1225.55, y: 0.968528 },
+          { x: 2041.05, y: 0.978937 },
+          { x: 3989.98, y: 0.987323 },
+          { x: 6920.14, y: 0.991637 }
     ]
 };
 
@@ -9246,19 +9056,17 @@ const data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 388.28, y: 0.931816 },
-          { x: 866.77, y: 0.973292 },
-          { x: 1232.90, y: 0.98252 },
-          { x: 1638.65, y: 0.987814 },
-          { x: 2055.25, y: 0.990828 },
-          { x: 4003.05, y: 0.995924 },
-          { x: 5938.67, y: 0.99743 },
-          { x: 7886.05, y: 0.998181 }
+          { x: 388.28, y: 0.923411 },
+          { x: 866.77, y: 0.955627 },
+          { x: 1232.90, y: 0.965783 },
+          { x: 2055.25, y: 0.976991 },
+          { x: 4003.05, y: 0.986225 },
+          { x: 6915.51, y: 0.990901 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -9268,18 +9076,17 @@ const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 1180.82, y: 0.963301 },
-          { x: 1180.98, y: 0.96331 },
-          { x: 1206.04, y: 0.964021 },
-          { x: 1284.97, y: 0.966077 },
-          { x: 1880.35, y: 0.980594 },
-          { x: 3718.94, y: 0.992839 },
-          { x: 6472.10, y: 0.996964 }
+          { x: 1114.76, y: 0.943598 },
+          { x: 1115.04, y: 0.943601 },
+          { x: 1252.49, y: 0.946789 },
+          { x: 1872.61, y: 0.960652 },
+          { x: 3708.63, y: 0.976425 },
+          { x: 6457.14, y: 0.984802 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -9289,18 +9096,17 @@ const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 502.22, y: 0.870522 },
-          { x: 773.82, y: 0.909357 },
-          { x: 964.74, y: 0.931141 },
-          { x: 1167.33, y: 0.946457 },
-          { x: 1929.79, y: 0.974752 },
-          { x: 3877.04, y: 0.990279 },
-          { x: 6727.82, y: 0.995109 }
+          { x: 580.60, y: 0.917352 },
+          { x: 855.72, y: 0.936206 },
+          { x: 1199.74, y: 0.949532 },
+          { x: 1902.57, y: 0.965097 },
+          { x: 3725.03, y: 0.980216 },
+          { x: 6515.26, y: 0.986551 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -9310,18 +9116,17 @@ const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     
     data: [
-          { x: 749.59, y: 0.977098 },
-          { x: 837.72, y: 0.978692 },
-          { x: 971.95, y: 0.981134 },
-          { x: 1138.66, y: 0.984055 },
-          { x: 1874.36, y: 0.990513 },
-          { x: 3719.70, y: 0.995595 },
-          { x: 6041.28, y: 0.997918 }
+          { x: 869.20, y: 0.959291 },
+          { x: 913.35, y: 0.960307 },
+          { x: 1159.15, y: 0.964356 },
+          { x: 1881.39, y: 0.973066 },
+          { x: 3726.77, y: 0.982809 },
+          { x: 6166.21, y: 0.989085 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -9331,13 +9136,52 @@ const data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 410.77, y: 0.920325 },
-          { x: 800.86, y: 0.956444 },
-          { x: 990.57, y: 0.966294 },
-          { x: 1189.35, y: 0.972976 },
-          { x: 1955.41, y: 0.984925 },
-          { x: 3881.26, y: 0.993057 },
-          { x: 6730.67, y: 0.996061 }
+          { x: 525.31, y: 0.935451 },
+          { x: 919.12, y: 0.953691 },
+          { x: 1330.40, y: 0.963808 },
+          { x: 2062.56, y: 0.974012 },
+          { x: 3838.73, y: 0.983444 },
+          { x: 6696.56, y: 0.988108 }
+    ]
+};
+
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
+    
+    data: [
+          { x: 834.13, y: 0.961348 },
+          { x: 888.49, y: 0.962504 },
+          { x: 1152.96, y: 0.966547 },
+          { x: 1882.04, y: 0.974757 },
+          { x: 3731.98, y: 0.983497 },
+          { x: 6551.90, y: 0.989699 }
+    ]
+};
+
+const data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 507.25, y: 0.935582 },
+          { x: 896.36, y: 0.954227 },
+          { x: 1263.69, y: 0.964624 },
+          { x: 1932.36, y: 0.974771 },
+          { x: 3793.36, y: 0.984243 },
+          { x: 6505.42, y: 0.98893 }
     ]
 };
 
@@ -9349,15 +9193,15 @@ const data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 503.28, y: 0.869948 },
-          { x: 772.50, y: 0.908014 },
-          { x: 1167.87, y: 0.945724 },
-          { x: 1934.21, y: 0.974802 },
-          { x: 3869.53, y: 0.990327 },
-          { x: 6725.80, y: 0.995171 }
+          { x: 503.28, y: 0.898363 },
+          { x: 772.50, y: 0.91748 },
+          { x: 1167.87, y: 0.939105 },
+          { x: 1934.21, y: 0.960294 },
+          { x: 3869.53, y: 0.976793 },
+          { x: 6725.81, y: 0.984391 }
     ]
 };
 
@@ -9369,15 +9213,15 @@ const data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 501.75, y: 0.870066 },
-          { x: 773.58, y: 0.909535 },
-          { x: 1166.73, y: 0.946373 },
-          { x: 1930.31, y: 0.975161 },
-          { x: 3875.30, y: 0.990356 },
-          { x: 6727.34, y: 0.995133 }
+          { x: 501.75, y: 0.898066 },
+          { x: 773.58, y: 0.917932 },
+          { x: 1166.73, y: 0.939095 },
+          { x: 1930.31, y: 0.960261 },
+          { x: 3875.30, y: 0.976646 },
+          { x: 6727.34, y: 0.984121 }
     ]
 };
 
@@ -9389,15 +9233,15 @@ const data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 448.40, y: 0.943773 },
-          { x: 802.34, y: 0.965889 },
-          { x: 1190.97, y: 0.976888 },
-          { x: 1968.64, y: 0.986605 },
-          { x: 3811.51, y: 0.993743 },
-          { x: 6552.23, y: 0.996566 }
+          { x: 448.40, y: 0.929931 },
+          { x: 802.34, y: 0.948004 },
+          { x: 1190.97, y: 0.958415 },
+          { x: 1968.64, y: 0.969398 },
+          { x: 3811.51, y: 0.980015 },
+          { x: 6552.23, y: 0.985672 }
     ]
 };
 
@@ -9409,60 +9253,20 @@ const data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 448.40, y: 0.943773 },
-          { x: 802.34, y: 0.965889 },
-          { x: 1190.97, y: 0.976888 },
-          { x: 1968.64, y: 0.986605 },
-          { x: 3811.51, y: 0.993743 },
-          { x: 6552.23, y: 0.996566 }
-    ]
-};
-
-const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950x igpu VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
-    
-    data: [
-          { x: 1114.75, y: 0.963077 },
-          { x: 1115.03, y: 0.963086 },
-          { x: 1252.56, y: 0.966144 },
-          { x: 1872.65, y: 0.98081 },
-          { x: 3708.59, y: 0.992696 },
-          { x: 6457.09, y: 0.99677 }
-    ]
-};
-
-const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950x igpu VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 495.66, y: 0.886179 },
-          { x: 784.30, y: 0.919922 },
-          { x: 1161.45, y: 0.950061 },
-          { x: 1889.75, y: 0.976005 },
-          { x: 3738.75, y: 0.991565 },
-          { x: 6442.97, y: 0.996533 }
+          { x: 448.40, y: 0.929931 },
+          { x: 802.34, y: 0.948004 },
+          { x: 1190.97, y: 0.958415 },
+          { x: 1968.64, y: 0.969398 },
+          { x: 3811.51, y: 0.980015 },
+          { x: 6552.23, y: 0.985672 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950x igpu VCE VBR HEVC quality",
+const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rect",
     hidden: false,
@@ -9472,17 +9276,17 @@ const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 1, 140, 0.9)',
     
     data: [
-          { x: 783.29, y: 0.977149 },
-          { x: 859.39, y: 0.978601 },
-          { x: 1143.31, y: 0.983836 },
-          { x: 1874.72, y: 0.990535 },
-          { x: 3716.36, y: 0.995716 },
-          { x: 6275.17, y: 0.998139 }
+          { x: 495.03, y: 0.898819 },
+          { x: 772.44, y: 0.919509 },
+          { x: 1168.70, y: 0.940954 },
+          { x: 1934.21, y: 0.961239 },
+          { x: 3867.61, y: 0.977297 },
+          { x: 6724.97, y: 0.984552 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950x igpu VCE VBR HEVC normal",
+const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rect",
     hidden: true,
@@ -9492,19 +9296,19 @@ const data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 412.37, y: 0.922024 },
-          { x: 801.55, y: 0.960424 },
-          { x: 1190.70, y: 0.976015 },
-          { x: 1969.00, y: 0.987134 },
-          { x: 3914.32, y: 0.993814 },
-          { x: 6771.45, y: 0.996545 }
+          { x: 501.75, y: 0.898066 },
+          { x: 773.65, y: 0.91799 },
+          { x: 1167.07, y: 0.939134 },
+          { x: 1929.87, y: 0.960215 },
+          { x: 3874.93, y: 0.976634 },
+          { x: 6736.06, y: 0.984123 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -9512,21 +9316,19 @@ const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 496.47, y: 0.87091 },
-          { x: 773.88, y: 0.911885 },
-          { x: 1170.14, y: 0.948691 },
-          { x: 1560.35, y: 0.966565 },
-          { x: 1935.65, y: 0.975979 },
-          { x: 3869.05, y: 0.9907 },
-          { x: 5765.12, y: 0.994349 },
-          { x: 7662.35, y: 0.995991 }
+          { x: 412.47, y: 0.921831 },
+          { x: 800.49, y: 0.946283 },
+          { x: 1187.02, y: 0.958135 },
+          { x: 1957.58, y: 0.969283 },
+          { x: 3878.14, y: 0.979447 },
+          { x: 6732.12, y: 0.984882 }
     ]
 };
 
-const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -9534,58 +9336,12 @@ const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 503.19, y: 0.870066 },
-          { x: 775.09, y: 0.909695 },
-          { x: 1168.51, y: 0.946417 },
-          { x: 1548.05, y: 0.965118 },
-          { x: 1931.31, y: 0.975108 },
-          { x: 3876.37, y: 0.990377 },
-          { x: 5764.95, y: 0.994071 },
-          { x: 7668.83, y: 0.995822 }
-    ]
-};
-
-const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 444.05, y: 0.943362 },
-          { x: 801.81, y: 0.965337 },
-          { x: 1189.41, y: 0.97662 },
-          { x: 1578.14, y: 0.982577 },
-          { x: 1958.78, y: 0.986554 },
-          { x: 3814.68, y: 0.99341 },
-          { x: 5646.60, y: 0.995689 },
-          { x: 7467.73, y: 0.996931 }
-    ]
-};
-
-const data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 444.05, y: 0.943362 },
-          { x: 801.81, y: 0.965337 },
-          { x: 1189.41, y: 0.97662 },
-          { x: 1578.14, y: 0.982577 },
-          { x: 1958.78, y: 0.986554 },
-          { x: 3814.68, y: 0.99341 },
-          { x: 5646.60, y: 0.995689 },
-          { x: 7467.73, y: 0.996931 }
+          { x: 412.47, y: 0.921831 },
+          { x: 800.49, y: 0.946283 },
+          { x: 1187.02, y: 0.958135 },
+          { x: 1957.58, y: 0.969283 },
+          { x: 3878.14, y: 0.979447 },
+          { x: 6732.12, y: 0.984882 }
     ]
 };
 
@@ -10870,14 +10626,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 439.60, y: 42.026253 },
-          { x: 839.87, y: 66.433982 },
-          { x: 1095.74, y: 76.124418 },
-          { x: 1575.88, y: 85.162212 },
-          { x: 2052.30, y: 89.852443 },
-          { x: 3967.27, y: 96.204846 },
-          { x: 5884.01, y: 97.728295 },
-          { x: 7809.38, y: 98.339371 }
+          { x: 502.78, y: 43.600846 },
+          { x: 836.62, y: 66.026273 },
+          { x: 1094.34, y: 75.665842 },
+          { x: 2053.98, y: 90.74547 },
+          { x: 3966.45, y: 96.832598 },
+          { x: 6857.04, y: 98.424951 }
     ]
 };
 
@@ -10892,14 +10646,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 498.47, y: 42.68882 },
-          { x: 829.18, y: 66.296656 },
-          { x: 1068.08, y: 74.429971 },
-          { x: 1545.94, y: 84.158255 },
-          { x: 2023.40, y: 89.200511 },
-          { x: 3926.19, y: 95.951303 },
-          { x: 5826.99, y: 97.660476 },
-          { x: 7725.17, y: 98.316582 }
+          { x: 498.92, y: 43.435262 },
+          { x: 829.90, y: 66.876149 },
+          { x: 1067.92, y: 75.238575 },
+          { x: 2023.08, y: 90.043607 },
+          { x: 3925.98, y: 96.554199 },
+          { x: 6778.05, y: 98.380866 }
     ]
 };
 
@@ -10914,14 +10666,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 475.97, y: 58.412567 },
-          { x: 912.45, y: 80.825433 },
-          { x: 1293.44, y: 87.5285 },
-          { x: 1687.38, y: 91.420296 },
-          { x: 2089.99, y: 93.694556 },
-          { x: 4049.64, y: 97.283126 },
-          { x: 6005.96, y: 98.14934 },
-          { x: 7954.92, y: 98.532952 }
+          { x: 497.85, y: 57.504527 },
+          { x: 920.50, y: 81.312628 },
+          { x: 1296.43, y: 88.094166 },
+          { x: 2093.45, y: 94.380209 },
+          { x: 4055.13, y: 97.72764 },
+          { x: 6988.87, y: 98.649883 }
     ]
 };
 
@@ -10936,14 +10686,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 420.54, y: 57.403556 },
-          { x: 890.75, y: 79.250907 },
-          { x: 1262.26, y: 86.203253 },
-          { x: 1655.25, y: 90.257537 },
-          { x: 2068.59, y: 92.53822 },
-          { x: 4009.81, y: 96.835472 },
-          { x: 5948.33, y: 97.92746 },
-          { x: 7868.71, y: 98.412283 }
+          { x: 421.26, y: 58.328462 },
+          { x: 891.05, y: 79.880828 },
+          { x: 1261.19, y: 86.811703 },
+          { x: 2068.79, y: 93.362002 },
+          { x: 4011.73, y: 97.321471 },
+          { x: 6908.38, y: 98.496898 }
     ]
 };
 
@@ -10958,14 +10706,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 476.61, y: 58.263436 },
-          { x: 910.48, y: 81.355721 },
-          { x: 1292.41, y: 87.771753 },
-          { x: 1687.66, y: 91.724745 },
-          { x: 2089.06, y: 93.863523 },
-          { x: 4047.22, y: 97.399854 },
-          { x: 6005.79, y: 98.24229 },
-          { x: 7950.64, y: 98.609442 }
+          { x: 503.86, y: 56.933752 },
+          { x: 919.96, y: 80.917564 },
+          { x: 1294.06, y: 87.566581 },
+          { x: 2093.74, y: 93.786502 },
+          { x: 4053.46, y: 97.38097 },
+          { x: 6984.20, y: 98.463169 }
     ]
 };
 
@@ -10980,14 +10726,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 418.70, y: 57.88787 },
-          { x: 888.06, y: 80.357827 },
-          { x: 1260.72, y: 86.29535 },
-          { x: 1654.13, y: 90.357042 },
-          { x: 2067.82, y: 92.784518 },
-          { x: 4008.64, y: 96.920535 },
-          { x: 5945.20, y: 98.00049 },
-          { x: 7871.35, y: 98.478892 }
+          { x: 417.58, y: 57.780413 },
+          { x: 890.82, y: 79.715941 },
+          { x: 1260.95, y: 86.281437 },
+          { x: 2069.52, y: 92.748577 },
+          { x: 4014.35, y: 96.913926 },
+          { x: 6908.44, y: 98.280502 }
     ]
 };
 
@@ -11002,14 +10746,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 394.12, y: 62.095734 },
-          { x: 877.03, y: 82.660343 },
-          { x: 1238.51, y: 88.600338 },
-          { x: 1646.78, y: 92.114501 },
-          { x: 2050.87, y: 94.009376 },
-          { x: 3999.88, y: 97.384359 },
-          { x: 5923.29, y: 98.210409 },
-          { x: 7843.46, y: 98.563926 }
+          { x: 402.62, y: 63.646527 },
+          { x: 886.34, y: 83.809159 },
+          { x: 1243.69, y: 89.485324 },
+          { x: 2067.70, y: 94.842913 },
+          { x: 4012.51, y: 97.805408 },
+          { x: 6892.40, y: 98.674247 }
     ]
 };
 
@@ -11024,14 +10766,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 388.73, y: 62.847787 },
-          { x: 870.05, y: 82.673186 },
-          { x: 1230.01, y: 88.439236 },
-          { x: 1633.61, y: 91.890748 },
-          { x: 2043.20, y: 93.941583 },
-          { x: 3963.41, y: 97.31154 },
-          { x: 5887.90, y: 98.158338 },
-          { x: 7775.31, y: 98.554162 }
+          { x: 409.97, y: 64.778246 },
+          { x: 889.52, y: 83.949159 },
+          { x: 1250.07, y: 89.4041 },
+          { x: 2077.96, y: 94.685682 },
+          { x: 4014.58, y: 97.67528 },
+          { x: 6880.06, y: 98.638854 }
     ]
 };
 
@@ -11046,14 +10786,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 394.72, y: 62.230949 },
-          { x: 875.28, y: 82.677172 },
-          { x: 1235.77, y: 88.634363 },
-          { x: 1647.34, y: 92.210231 },
-          { x: 2050.32, y: 94.159587 },
-          { x: 3990.27, y: 97.469729 },
-          { x: 5910.17, y: 98.296136 },
-          { x: 7822.21, y: 98.633733 }
+          { x: 401.43, y: 62.755834 },
+          { x: 884.50, y: 82.915266 },
+          { x: 1242.35, y: 88.623067 },
+          { x: 2061.72, y: 94.181224 },
+          { x: 4002.27, y: 97.48759 },
+          { x: 6887.33, y: 98.521869 }
     ]
 };
 
@@ -11068,14 +10806,12 @@ const data_1_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 388.76, y: 62.853996 },
-          { x: 870.69, y: 82.829498 },
-          { x: 1227.34, y: 88.479365 },
-          { x: 1634.37, y: 91.933392 },
-          { x: 2044.15, y: 94.049482 },
-          { x: 3971.27, y: 97.371685 },
-          { x: 5885.03, y: 98.237984 },
-          { x: 7789.98, y: 98.604235 }
+          { x: 410.54, y: 64.211123 },
+          { x: 889.48, y: 83.086897 },
+          { x: 1249.17, y: 88.53521 },
+          { x: 2083.97, y: 93.995687 },
+          { x: 4014.72, y: 97.41558 },
+          { x: 6882.11, y: 98.463501 }
     ]
 };
 
@@ -11090,12 +10826,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 456.47, y: 42.065246 },
-          { x: 840.79, y: 66.998898 },
-          { x: 1096.46, y: 76.153467 },
-          { x: 2052.36, y: 90.053955 },
-          { x: 3968.60, y: 96.216668 },
-          { x: 6849.76, y: 98.112405 }
+          { x: 501.01, y: 43.324591 },
+          { x: 834.30, y: 65.7863 },
+          { x: 1094.08, y: 75.827991 },
+          { x: 2056.58, y: 90.68353 },
+          { x: 3968.62, y: 96.837305 },
+          { x: 6850.20, y: 98.426055 }
     ]
 };
 
@@ -11110,12 +10846,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 499.92, y: 42.640054 },
-          { x: 829.68, y: 66.100493 },
-          { x: 1067.98, y: 74.808868 },
-          { x: 2023.69, y: 89.168673 },
-          { x: 3925.20, y: 95.950141 },
-          { x: 6772.60, y: 98.054468 }
+          { x: 499.81, y: 43.381185 },
+          { x: 830.94, y: 66.727013 },
+          { x: 1068.76, y: 74.889249 },
+          { x: 2024.03, y: 90.020502 },
+          { x: 3926.81, y: 96.559685 },
+          { x: 6771.78, y: 98.381944 }
     ]
 };
 
@@ -11130,12 +10866,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 471.01, y: 58.472032 },
-          { x: 911.50, y: 80.886519 },
-          { x: 1291.72, y: 87.44458 },
-          { x: 2091.40, y: 93.639281 },
-          { x: 4048.72, y: 97.296092 },
-          { x: 6983.50, y: 98.39419 }
+          { x: 500.40, y: 57.359575 },
+          { x: 918.80, y: 81.242963 },
+          { x: 1295.25, y: 88.047402 },
+          { x: 2094.31, y: 94.332935 },
+          { x: 4051.42, y: 97.737771 },
+          { x: 6987.63, y: 98.649402 }
     ]
 };
 
@@ -11150,12 +10886,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.14, y: 57.148535 },
-          { x: 888.59, y: 79.761926 },
-          { x: 1262.42, y: 86.144154 },
-          { x: 2068.26, y: 92.698608 },
-          { x: 4013.45, y: 96.856215 },
-          { x: 6908.14, y: 98.218714 }
+          { x: 421.67, y: 57.996279 },
+          { x: 891.94, y: 80.093807 },
+          { x: 1260.96, y: 86.741127 },
+          { x: 2070.19, y: 93.42737 },
+          { x: 4012.60, y: 97.317824 },
+          { x: 6908.77, y: 98.511156 }
     ]
 };
 
@@ -11170,12 +10906,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 478.59, y: 57.898473 },
-          { x: 912.22, y: 81.146055 },
-          { x: 1292.90, y: 87.679177 },
-          { x: 2086.98, y: 93.829178 },
-          { x: 4048.61, y: 97.401473 },
-          { x: 6980.69, y: 98.468255 }
+          { x: 496.58, y: 56.566408 },
+          { x: 916.49, y: 81.056285 },
+          { x: 1294.78, y: 87.512713 },
+          { x: 2091.44, y: 93.780434 },
+          { x: 4049.71, y: 97.396597 },
+          { x: 6982.53, y: 98.466181 }
     ]
 };
 
@@ -11190,12 +10926,12 @@ const data_1_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 420.50, y: 57.48624 },
-          { x: 888.62, y: 80.243892 },
-          { x: 1261.91, y: 86.245745 },
-          { x: 2067.95, y: 92.768224 },
-          { x: 4009.27, y: 96.916348 },
-          { x: 6909.31, y: 98.2872 }
+          { x: 419.96, y: 57.56998 },
+          { x: 889.94, y: 79.609938 },
+          { x: 1261.10, y: 86.174694 },
+          { x: 2069.22, y: 92.726414 },
+          { x: 4008.06, y: 96.913657 },
+          { x: 6910.56, y: 98.282931 }
     ]
 };
 
@@ -11210,14 +10946,12 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 463.95, y: 40.580809 },
-          { x: 827.78, y: 64.065672 },
-          { x: 1067.01, y: 72.60861 },
-          { x: 1546.10, y: 82.826758 },
-          { x: 2033.23, y: 88.228513 },
-          { x: 3973.90, y: 95.522252 },
-          { x: 5900.26, y: 97.458281 },
-          { x: 7843.44, y: 98.180107 }
+          { x: 463.95, y: 41.291724 },
+          { x: 827.78, y: 64.950003 },
+          { x: 1067.01, y: 73.528818 },
+          { x: 2033.23, y: 89.11125 },
+          { x: 3973.90, y: 96.215033 },
+          { x: 6874.16, y: 98.277775 }
     ]
 };
 
@@ -11232,14 +10966,12 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 470.87, y: 40.357175 },
-          { x: 817.54, y: 64.625092 },
-          { x: 1054.65, y: 72.458028 },
-          { x: 1536.23, y: 82.116944 },
-          { x: 2018.33, y: 87.422269 },
-          { x: 3918.16, y: 95.154858 },
-          { x: 5819.54, y: 97.310893 },
-          { x: 7734.63, y: 98.123077 }
+          { x: 470.87, y: 41.060418 },
+          { x: 817.54, y: 65.510218 },
+          { x: 1054.65, y: 73.387077 },
+          { x: 2018.33, y: 88.329066 },
+          { x: 3918.16, y: 95.846305 },
+          { x: 6780.20, y: 98.150836 }
     ]
 };
 
@@ -11254,14 +10986,12 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 385.48, y: 57.475506 },
-          { x: 868.33, y: 79.138007 },
-          { x: 1229.09, y: 85.589382 },
-          { x: 1635.66, y: 89.673491 },
-          { x: 2050.95, y: 92.206022 },
-          { x: 4005.91, y: 96.640983 },
-          { x: 5949.66, y: 97.827616 },
-          { x: 7888.41, y: 98.351545 }
+          { x: 385.72, y: 58.293329 },
+          { x: 868.01, y: 79.982957 },
+          { x: 1230.39, y: 86.508161 },
+          { x: 2052.28, y: 93.053476 },
+          { x: 4005.53, y: 97.198297 },
+          { x: 6927.07, y: 98.458988 }
     ]
 };
 
@@ -11276,14 +11006,12 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 397.60, y: 54.971182 },
-          { x: 875.36, y: 76.830578 },
-          { x: 1239.87, y: 83.859589 },
-          { x: 1647.28, y: 88.330684 },
-          { x: 2061.13, y: 91.156109 },
-          { x: 4009.54, y: 96.138642 },
-          { x: 5946.24, y: 97.580917 },
-          { x: 7888.07, y: 98.193282 }
+          { x: 397.60, y: 55.779714 },
+          { x: 875.36, y: 77.734786 },
+          { x: 1239.87, y: 84.771321 },
+          { x: 2061.13, y: 92.025357 },
+          { x: 4009.54, y: 96.74781 },
+          { x: 6919.87, y: 98.285441 }
     ]
 };
 
@@ -11298,14 +11026,12 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.56, y: 50.197565 },
-          { x: 860.37, y: 75.70624 },
-          { x: 1225.85, y: 83.361036 },
-          { x: 1633.73, y: 88.320779 },
-          { x: 2041.19, y: 91.23282 },
-          { x: 3988.11, y: 96.425524 },
-          { x: 5943.94, y: 97.773633 },
-          { x: 7880.73, y: 98.328117 }
+          { x: 376.57, y: 50.178597 },
+          { x: 860.21, y: 75.627293 },
+          { x: 1225.55, y: 83.377865 },
+          { x: 2041.05, y: 91.22415 },
+          { x: 3989.98, y: 96.420875 },
+          { x: 6920.14, y: 98.098577 }
     ]
 };
 
@@ -11323,16 +11049,14 @@ const data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
           { x: 388.28, y: 48.266252 },
           { x: 866.77, y: 73.592307 },
           { x: 1232.90, y: 81.741471 },
-          { x: 1638.65, y: 87.038263 },
           { x: 2055.25, y: 90.175444 },
           { x: 4003.05, y: 95.900864 },
-          { x: 5938.67, y: 97.485493 },
-          { x: 7886.05, y: 98.15865 }
+          { x: 6915.51, y: 97.88317 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -11342,18 +11066,17 @@ const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 1180.82, y: 55.200234 },
-          { x: 1180.98, y: 55.192649 },
-          { x: 1206.04, y: 55.919472 },
-          { x: 1284.97, y: 58.636719 },
-          { x: 1880.35, y: 71.621467 },
-          { x: 3718.94, y: 86.420851 },
-          { x: 6472.10, y: 93.410882 }
+          { x: 1114.76, y: 54.466187 },
+          { x: 1115.04, y: 54.481294 },
+          { x: 1252.49, y: 58.924314 },
+          { x: 1872.61, y: 71.81075 },
+          { x: 3708.63, y: 86.416544 },
+          { x: 6457.14, y: 93.705621 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -11363,18 +11086,17 @@ const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 502.22, y: 29.77136 },
-          { x: 773.82, y: 47.804845 },
-          { x: 964.74, y: 55.823783 },
-          { x: 1167.33, y: 62.574858 },
-          { x: 1929.79, y: 78.214047 },
-          { x: 3877.04, y: 90.591873 },
-          { x: 6727.82, y: 95.314929 }
+          { x: 580.60, y: 44.270615 },
+          { x: 855.72, y: 59.096067 },
+          { x: 1199.74, y: 69.442286 },
+          { x: 1902.57, y: 81.465759 },
+          { x: 3725.03, y: 93.074325 },
+          { x: 6515.26, y: 96.911224 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -11384,18 +11106,17 @@ const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     
     data: [
-          { x: 749.59, y: 68.259497 },
-          { x: 837.72, y: 71.16503 },
-          { x: 971.95, y: 73.768461 },
-          { x: 1138.66, y: 77.037477 },
-          { x: 1874.36, y: 85.105473 },
-          { x: 3719.70, y: 92.685588 },
-          { x: 6041.28, y: 96.149666 }
+          { x: 869.20, y: 74.169916 },
+          { x: 913.35, y: 75.377356 },
+          { x: 1159.15, y: 79.880735 },
+          { x: 1881.39, y: 87.360188 },
+          { x: 3726.77, y: 94.210015 },
+          { x: 6166.21, y: 97.324674 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -11405,13 +11126,52 @@ const data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 410.77, y: 46.330459 },
-          { x: 800.86, y: 66.159317 },
-          { x: 990.57, y: 72.040891 },
-          { x: 1189.35, y: 76.336357 },
-          { x: 1955.41, y: 85.477129 },
-          { x: 3881.26, y: 92.925233 },
-          { x: 6730.67, y: 96.070641 }
+          { x: 525.31, y: 61.331391 },
+          { x: 919.12, y: 76.113569 },
+          { x: 1330.40, y: 83.567505 },
+          { x: 2062.56, y: 90.809287 },
+          { x: 3838.73, y: 96.440216 },
+          { x: 6696.56, y: 98.22615 }
+    ]
+};
+
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
+    
+    data: [
+          { x: 834.13, y: 77.39409 },
+          { x: 888.49, y: 78.638471 },
+          { x: 1152.96, y: 82.760849 },
+          { x: 1882.04, y: 89.068716 },
+          { x: 3731.98, y: 94.793937 },
+          { x: 6551.90, y: 97.537008 }
+    ]
+};
+
+const data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 507.25, y: 64.133599 },
+          { x: 896.36, y: 78.013883 },
+          { x: 1263.69, y: 85.220954 },
+          { x: 1932.36, y: 91.88404 },
+          { x: 3793.36, y: 97.002382 },
+          { x: 6505.42, y: 98.42143 }
     ]
 };
 
@@ -11423,15 +11183,15 @@ const data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 503.28, y: 30.287397 },
-          { x: 772.50, y: 48.006532 },
-          { x: 1167.87, y: 62.615901 },
-          { x: 1934.21, y: 78.540208 },
-          { x: 3869.53, y: 90.846551 },
-          { x: 6725.80, y: 95.491396 }
+          { x: 503.28, y: 30.9436 },
+          { x: 772.50, y: 48.826629 },
+          { x: 1167.87, y: 63.538863 },
+          { x: 1934.21, y: 79.47962 },
+          { x: 3869.53, y: 91.667448 },
+          { x: 6725.81, y: 96.063275 }
     ]
 };
 
@@ -11443,15 +11203,15 @@ const data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 501.75, y: 29.476187 },
-          { x: 773.58, y: 47.752391 },
-          { x: 1166.73, y: 62.594591 },
-          { x: 1930.31, y: 78.383991 },
-          { x: 3875.30, y: 90.702205 },
-          { x: 6727.34, y: 95.342567 }
+          { x: 501.75, y: 30.126452 },
+          { x: 773.58, y: 48.57479 },
+          { x: 1166.73, y: 63.513954 },
+          { x: 1930.31, y: 79.331232 },
+          { x: 3875.30, y: 91.528052 },
+          { x: 6727.34, y: 95.931459 }
     ]
 };
 
@@ -11463,15 +11223,15 @@ const data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 448.40, y: 55.766008 },
-          { x: 802.34, y: 70.702848 },
-          { x: 1190.97, y: 79.270851 },
-          { x: 1968.64, y: 87.323292 },
-          { x: 3811.51, y: 93.959572 },
-          { x: 6552.23, y: 96.814238 }
+          { x: 448.40, y: 56.573147 },
+          { x: 802.34, y: 71.585224 },
+          { x: 1190.97, y: 80.140066 },
+          { x: 1968.64, y: 88.149033 },
+          { x: 3811.51, y: 94.633844 },
+          { x: 6552.23, y: 97.243581 }
     ]
 };
 
@@ -11483,60 +11243,20 @@ const data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 448.40, y: 55.766008 },
-          { x: 802.34, y: 70.702848 },
-          { x: 1190.97, y: 79.270851 },
-          { x: 1968.64, y: 87.323292 },
-          { x: 3811.51, y: 93.959572 },
-          { x: 6552.23, y: 96.814238 }
-    ]
-};
-
-const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950x igpu VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
-    
-    data: [
-          { x: 1114.75, y: 53.678882 },
-          { x: 1115.03, y: 53.693582 },
-          { x: 1252.56, y: 58.140252 },
-          { x: 1872.65, y: 70.996447 },
-          { x: 3708.59, y: 85.677145 },
-          { x: 6457.09, y: 93.052305 }
-    ]
-};
-
-const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950x igpu VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 495.66, y: 31.318454 },
-          { x: 784.30, y: 48.899339 },
-          { x: 1161.45, y: 63.000201 },
-          { x: 1889.75, y: 78.63583 },
-          { x: 3738.75, y: 91.578819 },
-          { x: 6442.97, y: 96.31722 }
+          { x: 448.40, y: 56.573147 },
+          { x: 802.34, y: 71.585224 },
+          { x: 1190.97, y: 80.140066 },
+          { x: 1968.64, y: 88.149033 },
+          { x: 3811.51, y: 94.633844 },
+          { x: 6552.23, y: 97.243581 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950x igpu VCE VBR HEVC quality",
+const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rect",
     hidden: false,
@@ -11546,17 +11266,17 @@ const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 1, 140, 0.9)',
     
     data: [
-          { x: 783.29, y: 67.942499 },
-          { x: 859.39, y: 70.56823 },
-          { x: 1143.31, y: 76.595877 },
-          { x: 1874.72, y: 85.136688 },
-          { x: 3716.36, y: 92.8591 },
-          { x: 6275.17, y: 96.653419 }
+          { x: 495.03, y: 31.021024 },
+          { x: 772.44, y: 49.95577 },
+          { x: 1168.70, y: 64.80946 },
+          { x: 1934.21, y: 80.098858 },
+          { x: 3867.61, y: 91.878398 },
+          { x: 6724.97, y: 96.13718 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950x igpu VCE VBR HEVC normal",
+const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rect",
     hidden: true,
@@ -11566,19 +11286,19 @@ const data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 412.37, y: 47.103486 },
-          { x: 801.55, y: 67.649432 },
-          { x: 1190.70, y: 78.10315 },
-          { x: 1969.00, y: 87.440626 },
-          { x: 3914.32, y: 94.037642 },
-          { x: 6771.45, y: 96.80817 }
+          { x: 501.75, y: 30.126452 },
+          { x: 773.65, y: 48.581132 },
+          { x: 1167.07, y: 63.575186 },
+          { x: 1929.87, y: 79.357806 },
+          { x: 3874.93, y: 91.494874 },
+          { x: 6736.06, y: 95.930798 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -11586,21 +11306,19 @@ const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 496.47, y: 30.362125 },
-          { x: 773.88, y: 49.128118 },
-          { x: 1170.14, y: 63.889117 },
-          { x: 1560.35, y: 73.123399 },
-          { x: 1935.65, y: 79.162 },
-          { x: 3869.05, y: 91.052875 },
-          { x: 5765.12, y: 94.633005 },
-          { x: 7662.35, y: 96.239875 }
+          { x: 412.47, y: 53.770369 },
+          { x: 800.49, y: 71.175775 },
+          { x: 1187.02, y: 79.861761 },
+          { x: 1957.58, y: 87.856217 },
+          { x: 3878.14, y: 94.253053 },
+          { x: 6732.12, y: 96.85095 }
     ]
 };
 
-const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -11608,58 +11326,12 @@ const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 503.19, y: 29.476187 },
-          { x: 775.09, y: 47.755753 },
-          { x: 1168.51, y: 62.662089 },
-          { x: 1548.05, y: 72.081138 },
-          { x: 1931.31, y: 78.404618 },
-          { x: 3876.37, y: 90.664294 },
-          { x: 5764.95, y: 94.274988 },
-          { x: 7668.83, y: 96.031588 }
-    ]
-};
-
-const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 444.05, y: 55.398446 },
-          { x: 801.81, y: 70.514849 },
-          { x: 1189.41, y: 78.97712 },
-          { x: 1578.14, y: 83.926146 },
-          { x: 1958.78, y: 87.097742 },
-          { x: 3814.68, y: 93.637101 },
-          { x: 5646.60, y: 95.902039 },
-          { x: 7467.73, y: 97.186787 }
-    ]
-};
-
-const data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 444.05, y: 55.398446 },
-          { x: 801.81, y: 70.514849 },
-          { x: 1189.41, y: 78.97712 },
-          { x: 1578.14, y: 83.926146 },
-          { x: 1958.78, y: 87.097742 },
-          { x: 3814.68, y: 93.637101 },
-          { x: 5646.60, y: 95.902039 },
-          { x: 7467.73, y: 97.186787 }
+          { x: 412.47, y: 53.770369 },
+          { x: 800.49, y: 71.175775 },
+          { x: 1187.02, y: 79.861761 },
+          { x: 1957.58, y: 87.856217 },
+          { x: 3878.14, y: 94.253053 },
+          { x: 6732.12, y: 96.85095 }
     ]
 };
 
@@ -12944,14 +12616,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 439.60, y: 212.81 },
-          { x: 839.87, y: 211.01 },
-          { x: 1095.74, y: 209.79 },
-          { x: 1575.88, y: 207.71 },
-          { x: 2052.30, y: 208.32 },
-          { x: 3967.27, y: 206.70 },
-          { x: 5884.01, y: 205.75 },
-          { x: 7809.38, y: 205.79 }
+          { x: 502.78, y: 206.04 },
+          { x: 836.62, y: 203.04 },
+          { x: 1094.34, y: 203.49 },
+          { x: 2053.98, y: 202.01 },
+          { x: 3966.45, y: 199.44 },
+          { x: 6857.04, y: 197.98 }
     ]
 };
 
@@ -12966,14 +12636,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 498.47, y: 477.36 },
-          { x: 829.18, y: 475.09 },
-          { x: 1068.08, y: 474.59 },
-          { x: 1545.94, y: 477.14 },
-          { x: 2023.40, y: 477.71 },
-          { x: 3926.19, y: 477.29 },
-          { x: 5826.99, y: 478.65 },
-          { x: 7725.17, y: 476.36 }
+          { x: 498.92, y: 468.60 },
+          { x: 829.90, y: 469.64 },
+          { x: 1067.92, y: 472.14 },
+          { x: 2023.08, y: 468.60 },
+          { x: 3925.98, y: 464.72 },
+          { x: 6778.05, y: 465.12 }
     ]
 };
 
@@ -12988,14 +12656,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 475.97, y: 133.44 },
-          { x: 912.45, y: 134.07 },
-          { x: 1293.44, y: 134.37 },
-          { x: 1687.38, y: 134.18 },
-          { x: 2089.99, y: 134.13 },
-          { x: 4049.64, y: 134.25 },
-          { x: 6005.96, y: 134.09 },
-          { x: 7954.92, y: 133.81 }
+          { x: 497.85, y: 126.90 },
+          { x: 920.50, y: 128.22 },
+          { x: 1296.43, y: 128.56 },
+          { x: 2093.45, y: 128.35 },
+          { x: 4055.13, y: 126.73 },
+          { x: 6988.87, y: 129.06 }
     ]
 };
 
@@ -13010,14 +12676,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 420.54, y: 463.57 },
-          { x: 890.75, y: 464.24 },
-          { x: 1262.26, y: 464.18 },
-          { x: 1655.25, y: 464.78 },
-          { x: 2068.59, y: 462.23 },
-          { x: 4009.81, y: 461.69 },
-          { x: 5948.33, y: 459.04 },
-          { x: 7868.71, y: 460.30 }
+          { x: 421.26, y: 461.76 },
+          { x: 891.05, y: 456.94 },
+          { x: 1261.19, y: 456.68 },
+          { x: 2068.79, y: 457.20 },
+          { x: 4011.73, y: 458.91 },
+          { x: 6908.38, y: 459.11 }
     ]
 };
 
@@ -13032,14 +12696,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 476.61, y: 137.83 },
-          { x: 910.48, y: 137.99 },
-          { x: 1292.41, y: 138.07 },
-          { x: 1687.66, y: 138.02 },
-          { x: 2089.06, y: 137.81 },
-          { x: 4047.22, y: 137.52 },
-          { x: 6005.79, y: 137.21 },
-          { x: 7950.64, y: 136.94 }
+          { x: 503.86, y: 137.03 },
+          { x: 919.96, y: 137.15 },
+          { x: 1294.06, y: 137.13 },
+          { x: 2093.74, y: 136.85 },
+          { x: 4053.46, y: 136.75 },
+          { x: 6984.20, y: 136.25 }
     ]
 };
 
@@ -13054,14 +12716,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 418.70, y: 327.66 },
-          { x: 888.06, y: 327.46 },
-          { x: 1260.72, y: 324.59 },
-          { x: 1654.13, y: 320.62 },
-          { x: 2067.82, y: 329.79 },
-          { x: 4008.64, y: 323.05 },
-          { x: 5945.20, y: 326.55 },
-          { x: 7871.35, y: 319.66 }
+          { x: 417.58, y: 298.14 },
+          { x: 890.82, y: 301.72 },
+          { x: 1260.95, y: 303.67 },
+          { x: 2069.52, y: 294.49 },
+          { x: 4014.35, y: 307.86 },
+          { x: 6908.44, y: 302.29 }
     ]
 };
 
@@ -13076,14 +12736,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 394.12, y: 211.83 },
-          { x: 877.03, y: 211.66 },
-          { x: 1238.51, y: 211.27 },
-          { x: 1646.78, y: 209.76 },
-          { x: 2050.87, y: 209.69 },
-          { x: 3999.88, y: 204.60 },
-          { x: 5923.29, y: 200.43 },
-          { x: 7843.46, y: 196.67 }
+          { x: 402.62, y: 204.32 },
+          { x: 886.34, y: 204.52 },
+          { x: 1243.69, y: 203.78 },
+          { x: 2067.70, y: 201.65 },
+          { x: 4012.51, y: 196.46 },
+          { x: 6892.40, y: 193.61 }
     ]
 };
 
@@ -13098,14 +12756,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 388.73, y: 554.90 },
-          { x: 870.05, y: 553.65 },
-          { x: 1230.01, y: 550.12 },
-          { x: 1633.61, y: 556.16 },
-          { x: 2043.20, y: 557.13 },
-          { x: 3963.41, y: 554.13 },
-          { x: 5887.90, y: 548.80 },
-          { x: 7775.31, y: 549.84 }
+          { x: 409.97, y: 546.36 },
+          { x: 889.52, y: 548.33 },
+          { x: 1250.07, y: 546.36 },
+          { x: 2077.96, y: 548.33 },
+          { x: 4014.58, y: 548.04 },
+          { x: 6880.06, y: 546.45 }
     ]
 };
 
@@ -13120,14 +12776,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 394.72, y: 211.31 },
-          { x: 875.28, y: 211.09 },
-          { x: 1235.77, y: 210.91 },
-          { x: 1647.34, y: 210.49 },
-          { x: 2050.32, y: 209.64 },
-          { x: 3990.27, y: 206.30 },
-          { x: 5910.17, y: 201.67 },
-          { x: 7822.21, y: 199.64 }
+          { x: 401.43, y: 209.48 },
+          { x: 884.50, y: 209.17 },
+          { x: 1242.35, y: 209.02 },
+          { x: 2061.72, y: 208.12 },
+          { x: 4002.27, y: 204.47 },
+          { x: 6887.33, y: 199.66 }
     ]
 };
 
@@ -13142,14 +12796,12 @@ const data_1_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 388.76, y: 342.01 },
-          { x: 870.69, y: 329.89 },
-          { x: 1227.34, y: 330.30 },
-          { x: 1634.37, y: 329.96 },
-          { x: 2044.15, y: 322.14 },
-          { x: 3971.27, y: 324.73 },
-          { x: 5885.03, y: 327.05 },
-          { x: 7789.98, y: 322.92 }
+          { x: 410.54, y: 308.78 },
+          { x: 889.48, y: 304.71 },
+          { x: 1249.17, y: 309.20 },
+          { x: 2083.97, y: 305.59 },
+          { x: 4014.72, y: 304.71 },
+          { x: 6882.11, y: 298.00 }
     ]
 };
 
@@ -13164,12 +12816,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 456.47, y: 170.21 },
-          { x: 840.79, y: 169.08 },
-          { x: 1096.46, y: 167.36 },
-          { x: 2052.36, y: 165.90 },
-          { x: 3968.60, y: 164.22 },
-          { x: 6849.76, y: 163.59 }
+          { x: 501.01, y: 170.93 },
+          { x: 834.30, y: 168.74 },
+          { x: 1094.08, y: 167.97 },
+          { x: 2056.58, y: 165.50 },
+          { x: 3968.62, y: 164.04 },
+          { x: 6850.20, y: 163.11 }
     ]
 };
 
@@ -13184,12 +12836,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 499.92, y: 417.30 },
-          { x: 829.68, y: 417.57 },
-          { x: 1067.98, y: 417.90 },
-          { x: 2023.69, y: 417.79 },
-          { x: 3925.20, y: 417.41 },
-          { x: 6772.60, y: 417.19 }
+          { x: 499.81, y: 416.37 },
+          { x: 830.94, y: 417.41 },
+          { x: 1068.76, y: 417.95 },
+          { x: 2024.03, y: 416.59 },
+          { x: 3926.81, y: 416.21 },
+          { x: 6771.78, y: 415.89 }
     ]
 };
 
@@ -13204,12 +12856,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 471.01, y: 108.07 },
-          { x: 911.50, y: 108.03 },
-          { x: 1291.72, y: 108.34 },
-          { x: 2091.40, y: 108.17 },
-          { x: 4048.72, y: 108.11 },
-          { x: 6983.50, y: 108.04 }
+          { x: 500.40, y: 107.95 },
+          { x: 918.80, y: 108.16 },
+          { x: 1295.25, y: 108.20 },
+          { x: 2094.31, y: 108.32 },
+          { x: 4051.42, y: 105.21 },
+          { x: 6987.63, y: 108.15 }
     ]
 };
 
@@ -13224,12 +12876,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.14, y: 392.77 },
-          { x: 888.59, y: 391.09 },
-          { x: 1262.42, y: 389.84 },
-          { x: 2068.26, y: 388.28 },
-          { x: 4013.45, y: 385.14 },
-          { x: 6908.14, y: 381.56 }
+          { x: 421.67, y: 393.11 },
+          { x: 891.94, y: 390.32 },
+          { x: 1260.96, y: 390.32 },
+          { x: 2070.19, y: 388.14 },
+          { x: 4012.60, y: 383.99 },
+          { x: 6908.77, y: 381.83 }
     ]
 };
 
@@ -13244,12 +12896,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 478.59, y: 110.15 },
-          { x: 912.22, y: 110.14 },
-          { x: 1292.90, y: 109.94 },
-          { x: 2086.98, y: 109.90 },
-          { x: 4048.61, y: 109.25 },
-          { x: 6980.69, y: 108.96 }
+          { x: 496.58, y: 110.15 },
+          { x: 916.49, y: 110.24 },
+          { x: 1294.78, y: 110.29 },
+          { x: 2091.44, y: 110.15 },
+          { x: 4049.71, y: 110.02 },
+          { x: 6982.53, y: 109.60 }
     ]
 };
 
@@ -13264,12 +12916,12 @@ const data_1_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 420.50, y: 242.83 },
-          { x: 888.62, y: 240.08 },
-          { x: 1261.91, y: 227.67 },
-          { x: 2067.95, y: 233.98 },
-          { x: 4009.27, y: 227.56 },
-          { x: 6909.31, y: 230.73 }
+          { x: 419.96, y: 260.22 },
+          { x: 889.94, y: 263.79 },
+          { x: 1261.10, y: 263.29 },
+          { x: 2069.22, y: 262.36 },
+          { x: 4008.06, y: 262.00 },
+          { x: 6910.56, y: 261.98 }
     ]
 };
 
@@ -13284,14 +12936,12 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 463.95, y: 224.22 },
-          { x: 827.78, y: 216.32 },
-          { x: 1067.01, y: 213.49 },
-          { x: 1546.10, y: 210.08 },
-          { x: 2033.23, y: 207.60 },
-          { x: 3973.90, y: 203.70 },
-          { x: 5900.26, y: 201.85 },
-          { x: 7843.44, y: 200.79 }
+          { x: 463.95, y: 223.72 },
+          { x: 827.78, y: 215.26 },
+          { x: 1067.01, y: 213.36 },
+          { x: 2033.23, y: 208.13 },
+          { x: 3973.90, y: 203.18 },
+          { x: 6874.16, y: 201.46 }
     ]
 };
 
@@ -13306,14 +12956,12 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 470.87, y: 333.79 },
-          { x: 817.54, y: 328.74 },
-          { x: 1054.65, y: 327.86 },
-          { x: 1536.23, y: 324.07 },
-          { x: 2018.33, y: 324.10 },
-          { x: 3918.16, y: 319.88 },
-          { x: 5819.54, y: 317.24 },
-          { x: 7734.63, y: 316.14 }
+          { x: 470.87, y: 337.24 },
+          { x: 817.54, y: 330.78 },
+          { x: 1054.65, y: 328.91 },
+          { x: 2018.33, y: 325.16 },
+          { x: 3918.16, y: 323.12 },
+          { x: 6780.20, y: 317.31 }
     ]
 };
 
@@ -13328,14 +12976,12 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 385.48, y: 217.46 },
-          { x: 868.33, y: 202.96 },
-          { x: 1229.09, y: 194.05 },
-          { x: 1635.66, y: 186.27 },
-          { x: 2050.95, y: 179.55 },
-          { x: 4005.91, y: 157.31 },
-          { x: 5949.66, y: 142.62 },
-          { x: 7888.41, y: 130.31 }
+          { x: 385.72, y: 217.99 },
+          { x: 868.01, y: 205.61 },
+          { x: 1230.39, y: 197.38 },
+          { x: 2052.28, y: 182.13 },
+          { x: 4005.53, y: 160.13 },
+          { x: 6927.07, y: 137.49 }
     ]
 };
 
@@ -13350,14 +12996,12 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 397.60, y: 432.50 },
-          { x: 875.36, y: 427.69 },
-          { x: 1239.87, y: 425.53 },
-          { x: 1647.28, y: 420.54 },
-          { x: 2061.13, y: 418.89 },
-          { x: 4009.54, y: 409.28 },
-          { x: 5946.24, y: 400.75 },
-          { x: 7888.07, y: 390.85 }
+          { x: 397.60, y: 430.28 },
+          { x: 875.36, y: 427.18 },
+          { x: 1239.87, y: 423.38 },
+          { x: 2061.13, y: 418.45 },
+          { x: 4009.54, y: 408.54 },
+          { x: 6919.87, y: 398.35 }
     ]
 };
 
@@ -13372,14 +13016,12 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.56, y: 207.92 },
-          { x: 860.37, y: 199.95 },
-          { x: 1225.85, y: 193.24 },
-          { x: 1633.73, y: 186.37 },
-          { x: 2041.19, y: 180.86 },
-          { x: 3988.11, y: 161.35 },
-          { x: 5943.94, y: 149.49 },
-          { x: 7880.73, y: 139.25 }
+          { x: 376.57, y: 205.28 },
+          { x: 860.21, y: 198.29 },
+          { x: 1225.55, y: 191.92 },
+          { x: 2041.05, y: 179.03 },
+          { x: 3989.98, y: 160.81 },
+          { x: 6920.14, y: 143.29 }
     ]
 };
 
@@ -13394,19 +13036,17 @@ const data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 388.28, y: 298.06 },
-          { x: 866.77, y: 302.35 },
-          { x: 1232.90, y: 301.80 },
-          { x: 1638.65, y: 301.46 },
-          { x: 2055.25, y: 299.40 },
-          { x: 4003.05, y: 299.20 },
-          { x: 5938.67, y: 300.47 },
-          { x: 7886.05, y: 298.11 }
+          { x: 388.28, y: 285.48 },
+          { x: 866.77, y: 290.10 },
+          { x: 1232.90, y: 285.66 },
+          { x: 2055.25, y: 287.98 },
+          { x: 4003.05, y: 285.77 },
+          { x: 6915.51, y: 287.23 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -13416,18 +13056,17 @@ const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 1180.82, y: 95.77 },
-          { x: 1180.98, y: 95.47 },
-          { x: 1206.04, y: 95.02 },
-          { x: 1284.97, y: 96.15 },
-          { x: 1880.35, y: 95.53 },
-          { x: 3718.94, y: 95.59 },
-          { x: 6472.10, y: 95.67 }
+          { x: 1114.76, y: 128.52 },
+          { x: 1115.04, y: 129.61 },
+          { x: 1252.49, y: 133.94 },
+          { x: 1872.61, y: 133.57 },
+          { x: 3708.63, y: 132.10 },
+          { x: 6457.14, y: 132.93 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -13437,18 +13076,17 @@ const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 502.22, y: 167.34 },
-          { x: 773.82, y: 199.84 },
-          { x: 964.74, y: 200.33 },
-          { x: 1167.33, y: 200.26 },
-          { x: 1929.79, y: 200.23 },
-          { x: 3877.04, y: 173.05 },
-          { x: 6727.82, y: 199.30 }
+          { x: 580.60, y: 393.16 },
+          { x: 855.72, y: 393.69 },
+          { x: 1199.74, y: 393.98 },
+          { x: 1902.57, y: 393.88 },
+          { x: 3725.03, y: 393.79 },
+          { x: 6515.26, y: 392.82 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "cross",
     hidden: false,
@@ -13458,18 +13096,17 @@ const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     
     data: [
-          { x: 749.59, y: 117.59 },
-          { x: 837.72, y: 117.35 },
-          { x: 971.95, y: 117.46 },
-          { x: 1138.66, y: 117.52 },
-          { x: 1874.36, y: 117.57 },
-          { x: 3719.70, y: 117.63 },
-          { x: 6041.28, y: 117.18 }
+          { x: 869.20, y: 111.91 },
+          { x: 913.35, y: 112.98 },
+          { x: 1159.15, y: 112.89 },
+          { x: 1881.39, y: 112.44 },
+          { x: 3726.77, y: 187.54 },
+          { x: 6166.21, y: 112.13 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "cross",
     hidden: true,
@@ -13479,13 +13116,52 @@ const data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 410.77, y: 208.87 },
-          { x: 800.86, y: 208.89 },
-          { x: 990.57, y: 183.90 },
-          { x: 1189.35, y: 209.05 },
-          { x: 1955.41, y: 208.08 },
-          { x: 3881.26, y: 207.77 },
-          { x: 6730.67, y: 206.74 }
+          { x: 525.31, y: 690.15 },
+          { x: 919.12, y: 690.00 },
+          { x: 1330.40, y: 690.74 },
+          { x: 2062.56, y: 690.00 },
+          { x: 3838.73, y: 687.47 },
+          { x: 6696.56, y: 682.62 }
+    ]
+};
+
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
+    
+    data: [
+          { x: 834.13, y: 82.35 },
+          { x: 888.49, y: 29.93 },
+          { x: 1152.96, y: 38.80 },
+          { x: 1882.04, y: 38.79 },
+          { x: 3731.98, y: 38.69 },
+          { x: 6551.90, y: 45.79 }
+    ]
+};
+
+const data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "cross",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 507.25, y: 817.51 },
+          { x: 896.36, y: 817.72 },
+          { x: 1263.69, y: 818.14 },
+          { x: 1932.36, y: 818.14 },
+          { x: 3793.36, y: 817.09 },
+          { x: 6505.42, y: 815.42 }
     ]
 };
 
@@ -13497,15 +13173,15 @@ const data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 503.28, y: 42.71 },
-          { x: 772.50, y: 42.82 },
-          { x: 1167.87, y: 42.76 },
-          { x: 1934.21, y: 42.82 },
-          { x: 3869.53, y: 42.81 },
-          { x: 6725.80, y: 42.80 }
+          { x: 503.28, y: 42.66 },
+          { x: 772.50, y: 42.84 },
+          { x: 1167.87, y: 42.85 },
+          { x: 1934.21, y: 42.84 },
+          { x: 3869.53, y: 42.82 },
+          { x: 6725.81, y: 42.81 }
     ]
 };
 
@@ -13517,15 +13193,15 @@ const data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 501.75, y: 82.41 },
-          { x: 773.58, y: 82.43 },
-          { x: 1166.73, y: 82.68 },
-          { x: 1930.31, y: 82.74 },
-          { x: 3875.30, y: 82.28 },
-          { x: 6727.34, y: 81.84 }
+          { x: 501.75, y: 82.21 },
+          { x: 773.58, y: 82.26 },
+          { x: 1166.73, y: 82.65 },
+          { x: 1930.31, y: 82.68 },
+          { x: 3875.30, y: 82.43 },
+          { x: 6727.34, y: 82.06 }
     ]
 };
 
@@ -13537,15 +13213,15 @@ const data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 448.40, y: 79.60 },
-          { x: 802.34, y: 79.52 },
-          { x: 1190.97, y: 79.24 },
-          { x: 1968.64, y: 79.67 },
-          { x: 3811.51, y: 80.11 },
-          { x: 6552.23, y: 80.40 }
+          { x: 448.40, y: 73.69 },
+          { x: 802.34, y: 74.85 },
+          { x: 1190.97, y: 74.42 },
+          { x: 1968.64, y: 73.96 },
+          { x: 3811.51, y: 74.77 },
+          { x: 6552.23, y: 75.52 }
     ]
 };
 
@@ -13557,60 +13233,20 @@ const data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 448.40, y: 79.45 },
-          { x: 802.34, y: 79.45 },
-          { x: 1190.97, y: 79.74 },
-          { x: 1968.64, y: 79.71 },
-          { x: 3811.51, y: 79.96 },
-          { x: 6552.23, y: 80.47 }
-    ]
-};
-
-const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950x igpu VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
-    
-    data: [
-          { x: 1114.75, y: 49.85 },
-          { x: 1115.03, y: 49.76 },
-          { x: 1252.56, y: 49.89 },
-          { x: 1872.65, y: 49.83 },
-          { x: 3708.59, y: 49.97 },
-          { x: 6457.09, y: 49.85 }
-    ]
-};
-
-const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950x igpu VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 495.66, y: 132.58 },
-          { x: 784.30, y: 132.33 },
-          { x: 1161.45, y: 132.46 },
-          { x: 1889.75, y: 132.30 },
-          { x: 3738.75, y: 131.84 },
-          { x: 6442.97, y: 131.36 }
+          { x: 448.40, y: 73.14 },
+          { x: 802.34, y: 75.25 },
+          { x: 1190.97, y: 73.46 },
+          { x: 1968.64, y: 74.34 },
+          { x: 3811.51, y: 74.69 },
+          { x: 6552.23, y: 74.74 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950x igpu VCE VBR HEVC quality",
+const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rect",
     hidden: false,
@@ -13620,17 +13256,17 @@ const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 1, 140, 0.9)',
     
     data: [
-          { x: 783.29, y: 48.72 },
-          { x: 859.39, y: 49.15 },
-          { x: 1143.31, y: 49.10 },
-          { x: 1874.72, y: 49.55 },
-          { x: 3716.36, y: 49.16 },
-          { x: 6275.17, y: 49.15 }
+          { x: 495.03, y: 71.55 },
+          { x: 772.44, y: 71.61 },
+          { x: 1168.70, y: 71.60 },
+          { x: 1934.21, y: 71.52 },
+          { x: 3867.61, y: 71.61 },
+          { x: 6724.97, y: 71.58 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950x igpu VCE VBR HEVC normal",
+const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rect",
     hidden: true,
@@ -13640,19 +13276,19 @@ const data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(182, 86, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 412.37, y: 206.56 },
-          { x: 801.55, y: 206.53 },
-          { x: 1190.70, y: 206.38 },
-          { x: 1969.00, y: 206.21 },
-          { x: 3914.32, y: 205.65 },
-          { x: 6771.45, y: 204.64 }
+          { x: 501.75, y: 111.37 },
+          { x: 773.65, y: 111.47 },
+          { x: 1167.07, y: 111.44 },
+          { x: 1929.87, y: 111.38 },
+          { x: 3874.93, y: 111.49 },
+          { x: 6736.06, y: 111.24 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -13660,21 +13296,19 @@ const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 496.47, y: 71.57 },
-          { x: 773.88, y: 71.94 },
-          { x: 1170.14, y: 71.92 },
-          { x: 1560.35, y: 71.96 },
-          { x: 1935.65, y: 71.95 },
-          { x: 3869.05, y: 71.97 },
-          { x: 5765.12, y: 71.92 },
-          { x: 7662.35, y: 71.89 }
+          { x: 412.47, y: 123.46 },
+          { x: 800.49, y: 123.64 },
+          { x: 1187.02, y: 123.67 },
+          { x: 1957.58, y: 123.79 },
+          { x: 3878.14, y: 123.50 },
+          { x: 6732.12, y: 122.67 }
     ]
 };
 
-const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -13682,58 +13316,12 @@ const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 503.19, y: 112.42 },
-          { x: 775.09, y: 112.20 },
-          { x: 1168.51, y: 112.31 },
-          { x: 1548.05, y: 111.94 },
-          { x: 1931.31, y: 112.68 },
-          { x: 3876.37, y: 112.61 },
-          { x: 5764.95, y: 112.51 },
-          { x: 7668.83, y: 112.57 }
-    ]
-};
-
-const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 444.05, y: 124.55 },
-          { x: 801.81, y: 124.78 },
-          { x: 1189.41, y: 124.91 },
-          { x: 1578.14, y: 124.63 },
-          { x: 1958.78, y: 124.74 },
-          { x: 3814.68, y: 124.54 },
-          { x: 5646.60, y: 123.95 },
-          { x: 7467.73, y: 123.44 }
-    ]
-};
-
-const data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 444.05, y: 124.18 },
-          { x: 801.81, y: 124.64 },
-          { x: 1189.41, y: 124.95 },
-          { x: 1578.14, y: 124.88 },
-          { x: 1958.78, y: 124.75 },
-          { x: 3814.68, y: 124.49 },
-          { x: 5646.60, y: 123.96 },
-          { x: 7467.73, y: 123.39 }
+          { x: 412.47, y: 123.34 },
+          { x: 800.49, y: 123.58 },
+          { x: 1187.02, y: 123.76 },
+          { x: 1957.58, y: 123.79 },
+          { x: 3878.14, y: 123.42 },
+          { x: 6732.12, y: 122.60 }
     ]
 };
 
@@ -13824,18 +13412,16 @@ const datasets_1_vbr_bitrate_ssim = [
   data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_quality,
   data_1_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_normal,
-  data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_quality,
   data_1_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_normal,
-  data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_ssim_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -13929,18 +13515,16 @@ const datasets_1_vbr_bitrate_vmaf = [
   data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_quality,
   data_1_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_normal,
-  data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_quality,
   data_1_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_normal,
-  data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_vmaf_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -14034,18 +13618,16 @@ const datasets_1_vbr_bitrate_fps = [
   data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_quality,
   data_1_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_normal,
-  data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_1_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_quality,
   data_1_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_normal,
-  data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_H_264_quality,
-  data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_H_264_normal,
-  data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_quality,
-  data_1_vbr_bitrate_fps_r9_9950x_igpu_VCEEncC_VBR_HEVC_normal,
   data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_1_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -14072,7 +13654,6 @@ const encoders_1_vbr = [
       "gtx1080 NVENC",
       "gtx950 NVENC",
       "rx7900xt VCE",
-      "rx5500xt VCE",
       "rx550 VCE",
       "r9 9950x igpu VCE",
       "r3 3200G VCE"
@@ -14089,12 +13670,12 @@ const data_2__bitrate_ssim__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5821.51, y: 0.998777 },
-          { x: 3315.29, y: 0.997689 },
-          { x: 1828.12, y: 0.995736 },
-          { x: 1043.38, y: 0.992194 },
-          { x: 627.07, y: 0.985658 },
-          { x: 410.19, y: 0.97379 }
+          { x: 5821.45, y: 0.986098 },
+          { x: 3315.41, y: 0.9836 },
+          { x: 1828.18, y: 0.979639 },
+          { x: 1043.32, y: 0.973622 },
+          { x: 627.06, y: 0.964641 },
+          { x: 410.22, y: 0.952007 }
     ]
 };
 
@@ -14109,13 +13690,13 @@ const data_2__bitrate_ssim__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 7505.16, y: 0.999515 },
-          { x: 5105.61, y: 0.998958 },
-          { x: 2957.98, y: 0.997738 },
-          { x: 1618.16, y: 0.995689 },
-          { x: 935.69, y: 0.992139 },
-          { x: 567.81, y: 0.985817 },
-          { x: 374.81, y: 0.974736 }
+          { x: 7505.08, y: 0.988434 },
+          { x: 5105.70, y: 0.987018 },
+          { x: 2958.05, y: 0.984292 },
+          { x: 1618.11, y: 0.980115 },
+          { x: 935.76, y: 0.974068 },
+          { x: 567.84, y: 0.965385 },
+          { x: 374.83, y: 0.953473 }
     ]
 };
 
@@ -14130,13 +13711,13 @@ const data_2__bitrate_ssim__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6979.10, y: 0.998797 },
-          { x: 3826.22, y: 0.997926 },
-          { x: 2006.54, y: 0.996593 },
-          { x: 1024.96, y: 0.99452 },
-          { x: 527.79, y: 0.991095 },
-          { x: 291.16, y: 0.985228 },
-          { x: 173.92, y: 0.975029 }
+          { x: 6979.10, y: 0.986979 },
+          { x: 3826.22, y: 0.9852 },
+          { x: 2006.54, y: 0.982684 },
+          { x: 1024.96, y: 0.978982 },
+          { x: 527.79, y: 0.973365 },
+          { x: 291.16, y: 0.964808 },
+          { x: 173.92, y: 0.95269 }
     ]
 };
 
@@ -14151,13 +13732,13 @@ const data_2__bitrate_ssim__x265_medium_10bit_crf = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6950.00, y: 0.999013 },
-          { x: 3778.93, y: 0.998243 },
-          { x: 1970.48, y: 0.997025 },
-          { x: 1006.93, y: 0.995045 },
-          { x: 520.94, y: 0.991697 },
-          { x: 288.53, y: 0.985974 },
-          { x: 171.45, y: 0.976101 }
+          { x: 6950.00, y: 0.996005 },
+          { x: 3778.93, y: 0.994223 },
+          { x: 1970.48, y: 0.991631 },
+          { x: 1006.93, y: 0.987816 },
+          { x: 520.94, y: 0.982136 },
+          { x: 288.53, y: 0.973591 },
+          { x: 171.45, y: 0.961437 }
     ]
 };
 
@@ -14172,13 +13753,13 @@ const data_2__bitrate_ssim__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 7535.85, y: 0.999299 },
-          { x: 4531.96, y: 0.998694 },
-          { x: 2590.60, y: 0.997761 },
-          { x: 1367.54, y: 0.996345 },
-          { x: 695.95, y: 0.994039 },
-          { x: 363.04, y: 0.989983 },
-          { x: 192.33, y: 0.982665 }
+          { x: 7535.85, y: 0.988101 },
+          { x: 4531.96, y: 0.986763 },
+          { x: 2590.60, y: 0.984852 },
+          { x: 1367.54, y: 0.981983 },
+          { x: 695.95, y: 0.977602 },
+          { x: 363.04, y: 0.970739 },
+          { x: 192.33, y: 0.960615 }
     ]
 };
 
@@ -14193,18 +13774,18 @@ const data_2__bitrate_ssim__x265_veryslow_10bit_crf = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 7537.85, y: 0.999348 },
-          { x: 4474.24, y: 0.998784 },
-          { x: 2517.42, y: 0.997893 },
-          { x: 1324.36, y: 0.996532 },
-          { x: 685.37, y: 0.99433 },
-          { x: 363.43, y: 0.990435 },
-          { x: 194.22, y: 0.983362 }
+          { x: 7537.85, y: 0.996879 },
+          { x: 4474.24, y: 0.995539 },
+          { x: 2517.42, y: 0.993553 },
+          { x: 1324.36, y: 0.990582 },
+          { x: 685.37, y: 0.986212 },
+          { x: 363.43, y: 0.979452 },
+          { x: 194.22, y: 0.969282 }
     ]
 };
 
-const data_2__bitrate_ssim__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_2__bitrate_ssim__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -14214,18 +13795,19 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 5561.16, y: 0.99877 },
-          { x: 4316.69, y: 0.998503 },
-          { x: 3478.46, y: 0.998249 },
-          { x: 2575.50, y: 0.997842 },
-          { x: 1829.29, y: 0.997359 },
-          { x: 1321.75, y: 0.996831 },
-          { x: 964.19, y: 0.996208 }
+          { x: 4245.14, y: 0.987199 },
+          { x: 2905.13, y: 0.986333 },
+          { x: 1757.91, y: 0.985054 },
+          { x: 1064.56, y: 0.983618 },
+          { x: 714.06, y: 0.982176 },
+          { x: 511.88, y: 0.980606 },
+          { x: 369.72, y: 0.978517 },
+          { x: 214.30, y: 0.97402 }
     ]
 };
 
-const data_2__bitrate_ssim__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_2__bitrate_ssim__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -14235,17 +13817,19 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5676.79, y: 0.998924 },
-          { x: 4277.29, y: 0.998662 },
-          { x: 3414.98, y: 0.998422 },
-          { x: 2501.98, y: 0.998036 },
-          { x: 1796.72, y: 0.997578 },
-          { x: 952.70, y: 0.996444 }
+          { x: 4105.39, y: 0.995434 },
+          { x: 2769.85, y: 0.994549 },
+          { x: 1673.52, y: 0.993245 },
+          { x: 1021.35, y: 0.991784 },
+          { x: 691.96, y: 0.990319 },
+          { x: 501.23, y: 0.988703 },
+          { x: 364.48, y: 0.986527 },
+          { x: 212.50, y: 0.981964 }
     ]
 };
 
-const data_2__bitrate_ssim__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_2__bitrate_ssim__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -14253,20 +13837,21 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 5627.73, y: 0.998592 },
-          { x: 4268.62, y: 0.998303 },
-          { x: 3347.11, y: 0.998027 },
-          { x: 2411.12, y: 0.997588 },
-          { x: 1680.73, y: 0.997047 },
-          { x: 1193.28, y: 0.996441 },
-          { x: 883.36, y: 0.995816 }
+          { x: 4296.66, y: 0.986677 },
+          { x: 2879.42, y: 0.985738 },
+          { x: 1688.52, y: 0.984339 },
+          { x: 1023.36, y: 0.982764 },
+          { x: 679.98, y: 0.981249 },
+          { x: 489.07, y: 0.979668 },
+          { x: 358.13, y: 0.977548 },
+          { x: 211.44, y: 0.972993 }
     ]
 };
 
-const data_2__bitrate_ssim__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_2__bitrate_ssim__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -14274,15 +13859,60 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 5944.54, y: 0.998805 },
-          { x: 4315.49, y: 0.998494 },
-          { x: 3325.38, y: 0.998217 },
-          { x: 2361.11, y: 0.99779 },
-          { x: 1652.47, y: 0.99727 },
-          { x: 1173.60, y: 0.996686 },
-          { x: 873.34, y: 0.996077 }
+          { x: 4344.52, y: 0.995065 },
+          { x: 2852.36, y: 0.994073 },
+          { x: 1664.58, y: 0.992619 },
+          { x: 1008.56, y: 0.99102 },
+          { x: 674.00, y: 0.989467 },
+          { x: 484.66, y: 0.987821 },
+          { x: 356.56, y: 0.985626 },
+          { x: 210.97, y: 0.98099 }
+    ]
+};
+
+const data_2__bitrate_ssim__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 4902.89, y: 0.985931 },
+          { x: 3179.44, y: 0.985012 },
+          { x: 1822.65, y: 0.983669 },
+          { x: 1074.38, y: 0.982055 },
+          { x: 691.59, y: 0.980373 },
+          { x: 482.59, y: 0.978609 },
+          { x: 341.82, y: 0.976238 },
+          { x: 202.27, y: 0.970903 }
+    ]
+};
+
+const data_2__bitrate_ssim__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 5128.55, y: 0.994601 },
+          { x: 3218.80, y: 0.993526 },
+          { x: 1810.93, y: 0.992033 },
+          { x: 1061.86, y: 0.990326 },
+          { x: 685.86, y: 0.98855 },
+          { x: 478.36, y: 0.986691 },
+          { x: 340.33, y: 0.984241 },
+          { x: 201.78, y: 0.978704 }
     ]
 };
 
@@ -14294,16 +13924,17 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5502.00, y: 0.998021 },
-          { x: 4161.83, y: 0.997632 },
-          { x: 3295.90, y: 0.997295 },
-          { x: 2346.32, y: 0.996757 },
-          { x: 1652.65, y: 0.996097 },
-          { x: 1181.44, y: 0.99533 },
-          { x: 861.34, y: 0.994506 }
+          { x: 4892.06, y: 0.983835 },
+          { x: 3306.43, y: 0.982933 },
+          { x: 1998.78, y: 0.981679 },
+          { x: 1207.99, y: 0.979809 },
+          { x: 763.45, y: 0.977717 },
+          { x: 494.80, y: 0.975152 },
+          { x: 322.90, y: 0.971668 },
+          { x: 178.61, y: 0.964524 }
     ]
 };
 
@@ -14315,16 +13946,17 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5642.14, y: 0.9983 },
-          { x: 4191.63, y: 0.997914 },
-          { x: 3271.33, y: 0.997573 },
-          { x: 2341.22, y: 0.997056 },
-          { x: 1633.17, y: 0.996388 },
-          { x: 1167.79, y: 0.995629 },
-          { x: 853.59, y: 0.994785 }
+          { x: 4990.39, y: 0.992288 },
+          { x: 3271.91, y: 0.991107 },
+          { x: 1988.60, y: 0.989669 },
+          { x: 1197.34, y: 0.987687 },
+          { x: 761.40, y: 0.985498 },
+          { x: 489.17, y: 0.982783 },
+          { x: 321.28, y: 0.979016 },
+          { x: 178.43, y: 0.971303 }
     ]
 };
 
@@ -15710,14 +15342,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 6448.56, y: 0.998906 },
-          { x: 3849.75, y: 0.997976 },
-          { x: 2249.63, y: 0.996368 },
-          { x: 1232.99, y: 0.993159 },
-          { x: 745.62, y: 0.987228 }
+          { x: 6132.34, y: 0.986102 },
+          { x: 3690.00, y: 0.98397 },
+          { x: 2081.68, y: 0.980467 },
+          { x: 1196.36, y: 0.974974 },
+          { x: 726.58, y: 0.965387 }
     ]
 };
 
@@ -15729,14 +15361,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6448.56, y: 0.998906 },
-          { x: 3849.75, y: 0.997976 },
-          { x: 2249.63, y: 0.996368 },
-          { x: 1232.99, y: 0.993159 },
-          { x: 745.62, y: 0.987228 }
+          { x: 6132.34, y: 0.986102 },
+          { x: 3690.00, y: 0.98397 },
+          { x: 2081.68, y: 0.980467 },
+          { x: 1196.36, y: 0.974974 },
+          { x: 726.58, y: 0.965387 }
     ]
 };
 
@@ -15748,14 +15380,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 5987.91, y: 0.99873 },
-          { x: 3460.30, y: 0.997949 },
-          { x: 1921.28, y: 0.996747 },
-          { x: 1062.54, y: 0.994778 },
-          { x: 626.09, y: 0.991411 }
+          { x: 5698.30, y: 0.986062 },
+          { x: 3280.83, y: 0.98418 },
+          { x: 1823.38, y: 0.981603 },
+          { x: 1034.27, y: 0.978043 },
+          { x: 611.98, y: 0.972445 }
     ]
 };
 
@@ -15767,14 +15399,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5987.91, y: 0.99873 },
-          { x: 3460.30, y: 0.997949 },
-          { x: 1921.28, y: 0.996747 },
-          { x: 1062.54, y: 0.994778 },
-          { x: 626.09, y: 0.991411 }
+          { x: 5698.30, y: 0.986062 },
+          { x: 3280.83, y: 0.98418 },
+          { x: 1823.38, y: 0.981603 },
+          { x: 1034.27, y: 0.978043 },
+          { x: 611.98, y: 0.972445 }
     ]
 };
 
@@ -15786,14 +15418,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5981.97, y: 0.998885 },
-          { x: 3467.20, y: 0.99816 },
-          { x: 1910.84, y: 0.997002 },
-          { x: 1042.65, y: 0.995049 },
-          { x: 613.33, y: 0.991727 }
+          { x: 5697.56, y: 0.99525 },
+          { x: 3276.25, y: 0.993381 },
+          { x: 1822.86, y: 0.990803 },
+          { x: 1013.92, y: 0.987092 },
+          { x: 596.21, y: 0.981523 }
     ]
 };
 
@@ -15805,14 +15437,14 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5981.97, y: 0.998885 },
-          { x: 3467.20, y: 0.99816 },
-          { x: 1910.84, y: 0.997002 },
-          { x: 1042.65, y: 0.995049 },
-          { x: 613.33, y: 0.991727 }
+          { x: 5697.56, y: 0.99525 },
+          { x: 3276.25, y: 0.993381 },
+          { x: 1822.86, y: 0.990803 },
+          { x: 1013.92, y: 0.987092 },
+          { x: 596.21, y: 0.981523 }
     ]
 };
 
@@ -15824,15 +15456,13 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6091.29, y: 0.998728 },
-          { x: 4023.20, y: 0.998154 },
-          { x: 2604.66, y: 0.997357 },
-          { x: 1659.02, y: 0.996244 },
-          { x: 962.92, y: 0.99421 },
-          { x: 529.06, y: 0.990177 }
+          { x: 6249.26, y: 0.986415 },
+          { x: 4130.38, y: 0.985184 },
+          { x: 2697.83, y: 0.983577 },
+          { x: 1738.58, y: 0.981513 }
     ]
 };
 
@@ -15844,15 +15474,13 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6091.29, y: 0.998728 },
-          { x: 4023.20, y: 0.998154 },
-          { x: 2604.66, y: 0.997357 },
-          { x: 1659.02, y: 0.996244 },
-          { x: 962.92, y: 0.99421 },
-          { x: 529.06, y: 0.990177 }
+          { x: 6249.26, y: 0.986415 },
+          { x: 4130.38, y: 0.985184 },
+          { x: 2697.83, y: 0.983577 },
+          { x: 1738.58, y: 0.981513 }
     ]
 };
 
@@ -15864,15 +15492,13 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5894.41, y: 0.998819 },
-          { x: 3855.05, y: 0.998306 },
-          { x: 2516.38, y: 0.997543 },
-          { x: 1616.27, y: 0.996458 },
-          { x: 943.11, y: 0.994464 },
-          { x: 523.84, y: 0.990422 }
+          { x: 5990.04, y: 0.99561 },
+          { x: 3969.54, y: 0.994359 },
+          { x: 2603.25, y: 0.992693 },
+          { x: 1692.48, y: 0.990561 }
     ]
 };
 
@@ -15884,15 +15510,13 @@ const data_2__bitrate_ssim_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5894.41, y: 0.998819 },
-          { x: 3855.05, y: 0.998306 },
-          { x: 2516.38, y: 0.997543 },
-          { x: 1616.27, y: 0.996458 },
-          { x: 943.11, y: 0.994464 },
-          { x: 523.84, y: 0.990422 }
+          { x: 5990.04, y: 0.99561 },
+          { x: 3969.54, y: 0.994359 },
+          { x: 2603.25, y: 0.992693 },
+          { x: 1692.48, y: 0.990561 }
     ]
 };
 
@@ -15904,14 +15528,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 6432.97, y: 0.998909 },
-          { x: 3844.49, y: 0.997984 },
-          { x: 2245.87, y: 0.996375 },
-          { x: 1234.73, y: 0.993144 },
-          { x: 750.81, y: 0.987169 }
+          { x: 6124.32, y: 0.986101 },
+          { x: 3686.40, y: 0.983971 },
+          { x: 2075.25, y: 0.980427 },
+          { x: 1199.71, y: 0.974906 },
+          { x: 733.18, y: 0.965165 }
     ]
 };
 
@@ -15923,14 +15547,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6432.97, y: 0.998909 },
-          { x: 3844.49, y: 0.997984 },
-          { x: 2245.87, y: 0.996375 },
-          { x: 1234.73, y: 0.993144 },
-          { x: 750.81, y: 0.987169 }
+          { x: 6124.32, y: 0.986101 },
+          { x: 3686.40, y: 0.983971 },
+          { x: 2075.25, y: 0.980427 },
+          { x: 1199.71, y: 0.974906 },
+          { x: 733.18, y: 0.965165 }
     ]
 };
 
@@ -15942,14 +15566,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 5974.53, y: 0.998732 },
-          { x: 3451.03, y: 0.997952 },
-          { x: 1914.72, y: 0.996748 },
-          { x: 1060.37, y: 0.994775 },
-          { x: 625.38, y: 0.9914 }
+          { x: 5690.09, y: 0.986059 },
+          { x: 3272.45, y: 0.984162 },
+          { x: 1820.23, y: 0.981568 },
+          { x: 1032.22, y: 0.977954 },
+          { x: 612.31, y: 0.972319 }
     ]
 };
 
@@ -15961,14 +15585,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5974.53, y: 0.998732 },
-          { x: 3451.03, y: 0.997952 },
-          { x: 1914.72, y: 0.996748 },
-          { x: 1060.37, y: 0.994775 },
-          { x: 625.38, y: 0.9914 }
+          { x: 5690.09, y: 0.986059 },
+          { x: 3272.45, y: 0.984162 },
+          { x: 1820.23, y: 0.981568 },
+          { x: 1032.22, y: 0.977954 },
+          { x: 612.31, y: 0.972319 }
     ]
 };
 
@@ -15980,14 +15604,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5971.21, y: 0.998886 },
-          { x: 3455.27, y: 0.998159 },
-          { x: 1903.92, y: 0.996999 },
-          { x: 1041.01, y: 0.995045 },
-          { x: 610.89, y: 0.991685 }
+          { x: 5686.03, y: 0.995242 },
+          { x: 3264.47, y: 0.993357 },
+          { x: 1815.75, y: 0.990744 },
+          { x: 1015.06, y: 0.987037 },
+          { x: 597.42, y: 0.981441 }
     ]
 };
 
@@ -15999,14 +15623,14 @@ const data_2__bitrate_ssim_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5971.21, y: 0.998886 },
-          { x: 3455.27, y: 0.998159 },
-          { x: 1903.92, y: 0.996999 },
-          { x: 1041.01, y: 0.995045 },
-          { x: 610.89, y: 0.991685 }
+          { x: 5686.03, y: 0.995242 },
+          { x: 3264.47, y: 0.993357 },
+          { x: 1815.75, y: 0.990744 },
+          { x: 1015.06, y: 0.987037 },
+          { x: 597.42, y: 0.981441 }
     ]
 };
 
@@ -16018,14 +15642,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 6829.49, y: 0.998746 },
-          { x: 4148.40, y: 0.997793 },
-          { x: 2435.20, y: 0.996151 },
-          { x: 1423.78, y: 0.99311 },
-          { x: 876.06, y: 0.987137 }
+          { x: 6474.44, y: 0.986143 },
+          { x: 3930.53, y: 0.984076 },
+          { x: 2282.23, y: 0.980819 },
+          { x: 1349.32, y: 0.97581 },
+          { x: 836.28, y: 0.967555 }
     ]
 };
 
@@ -16037,14 +15661,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6829.49, y: 0.998746 },
-          { x: 4148.40, y: 0.997793 },
-          { x: 2435.20, y: 0.996151 },
-          { x: 1423.78, y: 0.99311 },
-          { x: 876.06, y: 0.987137 }
+          { x: 6474.44, y: 0.986143 },
+          { x: 3930.53, y: 0.984076 },
+          { x: 2282.23, y: 0.980819 },
+          { x: 1349.32, y: 0.97581 },
+          { x: 836.28, y: 0.967555 }
     ]
 };
 
@@ -16056,14 +15680,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7288.02, y: 0.998795 },
-          { x: 4345.53, y: 0.998044 },
-          { x: 2520.85, y: 0.996917 },
-          { x: 1437.22, y: 0.995073 },
-          { x: 821.01, y: 0.992105 }
+          { x: 7325.73, y: 0.986036 },
+          { x: 4380.40, y: 0.983963 },
+          { x: 2525.11, y: 0.981217 },
+          { x: 1443.79, y: 0.977341 },
+          { x: 825.00, y: 0.971453 }
     ]
 };
 
@@ -16075,14 +15699,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7288.02, y: 0.998795 },
-          { x: 4345.53, y: 0.998044 },
-          { x: 2520.85, y: 0.996917 },
-          { x: 1437.22, y: 0.995073 },
-          { x: 821.01, y: 0.992105 }
+          { x: 7325.73, y: 0.986036 },
+          { x: 4379.36, y: 0.983963 },
+          { x: 2525.20, y: 0.981216 },
+          { x: 1443.79, y: 0.977341 },
+          { x: 825.00, y: 0.971453 }
     ]
 };
 
@@ -16094,14 +15718,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6905.35, y: 0.998698 },
-          { x: 4050.51, y: 0.997779 },
-          { x: 2258.49, y: 0.996332 },
-          { x: 1284.08, y: 0.994029 },
-          { x: 739.33, y: 0.990176 }
+          { x: 6941.14, y: 0.994587 },
+          { x: 4073.31, y: 0.992235 },
+          { x: 2273.37, y: 0.989069 },
+          { x: 1292.04, y: 0.984759 },
+          { x: 746.21, y: 0.978391 }
     ]
 };
 
@@ -16113,14 +15737,14 @@ const data_2__bitrate_ssim_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6905.35, y: 0.998698 },
-          { x: 4050.51, y: 0.997779 },
-          { x: 2258.49, y: 0.996332 },
-          { x: 1284.08, y: 0.994029 },
-          { x: 739.33, y: 0.990176 }
+          { x: 6960.39, y: 0.994597 },
+          { x: 4073.53, y: 0.992235 },
+          { x: 2273.37, y: 0.989069 },
+          { x: 1292.04, y: 0.984759 },
+          { x: 746.16, y: 0.978395 }
     ]
 };
 
@@ -16132,14 +15756,14 @@ const data_2__bitrate_ssim_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 6834.36, y: 0.998748 },
-          { x: 4145.13, y: 0.997792 },
-          { x: 2434.88, y: 0.99615 },
-          { x: 1423.67, y: 0.993109 },
-          { x: 876.51, y: 0.987145 }
+          { x: 6834.36, y: 0.986255 },
+          { x: 4145.13, y: 0.984218 },
+          { x: 2434.88, y: 0.980987 },
+          { x: 1423.67, y: 0.975992 },
+          { x: 876.51, y: 0.967783 }
     ]
 };
 
@@ -16151,14 +15775,14 @@ const data_2__bitrate_ssim_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6834.36, y: 0.998748 },
-          { x: 4145.13, y: 0.997792 },
-          { x: 2434.88, y: 0.99615 },
-          { x: 1423.67, y: 0.993109 },
-          { x: 876.51, y: 0.987145 }
+          { x: 6834.36, y: 0.986255 },
+          { x: 4145.13, y: 0.984218 },
+          { x: 2434.88, y: 0.980987 },
+          { x: 1423.67, y: 0.975992 },
+          { x: 876.51, y: 0.967783 }
     ]
 };
 
@@ -16170,14 +15794,14 @@ const data_2__bitrate_ssim_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7384.63, y: 0.998759 },
-          { x: 4428.50, y: 0.99797 },
-          { x: 2554.06, y: 0.996782 },
-          { x: 1461.05, y: 0.994926 },
-          { x: 835.10, y: 0.99195 }
+          { x: 7384.63, y: 0.984804 },
+          { x: 4428.50, y: 0.982727 },
+          { x: 2554.06, y: 0.97988 },
+          { x: 1461.05, y: 0.975957 },
+          { x: 835.10, y: 0.970182 }
     ]
 };
 
@@ -16189,14 +15813,14 @@ const data_2__bitrate_ssim_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7384.63, y: 0.998759 },
-          { x: 4428.50, y: 0.99797 },
-          { x: 2554.06, y: 0.996782 },
-          { x: 1461.05, y: 0.994926 },
-          { x: 835.10, y: 0.99195 }
+          { x: 7384.63, y: 0.984804 },
+          { x: 4428.50, y: 0.982727 },
+          { x: 2554.06, y: 0.97988 },
+          { x: 1461.05, y: 0.975957 },
+          { x: 835.10, y: 0.970182 }
     ]
 };
 
@@ -16208,16 +15832,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
-          { x: 1028.13, y: 0.980027 },
-          { x: 1412.25, y: 0.982832 },
-          { x: 1986.27, y: 0.984586 },
-          { x: 2655.53, y: 0.985952 },
-          { x: 3320.60, y: 0.986803 },
-          { x: 4007.46, y: 0.987267 },
-          { x: 5138.29, y: 0.987688 }
+          { x: 1028.13, y: 0.0 },
+          { x: 1412.25, y: 0.0 },
+          { x: 1986.27, y: 0.0 },
+          { x: 2655.53, y: 0.0 },
+          { x: 3320.60, y: 0.0 },
+          { x: 4007.46, y: 0.0 },
+          { x: 5138.29, y: 0.0 }
     ]
 };
 
@@ -16229,16 +15853,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1020.63, y: 0.979763 },
-          { x: 1404.63, y: 0.982644 },
-          { x: 1979.47, y: 0.984446 },
-          { x: 2647.66, y: 0.98586 },
-          { x: 3314.26, y: 0.986737 },
-          { x: 4003.07, y: 0.987212 },
-          { x: 5132.82, y: 0.987643 }
+          { x: 1020.63, y: 0.0 },
+          { x: 1404.63, y: 0.0 },
+          { x: 1979.47, y: 0.0 },
+          { x: 2647.66, y: 0.0 },
+          { x: 3314.26, y: 0.0 },
+          { x: 4003.07, y: 0.0 },
+          { x: 5132.82, y: 0.0 }
     ]
 };
 
@@ -16250,16 +15874,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
-          { x: 965.07, y: 0.982171 },
-          { x: 1346.73, y: 0.983782 },
-          { x: 1722.24, y: 0.984925 },
-          { x: 2214.71, y: 0.985806 },
-          { x: 2698.91, y: 0.986365 },
-          { x: 3260.19, y: 0.986894 },
-          { x: 3852.86, y: 0.987281 }
+          { x: 965.07, y: 0.0 },
+          { x: 1346.73, y: 0.0 },
+          { x: 1722.24, y: 0.0 },
+          { x: 2214.71, y: 0.0 },
+          { x: 2698.91, y: 0.0 },
+          { x: 3260.19, y: 0.0 },
+          { x: 3852.86, y: 0.0 }
     ]
 };
 
@@ -16271,16 +15895,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 950.50, y: 0.981807 },
-          { x: 1334.19, y: 0.983486 },
-          { x: 1711.94, y: 0.984685 },
-          { x: 2210.68, y: 0.985602 },
-          { x: 2717.67, y: 0.986186 },
-          { x: 3297.89, y: 0.986736 },
-          { x: 3931.13, y: 0.987148 }
+          { x: 950.50, y: 0.0 },
+          { x: 1334.19, y: 0.0 },
+          { x: 1711.94, y: 0.0 },
+          { x: 2210.68, y: 0.0 },
+          { x: 2717.67, y: 0.0 },
+          { x: 3297.89, y: 0.0 },
+          { x: 3931.13, y: 0.0 }
     ]
 };
 
@@ -16292,16 +15916,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
-          { x: 1128.58, y: 0.983057 },
-          { x: 1545.82, y: 0.984522 },
-          { x: 2132.25, y: 0.985666 },
-          { x: 2770.56, y: 0.986395 },
-          { x: 3396.61, y: 0.986891 },
-          { x: 4187.31, y: 0.987317 },
-          { x: 5115.23, y: 0.987635 }
+          { x: 1128.58, y: 0.0 },
+          { x: 1545.82, y: 0.0 },
+          { x: 2132.25, y: 0.0 },
+          { x: 2770.56, y: 0.0 },
+          { x: 3396.61, y: 0.0 },
+          { x: 4187.31, y: 0.0 },
+          { x: 5115.23, y: 0.0 }
     ]
 };
 
@@ -16313,16 +15937,16 @@ const data_2__bitrate_ssim_rx9070xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1194.28, y: 0.983273 },
-          { x: 1623.77, y: 0.984666 },
-          { x: 2234.81, y: 0.985757 },
-          { x: 2904.93, y: 0.986453 },
-          { x: 3564.69, y: 0.986933 },
-          { x: 4407.52, y: 0.987347 },
-          { x: 5400.13, y: 0.987656 }
+          { x: 1194.28, y: 0.0 },
+          { x: 1623.77, y: 0.0 },
+          { x: 2234.81, y: 0.0 },
+          { x: 2904.93, y: 0.0 },
+          { x: 3564.69, y: 0.0 },
+          { x: 4407.52, y: 0.0 },
+          { x: 5400.13, y: 0.0 }
     ]
 };
 
@@ -16334,16 +15958,15 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 1367.08, y: 0.991856 },
-          { x: 1801.91, y: 0.994054 },
-          { x: 2436.83, y: 0.995453 },
-          { x: 3153.93, y: 0.996586 },
-          { x: 3871.25, y: 0.99728 },
-          { x: 4643.92, y: 0.997726 },
-          { x: 5425.02, y: 0.99809 }
+          { x: 1199.95, y: 0.969371 },
+          { x: 1801.91, y: 0.976031 },
+          { x: 2750.63, y: 0.979709 },
+          { x: 3871.13, y: 0.982859 },
+          { x: 5084.97, y: 0.98455 },
+          { x: 6855.51, y: 0.985608 }
     ]
 };
 
@@ -16355,16 +15978,15 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.30, y: 0.991706 },
-          { x: 1807.40, y: 0.993937 },
-          { x: 2445.51, y: 0.995356 },
-          { x: 3166.00, y: 0.996512 },
-          { x: 3887.41, y: 0.99722 },
-          { x: 4662.25, y: 0.997672 },
-          { x: 5450.26, y: 0.998047 }
+          { x: 1202.81, y: 0.968939 },
+          { x: 1807.28, y: 0.975695 },
+          { x: 2761.51, y: 0.979434 },
+          { x: 3887.32, y: 0.982651 },
+          { x: 5107.73, y: 0.984385 },
+          { x: 6891.31, y: 0.985477 }
     ]
 };
 
@@ -16376,16 +15998,16 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1163.62, y: 0.993397 },
-          { x: 1574.32, y: 0.995007 },
-          { x: 1996.91, y: 0.996103 },
-          { x: 2548.47, y: 0.9969 },
-          { x: 3093.29, y: 0.997422 },
-          { x: 3699.77, y: 0.997893 },
-          { x: 4375.89, y: 0.998232 }
+          { x: 1022.82, y: 0.970782 },
+          { x: 1574.35, y: 0.975968 },
+          { x: 2189.05, y: 0.979377 },
+          { x: 3092.94, y: 0.98205 },
+          { x: 3986.66, y: 0.983798 },
+          { x: 5145.79, y: 0.985233 },
+          { x: 6160.91, y: 0.986074 }
     ]
 };
 
@@ -16397,16 +16019,16 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1163.83, y: 0.993387 },
-          { x: 1574.66, y: 0.995003 },
-          { x: 1997.34, y: 0.996099 },
-          { x: 2548.52, y: 0.996897 },
-          { x: 3093.63, y: 0.99742 },
-          { x: 3700.24, y: 0.99789 },
-          { x: 4376.41, y: 0.99823 }
+          { x: 1022.80, y: 0.970769 },
+          { x: 1574.74, y: 0.97594 },
+          { x: 2189.51, y: 0.979348 },
+          { x: 3093.45, y: 0.982037 },
+          { x: 3988.02, y: 0.983787 },
+          { x: 5147.48, y: 0.985224 },
+          { x: 6163.38, y: 0.986065 }
     ]
 };
 
@@ -16418,16 +16040,16 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(98, 59, 65, 0.9)',
     
     data: [
-          { x: 1225.73, y: 0.994318 },
-          { x: 1677.60, y: 0.995748 },
-          { x: 2309.57, y: 0.996847 },
-          { x: 2998.92, y: 0.997568 },
-          { x: 3669.60, y: 0.998017 },
-          { x: 4512.85, y: 0.998394 },
-          { x: 5498.50, y: 0.998697 }
+          { x: 1037.38, y: 0.973255 },
+          { x: 1677.32, y: 0.978232 },
+          { x: 2653.10, y: 0.982047 },
+          { x: 3669.02, y: 0.983942 },
+          { x: 5088.50, y: 0.985728 },
+          { x: 6432.49, y: 0.986602 },
+          { x: 7733.52, y: 0.987253 }
     ]
 };
 
@@ -16439,184 +16061,98 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1242.84, y: 0.994346 },
-          { x: 1696.09, y: 0.995741 },
-          { x: 2336.49, y: 0.996824 },
-          { x: 3044.87, y: 0.997539 },
-          { x: 3743.51, y: 0.997983 },
-          { x: 4616.40, y: 0.998357 },
-          { x: 5633.94, y: 0.998661 }
-    ]
-};
-
-const data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 158, 181, 0.9)',
-    
-    data: [
-          { x: 1611.77, y: 0.992489 },
-          { x: 2089.59, y: 0.994666 },
-          { x: 2743.61, y: 0.996045 },
-          { x: 3490.68, y: 0.997109 },
-          { x: 4246.14, y: 0.99778 },
-          { x: 5052.41, y: 0.998223 },
-          { x: 5967.28, y: 0.998571 }
-    ]
-};
-
-const data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1631.10, y: 0.992275 },
-          { x: 2102.63, y: 0.994522 },
-          { x: 2749.39, y: 0.995931 },
-          { x: 3488.83, y: 0.997021 },
-          { x: 4236.30, y: 0.997711 },
-          { x: 5022.77, y: 0.998156 },
-          { x: 5945.35, y: 0.998518 }
-    ]
-};
-
-const data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 7, 214, 0.9)',
-    
-    data: [
-          { x: 960.61, y: 0.992332 },
-          { x: 1337.83, y: 0.994087 },
-          { x: 1736.60, y: 0.995321 },
-          { x: 2190.67, y: 0.996147 },
-          { x: 2684.85, y: 0.996735 },
-          { x: 3226.59, y: 0.997236 },
-          { x: 3951.14, y: 0.997677 }
-    ]
-};
-
-const data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 58, 5, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1055.22, y: 0.992267 },
-          { x: 1435.55, y: 0.994049 },
-          { x: 1835.89, y: 0.995332 },
-          { x: 2294.28, y: 0.996166 },
-          { x: 2783.31, y: 0.996756 },
-          { x: 3321.56, y: 0.997267 },
-          { x: 4046.81, y: 0.997703 }
+          { x: 1054.93, y: 0.972641 },
+          { x: 1696.07, y: 0.977677 },
+          { x: 2690.97, y: 0.981547 },
+          { x: 3742.96, y: 0.983496 },
+          { x: 5232.35, y: 0.98538 },
+          { x: 6606.78, y: 0.986309 },
+          { x: 7946.42, y: 0.986994 }
     ]
 };
 
 const data_2__bitrate_ssim_r9_9950X_VCEEncC_H_264_quality = {
     label: "r9 9950X VCE H.264 quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
+    borderColor: 'rgba(205, 79, 107, 0.9)',
     
     data: [
-          { x: 1367.33, y: 0.991854 },
-          { x: 1801.97, y: 0.994054 },
-          { x: 2436.86, y: 0.995453 },
-          { x: 3153.66, y: 0.996586 },
-          { x: 3871.25, y: 0.99728 },
-          { x: 4643.90, y: 0.997726 },
-          { x: 5425.35, y: 0.99809 }
+          { x: 1199.91, y: 0.969374 },
+          { x: 1801.97, y: 0.97603 },
+          { x: 2750.72, y: 0.979709 },
+          { x: 3871.25, y: 0.982859 },
+          { x: 5084.62, y: 0.984551 },
+          { x: 6855.34, y: 0.985608 }
     ]
 };
 
 const data_2__bitrate_ssim_r9_9950X_VCEEncC_H_264_normal = {
     label: "r9 9950X VCE H.264 normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
+    borderColor: 'rgba(255, 7, 214, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.91, y: 0.991706 },
-          { x: 1807.44, y: 0.993936 },
-          { x: 2445.41, y: 0.995356 },
-          { x: 3165.94, y: 0.996512 },
-          { x: 3887.05, y: 0.99722 },
-          { x: 4661.81, y: 0.997672 },
-          { x: 5450.16, y: 0.998047 }
+          { x: 1202.76, y: 0.968946 },
+          { x: 1807.22, y: 0.975689 },
+          { x: 2761.57, y: 0.979433 },
+          { x: 3886.94, y: 0.98265 },
+          { x: 5107.89, y: 0.984385 },
+          { x: 6891.80, y: 0.985476 }
     ]
 };
 
 const data_2__bitrate_ssim_r9_9950X_VCEEncC_HEVC_quality = {
     label: "r9 9950X VCE HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 154, 117, 0.9)',
+    borderColor: 'rgba(138, 58, 5, 0.9)',
     
     data: [
-          { x: 1073.30, y: 0.992055 },
-          { x: 1535.92, y: 0.994313 },
-          { x: 1953.19, y: 0.99562 },
-          { x: 2475.78, y: 0.99656 },
-          { x: 3052.75, y: 0.997217 },
-          { x: 3696.38, y: 0.99777 },
-          { x: 4427.60, y: 0.998201 }
+          { x: 931.50, y: 0.968061 },
+          { x: 1535.92, y: 0.974251 },
+          { x: 2160.03, y: 0.978243 },
+          { x: 3052.75, y: 0.981257 },
+          { x: 4000.55, y: 0.983375 },
+          { x: 5271.84, y: 0.98521 },
+          { x: 6346.05, y: 0.986144 }
     ]
 };
 
 const data_2__bitrate_ssim_r9_9950X_VCEEncC_HEVC_normal = {
     label: "r9 9950X VCE HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 0, 73, 0.9)',
+    borderColor: 'rgba(126, 61, 112, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1072.96, y: 0.992049 },
-          { x: 1534.15, y: 0.994302 },
-          { x: 1947.31, y: 0.995616 },
-          { x: 2463.35, y: 0.996553 },
-          { x: 3029.15, y: 0.997208 },
-          { x: 3660.90, y: 0.997763 },
-          { x: 4373.68, y: 0.998193 }
+          { x: 931.87, y: 0.968036 },
+          { x: 1534.15, y: 0.974209 },
+          { x: 2150.92, y: 0.978221 },
+          { x: 3029.15, y: 0.981238 },
+          { x: 3955.60, y: 0.983352 },
+          { x: 5196.75, y: 0.98518 },
+          { x: 6256.00, y: 0.986119 }
     ]
 };
 
@@ -16631,12 +16167,12 @@ const data_2__bitrate_vmaf__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5821.51, y: 94.890511 },
-          { x: 3315.29, y: 91.817228 },
-          { x: 1828.12, y: 87.220987 },
-          { x: 1043.38, y: 80.231542 },
-          { x: 627.07, y: 70.066373 },
-          { x: 410.19, y: 56.259812 }
+          { x: 5821.45, y: 95.597926 },
+          { x: 3315.41, y: 92.790115 },
+          { x: 1828.18, y: 88.350898 },
+          { x: 1043.32, y: 81.545663 },
+          { x: 627.06, y: 71.597062 },
+          { x: 410.22, y: 57.975808 }
     ]
 };
 
@@ -16651,13 +16187,13 @@ const data_2__bitrate_vmaf__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 7505.16, y: 97.389249 },
-          { x: 5105.61, y: 95.850117 },
-          { x: 2957.98, y: 92.582827 },
-          { x: 1618.16, y: 87.703966 },
-          { x: 935.69, y: 80.692062 },
-          { x: 567.81, y: 70.555677 },
-          { x: 374.81, y: 57.238814 }
+          { x: 7505.08, y: 97.593433 },
+          { x: 5105.70, y: 96.380521 },
+          { x: 2958.05, y: 93.421997 },
+          { x: 1618.11, y: 88.736922 },
+          { x: 935.76, y: 81.885057 },
+          { x: 567.84, y: 72.007766 },
+          { x: 374.83, y: 58.918811 }
     ]
 };
 
@@ -16672,13 +16208,13 @@ const data_2__bitrate_vmaf__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6979.10, y: 96.366116 },
-          { x: 3826.22, y: 94.431041 },
-          { x: 2006.54, y: 91.391137 },
-          { x: 1024.96, y: 86.874167 },
-          { x: 527.79, y: 80.275771 },
-          { x: 291.16, y: 70.783149 },
-          { x: 173.92, y: 57.992306 }
+          { x: 6979.10, y: 96.874275 },
+          { x: 3826.22, y: 95.223645 },
+          { x: 2006.54, y: 92.388321 },
+          { x: 1024.96, y: 88.006295 },
+          { x: 527.79, y: 81.562099 },
+          { x: 291.16, y: 72.249968 },
+          { x: 173.92, y: 59.663181 }
     ]
 };
 
@@ -16714,13 +16250,13 @@ const data_2__bitrate_vmaf__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 7535.85, y: 97.517056 },
-          { x: 4531.96, y: 96.4167 },
-          { x: 2590.60, y: 94.476249 },
-          { x: 1367.54, y: 91.453805 },
-          { x: 695.95, y: 87.122177 },
-          { x: 363.04, y: 80.509418 },
-          { x: 192.33, y: 70.368927 }
+          { x: 7535.85, y: 97.713197 },
+          { x: 4531.96, y: 96.860849 },
+          { x: 2590.60, y: 95.177448 },
+          { x: 1367.54, y: 92.367991 },
+          { x: 695.95, y: 88.160981 },
+          { x: 363.04, y: 81.705608 },
+          { x: 192.33, y: 71.772727 }
     ]
 };
 
@@ -16745,8 +16281,8 @@ const data_2__bitrate_vmaf__x265_veryslow_10bit_crf = {
     ]
 };
 
-const data_2__bitrate_vmaf__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_2__bitrate_vmaf__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -16756,18 +16292,19 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 5561.16, y: 96.635272 },
-          { x: 4316.69, y: 96.010702 },
-          { x: 3478.46, y: 95.402743 },
-          { x: 2575.50, y: 94.373852 },
-          { x: 1829.29, y: 93.115903 },
-          { x: 1321.75, y: 91.756987 },
-          { x: 964.19, y: 90.243695 }
+          { x: 4245.14, y: 96.803625 },
+          { x: 2905.13, y: 95.97886 },
+          { x: 1757.91, y: 94.426462 },
+          { x: 1064.56, y: 92.420775 },
+          { x: 714.06, y: 90.193544 },
+          { x: 511.88, y: 87.730151 },
+          { x: 369.72, y: 84.670895 },
+          { x: 214.30, y: 78.770974 }
     ]
 };
 
-const data_2__bitrate_vmaf__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_2__bitrate_vmaf__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -16777,17 +16314,19 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5676.79, y: 96.909047 },
-          { x: 4277.29, y: 96.264399 },
-          { x: 3414.98, y: 95.649406 },
-          { x: 2501.98, y: 94.597405 },
-          { x: 1796.72, y: 93.340846 },
-          { x: 952.70, y: 90.355281 }
+          { x: 4105.39, y: 96.480856 },
+          { x: 2769.85, y: 95.443206 },
+          { x: 1673.52, y: 93.65756 },
+          { x: 1021.35, y: 91.442075 },
+          { x: 691.96, y: 89.091563 },
+          { x: 501.23, y: 86.507551 },
+          { x: 364.48, y: 83.305649 },
+          { x: 212.50, y: 77.086449 }
     ]
 };
 
-const data_2__bitrate_vmaf__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_2__bitrate_vmaf__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -16795,20 +16334,21 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 5627.73, y: 96.348762 },
-          { x: 4268.62, y: 95.663283 },
-          { x: 3347.11, y: 95.01662 },
-          { x: 2411.12, y: 93.916222 },
-          { x: 1680.73, y: 92.503847 },
-          { x: 1193.28, y: 91.000733 },
-          { x: 883.36, y: 89.450444 }
+          { x: 4296.66, y: 96.470982 },
+          { x: 2879.42, y: 95.531431 },
+          { x: 1688.52, y: 93.821903 },
+          { x: 1023.36, y: 91.665431 },
+          { x: 679.98, y: 89.370394 },
+          { x: 489.07, y: 86.803085 },
+          { x: 358.13, y: 83.605396 },
+          { x: 211.44, y: 77.351106 }
     ]
 };
 
-const data_2__bitrate_vmaf__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_2__bitrate_vmaf__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -16816,15 +16356,60 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 5944.54, y: 96.641095 },
-          { x: 4315.49, y: 95.902727 },
-          { x: 3325.38, y: 95.208351 },
-          { x: 2361.11, y: 94.08033 },
-          { x: 1652.47, y: 92.663806 },
-          { x: 1173.60, y: 91.150606 },
-          { x: 873.34, y: 89.602104 }
+          { x: 4344.52, y: 96.077911 },
+          { x: 2852.36, y: 94.92407 },
+          { x: 1664.58, y: 93.010136 },
+          { x: 1008.56, y: 90.702766 },
+          { x: 674.00, y: 88.275913 },
+          { x: 484.66, y: 85.610341 },
+          { x: 356.56, y: 82.299005 },
+          { x: 210.97, y: 75.784259 }
+    ]
+};
+
+const data_2__bitrate_vmaf__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 4902.89, y: 95.910671 },
+          { x: 3179.44, y: 94.801732 },
+          { x: 1822.65, y: 93.01062 },
+          { x: 1074.38, y: 90.715427 },
+          { x: 691.59, y: 88.087667 },
+          { x: 482.59, y: 85.303763 },
+          { x: 341.82, y: 81.810687 },
+          { x: 202.27, y: 74.221034 }
+    ]
+};
+
+const data_2__bitrate_vmaf__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 5128.55, y: 95.463487 },
+          { x: 3218.80, y: 94.164116 },
+          { x: 1810.93, y: 92.177544 },
+          { x: 1061.86, y: 89.72795 },
+          { x: 685.86, y: 86.951762 },
+          { x: 478.36, y: 84.037505 },
+          { x: 340.33, y: 80.427274 },
+          { x: 201.78, y: 72.650825 }
     ]
 };
 
@@ -16836,16 +16421,17 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5502.00, y: 94.828586 },
-          { x: 4161.83, y: 93.992958 },
-          { x: 3295.90, y: 93.255981 },
-          { x: 2346.32, y: 91.98617 },
-          { x: 1652.65, y: 90.292046 },
-          { x: 1181.44, y: 88.302313 },
-          { x: 861.34, y: 86.341829 }
+          { x: 4892.06, y: 94.335464 },
+          { x: 3306.43, y: 92.678102 },
+          { x: 1998.78, y: 90.280706 },
+          { x: 1207.99, y: 87.25109 },
+          { x: 763.45, y: 83.891898 },
+          { x: 494.80, y: 80.063624 },
+          { x: 322.90, y: 75.32301 },
+          { x: 178.61, y: 66.071888 }
     ]
 };
 
@@ -16857,16 +16443,17 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5642.14, y: 95.009107 },
-          { x: 4191.63, y: 94.118265 },
-          { x: 3271.33, y: 93.363945 },
-          { x: 2341.22, y: 92.024457 },
-          { x: 1633.17, y: 90.287612 },
-          { x: 1167.79, y: 88.234007 },
-          { x: 853.59, y: 86.181808 }
+          { x: 4990.39, y: 93.529677 },
+          { x: 3271.91, y: 91.731812 },
+          { x: 1988.60, y: 89.197061 },
+          { x: 1197.34, y: 86.078189 },
+          { x: 761.40, y: 82.449454 },
+          { x: 489.17, y: 78.488577 },
+          { x: 321.28, y: 73.38496 },
+          { x: 178.43, y: 63.634679 }
     ]
 };
 
@@ -18252,14 +17839,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 6448.56, y: 96.73738 },
-          { x: 3849.75, y: 94.927777 },
-          { x: 2249.63, y: 91.871286 },
-          { x: 1232.99, y: 86.58742 },
-          { x: 745.62, y: 78.706445 }
+          { x: 6132.34, y: 96.947721 },
+          { x: 3690.00, y: 95.434285 },
+          { x: 2081.68, y: 92.418329 },
+          { x: 1196.36, y: 87.538988 },
+          { x: 726.58, y: 79.876611 }
     ]
 };
 
@@ -18271,14 +17858,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6448.56, y: 96.73738 },
-          { x: 3849.75, y: 94.927777 },
-          { x: 2249.63, y: 91.871286 },
-          { x: 1232.99, y: 86.58742 },
-          { x: 745.62, y: 78.706445 }
+          { x: 6132.34, y: 96.947721 },
+          { x: 3690.00, y: 95.434285 },
+          { x: 2081.68, y: 92.418329 },
+          { x: 1196.36, y: 87.538988 },
+          { x: 726.58, y: 79.876611 }
     ]
 };
 
@@ -18290,14 +17877,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 5987.91, y: 96.525086 },
-          { x: 3460.30, y: 94.889694 },
-          { x: 1921.28, y: 92.194727 },
-          { x: 1062.54, y: 88.193192 },
-          { x: 626.09, y: 82.469031 }
+          { x: 5698.30, y: 96.873726 },
+          { x: 3280.83, y: 95.439969 },
+          { x: 1823.38, y: 92.879648 },
+          { x: 1034.27, y: 89.163325 },
+          { x: 611.98, y: 83.765106 }
     ]
 };
 
@@ -18309,14 +17896,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5987.91, y: 96.525086 },
-          { x: 3460.30, y: 94.889694 },
-          { x: 1921.28, y: 92.194727 },
-          { x: 1062.54, y: 88.193192 },
-          { x: 626.09, y: 82.469031 }
+          { x: 5698.30, y: 96.873726 },
+          { x: 3280.83, y: 95.439969 },
+          { x: 1823.38, y: 92.879648 },
+          { x: 1034.27, y: 89.163325 },
+          { x: 611.98, y: 83.765106 }
     ]
 };
 
@@ -18328,14 +17915,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5981.97, y: 96.811578 },
-          { x: 3467.20, y: 95.215389 },
-          { x: 1910.84, y: 92.555097 },
-          { x: 1042.65, y: 88.522852 },
-          { x: 613.33, y: 82.829675 }
+          { x: 5697.56, y: 96.71799 },
+          { x: 3276.25, y: 95.05149 },
+          { x: 1822.86, y: 92.3187 },
+          { x: 1013.92, y: 88.371779 },
+          { x: 596.21, y: 82.769582 }
     ]
 };
 
@@ -18347,14 +17934,14 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5981.97, y: 96.811578 },
-          { x: 3467.20, y: 95.215389 },
-          { x: 1910.84, y: 92.555097 },
-          { x: 1042.65, y: 88.522852 },
-          { x: 613.33, y: 82.829675 }
+          { x: 5697.56, y: 96.71799 },
+          { x: 3276.25, y: 95.05149 },
+          { x: 1822.86, y: 92.3187 },
+          { x: 1013.92, y: 88.371779 },
+          { x: 596.21, y: 82.769582 }
     ]
 };
 
@@ -18366,15 +17953,13 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6091.29, y: 96.912858 },
-          { x: 4023.20, y: 95.824283 },
-          { x: 2604.66, y: 94.210049 },
-          { x: 1659.02, y: 91.93734 },
-          { x: 962.92, y: 88.089601 },
-          { x: 529.06, y: 81.451879 }
+          { x: 6249.26, y: 97.240588 },
+          { x: 4130.38, y: 96.391374 },
+          { x: 2697.83, y: 95.09014 },
+          { x: 1738.58, y: 93.095464 }
     ]
 };
 
@@ -18386,15 +17971,13 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6091.29, y: 96.912858 },
-          { x: 4023.20, y: 95.824283 },
-          { x: 2604.66, y: 94.210049 },
-          { x: 1659.02, y: 91.93734 },
-          { x: 962.92, y: 88.089601 },
-          { x: 529.06, y: 81.451879 }
+          { x: 6249.26, y: 97.240588 },
+          { x: 4130.38, y: 96.391374 },
+          { x: 2697.83, y: 95.09014 },
+          { x: 1738.58, y: 93.095464 }
     ]
 };
 
@@ -18406,15 +17989,13 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5894.41, y: 97.016861 },
-          { x: 3855.05, y: 95.910384 },
-          { x: 2516.38, y: 94.279755 },
-          { x: 1616.27, y: 91.996381 },
-          { x: 943.11, y: 88.154714 },
-          { x: 523.84, y: 81.515487 }
+          { x: 5990.04, y: 97.114024 },
+          { x: 3969.54, y: 96.015797 },
+          { x: 2603.25, y: 94.432029 },
+          { x: 1692.48, y: 92.2324 }
     ]
 };
 
@@ -18426,15 +18007,13 @@ const data_2__bitrate_vmaf_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5894.41, y: 97.016861 },
-          { x: 3855.05, y: 95.910384 },
-          { x: 2516.38, y: 94.279755 },
-          { x: 1616.27, y: 91.996381 },
-          { x: 943.11, y: 88.154714 },
-          { x: 523.84, y: 81.515487 }
+          { x: 5990.04, y: 97.114024 },
+          { x: 3969.54, y: 96.015797 },
+          { x: 2603.25, y: 94.432029 },
+          { x: 1692.48, y: 92.2324 }
     ]
 };
 
@@ -18446,14 +18025,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 6432.97, y: 96.744662 },
-          { x: 3844.49, y: 94.945915 },
-          { x: 2245.87, y: 91.889402 },
-          { x: 1234.73, y: 86.554679 },
-          { x: 750.81, y: 78.628697 }
+          { x: 6124.32, y: 96.951324 },
+          { x: 3686.40, y: 95.451545 },
+          { x: 2075.25, y: 92.420398 },
+          { x: 1199.71, y: 87.55282 },
+          { x: 733.18, y: 79.844774 }
     ]
 };
 
@@ -18465,14 +18044,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6432.97, y: 96.744662 },
-          { x: 3844.49, y: 94.945915 },
-          { x: 2245.87, y: 91.889402 },
-          { x: 1234.73, y: 86.554679 },
-          { x: 750.81, y: 78.628697 }
+          { x: 6124.32, y: 96.951324 },
+          { x: 3686.40, y: 95.451545 },
+          { x: 2075.25, y: 92.420398 },
+          { x: 1199.71, y: 87.55282 },
+          { x: 733.18, y: 79.844774 }
     ]
 };
 
@@ -18484,14 +18063,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 5974.53, y: 96.528 },
-          { x: 3451.03, y: 94.892852 },
-          { x: 1914.72, y: 92.191809 },
-          { x: 1060.37, y: 88.16767 },
-          { x: 625.38, y: 82.462443 }
+          { x: 5690.09, y: 96.875579 },
+          { x: 3272.45, y: 95.447135 },
+          { x: 1820.23, y: 92.877535 },
+          { x: 1032.22, y: 89.149369 },
+          { x: 612.31, y: 83.744969 }
     ]
 };
 
@@ -18503,14 +18082,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5974.53, y: 96.528 },
-          { x: 3451.03, y: 94.892852 },
-          { x: 1914.72, y: 92.191809 },
-          { x: 1060.37, y: 88.16767 },
-          { x: 625.38, y: 82.462443 }
+          { x: 5690.09, y: 96.875579 },
+          { x: 3272.45, y: 95.447135 },
+          { x: 1820.23, y: 92.877535 },
+          { x: 1032.22, y: 89.149369 },
+          { x: 612.31, y: 83.744969 }
     ]
 };
 
@@ -18522,14 +18101,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5971.21, y: 96.812356 },
-          { x: 3455.27, y: 95.209688 },
-          { x: 1903.92, y: 92.542933 },
-          { x: 1041.01, y: 88.503751 },
-          { x: 610.89, y: 82.722146 }
+          { x: 5686.03, y: 96.720205 },
+          { x: 3264.47, y: 95.049792 },
+          { x: 1815.75, y: 92.309936 },
+          { x: 1015.06, y: 88.382411 },
+          { x: 597.42, y: 82.780704 }
     ]
 };
 
@@ -18541,14 +18120,14 @@ const data_2__bitrate_vmaf_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5971.21, y: 96.812356 },
-          { x: 3455.27, y: 95.209688 },
-          { x: 1903.92, y: 92.542933 },
-          { x: 1041.01, y: 88.503751 },
-          { x: 610.89, y: 82.722146 }
+          { x: 5686.03, y: 96.720205 },
+          { x: 3264.47, y: 95.049792 },
+          { x: 1815.75, y: 92.309936 },
+          { x: 1015.06, y: 88.382411 },
+          { x: 597.42, y: 82.780704 }
     ]
 };
 
@@ -18560,14 +18139,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 6829.49, y: 96.567777 },
-          { x: 4148.40, y: 94.679109 },
-          { x: 2435.20, y: 91.488162 },
-          { x: 1423.78, y: 86.064805 },
-          { x: 876.06, y: 77.989128 }
+          { x: 6474.44, y: 96.815321 },
+          { x: 3930.53, y: 95.197893 },
+          { x: 2282.23, y: 92.083845 },
+          { x: 1349.32, y: 86.839365 },
+          { x: 836.28, y: 78.921599 }
     ]
 };
 
@@ -18579,14 +18158,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6829.49, y: 96.567777 },
-          { x: 4148.40, y: 94.679109 },
-          { x: 2435.20, y: 91.488162 },
-          { x: 1423.78, y: 86.064805 },
-          { x: 876.06, y: 77.989128 }
+          { x: 6474.44, y: 96.815321 },
+          { x: 3930.53, y: 95.197893 },
+          { x: 2282.23, y: 92.083845 },
+          { x: 1349.32, y: 86.839365 },
+          { x: 836.28, y: 78.921599 }
     ]
 };
 
@@ -18598,14 +18177,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7288.02, y: 96.649938 },
-          { x: 4345.53, y: 95.142878 },
-          { x: 2520.85, y: 92.91851 },
-          { x: 1437.22, y: 89.508366 },
-          { x: 821.01, y: 84.613824 }
+          { x: 7325.73, y: 97.054459 },
+          { x: 4380.40, y: 95.839093 },
+          { x: 2525.11, y: 93.794198 },
+          { x: 1443.79, y: 90.545175 },
+          { x: 825.00, y: 85.832183 }
     ]
 };
 
@@ -18617,14 +18196,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7288.02, y: 96.649938 },
-          { x: 4345.53, y: 95.142878 },
-          { x: 2520.85, y: 92.91851 },
-          { x: 1437.22, y: 89.508366 },
-          { x: 821.01, y: 84.613824 }
+          { x: 7325.73, y: 97.054459 },
+          { x: 4379.36, y: 95.838319 },
+          { x: 2525.20, y: 93.794495 },
+          { x: 1443.79, y: 90.545175 },
+          { x: 825.00, y: 85.832183 }
     ]
 };
 
@@ -18636,14 +18215,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6905.35, y: 96.597357 },
-          { x: 4050.51, y: 94.764248 },
-          { x: 2258.49, y: 91.937818 },
-          { x: 1284.08, y: 87.764448 },
-          { x: 739.33, y: 81.708657 }
+          { x: 6941.14, y: 96.604805 },
+          { x: 4073.31, y: 94.774141 },
+          { x: 2273.37, y: 91.961765 },
+          { x: 1292.04, y: 87.828693 },
+          { x: 746.21, y: 81.930189 }
     ]
 };
 
@@ -18655,14 +18234,14 @@ const data_2__bitrate_vmaf_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6905.35, y: 96.597357 },
-          { x: 4050.51, y: 94.764248 },
-          { x: 2258.49, y: 91.937818 },
-          { x: 1284.08, y: 87.764448 },
-          { x: 739.33, y: 81.708657 }
+          { x: 6960.39, y: 96.609228 },
+          { x: 4073.53, y: 94.77392 },
+          { x: 2273.37, y: 91.961765 },
+          { x: 1292.04, y: 87.828693 },
+          { x: 746.16, y: 81.918246 }
     ]
 };
 
@@ -18674,14 +18253,14 @@ const data_2__bitrate_vmaf_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 6834.36, y: 96.569839 },
-          { x: 4145.13, y: 94.673022 },
-          { x: 2434.88, y: 91.488845 },
-          { x: 1423.67, y: 86.073274 },
-          { x: 876.51, y: 77.990758 }
+          { x: 6834.36, y: 96.948839 },
+          { x: 4145.13, y: 95.392634 },
+          { x: 2434.88, y: 92.516273 },
+          { x: 1423.67, y: 87.36718 },
+          { x: 876.51, y: 79.53813 }
     ]
 };
 
@@ -18693,14 +18272,14 @@ const data_2__bitrate_vmaf_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6834.36, y: 96.569839 },
-          { x: 4145.13, y: 94.673022 },
-          { x: 2434.88, y: 91.488845 },
-          { x: 1423.67, y: 86.073274 },
-          { x: 876.51, y: 77.990758 }
+          { x: 6834.36, y: 96.948839 },
+          { x: 4145.13, y: 95.392634 },
+          { x: 2434.88, y: 92.516273 },
+          { x: 1423.67, y: 87.36718 },
+          { x: 876.51, y: 79.53813 }
     ]
 };
 
@@ -18712,14 +18291,14 @@ const data_2__bitrate_vmaf_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7384.63, y: 96.940469 },
-          { x: 4428.50, y: 95.524381 },
-          { x: 2554.06, y: 93.35756 },
-          { x: 1461.05, y: 89.994393 },
-          { x: 835.10, y: 85.042749 }
+          { x: 7384.63, y: 97.222171 },
+          { x: 4428.50, y: 96.078089 },
+          { x: 2554.06, y: 94.103376 },
+          { x: 1461.05, y: 90.900205 },
+          { x: 835.10, y: 86.092732 }
     ]
 };
 
@@ -18731,14 +18310,14 @@ const data_2__bitrate_vmaf_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7384.63, y: 96.940469 },
-          { x: 4428.50, y: 95.524381 },
-          { x: 2554.06, y: 93.35756 },
-          { x: 1461.05, y: 89.994393 },
-          { x: 835.10, y: 85.042749 }
+          { x: 7384.63, y: 97.222171 },
+          { x: 4428.50, y: 96.078089 },
+          { x: 2554.06, y: 94.103376 },
+          { x: 1461.05, y: 90.900205 },
+          { x: 835.10, y: 86.092732 }
     ]
 };
 
@@ -18750,7 +18329,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
           { x: 1028.13, y: 75.788595 },
@@ -18771,7 +18350,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 1020.63, y: 75.326557 },
@@ -18792,7 +18371,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
           { x: 965.07, y: 85.276768 },
@@ -18813,7 +18392,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 950.50, y: 84.385271 },
@@ -18834,7 +18413,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
           { x: 1128.58, y: 87.108803 },
@@ -18855,7 +18434,7 @@ const data_2__bitrate_vmaf_rx9070xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 1194.28, y: 87.018973 },
@@ -18876,16 +18455,15 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 1367.08, y: 76.672184 },
-          { x: 1801.91, y: 80.73872 },
-          { x: 2436.83, y: 83.779633 },
-          { x: 3153.93, y: 86.827523 },
-          { x: 3871.25, y: 89.182834 },
-          { x: 4643.92, y: 90.63019 },
-          { x: 5425.02, y: 92.109997 }
+          { x: 1199.95, y: 75.875393 },
+          { x: 1801.91, y: 82.319632 },
+          { x: 2750.63, y: 86.475972 },
+          { x: 3871.13, y: 90.406942 },
+          { x: 5084.97, y: 92.697397 },
+          { x: 6855.51, y: 94.276965 }
     ]
 };
 
@@ -18897,16 +18475,15 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.30, y: 76.141011 },
-          { x: 1807.40, y: 80.231616 },
-          { x: 2445.51, y: 83.322675 },
-          { x: 3166.00, y: 86.424285 },
-          { x: 3887.41, y: 88.840591 },
-          { x: 4662.25, y: 90.314796 },
-          { x: 5450.26, y: 91.846692 }
+          { x: 1202.81, y: 75.330444 },
+          { x: 1807.28, y: 81.815964 },
+          { x: 2761.51, y: 86.07861 },
+          { x: 3887.32, y: 90.076459 },
+          { x: 5107.73, y: 92.436523 },
+          { x: 6891.31, y: 94.061782 }
     ]
 };
 
@@ -18918,16 +18495,16 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1163.62, y: 84.158982 },
-          { x: 1574.32, y: 87.0849 },
-          { x: 1996.91, y: 89.07795 },
-          { x: 2548.47, y: 90.929087 },
-          { x: 3093.29, y: 92.072382 },
-          { x: 3699.77, y: 93.133454 },
-          { x: 4375.89, y: 94.190081 }
+          { x: 1022.82, y: 84.018627 },
+          { x: 1574.35, y: 88.184171 },
+          { x: 2189.05, y: 90.800228 },
+          { x: 3092.94, y: 92.891198 },
+          { x: 3986.66, y: 94.387107 },
+          { x: 5145.79, y: 95.587799 },
+          { x: 6160.91, y: 96.228637 }
     ]
 };
 
@@ -18939,16 +18516,16 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1163.83, y: 84.146775 },
-          { x: 1574.66, y: 87.084326 },
-          { x: 1997.34, y: 89.075055 },
-          { x: 2548.52, y: 90.917657 },
-          { x: 3093.63, y: 92.063756 },
-          { x: 3700.24, y: 93.126399 },
-          { x: 4376.41, y: 94.181041 }
+          { x: 1022.80, y: 84.025894 },
+          { x: 1574.74, y: 88.169728 },
+          { x: 2189.51, y: 90.788718 },
+          { x: 3093.45, y: 92.891915 },
+          { x: 3988.02, y: 94.373185 },
+          { x: 5147.48, y: 95.58033 },
+          { x: 6163.38, y: 96.220923 }
     ]
 };
 
@@ -18960,16 +18537,16 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(98, 59, 65, 0.9)',
     
     data: [
-          { x: 1225.73, y: 86.542293 },
-          { x: 1677.60, y: 89.180064 },
-          { x: 2309.57, y: 91.422305 },
-          { x: 2998.92, y: 92.833737 },
-          { x: 3669.60, y: 93.904747 },
-          { x: 4512.85, y: 94.837137 },
-          { x: 5498.50, y: 95.638248 }
+          { x: 1037.38, y: 86.206156 },
+          { x: 1677.32, y: 90.135675 },
+          { x: 2653.10, y: 93.069223 },
+          { x: 3669.02, y: 94.547146 },
+          { x: 5088.50, y: 96.024358 },
+          { x: 6432.49, y: 96.635867 },
+          { x: 7733.52, y: 97.030469 }
     ]
 };
 
@@ -18981,184 +18558,98 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1242.84, y: 86.181539 },
-          { x: 1696.09, y: 88.856416 },
-          { x: 2336.49, y: 91.159334 },
-          { x: 3044.87, y: 92.599159 },
-          { x: 3743.51, y: 93.704434 },
-          { x: 4616.40, y: 94.674061 },
-          { x: 5633.94, y: 95.505654 }
-    ]
-};
-
-const data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 158, 181, 0.9)',
-    
-    data: [
-          { x: 1611.77, y: 78.207322 },
-          { x: 2089.59, y: 82.091907 },
-          { x: 2743.61, y: 84.912274 },
-          { x: 3490.68, y: 87.753174 },
-          { x: 4246.14, y: 90.006092 },
-          { x: 5052.41, y: 91.381681 },
-          { x: 5967.28, y: 92.78978 }
-    ]
-};
-
-const data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1631.10, y: 77.678554 },
-          { x: 2102.63, y: 81.643696 },
-          { x: 2749.39, y: 84.513293 },
-          { x: 3488.83, y: 87.420651 },
-          { x: 4236.30, y: 89.698133 },
-          { x: 5022.77, y: 91.119171 },
-          { x: 5945.35, y: 92.559141 }
-    ]
-};
-
-const data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 7, 214, 0.9)',
-    
-    data: [
-          { x: 960.61, y: 81.883681 },
-          { x: 1337.83, y: 84.97573 },
-          { x: 1736.60, y: 87.117537 },
-          { x: 2190.67, y: 89.039223 },
-          { x: 2684.85, y: 90.31124 },
-          { x: 3226.59, y: 91.491171 },
-          { x: 3951.14, y: 92.688082 }
-    ]
-};
-
-const data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 58, 5, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1055.22, y: 81.889357 },
-          { x: 1435.55, y: 84.981315 },
-          { x: 1835.89, y: 87.155685 },
-          { x: 2294.28, y: 89.094158 },
-          { x: 2783.31, y: 90.359277 },
-          { x: 3321.56, y: 91.536372 },
-          { x: 4046.81, y: 92.724831 }
+          { x: 1054.93, y: 85.854606 },
+          { x: 1696.07, y: 89.83965 },
+          { x: 2690.97, y: 92.855171 },
+          { x: 3742.96, y: 94.358813 },
+          { x: 5232.35, y: 95.914572 },
+          { x: 6606.78, y: 96.550752 },
+          { x: 7946.42, y: 96.959475 }
     ]
 };
 
 const data_2__bitrate_vmaf_r9_9950X_VCEEncC_H_264_quality = {
     label: "r9 9950X VCE H.264 quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
+    borderColor: 'rgba(205, 79, 107, 0.9)',
     
     data: [
-          { x: 1367.33, y: 76.66955 },
-          { x: 1801.97, y: 80.736578 },
-          { x: 2436.86, y: 83.775781 },
-          { x: 3153.66, y: 86.826965 },
-          { x: 3871.25, y: 89.183946 },
-          { x: 4643.90, y: 90.627964 },
-          { x: 5425.35, y: 92.109358 }
+          { x: 1199.91, y: 75.876987 },
+          { x: 1801.97, y: 82.315695 },
+          { x: 2750.72, y: 86.477346 },
+          { x: 3871.25, y: 90.405502 },
+          { x: 5084.62, y: 92.697788 },
+          { x: 6855.34, y: 94.276114 }
     ]
 };
 
 const data_2__bitrate_vmaf_r9_9950X_VCEEncC_H_264_normal = {
     label: "r9 9950X VCE H.264 normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
+    borderColor: 'rgba(255, 7, 214, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.91, y: 76.116551 },
-          { x: 1807.44, y: 80.238663 },
-          { x: 2445.41, y: 83.327585 },
-          { x: 3165.94, y: 86.424646 },
-          { x: 3887.05, y: 88.838262 },
-          { x: 4661.81, y: 90.316687 },
-          { x: 5450.16, y: 91.844398 }
+          { x: 1202.76, y: 75.345085 },
+          { x: 1807.22, y: 81.8214 },
+          { x: 2761.57, y: 86.082566 },
+          { x: 3886.94, y: 90.072024 },
+          { x: 5107.89, y: 92.434243 },
+          { x: 6891.80, y: 94.060801 }
     ]
 };
 
 const data_2__bitrate_vmaf_r9_9950X_VCEEncC_HEVC_quality = {
     label: "r9 9950X VCE HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 154, 117, 0.9)',
+    borderColor: 'rgba(138, 58, 5, 0.9)',
     
     data: [
-          { x: 1073.30, y: 81.98704 },
-          { x: 1535.92, y: 85.389274 },
-          { x: 1953.19, y: 87.679997 },
-          { x: 2475.78, y: 89.750512 },
-          { x: 3052.75, y: 91.126201 },
-          { x: 3696.38, y: 92.411155 },
-          { x: 4427.60, y: 93.730768 }
+          { x: 931.50, y: 81.728395 },
+          { x: 1535.92, y: 86.544984 },
+          { x: 2160.03, y: 89.583349 },
+          { x: 3052.75, y: 91.980119 },
+          { x: 4000.55, y: 93.782429 },
+          { x: 5271.84, y: 95.340549 },
+          { x: 6346.05, y: 96.110248 }
     ]
 };
 
 const data_2__bitrate_vmaf_r9_9950X_VCEEncC_HEVC_normal = {
     label: "r9 9950X VCE HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 0, 73, 0.9)',
+    borderColor: 'rgba(126, 61, 112, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1072.96, y: 81.988453 },
-          { x: 1534.15, y: 85.375511 },
-          { x: 1947.31, y: 87.688192 },
-          { x: 2463.35, y: 89.73911 },
-          { x: 3029.15, y: 91.106717 },
-          { x: 3660.90, y: 92.395455 },
-          { x: 4373.68, y: 93.700154 }
+          { x: 931.87, y: 81.716955 },
+          { x: 1534.15, y: 86.532298 },
+          { x: 2150.92, y: 89.593613 },
+          { x: 3029.15, y: 91.968087 },
+          { x: 3955.60, y: 93.760511 },
+          { x: 5196.75, y: 95.310736 },
+          { x: 6256.00, y: 96.082058 }
     ]
 };
 
@@ -19173,12 +18664,12 @@ const data_2__bitrate_fps__x264_medium_crf = {
     borderColor: 'rgba(31, 119, 179, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5821.51, y: 265.18 },
-          { x: 3315.29, y: 295.15 },
-          { x: 1828.12, y: 316.87 },
-          { x: 1043.38, y: 331.83 },
-          { x: 627.07, y: 348.26 },
-          { x: 410.19, y: 356.67 }
+          { x: 5821.45, y: 259.20 },
+          { x: 3315.41, y: 294.82 },
+          { x: 1828.18, y: 318.00 },
+          { x: 1043.32, y: 343.34 },
+          { x: 627.06, y: 355.08 },
+          { x: 410.22, y: 370.73 }
     ]
 };
 
@@ -19193,13 +18684,13 @@ const data_2__bitrate_fps__x264_veryslow_crf = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 7505.16, y: 49.42 },
-          { x: 5105.61, y: 55.76 },
-          { x: 2957.98, y: 63.09 },
-          { x: 1618.16, y: 66.62 },
-          { x: 935.69, y: 69.50 },
-          { x: 567.81, y: 72.62 },
-          { x: 374.81, y: 74.69 }
+          { x: 7505.08, y: 48.68 },
+          { x: 5105.70, y: 55.75 },
+          { x: 2958.05, y: 63.72 },
+          { x: 1618.11, y: 71.54 },
+          { x: 935.76, y: 79.27 },
+          { x: 567.84, y: 85.44 },
+          { x: 374.83, y: 89.16 }
     ]
 };
 
@@ -19214,13 +18705,13 @@ const data_2__bitrate_fps__x265_medium_crf = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6979.10, y: 96.35 },
-          { x: 3826.22, y: 119.05 },
-          { x: 2006.54, y: 143.71 },
-          { x: 1024.96, y: 156.90 },
-          { x: 527.79, y: 164.45 },
-          { x: 291.16, y: 168.82 },
-          { x: 173.92, y: 172.56 }
+          { x: 6979.10, y: 96.36 },
+          { x: 3826.22, y: 120.34 },
+          { x: 2006.54, y: 145.04 },
+          { x: 1024.96, y: 161.71 },
+          { x: 527.79, y: 169.99 },
+          { x: 291.16, y: 174.21 },
+          { x: 173.92, y: 179.14 }
     ]
 };
 
@@ -19235,13 +18726,13 @@ const data_2__bitrate_fps__x265_medium_10bit_crf = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6950.00, y: 77.92 },
-          { x: 3778.93, y: 93.83 },
-          { x: 1970.48, y: 109.15 },
-          { x: 1006.93, y: 117.76 },
-          { x: 520.94, y: 122.69 },
-          { x: 288.53, y: 125.45 },
-          { x: 171.45, y: 127.07 }
+          { x: 6950.00, y: 77.89 },
+          { x: 3778.93, y: 94.99 },
+          { x: 1970.48, y: 111.52 },
+          { x: 1006.93, y: 122.01 },
+          { x: 520.94, y: 130.57 },
+          { x: 288.53, y: 133.76 },
+          { x: 171.45, y: 133.41 }
     ]
 };
 
@@ -19256,13 +18747,13 @@ const data_2__bitrate_fps__x265_veryslow_crf = {
     borderColor: 'rgba(147, 103, 188, 0.9)',
     
     data: [
-          { x: 7535.85, y: 3.81 },
-          { x: 4531.96, y: 4.70 },
-          { x: 2590.60, y: 5.89 },
-          { x: 1367.54, y: 7.49 },
-          { x: 695.95, y: 9.70 },
-          { x: 363.04, y: 12.52 },
-          { x: 192.33, y: 15.88 }
+          { x: 7535.85, y: 4.17 },
+          { x: 4531.96, y: 5.19 },
+          { x: 2590.60, y: 6.70 },
+          { x: 1367.54, y: 8.51 },
+          { x: 695.95, y: 11.00 },
+          { x: 363.04, y: 14.02 },
+          { x: 192.33, y: 16.84 }
     ]
 };
 
@@ -19277,18 +18768,18 @@ const data_2__bitrate_fps__x265_veryslow_10bit_crf = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 7537.85, y: 3.05 },
-          { x: 4474.24, y: 3.68 },
-          { x: 2517.42, y: 4.56 },
-          { x: 1324.36, y: 5.65 },
-          { x: 685.37, y: 7.24 },
-          { x: 363.43, y: 9.12 },
-          { x: 194.22, y: 11.37 }
+          { x: 7537.85, y: 3.12 },
+          { x: 4474.24, y: 3.85 },
+          { x: 2517.42, y: 4.98 },
+          { x: 1324.36, y: 5.87 },
+          { x: 685.37, y: 7.45 },
+          { x: 363.43, y: 9.39 },
+          { x: 194.22, y: 11.61 }
     ]
 };
 
-const data_2__bitrate_fps__svtav1_8bit_preset_4 = {
-    label: " svtav1 8bit P4",
+const data_2__bitrate_fps__svtav1_8bit_preset_3 = {
+    label: " svtav1 8bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -19298,18 +18789,19 @@ const data_2__bitrate_fps__svtav1_8bit_preset_4 = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     
     data: [
-          { x: 5561.16, y: 49.099 },
-          { x: 4316.69, y: 51.846 },
-          { x: 3478.46, y: 51.670 },
-          { x: 2575.50, y: 55.037 },
-          { x: 1829.29, y: 58.588 },
-          { x: 1321.75, y: 61.276 },
-          { x: 964.19, y: 63.651 }
+          { x: 4245.14, y: 29.428 },
+          { x: 2905.13, y: 30.152 },
+          { x: 1757.91, y: 33.657 },
+          { x: 1064.56, y: 37.495 },
+          { x: 714.06, y: 41.232 },
+          { x: 511.88, y: 44.121 },
+          { x: 369.72, y: 47.910 },
+          { x: 214.30, y: 34.534 }
     ]
 };
 
-const data_2__bitrate_fps__svtav1_10bit_preset_4 = {
-    label: " svtav1 10bit P4",
+const data_2__bitrate_fps__svtav1_10bit_preset_3 = {
+    label: " svtav1 10bit P3",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -19319,17 +18811,19 @@ const data_2__bitrate_fps__svtav1_10bit_preset_4 = {
     borderColor: 'rgba(126, 126, 126, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5676.79, y: 36.795 },
-          { x: 4277.29, y: 38.625 },
-          { x: 3414.98, y: 38.713 },
-          { x: 2501.98, y: 41.611 },
-          { x: 1796.72, y: 44.658 },
-          { x: 952.70, y: 49.732 }
+          { x: 4105.39, y: 25.230 },
+          { x: 2769.85, y: 25.830 },
+          { x: 1673.52, y: 28.438 },
+          { x: 1021.35, y: 31.060 },
+          { x: 691.96, y: 33.686 },
+          { x: 501.23, y: 35.524 },
+          { x: 364.48, y: 38.536 },
+          { x: 212.50, y: 28.007 }
     ]
 };
 
-const data_2__bitrate_fps__svtav1_8bit_preset_6 = {
-    label: " svtav1 8bit P6",
+const data_2__bitrate_fps__svtav1_8bit_preset_5 = {
+    label: " svtav1 8bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -19337,20 +18831,21 @@ const data_2__bitrate_fps__svtav1_8bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(188, 188, 33, 0.9)',
-    borderDash: [4,2],
+    
     data: [
-          { x: 5627.73, y: 139.483 },
-          { x: 4268.62, y: 145.282 },
-          { x: 3347.11, y: 145.658 },
-          { x: 2411.12, y: 150.920 },
-          { x: 1680.73, y: 161.758 },
-          { x: 1193.28, y: 165.608 },
-          { x: 883.36, y: 160.979 }
+          { x: 4296.66, y: 113.357 },
+          { x: 2879.42, y: 119.090 },
+          { x: 1688.52, y: 131.345 },
+          { x: 1023.36, y: 145.170 },
+          { x: 679.98, y: 152.549 },
+          { x: 489.07, y: 155.187 },
+          { x: 358.13, y: 162.846 },
+          { x: 211.44, y: 104.661 }
     ]
 };
 
-const data_2__bitrate_fps__svtav1_10bit_preset_6 = {
-    label: " svtav1 10bit P6",
+const data_2__bitrate_fps__svtav1_10bit_preset_5 = {
+    label: " svtav1 10bit P5",
     showLine: true,
     pointStyle: "circle",
     hidden: false,
@@ -19358,15 +18853,60 @@ const data_2__bitrate_fps__svtav1_10bit_preset_6 = {
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(22, 189, 207, 0.9)',
-    borderDash: [3,1],
+    borderDash: [12,2],
     data: [
-          { x: 5944.54, y: 115.639 },
-          { x: 4315.49, y: 119.584 },
-          { x: 3325.38, y: 118.383 },
-          { x: 2361.11, y: 122.271 },
-          { x: 1652.47, y: 127.732 },
-          { x: 1173.60, y: 130.828 },
-          { x: 873.34, y: 128.831 }
+          { x: 4344.52, y: 93.707 },
+          { x: 2852.36, y: 96.756 },
+          { x: 1664.58, y: 103.771 },
+          { x: 1008.56, y: 112.840 },
+          { x: 674.00, y: 119.155 },
+          { x: 484.66, y: 120.346 },
+          { x: 356.56, y: 125.091 },
+          { x: 210.97, y: 88.027 }
+    ]
+};
+
+const data_2__bitrate_fps__svtav1_8bit_preset_7 = {
+    label: " svtav1 8bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(58, 1, 130, 0.9)',
+    
+    data: [
+          { x: 4902.89, y: 205.962 },
+          { x: 3179.44, y: 216.147 },
+          { x: 1822.65, y: 229.121 },
+          { x: 1074.38, y: 241.437 },
+          { x: 691.59, y: 252.029 },
+          { x: 482.59, y: 251.652 },
+          { x: 341.82, y: 255.496 },
+          { x: 202.27, y: 260.171 }
+    ]
+};
+
+const data_2__bitrate_fps__svtav1_10bit_preset_7 = {
+    label: " svtav1 10bit P7",
+    showLine: true,
+    pointStyle: "circle",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderDash: [12,2],
+    data: [
+          { x: 5128.55, y: 146.602 },
+          { x: 3218.80, y: 150.391 },
+          { x: 1810.93, y: 156.635 },
+          { x: 1061.86, y: 162.109 },
+          { x: 685.86, y: 166.043 },
+          { x: 478.36, y: 163.672 },
+          { x: 340.33, y: 166.402 },
+          { x: 201.78, y: 169.653 }
     ]
 };
 
@@ -19378,16 +18918,17 @@ const data_2__bitrate_fps__svtav1_8bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(58, 1, 130, 0.9)',
+    borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5502.00, y: 317.305 },
-          { x: 4161.83, y: 331.355 },
-          { x: 3295.90, y: 334.571 },
-          { x: 2346.32, y: 352.454 },
-          { x: 1652.65, y: 361.786 },
-          { x: 1181.44, y: 380.387 },
-          { x: 861.34, y: 384.404 }
+          { x: 4892.06, y: 398.721 },
+          { x: 3306.43, y: 412.268 },
+          { x: 1998.78, y: 423.000 },
+          { x: 1207.99, y: 430.525 },
+          { x: 763.45, y: 434.720 },
+          { x: 494.80, y: 438.829 },
+          { x: 322.90, y: 441.469 },
+          { x: 178.61, y: 446.538 }
     ]
 };
 
@@ -19399,16 +18940,17 @@ const data_2__bitrate_fps__svtav1_10bit_preset_10 = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(0, 66, 1, 0.9)',
+    borderColor: 'rgba(93, 0, 63, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5642.14, y: 209.152 },
-          { x: 4191.63, y: 213.841 },
-          { x: 3271.33, y: 212.215 },
-          { x: 2341.22, y: 215.288 },
-          { x: 1633.17, y: 220.718 },
-          { x: 1167.79, y: 224.741 },
-          { x: 853.59, y: 227.882 }
+          { x: 4990.39, y: 236.936 },
+          { x: 3271.91, y: 244.604 },
+          { x: 1988.60, y: 247.155 },
+          { x: 1197.34, y: 251.680 },
+          { x: 761.40, y: 254.368 },
+          { x: 489.17, y: 254.325 },
+          { x: 321.28, y: 255.927 },
+          { x: 178.43, y: 256.360 }
     ]
 };
 
@@ -20794,14 +20336,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(15, 255, 168, 0.9)',
+    borderColor: 'rgba(107, 100, 0, 0.9)',
     
     data: [
-          { x: 6448.56, y: 234.96 },
-          { x: 3849.75, y: 238.85 },
-          { x: 2249.63, y: 238.27 },
-          { x: 1232.99, y: 218.76 },
-          { x: 745.62, y: 220.34 }
+          { x: 6132.34, y: 227.16 },
+          { x: 3690.00, y: 231.40 },
+          { x: 2081.68, y: 229.59 },
+          { x: 1196.36, y: 208.97 },
+          { x: 726.58, y: 213.39 }
     ]
 };
 
@@ -20813,14 +20355,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(107, 100, 0, 0.9)',
+    borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6448.56, y: 234.89 },
-          { x: 3849.75, y: 238.82 },
-          { x: 2249.63, y: 238.78 },
-          { x: 1232.99, y: 218.99 },
-          { x: 745.62, y: 220.32 }
+          { x: 6132.34, y: 228.22 },
+          { x: 3690.00, y: 229.60 },
+          { x: 2081.68, y: 230.59 },
+          { x: 1196.36, y: 211.78 },
+          { x: 726.58, y: 212.28 }
     ]
 };
 
@@ -20832,14 +20374,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(140, 184, 147, 0.9)',
+    borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 5987.91, y: 139.60 },
-          { x: 3460.30, y: 140.32 },
-          { x: 1921.28, y: 140.34 },
-          { x: 1062.54, y: 140.22 },
-          { x: 626.09, y: 140.25 }
+          { x: 5698.30, y: 135.67 },
+          { x: 3280.83, y: 135.71 },
+          { x: 1823.38, y: 135.39 },
+          { x: 1034.27, y: 135.29 },
+          { x: 611.98, y: 135.08 }
     ]
 };
 
@@ -20851,14 +20393,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(144, 255, 0, 0.9)',
+    borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5987.91, y: 140.11 },
-          { x: 3460.30, y: 140.16 },
-          { x: 1921.28, y: 140.16 },
-          { x: 1062.54, y: 139.81 },
-          { x: 626.09, y: 140.16 }
+          { x: 5698.30, y: 136.60 },
+          { x: 3280.83, y: 134.77 },
+          { x: 1823.38, y: 133.63 },
+          { x: 1034.27, y: 134.55 },
+          { x: 611.98, y: 135.16 }
     ]
 };
 
@@ -20870,14 +20412,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(172, 137, 68, 0.9)',
+    borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5981.97, y: 143.64 },
-          { x: 3467.20, y: 143.92 },
-          { x: 1910.84, y: 143.89 },
-          { x: 1042.65, y: 144.22 },
-          { x: 613.33, y: 144.19 }
+          { x: 5697.56, y: 142.83 },
+          { x: 3276.25, y: 142.95 },
+          { x: 1822.86, y: 142.83 },
+          { x: 1013.92, y: 143.07 },
+          { x: 596.21, y: 143.13 }
     ]
 };
 
@@ -20889,14 +20431,14 @@ const data_2__bitrate_fps_rtx4080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(91, 52, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5981.97, y: 143.70 },
-          { x: 3467.20, y: 143.73 },
-          { x: 1910.84, y: 143.86 },
-          { x: 1042.65, y: 143.96 },
-          { x: 613.33, y: 143.94 }
+          { x: 5697.56, y: 141.01 },
+          { x: 3276.25, y: 142.88 },
+          { x: 1822.86, y: 142.99 },
+          { x: 1013.92, y: 142.84 },
+          { x: 596.21, y: 143.07 }
     ]
 };
 
@@ -20908,15 +20450,13 @@ const data_2__bitrate_fps_rtx4080_NVEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 96, 0.9)',
+    borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 6091.29, y: 189.32 },
-          { x: 4023.20, y: 188.06 },
-          { x: 2604.66, y: 187.74 },
-          { x: 1659.02, y: 186.79 },
-          { x: 962.92, y: 184.29 },
-          { x: 529.06, y: 182.48 }
+          { x: 6249.26, y: 183.36 },
+          { x: 4130.38, y: 182.39 },
+          { x: 2697.83, y: 181.46 },
+          { x: 1738.58, y: 178.86 }
     ]
 };
 
@@ -20928,15 +20468,13 @@ const data_2__bitrate_fps_rtx4080_NVEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(1, 112, 0, 0.9)',
+    borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6091.29, y: 188.96 },
-          { x: 4023.20, y: 188.44 },
-          { x: 2604.66, y: 187.63 },
-          { x: 1659.02, y: 186.46 },
-          { x: 962.92, y: 184.58 },
-          { x: 529.06, y: 181.97 }
+          { x: 6249.26, y: 182.04 },
+          { x: 4130.38, y: 180.28 },
+          { x: 2697.83, y: 182.05 },
+          { x: 1738.58, y: 180.85 }
     ]
 };
 
@@ -20948,15 +20486,13 @@ const data_2__bitrate_fps_rtx4080_NVEncC_AV1_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(28, 214, 70, 0.9)',
+    borderColor: 'rgba(110, 137, 86, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5894.41, y: 189.09 },
-          { x: 3855.05, y: 187.53 },
-          { x: 2516.38, y: 185.59 },
-          { x: 1616.27, y: 183.34 },
-          { x: 943.11, y: 179.99 },
-          { x: 523.84, y: 175.96 }
+          { x: 5990.04, y: 187.00 },
+          { x: 3969.54, y: 185.45 },
+          { x: 2603.25, y: 183.66 },
+          { x: 1692.48, y: 181.97 }
     ]
 };
 
@@ -20968,15 +20504,13 @@ const data_2__bitrate_fps_rtx4080_NVEncC_AV1_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(110, 137, 86, 0.9)',
+    borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5894.41, y: 188.97 },
-          { x: 3855.05, y: 187.40 },
-          { x: 2516.38, y: 185.62 },
-          { x: 1616.27, y: 183.02 },
-          { x: 943.11, y: 180.16 },
-          { x: 523.84, y: 176.09 }
+          { x: 5990.04, y: 187.65 },
+          { x: 3969.54, y: 185.48 },
+          { x: 2603.25, y: 183.89 },
+          { x: 1692.48, y: 181.54 }
     ]
 };
 
@@ -20988,14 +20522,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 149, 0, 0.9)',
+    borderColor: 'rgba(253, 223, 186, 0.9)',
     
     data: [
-          { x: 6432.97, y: 189.24 },
-          { x: 3844.49, y: 192.36 },
-          { x: 2245.87, y: 191.22 },
-          { x: 1234.73, y: 175.26 },
-          { x: 750.81, y: 176.95 }
+          { x: 6124.32, y: 186.55 },
+          { x: 3686.40, y: 189.61 },
+          { x: 2075.25, y: 189.96 },
+          { x: 1199.71, y: 173.29 },
+          { x: 733.18, y: 175.22 }
     ]
 };
 
@@ -21007,14 +20541,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(253, 223, 186, 0.9)',
+    borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6432.97, y: 187.64 },
-          { x: 3844.49, y: 190.94 },
-          { x: 2245.87, y: 190.58 },
-          { x: 1234.73, y: 175.18 },
-          { x: 750.81, y: 177.06 }
+          { x: 6124.32, y: 186.48 },
+          { x: 3686.40, y: 189.94 },
+          { x: 2075.25, y: 190.16 },
+          { x: 1199.71, y: 173.54 },
+          { x: 733.18, y: 174.99 }
     ]
 };
 
@@ -21026,14 +20560,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 219, 0, 0.9)',
+    borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 5974.53, y: 113.13 },
-          { x: 3451.03, y: 112.83 },
-          { x: 1914.72, y: 112.91 },
-          { x: 1060.37, y: 112.82 },
-          { x: 625.38, y: 112.71 }
+          { x: 5690.09, y: 112.95 },
+          { x: 3272.45, y: 112.87 },
+          { x: 1820.23, y: 112.85 },
+          { x: 1032.22, y: 112.86 },
+          { x: 612.31, y: 112.81 }
     ]
 };
 
@@ -21045,14 +20579,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(10, 93, 61, 0.9)',
+    borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 5974.53, y: 112.95 },
-          { x: 3451.03, y: 112.97 },
-          { x: 1914.72, y: 112.89 },
-          { x: 1060.37, y: 112.98 },
-          { x: 625.38, y: 112.78 }
+          { x: 5690.09, y: 112.89 },
+          { x: 3272.45, y: 112.91 },
+          { x: 1820.23, y: 112.94 },
+          { x: 1032.22, y: 112.92 },
+          { x: 612.31, y: 112.67 }
     ]
 };
 
@@ -21064,14 +20598,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 226, 117, 0.9)',
+    borderColor: 'rgba(198, 198, 137, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 5971.21, y: 114.61 },
-          { x: 3455.27, y: 114.77 },
-          { x: 1903.92, y: 114.86 },
-          { x: 1041.01, y: 114.88 },
-          { x: 610.89, y: 114.99 }
+          { x: 5686.03, y: 114.99 },
+          { x: 3264.47, y: 115.04 },
+          { x: 1815.75, y: 115.32 },
+          { x: 1015.06, y: 115.12 },
+          { x: 597.42, y: 115.18 }
     ]
 };
 
@@ -21083,14 +20617,14 @@ const data_2__bitrate_fps_rtx2070_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(198, 198, 137, 0.9)',
+    borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 5971.21, y: 114.39 },
-          { x: 3455.27, y: 114.82 },
-          { x: 1903.92, y: 114.98 },
-          { x: 1041.01, y: 114.88 },
-          { x: 610.89, y: 114.91 }
+          { x: 5686.03, y: 115.24 },
+          { x: 3264.47, y: 115.29 },
+          { x: 1815.75, y: 115.20 },
+          { x: 1015.06, y: 115.22 },
+          { x: 597.42, y: 115.24 }
     ]
 };
 
@@ -21102,14 +20636,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 156, 0, 0.9)',
+    borderColor: 'rgba(70, 73, 12, 0.9)',
     
     data: [
-          { x: 6829.49, y: 205.75 },
-          { x: 4148.40, y: 210.02 },
-          { x: 2435.20, y: 214.77 },
-          { x: 1423.78, y: 217.57 },
-          { x: 876.06, y: 220.50 }
+          { x: 6474.44, y: 204.37 },
+          { x: 3930.53, y: 209.03 },
+          { x: 2282.23, y: 213.57 },
+          { x: 1349.32, y: 216.91 },
+          { x: 836.28, y: 219.48 }
     ]
 };
 
@@ -21121,14 +20655,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(70, 73, 12, 0.9)',
+    borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6829.49, y: 205.56 },
-          { x: 4148.40, y: 210.03 },
-          { x: 2435.20, y: 214.51 },
-          { x: 1423.78, y: 217.90 },
-          { x: 876.06, y: 220.58 }
+          { x: 6474.44, y: 204.70 },
+          { x: 3930.53, y: 208.92 },
+          { x: 2282.23, y: 213.51 },
+          { x: 1349.32, y: 217.10 },
+          { x: 836.28, y: 219.23 }
     ]
 };
 
@@ -21140,14 +20674,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 107, 70, 0.9)',
+    borderColor: 'rgba(128, 182, 84, 0.9)',
     
     data: [
-          { x: 7288.02, y: 138.05 },
-          { x: 4345.53, y: 157.44 },
-          { x: 2520.85, y: 177.31 },
-          { x: 1437.22, y: 194.12 },
-          { x: 821.01, y: 208.73 }
+          { x: 7325.73, y: 140.19 },
+          { x: 4380.40, y: 160.49 },
+          { x: 2525.11, y: 180.37 },
+          { x: 1443.79, y: 196.80 },
+          { x: 825.00, y: 210.61 }
     ]
 };
 
@@ -21159,14 +20693,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(128, 182, 84, 0.9)',
+    borderColor: 'rgba(138, 87, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7288.02, y: 137.99 },
-          { x: 4345.53, y: 157.03 },
-          { x: 2520.85, y: 176.86 },
-          { x: 1437.22, y: 194.38 },
-          { x: 821.01, y: 208.62 }
+          { x: 7325.73, y: 140.40 },
+          { x: 4379.36, y: 160.21 },
+          { x: 2525.20, y: 180.02 },
+          { x: 1443.79, y: 197.35 },
+          { x: 825.00, y: 211.14 }
     ]
 };
 
@@ -21178,14 +20712,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_HEVC_10bit_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 87, 0, 0.9)',
+    borderColor: 'rgba(75, 107, 59, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 6905.35, y: 124.53 },
-          { x: 4050.51, y: 121.45 },
-          { x: 2258.49, y: 120.84 },
-          { x: 1284.08, y: 146.02 },
-          { x: 739.33, y: 156.08 }
+          { x: 6941.14, y: 151.09 },
+          { x: 4073.31, y: 165.23 },
+          { x: 2273.37, y: 178.26 },
+          { x: 1292.04, y: 191.81 },
+          { x: 746.21, y: 204.24 }
     ]
 };
 
@@ -21197,14 +20731,14 @@ const data_2__bitrate_fps_gtx1080_NVEncC_HEVC_10bit_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(75, 107, 59, 0.9)',
+    borderColor: 'rgba(223, 255, 79, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 6905.35, y: 112.65 },
-          { x: 4050.51, y: 115.39 },
-          { x: 2258.49, y: 136.21 },
-          { x: 1284.08, y: 145.67 },
-          { x: 739.33, y: 164.15 }
+          { x: 6960.39, y: 151.59 },
+          { x: 4073.53, y: 164.77 },
+          { x: 2273.37, y: 178.42 },
+          { x: 1292.04, y: 192.01 },
+          { x: 746.16, y: 203.77 }
     ]
 };
 
@@ -21216,14 +20750,14 @@ const data_2__bitrate_fps_gtx950_NVEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(223, 255, 79, 0.9)',
+    borderColor: 'rgba(89, 128, 0, 0.9)',
     
     data: [
-          { x: 6834.36, y: 127.69 },
-          { x: 4145.13, y: 130.40 },
-          { x: 2434.88, y: 132.48 },
-          { x: 1423.67, y: 134.09 },
-          { x: 876.51, y: 135.25 }
+          { x: 6834.36, y: 129.24 },
+          { x: 4145.13, y: 131.74 },
+          { x: 2434.88, y: 133.95 },
+          { x: 1423.67, y: 135.56 },
+          { x: 876.51, y: 136.70 }
     ]
 };
 
@@ -21235,14 +20769,14 @@ const data_2__bitrate_fps_gtx950_NVEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(89, 128, 0, 0.9)',
+    borderColor: 'rgba(103, 212, 140, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 6834.36, y: 127.82 },
-          { x: 4145.13, y: 130.39 },
-          { x: 2434.88, y: 132.56 },
-          { x: 1423.67, y: 134.04 },
-          { x: 876.51, y: 135.19 }
+          { x: 6834.36, y: 129.18 },
+          { x: 4145.13, y: 131.72 },
+          { x: 2434.88, y: 133.84 },
+          { x: 1423.67, y: 135.60 },
+          { x: 876.51, y: 136.68 }
     ]
 };
 
@@ -21254,14 +20788,14 @@ const data_2__bitrate_fps_gtx950_NVEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(103, 212, 140, 0.9)',
+    borderColor: 'rgba(214, 161, 102, 0.9)',
     
     data: [
-          { x: 7384.63, y: 74.46 },
-          { x: 4428.50, y: 81.12 },
-          { x: 2554.06, y: 87.12 },
-          { x: 1461.05, y: 91.48 },
-          { x: 835.10, y: 94.89 }
+          { x: 7384.63, y: 75.01 },
+          { x: 4428.50, y: 81.72 },
+          { x: 2554.06, y: 87.81 },
+          { x: 1461.05, y: 92.20 },
+          { x: 835.10, y: 95.66 }
     ]
 };
 
@@ -21273,14 +20807,14 @@ const data_2__bitrate_fps_gtx950_NVEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(214, 161, 102, 0.9)',
+    borderColor: 'rgba(160, 165, 105, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 7384.63, y: 74.50 },
-          { x: 4428.50, y: 81.12 },
-          { x: 2554.06, y: 87.12 },
-          { x: 1461.05, y: 91.51 },
-          { x: 835.10, y: 94.95 }
+          { x: 7384.63, y: 74.98 },
+          { x: 4428.50, y: 81.71 },
+          { x: 2554.06, y: 87.78 },
+          { x: 1461.05, y: 92.26 },
+          { x: 835.10, y: 95.66 }
     ]
 };
 
@@ -21292,7 +20826,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(93, 0, 63, 0.9)',
+    borderColor: 'rgba(216, 175, 161, 0.9)',
     
     data: [
           { x: 1028.13, y: 121.69 },
@@ -21313,7 +20847,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(216, 175, 161, 0.9)',
+    borderColor: 'rgba(184, 0, 128, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 1020.63, y: 177.93 },
@@ -21334,7 +20868,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(184, 0, 128, 0.9)',
+    borderColor: 'rgba(124, 1, 0, 0.9)',
     
     data: [
           { x: 965.07, y: 114.22 },
@@ -21355,7 +20889,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(124, 1, 0, 0.9)',
+    borderColor: 'rgba(255, 191, 242, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 950.50, y: 421.92 },
@@ -21376,7 +20910,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 191, 242, 0.9)',
+    borderColor: 'rgba(255, 110, 117, 0.9)',
     
     data: [
           { x: 1128.58, y: 94.25 },
@@ -21397,7 +20931,7 @@ const data_2__bitrate_fps_rx9070xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 110, 117, 0.9)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
     borderDash: [4,2],
     data: [
           { x: 1194.28, y: 467.34 },
@@ -21418,16 +20952,15 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
     
     data: [
-          { x: 1367.08, y: 212.75 },
-          { x: 1801.91, y: 212.89 },
-          { x: 2436.83, y: 213.17 },
-          { x: 3153.93, y: 213.08 },
-          { x: 3871.25, y: 213.14 },
-          { x: 4643.92, y: 213.05 },
-          { x: 5425.02, y: 213.17 }
+          { x: 1199.95, y: 211.08 },
+          { x: 1801.91, y: 211.40 },
+          { x: 2750.63, y: 211.69 },
+          { x: 3871.13, y: 211.56 },
+          { x: 5084.97, y: 211.70 },
+          { x: 6855.51, y: 211.68 }
     ]
 };
 
@@ -21439,16 +20972,15 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.30, y: 378.79 },
-          { x: 1807.40, y: 379.04 },
-          { x: 2445.51, y: 378.10 },
-          { x: 3166.00, y: 377.97 },
-          { x: 3887.41, y: 378.22 },
-          { x: 4662.25, y: 377.88 },
-          { x: 5450.26, y: 377.94 }
+          { x: 1202.81, y: 371.67 },
+          { x: 1807.28, y: 372.04 },
+          { x: 2761.51, y: 371.85 },
+          { x: 3887.32, y: 371.70 },
+          { x: 5107.73, y: 371.61 },
+          { x: 6891.31, y: 370.55 }
     ]
 };
 
@@ -21460,16 +20992,16 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     
     data: [
-          { x: 1163.62, y: 541.80 },
-          { x: 1574.32, y: 544.39 },
-          { x: 1996.91, y: 542.18 },
-          { x: 2548.47, y: 542.18 },
-          { x: 3093.29, y: 542.12 },
-          { x: 3699.77, y: 541.92 },
-          { x: 4375.89, y: 540.70 }
+          { x: 1022.82, y: 478.34 },
+          { x: 1574.35, y: 478.95 },
+          { x: 2189.05, y: 479.05 },
+          { x: 3092.94, y: 478.65 },
+          { x: 3986.66, y: 479.10 },
+          { x: 5145.79, y: 477.64 },
+          { x: 6160.91, y: 477.69 }
     ]
 };
 
@@ -21481,16 +21013,16 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1163.83, y: 657.80 },
-          { x: 1574.66, y: 659.23 },
-          { x: 1997.34, y: 651.77 },
-          { x: 2548.52, y: 654.11 },
-          { x: 3093.63, y: 657.70 },
-          { x: 3700.24, y: 653.27 },
-          { x: 4376.41, y: 654.02 }
+          { x: 1022.80, y: 479.35 },
+          { x: 1574.74, y: 478.34 },
+          { x: 2189.51, y: 479.30 },
+          { x: 3093.45, y: 478.65 },
+          { x: 3988.02, y: 479.70 },
+          { x: 5147.48, y: 479.25 },
+          { x: 6163.38, y: 479.76 }
     ]
 };
 
@@ -21502,16 +21034,16 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
+    borderColor: 'rgba(98, 59, 65, 0.9)',
     
     data: [
-          { x: 1225.73, y: 115.60 },
-          { x: 1677.60, y: 115.73 },
-          { x: 2309.57, y: 115.85 },
-          { x: 2998.92, y: 115.88 },
-          { x: 3669.60, y: 115.89 },
-          { x: 4512.85, y: 115.96 },
-          { x: 5498.50, y: 115.94 }
+          { x: 1037.38, y: 115.52 },
+          { x: 1677.32, y: 115.94 },
+          { x: 2653.10, y: 116.02 },
+          { x: 3669.02, y: 116.07 },
+          { x: 5088.50, y: 116.04 },
+          { x: 6432.49, y: 116.00 },
+          { x: 7733.52, y: 116.01 }
     ]
 };
 
@@ -21523,184 +21055,98 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(98, 59, 65, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1242.84, y: 786.52 },
-          { x: 1696.09, y: 779.51 },
-          { x: 2336.49, y: 783.13 },
-          { x: 3044.87, y: 781.92 },
-          { x: 3743.51, y: 785.97 },
-          { x: 4616.40, y: 787.74 },
-          { x: 5633.94, y: 785.16 }
-    ]
-};
-
-const data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_quality = {
-    label: "rx5500xt VCE H.264 quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(255, 158, 181, 0.9)',
-    
-    data: [
-          { x: 1611.77, y: 115.49 },
-          { x: 2089.59, y: 115.25 },
-          { x: 2743.61, y: 115.09 },
-          { x: 3490.68, y: 115.15 },
-          { x: 4246.14, y: 115.50 },
-          { x: 5052.41, y: 115.46 },
-          { x: 5967.28, y: 115.21 }
-    ]
-};
-
-const data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_normal = {
-    label: "rx5500xt VCE H.264 normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1631.10, y: 209.75 },
-          { x: 2102.63, y: 208.44 },
-          { x: 2749.39, y: 211.32 },
-          { x: 3488.83, y: 208.94 },
-          { x: 4236.30, y: 208.26 },
-          { x: 5022.77, y: 208.75 },
-          { x: 5945.35, y: 210.05 }
-    ]
-};
-
-const data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality = {
-    label: "rx5500xt VCE HEVC quality",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 7, 214, 0.9)',
-    
-    data: [
-          { x: 960.61, y: 194.26 },
-          { x: 1337.83, y: 195.99 },
-          { x: 1736.60, y: 194.53 },
-          { x: 2190.67, y: 194.07 },
-          { x: 2684.85, y: 194.54 },
-          { x: 3226.59, y: 194.53 },
-          { x: 3951.14, y: 194.05 }
-    ]
-};
-
-const data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal = {
-    label: "rx5500xt VCE HEVC normal",
-    showLine: true,
-    pointStyle: "rect",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 58, 5, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 1055.22, y: 217.29 },
-          { x: 1435.55, y: 217.38 },
-          { x: 1835.89, y: 217.97 },
-          { x: 2294.28, y: 216.67 },
-          { x: 2783.31, y: 216.40 },
-          { x: 3321.56, y: 216.44 },
-          { x: 4046.81, y: 215.64 }
+          { x: 1054.93, y: 480.87 },
+          { x: 1696.07, y: 480.87 },
+          { x: 2690.97, y: 473.22 },
+          { x: 3742.96, y: 480.62 },
+          { x: 5232.35, y: 480.46 },
+          { x: 6606.78, y: 479.40 },
+          { x: 7946.42, y: 478.44 }
     ]
 };
 
 const data_2__bitrate_fps_r9_9950X_VCEEncC_H_264_quality = {
     label: "r9 9950X VCE H.264 quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
+    borderColor: 'rgba(205, 79, 107, 0.9)',
     
     data: [
-          { x: 1367.33, y: 63.59 },
-          { x: 1801.97, y: 63.44 },
-          { x: 2436.86, y: 63.36 },
-          { x: 3153.66, y: 63.30 },
-          { x: 3871.25, y: 63.50 },
-          { x: 4643.90, y: 63.24 },
-          { x: 5425.35, y: 63.44 }
+          { x: 1199.91, y: 63.73 },
+          { x: 1801.97, y: 63.78 },
+          { x: 2750.72, y: 63.73 },
+          { x: 3871.25, y: 63.79 },
+          { x: 5084.62, y: 63.80 },
+          { x: 6855.34, y: 63.71 }
     ]
 };
 
 const data_2__bitrate_fps_r9_9950X_VCEEncC_H_264_normal = {
     label: "r9 9950X VCE H.264 normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
+    borderColor: 'rgba(255, 7, 214, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1370.91, y: 132.42 },
-          { x: 1807.44, y: 132.78 },
-          { x: 2445.41, y: 132.71 },
-          { x: 3165.94, y: 132.39 },
-          { x: 3887.05, y: 132.41 },
-          { x: 4661.81, y: 132.52 },
-          { x: 5450.16, y: 131.35 }
+          { x: 1202.76, y: 122.21 },
+          { x: 1807.22, y: 121.95 },
+          { x: 2761.57, y: 121.94 },
+          { x: 3886.94, y: 121.79 },
+          { x: 5107.89, y: 121.55 },
+          { x: 6891.80, y: 121.21 }
     ]
 };
 
 const data_2__bitrate_fps_r9_9950X_VCEEncC_HEVC_quality = {
     label: "r9 9950X VCE HEVC quality",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 154, 117, 0.9)',
+    borderColor: 'rgba(138, 58, 5, 0.9)',
     
     data: [
-          { x: 1073.30, y: 68.53 },
-          { x: 1535.92, y: 68.49 },
-          { x: 1953.19, y: 68.69 },
-          { x: 2475.78, y: 68.58 },
-          { x: 3052.75, y: 68.48 },
-          { x: 3696.38, y: 68.45 },
-          { x: 4427.60, y: 68.34 }
+          { x: 931.50, y: 145.37 },
+          { x: 1535.92, y: 144.39 },
+          { x: 2160.03, y: 146.52 },
+          { x: 3052.75, y: 143.95 },
+          { x: 4000.55, y: 143.66 },
+          { x: 5271.84, y: 146.11 },
+          { x: 6346.05, y: 146.19 }
     ]
 };
 
 const data_2__bitrate_fps_r9_9950X_VCEEncC_HEVC_normal = {
     label: "r9 9950X VCE HEVC normal",
     showLine: true,
-    pointStyle: "rectRot",
+    pointStyle: "rect",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 0, 73, 0.9)',
+    borderColor: 'rgba(126, 61, 112, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 1072.96, y: 68.72 },
-          { x: 1534.15, y: 68.35 },
-          { x: 1947.31, y: 68.75 },
-          { x: 2463.35, y: 68.12 },
-          { x: 3029.15, y: 68.51 },
-          { x: 3660.90, y: 68.44 },
-          { x: 4373.68, y: 68.44 }
+          { x: 931.87, y: 146.58 },
+          { x: 1534.15, y: 144.42 },
+          { x: 2150.92, y: 147.75 },
+          { x: 3029.15, y: 146.50 },
+          { x: 3955.60, y: 145.84 },
+          { x: 5196.75, y: 146.62 },
+          { x: 6256.00, y: 147.34 }
     ]
 };
 
@@ -21711,10 +21157,12 @@ const datasets_2__bitrate_ssim = [
   data_2__bitrate_ssim__x265_medium_10bit_crf,
   data_2__bitrate_ssim__x265_veryslow_crf,
   data_2__bitrate_ssim__x265_veryslow_10bit_crf,
-  data_2__bitrate_ssim__svtav1_8bit_preset_4,
-  data_2__bitrate_ssim__svtav1_10bit_preset_4,
-  data_2__bitrate_ssim__svtav1_8bit_preset_6,
-  data_2__bitrate_ssim__svtav1_10bit_preset_6,
+  data_2__bitrate_ssim__svtav1_8bit_preset_3,
+  data_2__bitrate_ssim__svtav1_10bit_preset_3,
+  data_2__bitrate_ssim__svtav1_8bit_preset_5,
+  data_2__bitrate_ssim__svtav1_10bit_preset_5,
+  data_2__bitrate_ssim__svtav1_8bit_preset_7,
+  data_2__bitrate_ssim__svtav1_10bit_preset_7,
   data_2__bitrate_ssim__svtav1_8bit_preset_10,
   data_2__bitrate_ssim__svtav1_10bit_preset_10,
   data_2__bitrate_ssim_u7_258v_QSVEncC_AV1_quality,
@@ -21821,10 +21269,6 @@ const datasets_2__bitrate_ssim = [
   data_2__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal,
   data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality,
   data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal,
-  data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality,
-  data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal,
-  data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality,
-  data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal,
   data_2__bitrate_ssim_r9_9950X_VCEEncC_H_264_quality,
   data_2__bitrate_ssim_r9_9950X_VCEEncC_H_264_normal,
   data_2__bitrate_ssim_r9_9950X_VCEEncC_HEVC_quality,
@@ -21838,10 +21282,12 @@ const datasets_2__bitrate_vmaf = [
   data_2__bitrate_vmaf__x265_medium_10bit_crf,
   data_2__bitrate_vmaf__x265_veryslow_crf,
   data_2__bitrate_vmaf__x265_veryslow_10bit_crf,
-  data_2__bitrate_vmaf__svtav1_8bit_preset_4,
-  data_2__bitrate_vmaf__svtav1_10bit_preset_4,
-  data_2__bitrate_vmaf__svtav1_8bit_preset_6,
-  data_2__bitrate_vmaf__svtav1_10bit_preset_6,
+  data_2__bitrate_vmaf__svtav1_8bit_preset_3,
+  data_2__bitrate_vmaf__svtav1_10bit_preset_3,
+  data_2__bitrate_vmaf__svtav1_8bit_preset_5,
+  data_2__bitrate_vmaf__svtav1_10bit_preset_5,
+  data_2__bitrate_vmaf__svtav1_8bit_preset_7,
+  data_2__bitrate_vmaf__svtav1_10bit_preset_7,
   data_2__bitrate_vmaf__svtav1_8bit_preset_10,
   data_2__bitrate_vmaf__svtav1_10bit_preset_10,
   data_2__bitrate_vmaf_u7_258v_QSVEncC_AV1_quality,
@@ -21948,10 +21394,6 @@ const datasets_2__bitrate_vmaf = [
   data_2__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal,
   data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality,
   data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal,
-  data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality,
-  data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal,
-  data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality,
-  data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal,
   data_2__bitrate_vmaf_r9_9950X_VCEEncC_H_264_quality,
   data_2__bitrate_vmaf_r9_9950X_VCEEncC_H_264_normal,
   data_2__bitrate_vmaf_r9_9950X_VCEEncC_HEVC_quality,
@@ -21965,10 +21407,12 @@ const datasets_2__bitrate_fps = [
   data_2__bitrate_fps__x265_medium_10bit_crf,
   data_2__bitrate_fps__x265_veryslow_crf,
   data_2__bitrate_fps__x265_veryslow_10bit_crf,
-  data_2__bitrate_fps__svtav1_8bit_preset_4,
-  data_2__bitrate_fps__svtav1_10bit_preset_4,
-  data_2__bitrate_fps__svtav1_8bit_preset_6,
-  data_2__bitrate_fps__svtav1_10bit_preset_6,
+  data_2__bitrate_fps__svtav1_8bit_preset_3,
+  data_2__bitrate_fps__svtav1_10bit_preset_3,
+  data_2__bitrate_fps__svtav1_8bit_preset_5,
+  data_2__bitrate_fps__svtav1_10bit_preset_5,
+  data_2__bitrate_fps__svtav1_8bit_preset_7,
+  data_2__bitrate_fps__svtav1_10bit_preset_7,
   data_2__bitrate_fps__svtav1_8bit_preset_10,
   data_2__bitrate_fps__svtav1_10bit_preset_10,
   data_2__bitrate_fps_u7_258v_QSVEncC_AV1_quality,
@@ -22075,10 +21519,6 @@ const datasets_2__bitrate_fps = [
   data_2__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal,
   data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_quality,
   data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_normal,
-  data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_quality,
-  data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_normal,
-  data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality,
-  data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal,
   data_2__bitrate_fps_r9_9950X_VCEEncC_H_264_quality,
   data_2__bitrate_fps_r9_9950X_VCEEncC_H_264_normal,
   data_2__bitrate_fps_r9_9950X_VCEEncC_HEVC_quality,
@@ -22106,7 +21546,6 @@ const encoders_2_ = [
       "gtx950 NVENC",
       "rx9070xt VCE",
       "rx7900xt VCE",
-      "rx5500xt VCE",
       "rx550 VCE",
       "r9 9950X VCE",
       "r3 3200G VCE"
@@ -23393,14 +22832,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 654.90, y: 0.945124 },
-          { x: 956.02, y: 0.984054 },
-          { x: 1119.60, y: 0.989156 },
-          { x: 1612.85, y: 0.993939 },
-          { x: 2116.43, y: 0.99569 },
-          { x: 4119.49, y: 0.997939 },
-          { x: 6097.63, y: 0.998697 },
-          { x: 8064.90, y: 0.999076 }
+          { x: 732.19, y: 0.923507 },
+          { x: 1052.31, y: 0.961766 },
+          { x: 1223.55, y: 0.968632 },
+          { x: 2122.83, y: 0.97937 },
+          { x: 4124.03, y: 0.983911 },
+          { x: 7097.26, y: 0.986262 }
     ]
 };
 
@@ -23415,14 +22852,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 486.92, y: 0.962954 },
-          { x: 868.11, y: 0.988162 },
-          { x: 1112.27, y: 0.991505 },
-          { x: 1614.77, y: 0.994536 },
-          { x: 2120.54, y: 0.995977 },
-          { x: 4130.98, y: 0.997994 },
-          { x: 6106.60, y: 0.998713 },
-          { x: 8044.22, y: 0.999057 }
+          { x: 529.64, y: 0.93961 },
+          { x: 878.68, y: 0.966808 },
+          { x: 1114.24, y: 0.972405 },
+          { x: 2119.89, y: 0.980184 },
+          { x: 4134.68, y: 0.984264 },
+          { x: 7083.85, y: 0.986322 }
     ]
 };
 
@@ -23437,13 +22872,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 723.20, y: 0.981612 },
-          { x: 939.61, y: 0.992196 },
-          { x: 1323.37, y: 0.994918 },
-          { x: 1737.15, y: 0.996142 },
-          { x: 2160.72, y: 0.996815 },
-          { x: 4219.87, y: 0.998178 },
-          { x: 6257.86, y: 0.998719 }
+          { x: 781.07, y: 0.957639 },
+          { x: 1024.48, y: 0.973029 },
+          { x: 1330.31, y: 0.977103 },
+          { x: 2167.40, y: 0.981519 },
+          { x: 4225.68, y: 0.984622 },
+          { x: 7281.00, y: 0.986478 }
     ]
 };
 
@@ -23458,14 +22892,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 532.92, y: 0.982297 },
-          { x: 930.11, y: 0.992837 },
-          { x: 1320.86, y: 0.994609 },
-          { x: 1730.89, y: 0.995832 },
-          { x: 2154.46, y: 0.996537 },
-          { x: 4189.68, y: 0.998035 },
-          { x: 6209.32, y: 0.998605 },
-          { x: 8161.33, y: 0.99892 }
+          { x: 552.37, y: 0.959258 },
+          { x: 931.19, y: 0.974378 },
+          { x: 1323.56, y: 0.977573 },
+          { x: 2154.77, y: 0.981303 },
+          { x: 4188.71, y: 0.984472 },
+          { x: 7189.82, y: 0.986361 }
     ]
 };
 
@@ -23480,13 +22912,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 727.13, y: 0.981933 },
-          { x: 946.41, y: 0.992487 },
-          { x: 1317.39, y: 0.995194 },
-          { x: 1735.93, y: 0.996415 },
-          { x: 2162.77, y: 0.997067 },
-          { x: 4224.83, y: 0.998378 },
-          { x: 6265.23, y: 0.998882 }
+          { x: 791.48, y: 0.966871 },
+          { x: 1020.66, y: 0.982224 },
+          { x: 1327.77, y: 0.986315 },
+          { x: 2166.67, y: 0.990691 },
+          { x: 4229.16, y: 0.993836 },
+          { x: 7295.41, y: 0.995652 }
     ]
 };
 
@@ -23501,13 +22932,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 533.95, y: 0.982645 },
-          { x: 927.03, y: 0.993194 },
-          { x: 1317.83, y: 0.994931 },
-          { x: 1729.43, y: 0.996098 },
-          { x: 2154.87, y: 0.996793 },
-          { x: 4206.96, y: 0.998209 },
-          { x: 6225.44, y: 0.998754 }
+          { x: 550.99, y: 0.968191 },
+          { x: 931.08, y: 0.983413 },
+          { x: 1320.43, y: 0.986573 },
+          { x: 2156.07, y: 0.990289 },
+          { x: 4206.15, y: 0.993481 },
+          { x: 7223.11, y: 0.995343 }
     ]
 };
 
@@ -23522,14 +22952,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 379.91, y: 0.984603 },
-          { x: 902.76, y: 0.993334 },
-          { x: 1280.83, y: 0.994989 },
-          { x: 1706.73, y: 0.99602 },
-          { x: 2137.90, y: 0.996659 },
-          { x: 4177.61, y: 0.998046 },
-          { x: 6187.60, y: 0.998611 },
-          { x: 8170.41, y: 0.998916 }
+          { x: 400.82, y: 0.960733 },
+          { x: 909.78, y: 0.97526 },
+          { x: 1293.39, y: 0.978379 },
+          { x: 2145.02, y: 0.981834 },
+          { x: 4177.25, y: 0.984753 },
+          { x: 7179.18, y: 0.986485 }
     ]
 };
 
@@ -23544,14 +22972,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 392.45, y: 0.986312 },
-          { x: 924.89, y: 0.993939 },
-          { x: 1309.25, y: 0.995362 },
-          { x: 1742.44, y: 0.996299 },
-          { x: 2173.34, y: 0.996849 },
-          { x: 4212.10, y: 0.998091 },
-          { x: 6237.29, y: 0.998616 },
-          { x: 8171.43, y: 0.998904 }
+          { x: 426.97, y: 0.965233 },
+          { x: 936.08, y: 0.976712 },
+          { x: 1324.90, y: 0.979364 },
+          { x: 2180.28, y: 0.982396 },
+          { x: 4225.63, y: 0.984996 },
+          { x: 7239.43, y: 0.986586 }
     ]
 };
 
@@ -23566,14 +22992,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.38, y: 0.984891 },
-          { x: 900.55, y: 0.993682 },
-          { x: 1266.72, y: 0.995291 },
-          { x: 1699.09, y: 0.996303 },
-          { x: 2128.61, y: 0.99692 },
-          { x: 4159.97, y: 0.998264 },
-          { x: 6173.68, y: 0.998782 },
-          { x: 8164.44, y: 0.999075 }
+          { x: 397.74, y: 0.969352 },
+          { x: 908.98, y: 0.984398 },
+          { x: 1288.34, y: 0.98756 },
+          { x: 2138.65, y: 0.991048 },
+          { x: 4169.47, y: 0.994056 },
+          { x: 7160.41, y: 0.995754 }
     ]
 };
 
@@ -23588,14 +23012,12 @@ const data_2_vbr_bitrate_ssim_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 392.39, y: 0.986619 },
-          { x: 920.27, y: 0.99424 },
-          { x: 1298.67, y: 0.995654 },
-          { x: 1739.16, y: 0.99656 },
-          { x: 2166.52, y: 0.997118 },
-          { x: 4207.09, y: 0.9983 },
-          { x: 6228.73, y: 0.99878 },
-          { x: 8166.96, y: 0.999034 }
+          { x: 425.23, y: 0.974284 },
+          { x: 936.02, y: 0.98581 },
+          { x: 1322.23, y: 0.988496 },
+          { x: 2181.56, y: 0.99158 },
+          { x: 4225.93, y: 0.994242 },
+          { x: 7221.14, y: 0.995801 }
     ]
 };
 
@@ -23610,12 +23032,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 673.36, y: 0.943802 },
-          { x: 952.98, y: 0.983941 },
-          { x: 1128.69, y: 0.988993 },
-          { x: 2114.51, y: 0.995704 },
-          { x: 4109.66, y: 0.997966 },
-          { x: 7088.14, y: 0.998923 }
+          { x: 731.00, y: 0.922515 },
+          { x: 1052.26, y: 0.961375 },
+          { x: 1211.87, y: 0.968291 },
+          { x: 2122.27, y: 0.979351 },
+          { x: 4124.58, y: 0.983916 },
+          { x: 7096.09, y: 0.986268 }
     ]
 };
 
@@ -23630,12 +23052,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 472.52, y: 0.962385 },
-          { x: 869.26, y: 0.98816 },
-          { x: 1112.70, y: 0.991499 },
-          { x: 2120.48, y: 0.995994 },
-          { x: 4133.98, y: 0.998006 },
-          { x: 7088.82, y: 0.998915 }
+          { x: 528.88, y: 0.938568 },
+          { x: 880.08, y: 0.966684 },
+          { x: 1115.06, y: 0.97229 },
+          { x: 2120.45, y: 0.980175 },
+          { x: 4136.63, y: 0.98427 },
+          { x: 7087.63, y: 0.986324 }
     ]
 };
 
@@ -23650,12 +23072,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 731.91, y: 0.981603 },
-          { x: 941.81, y: 0.992172 },
-          { x: 1322.98, y: 0.994953 },
-          { x: 2162.21, y: 0.996814 },
-          { x: 4218.57, y: 0.998184 },
-          { x: 7270.68, y: 0.998895 }
+          { x: 790.54, y: 0.956954 },
+          { x: 1032.15, y: 0.972848 },
+          { x: 1329.91, y: 0.977134 },
+          { x: 2167.80, y: 0.981507 },
+          { x: 4225.51, y: 0.98462 },
+          { x: 7280.26, y: 0.986482 }
     ]
 };
 
@@ -23670,12 +23092,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 529.70, y: 0.982137 },
-          { x: 931.36, y: 0.992866 },
-          { x: 1321.59, y: 0.994625 },
-          { x: 2155.24, y: 0.996556 },
-          { x: 4187.46, y: 0.998044 },
-          { x: 7190.83, y: 0.998788 }
+          { x: 562.30, y: 0.958894 },
+          { x: 932.58, y: 0.974312 },
+          { x: 1323.75, y: 0.977528 },
+          { x: 2155.19, y: 0.981301 },
+          { x: 4187.72, y: 0.984473 },
+          { x: 7191.69, y: 0.986367 }
     ]
 };
 
@@ -23690,12 +23112,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 725.10, y: 0.981941 },
-          { x: 941.94, y: 0.992522 },
-          { x: 1315.82, y: 0.995224 },
-          { x: 2162.49, y: 0.997071 },
-          { x: 4227.96, y: 0.998385 },
-          { x: 7290.64, y: 0.99904 }
+          { x: 802.81, y: 0.966927 },
+          { x: 1020.20, y: 0.982143 },
+          { x: 1327.57, y: 0.986237 },
+          { x: 2167.37, y: 0.990673 },
+          { x: 4229.05, y: 0.993828 },
+          { x: 7296.46, y: 0.995655 }
     ]
 };
 
@@ -23710,12 +23132,12 @@ const data_2_vbr_bitrate_ssim_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 532.59, y: 0.982463 },
-          { x: 928.25, y: 0.99319 },
-          { x: 1316.67, y: 0.994948 },
-          { x: 2154.52, y: 0.996804 },
-          { x: 4205.13, y: 0.998216 },
-          { x: 7222.40, y: 0.998929 }
+          { x: 549.91, y: 0.967803 },
+          { x: 930.32, y: 0.983338 },
+          { x: 1318.93, y: 0.986526 },
+          { x: 2154.29, y: 0.990281 },
+          { x: 4205.09, y: 0.993485 },
+          { x: 7222.40, y: 0.995345 }
     ]
 };
 
@@ -23730,14 +23152,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 314.38, y: 0.934779 },
-          { x: 851.03, y: 0.984974 },
-          { x: 1105.54, y: 0.989819 },
-          { x: 1609.47, y: 0.993542 },
-          { x: 2114.09, y: 0.995292 },
-          { x: 4128.76, y: 0.997663 },
-          { x: 6122.00, y: 0.998479 },
-          { x: 8094.30, y: 0.998903 }
+          { x: 314.38, y: 0.919638 },
+          { x: 851.03, y: 0.963854 },
+          { x: 1105.54, y: 0.970383 },
+          { x: 2114.09, y: 0.979155 },
+          { x: 4128.76, y: 0.983745 },
+          { x: 7116.20, y: 0.986061 }
     ]
 };
 
@@ -23752,14 +23172,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 302.17, y: 0.957648 },
-          { x: 845.70, y: 0.988197 },
-          { x: 1098.30, y: 0.991279 },
-          { x: 1600.09, y: 0.994245 },
-          { x: 2104.45, y: 0.995694 },
-          { x: 4111.71, y: 0.997783 },
-          { x: 6083.36, y: 0.998521 },
-          { x: 8055.71, y: 0.998914 }
+          { x: 302.17, y: 0.938265 },
+          { x: 845.70, y: 0.968683 },
+          { x: 1098.30, y: 0.973141 },
+          { x: 2104.45, y: 0.980234 },
+          { x: 4111.71, y: 0.984264 },
+          { x: 7078.66, y: 0.986229 }
     ]
 };
 
@@ -23774,14 +23192,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 367.15, y: 0.97912 },
-          { x: 891.59, y: 0.991808 },
-          { x: 1274.59, y: 0.993985 },
-          { x: 1690.76, y: 0.995298 },
-          { x: 2108.75, y: 0.996095 },
-          { x: 4127.97, y: 0.997784 },
-          { x: 6149.08, y: 0.998455 },
-          { x: 8141.28, y: 0.998828 }
+          { x: 366.91, y: 0.951298 },
+          { x: 891.27, y: 0.970214 },
+          { x: 1275.66, y: 0.974391 },
+          { x: 2108.24, y: 0.979097 },
+          { x: 4128.88, y: 0.983091 },
+          { x: 7125.02, y: 0.985448 }
     ]
 };
 
@@ -23796,14 +23212,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 386.51, y: 0.980397 },
-          { x: 899.36, y: 0.99182 },
-          { x: 1276.43, y: 0.993992 },
-          { x: 1697.73, y: 0.995262 },
-          { x: 2111.79, y: 0.996063 },
-          { x: 4139.33, y: 0.997776 },
-          { x: 6140.02, y: 0.998451 },
-          { x: 8155.26, y: 0.998828 }
+          { x: 386.51, y: 0.953254 },
+          { x: 899.36, y: 0.970306 },
+          { x: 1276.43, y: 0.974383 },
+          { x: 2111.79, y: 0.978955 },
+          { x: 4139.33, y: 0.982975 },
+          { x: 7135.43, y: 0.985379 }
     ]
 };
 
@@ -23818,14 +23232,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 383.62, y: 0.976683 },
-          { x: 889.96, y: 0.990786 },
-          { x: 1263.72, y: 0.993364 },
-          { x: 1684.72, y: 0.994861 },
-          { x: 2102.22, y: 0.995766 },
-          { x: 4127.05, y: 0.997666 },
-          { x: 6132.19, y: 0.998409 },
-          { x: 8147.86, y: 0.998819 }
+          { x: 384.14, y: 0.95848 },
+          { x: 889.96, y: 0.978275 },
+          { x: 1262.80, y: 0.982732 },
+          { x: 2101.98, y: 0.987607 },
+          { x: 4127.09, y: 0.991757 },
+          { x: 7149.89, y: 0.99425 }
     ]
 };
 
@@ -23840,14 +23252,12 @@ const data_2_vbr_bitrate_ssim_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 390.48, y: 0.976924 },
-          { x: 897.60, y: 0.990903 },
-          { x: 1276.12, y: 0.99339 },
-          { x: 1691.21, y: 0.994847 },
-          { x: 2120.32, y: 0.995746 },
-          { x: 4137.68, y: 0.997657 },
-          { x: 6148.77, y: 0.998403 },
-          { x: 8149.62, y: 0.998814 }
+          { x: 390.48, y: 0.959067 },
+          { x: 897.60, y: 0.978641 },
+          { x: 1276.12, y: 0.982837 },
+          { x: 2120.32, y: 0.987541 },
+          { x: 4137.68, y: 0.991672 },
+          { x: 7155.60, y: 0.994181 }
     ]
 };
 
@@ -23862,12 +23272,12 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 126, 14, 0.9)',
     
     data: [
-          { x: 403.86, y: 0.962551 },
-          { x: 796.68, y: 0.973149 },
-          { x: 1189.82, y: 0.979839 },
-          { x: 1986.30, y: 0.982625 },
-          { x: 3978.25, y: 0.986757 },
-          { x: 6757.66, y: 0.987898 }
+          { x: 403.86, y: 0.0 },
+          { x: 796.68, y: 0.0 },
+          { x: 1189.82, y: 0.0 },
+          { x: 1986.30, y: 0.0 },
+          { x: 3978.25, y: 0.0 },
+          { x: 6757.66, y: 0.0 }
     ]
 };
 
@@ -23882,12 +23292,12 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(214, 38, 40, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 441.13, y: 0.962166 },
-          { x: 850.07, y: 0.977284 },
-          { x: 1212.64, y: 0.981753 },
-          { x: 2018.22, y: 0.984821 },
-          { x: 3891.76, y: 0.986773 },
-          { x: 6652.31, y: 0.987703 }
+          { x: 441.13, y: 0.0 },
+          { x: 850.07, y: 0.0 },
+          { x: 1212.64, y: 0.0 },
+          { x: 2018.22, y: 0.0 },
+          { x: 3891.76, y: 0.0 },
+          { x: 6652.31, y: 0.0 }
     ]
 };
 
@@ -23902,12 +23312,12 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(140, 86, 75, 0.9)',
     
     data: [
-          { x: 410.36, y: 0.975944 },
-          { x: 796.00, y: 0.980433 },
-          { x: 1194.69, y: 0.982567 },
-          { x: 1997.16, y: 0.98506 },
-          { x: 3899.21, y: 0.987092 },
-          { x: 5281.54, y: 0.987765 }
+          { x: 410.36, y: 0.0 },
+          { x: 796.00, y: 0.0 },
+          { x: 1194.69, y: 0.0 },
+          { x: 1997.16, y: 0.0 },
+          { x: 3899.21, y: 0.0 },
+          { x: 5281.54, y: 0.0 }
     ]
 };
 
@@ -23922,12 +23332,12 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(226, 119, 193, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 483.57, y: 0.975944 },
-          { x: 932.83, y: 0.981515 },
-          { x: 1370.58, y: 0.983526 },
-          { x: 2148.96, y: 0.985324 },
-          { x: 3947.66, y: 0.986884 },
-          { x: 7073.92, y: 0.987778 }
+          { x: 483.57, y: 0.0 },
+          { x: 932.83, y: 0.0 },
+          { x: 1370.58, y: 0.0 },
+          { x: 2148.96, y: 0.0 },
+          { x: 3947.66, y: 0.0 },
+          { x: 7073.92, y: 0.0 }
     ]
 };
 
@@ -23942,12 +23352,12 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_AV1_quality = {
     borderColor: 'rgba(93, 0, 63, 0.9)',
     
     data: [
-          { x: 419.78, y: 0.976086 },
-          { x: 796.32, y: 0.980271 },
-          { x: 1196.89, y: 0.982538 },
-          { x: 1998.58, y: 0.984884 },
-          { x: 3998.62, y: 0.987043 },
-          { x: 6485.92, y: 0.987973 }
+          { x: 419.78, y: 0.0 },
+          { x: 796.32, y: 0.0 },
+          { x: 1196.89, y: 0.0 },
+          { x: 1998.58, y: 0.0 },
+          { x: 3998.62, y: 0.0 },
+          { x: 6485.92, y: 0.0 }
     ]
 };
 
@@ -23962,17 +23372,17 @@ const data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_AV1_normal = {
     borderColor: 'rgba(216, 175, 161, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 441.53, y: 0.974221 },
-          { x: 843.40, y: 0.980812 },
-          { x: 1190.74, y: 0.983106 },
-          { x: 1966.67, y: 0.985055 },
-          { x: 3913.11, y: 0.986796 },
-          { x: 6847.09, y: 0.987722 }
+          { x: 441.53, y: 0.0 },
+          { x: 843.40, y: 0.0 },
+          { x: 1190.74, y: 0.0 },
+          { x: 1966.67, y: 0.0 },
+          { x: 3913.11, y: 0.0 },
+          { x: 6847.09, y: 0.0 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -23982,17 +23392,17 @@ const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 656.22, y: 0.963866 },
-          { x: 801.53, y: 0.97148 },
-          { x: 1196.61, y: 0.982568 },
-          { x: 1995.08, y: 0.990838 },
-          { x: 3987.23, y: 0.997017 },
-          { x: 6409.05, y: 0.998514 }
+          { x: 501.10, y: 0.942583 },
+          { x: 799.35, y: 0.957127 },
+          { x: 1193.85, y: 0.966194 },
+          { x: 1990.58, y: 0.973754 },
+          { x: 3933.94, y: 0.981527 },
+          { x: 6341.72, y: 0.984579 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -24002,17 +23412,17 @@ const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.60, y: 0.902724 },
-          { x: 799.39, y: 0.963152 },
-          { x: 1198.28, y: 0.977457 },
-          { x: 1997.30, y: 0.989894 },
-          { x: 3996.62, y: 0.996469 },
-          { x: 6982.99, y: 0.998171 }
+          { x: 420.78, y: 0.946135 },
+          { x: 801.97, y: 0.964769 },
+          { x: 1202.14, y: 0.972876 },
+          { x: 2002.60, y: 0.979059 },
+          { x: 3968.95, y: 0.983727 },
+          { x: 6998.01, y: 0.986087 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -24022,17 +23432,17 @@ const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 410.03, y: 0.983695 },
-          { x: 796.06, y: 0.989838 },
-          { x: 1194.38, y: 0.992556 },
-          { x: 1997.76, y: 0.995418 },
-          { x: 3845.36, y: 0.997447 },
-          { x: 5714.95, y: 0.99835 }
+          { x: 455.38, y: 0.957935 },
+          { x: 798.63, y: 0.967094 },
+          { x: 1198.05, y: 0.971979 },
+          { x: 1997.61, y: 0.977688 },
+          { x: 3954.96, y: 0.98314 },
+          { x: 5773.18, y: 0.985456 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -24042,12 +23452,52 @@ const data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.69, y: 0.971673 },
-          { x: 819.80, y: 0.985473 },
-          { x: 1220.45, y: 0.990291 },
-          { x: 2018.18, y: 0.994043 },
-          { x: 4012.48, y: 0.996854 },
-          { x: 7005.77, y: 0.998093 }
+          { x: 427.70, y: 0.95733 },
+          { x: 828.90, y: 0.970142 },
+          { x: 1238.81, y: 0.975344 },
+          { x: 2024.00, y: 0.97971 },
+          { x: 3940.85, y: 0.98366 },
+          { x: 7027.82, y: 0.985964 }
+    ]
+};
+
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
+    
+    data: [
+          { x: 427.46, y: 0.962155 },
+          { x: 797.70, y: 0.969581 },
+          { x: 1197.25, y: 0.973676 },
+          { x: 1999.40, y: 0.978773 },
+          { x: 4001.60, y: 0.983883 },
+          { x: 6641.71, y: 0.986446 }
+    ]
+};
+
+const data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 410.86, y: 0.959913 },
+          { x: 810.77, y: 0.971114 },
+          { x: 1184.69, y: 0.975527 },
+          { x: 1967.60, y: 0.97964 },
+          { x: 3907.65, y: 0.983697 },
+          { x: 6827.12, y: 0.986032 }
     ]
 };
 
@@ -24059,15 +23509,15 @@ const data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 399.56, y: 0.900204 },
-          { x: 799.16, y: 0.956438 },
-          { x: 1198.59, y: 0.976094 },
-          { x: 1997.39, y: 0.98908 },
-          { x: 3995.59, y: 0.996432 },
-          { x: 6979.66, y: 0.998195 }
+          { x: 399.56, y: 0.904453 },
+          { x: 799.16, y: 0.939573 },
+          { x: 1198.59, y: 0.958269 },
+          { x: 1997.39, y: 0.971743 },
+          { x: 3995.59, y: 0.981598 },
+          { x: 6979.66, y: 0.985075 }
     ]
 };
 
@@ -24079,15 +23529,15 @@ const data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.52, y: 0.901841 },
-          { x: 799.40, y: 0.962951 },
-          { x: 1198.35, y: 0.977512 },
-          { x: 1997.35, y: 0.989839 },
-          { x: 3996.77, y: 0.996478 },
-          { x: 6983.03, y: 0.998175 }
+          { x: 399.52, y: 0.905194 },
+          { x: 799.40, y: 0.94548 },
+          { x: 1198.35, y: 0.959848 },
+          { x: 1997.35, y: 0.972338 },
+          { x: 3996.77, y: 0.98154 },
+          { x: 6983.03, y: 0.984949 }
     ]
 };
 
@@ -24099,15 +23549,15 @@ const data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     
     data: [
-          { x: 423.56, y: 0.975337 },
-          { x: 823.81, y: 0.987094 },
-          { x: 1223.16, y: 0.991076 },
-          { x: 2023.62, y: 0.994282 },
-          { x: 4022.98, y: 0.996897 },
-          { x: 6595.99, y: 0.998102 }
+          { x: 423.56, y: 0.947988 },
+          { x: 823.81, y: 0.962647 },
+          { x: 1223.16, y: 0.968756 },
+          { x: 2023.62, y: 0.974641 },
+          { x: 4022.98, y: 0.980209 },
+          { x: 6595.99, y: 0.983273 }
     ]
 };
 
@@ -24119,60 +23569,20 @@ const data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.56, y: 0.975337 },
-          { x: 823.81, y: 0.987094 },
-          { x: 1223.16, y: 0.991076 },
-          { x: 2023.62, y: 0.994282 },
-          { x: 4022.98, y: 0.996897 },
-          { x: 6595.99, y: 0.998102 }
-    ]
-};
-
-const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950X VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 501.12, y: 0.967517 },
-          { x: 799.35, y: 0.980008 },
-          { x: 1193.81, y: 0.987319 },
-          { x: 1990.55, y: 0.992435 },
-          { x: 3933.99, y: 0.99674 },
-          { x: 6341.60, y: 0.998217 }
-    ]
-};
-
-const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950X VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(98, 59, 65, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 402.17, y: 0.947867 },
-          { x: 804.02, y: 0.975935 },
-          { x: 1202.39, y: 0.985544 },
-          { x: 2001.65, y: 0.992996 },
-          { x: 3628.80, y: 0.996365 },
-          { x: 6351.55, y: 0.997768 }
+          { x: 423.56, y: 0.947988 },
+          { x: 823.81, y: 0.962647 },
+          { x: 1223.16, y: 0.968756 },
+          { x: 2023.62, y: 0.974641 },
+          { x: 4022.98, y: 0.980209 },
+          { x: 6595.99, y: 0.983273 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950X VCE VBR HEVC quality",
+const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rectRot",
     hidden: false,
@@ -24182,17 +23592,17 @@ const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 158, 181, 0.9)',
     
     data: [
-          { x: 418.49, y: 0.981627 },
-          { x: 796.84, y: 0.98913 },
-          { x: 1195.77, y: 0.992056 },
-          { x: 1997.59, y: 0.995161 },
-          { x: 3940.12, y: 0.997674 },
-          { x: 5736.76, y: 0.998553 }
+          { x: 399.44, y: 0.906832 },
+          { x: 799.28, y: 0.947494 },
+          { x: 1198.25, y: 0.960544 },
+          { x: 1997.02, y: 0.972893 },
+          { x: 3995.16, y: 0.981809 },
+          { x: 6978.95, y: 0.985139 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950X VCE VBR HEVC normal",
+const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rectRot",
     hidden: true,
@@ -24202,19 +23612,19 @@ const data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 422.54, y: 0.97291 },
-          { x: 823.24, y: 0.986099 },
-          { x: 1223.89, y: 0.990734 },
-          { x: 2025.24, y: 0.994312 },
-          { x: 4020.37, y: 0.997161 },
-          { x: 7020.21, y: 0.998409 }
+          { x: 399.42, y: 0.90505 },
+          { x: 799.37, y: 0.945201 },
+          { x: 1198.40, y: 0.959793 },
+          { x: 1995.24, y: 0.972332 },
+          { x: 3996.69, y: 0.981538 },
+          { x: 6983.06, y: 0.98495 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -24222,21 +23632,19 @@ const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 7, 214, 0.9)',
     
     data: [
-          { x: 400.88, y: 0.904067 },
-          { x: 800.71, y: 0.964558 },
-          { x: 1199.68, y: 0.977961 },
-          { x: 1599.82, y: 0.985027 },
-          { x: 1998.46, y: 0.990193 },
-          { x: 3996.60, y: 0.99659 },
-          { x: 5993.80, y: 0.997902 },
-          { x: 7997.74, y: 0.99849 }
+          { x: 422.06, y: 0.947886 },
+          { x: 820.91, y: 0.962516 },
+          { x: 1220.81, y: 0.968516 },
+          { x: 2018.77, y: 0.974449 },
+          { x: 4013.12, y: 0.979921 },
+          { x: 7010.38, y: 0.983059 }
     ]
 };
 
-const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -24244,58 +23652,12 @@ const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(138, 58, 5, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 400.86, y: 0.90192 },
-          { x: 800.81, y: 0.962674 },
-          { x: 1199.84, y: 0.9775 },
-          { x: 1600.51, y: 0.984713 },
-          { x: 1996.68, y: 0.98985 },
-          { x: 3998.13, y: 0.996477 },
-          { x: 5990.85, y: 0.997817 },
-          { x: 7998.44, y: 0.998423 }
-    ]
-};
-
-const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "star",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
-    
-    data: [
-          { x: 423.70, y: 0.975806 },
-          { x: 823.32, y: 0.986994 },
-          { x: 1222.48, y: 0.99088 },
-          { x: 1621.91, y: 0.992901 },
-          { x: 2022.27, y: 0.99412 },
-          { x: 4013.96, y: 0.996871 },
-          { x: 6023.83, y: 0.997871 },
-          { x: 7094.63, y: 0.998268 }
-    ]
-};
-
-const data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "star",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.70, y: 0.975806 },
-          { x: 823.32, y: 0.986994 },
-          { x: 1222.48, y: 0.99088 },
-          { x: 1621.91, y: 0.992901 },
-          { x: 2022.27, y: 0.99412 },
-          { x: 4013.96, y: 0.996871 },
-          { x: 6023.83, y: 0.997871 },
-          { x: 7094.63, y: 0.998268 }
+          { x: 422.06, y: 0.947886 },
+          { x: 820.91, y: 0.962516 },
+          { x: 1220.81, y: 0.968516 },
+          { x: 2018.77, y: 0.974449 },
+          { x: 4013.12, y: 0.979921 },
+          { x: 7010.38, y: 0.983059 }
     ]
 };
 
@@ -25580,14 +24942,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 654.90, y: 50.982284 },
-          { x: 956.02, y: 75.562458 },
-          { x: 1119.60, y: 81.383566 },
-          { x: 1612.85, y: 88.078014 },
-          { x: 2116.43, y: 90.82528 },
-          { x: 4119.49, y: 95.003101 },
-          { x: 6097.63, y: 96.467455 },
-          { x: 8064.90, y: 97.202623 }
+          { x: 732.19, y: 53.33388 },
+          { x: 1052.31, y: 77.248633 },
+          { x: 1223.55, y: 82.597381 },
+          { x: 2122.83, y: 91.659737 },
+          { x: 4124.03, y: 95.460333 },
+          { x: 7097.26, y: 97.125076 }
     ]
 };
 
@@ -25602,14 +24962,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 486.92, y: 59.411464 },
-          { x: 868.11, y: 79.973539 },
-          { x: 1112.27, y: 84.350536 },
-          { x: 1614.77, y: 88.678347 },
-          { x: 2120.54, y: 91.100722 },
-          { x: 4130.98, y: 94.948074 },
-          { x: 6106.60, y: 96.381785 },
-          { x: 8044.22, y: 97.092722 }
+          { x: 529.64, y: 61.369751 },
+          { x: 878.68, y: 80.543013 },
+          { x: 1114.24, y: 85.39511 },
+          { x: 2119.89, y: 91.945151 },
+          { x: 4134.68, y: 95.461307 },
+          { x: 7083.85, y: 97.065177 }
     ]
 };
 
@@ -25624,13 +24982,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 723.20, y: 72.315859 },
-          { x: 939.61, y: 83.85543 },
-          { x: 1323.37, y: 88.604448 },
-          { x: 1737.15, y: 91.00731 },
-          { x: 2160.72, y: 92.4304 },
-          { x: 4219.87, y: 95.518726 },
-          { x: 6257.86, y: 96.644497 }
+          { x: 781.07, y: 73.854215 },
+          { x: 1024.48, y: 84.927655 },
+          { x: 1330.31, y: 88.88553 },
+          { x: 2167.40, y: 93.136366 },
+          { x: 4225.68, y: 95.992153 },
+          { x: 7281.00, y: 97.254476 }
     ]
 };
 
@@ -25645,14 +25002,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 532.92, y: 71.720541 },
-          { x: 930.11, y: 84.589435 },
-          { x: 1320.86, y: 87.598858 },
-          { x: 1730.89, y: 89.971216 },
-          { x: 2154.46, y: 91.476852 },
-          { x: 4189.68, y: 94.950217 },
-          { x: 6209.32, y: 96.220825 },
-          { x: 8161.33, y: 96.891818 }
+          { x: 552.37, y: 73.058853 },
+          { x: 931.19, y: 85.634683 },
+          { x: 1323.56, y: 88.551985 },
+          { x: 2154.77, y: 92.3359 },
+          { x: 4188.71, y: 95.506498 },
+          { x: 7189.82, y: 96.940833 }
     ]
 };
 
@@ -25667,13 +25022,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 727.13, y: 72.634608 },
-          { x: 946.41, y: 84.118261 },
-          { x: 1317.39, y: 88.938481 },
-          { x: 1735.93, y: 91.368703 },
-          { x: 2162.77, y: 92.77953 },
-          { x: 4224.83, y: 95.819772 },
-          { x: 6265.23, y: 96.935624 }
+          { x: 791.48, y: 72.887503 },
+          { x: 1020.66, y: 84.213413 },
+          { x: 1327.77, y: 88.375741 },
+          { x: 2166.67, y: 92.776991 },
+          { x: 4229.16, y: 95.815562 },
+          { x: 7295.41, y: 97.259708 }
     ]
 };
 
@@ -25688,13 +25042,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 533.95, y: 71.976252 },
-          { x: 927.03, y: 85.029346 },
-          { x: 1317.83, y: 88.018529 },
-          { x: 1729.43, y: 90.298047 },
-          { x: 2154.87, y: 91.805682 },
-          { x: 4206.96, y: 95.165196 },
-          { x: 6225.44, y: 96.453831 }
+          { x: 550.99, y: 71.924725 },
+          { x: 931.08, y: 84.904359 },
+          { x: 1320.43, y: 87.924059 },
+          { x: 2156.07, y: 91.767145 },
+          { x: 4206.15, y: 95.16388 },
+          { x: 7223.11, y: 96.831617 }
     ]
 };
 
@@ -25709,14 +25062,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 379.91, y: 75.136991 },
-          { x: 902.76, y: 87.284313 },
-          { x: 1280.83, y: 90.17303 },
-          { x: 1706.73, y: 92.061721 },
-          { x: 2137.90, y: 93.285413 },
-          { x: 4177.61, y: 95.914607 },
-          { x: 6187.60, y: 96.933729 },
-          { x: 8170.41, y: 97.4611 }
+          { x: 400.82, y: 77.494243 },
+          { x: 909.78, y: 88.454552 },
+          { x: 1293.39, y: 91.123985 },
+          { x: 2145.02, y: 93.958862 },
+          { x: 4177.25, y: 96.327647 },
+          { x: 7179.18, y: 97.426698 }
     ]
 };
 
@@ -25731,14 +25082,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 392.45, y: 76.829016 },
-          { x: 924.89, y: 87.62815 },
-          { x: 1309.25, y: 90.292551 },
-          { x: 1742.44, y: 92.085929 },
-          { x: 2173.34, y: 93.220693 },
-          { x: 4212.10, y: 95.798155 },
-          { x: 6237.29, y: 96.846258 },
-          { x: 8171.43, y: 97.382915 }
+          { x: 426.97, y: 79.969016 },
+          { x: 936.08, y: 88.9568 },
+          { x: 1324.90, y: 91.322493 },
+          { x: 2180.28, y: 93.904069 },
+          { x: 4225.63, y: 96.198187 },
+          { x: 7239.43, y: 97.344689 }
     ]
 };
 
@@ -25753,14 +25102,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.38, y: 75.319163 },
-          { x: 900.55, y: 87.547369 },
-          { x: 1266.72, y: 90.378897 },
-          { x: 1699.09, y: 92.30208 },
-          { x: 2128.61, y: 93.524256 },
-          { x: 4159.97, y: 96.184497 },
-          { x: 6173.68, y: 97.17665 },
-          { x: 8164.44, y: 97.705496 }
+          { x: 397.74, y: 76.20188 },
+          { x: 908.98, y: 87.67467 },
+          { x: 1288.34, y: 90.509002 },
+          { x: 2138.65, y: 93.573996 },
+          { x: 4169.47, y: 96.192176 },
+          { x: 7160.41, y: 97.487459 }
     ]
 };
 
@@ -25775,14 +25122,12 @@ const data_2_vbr_bitrate_vmaf_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 392.39, y: 76.950341 },
-          { x: 920.27, y: 87.785958 },
-          { x: 1298.67, y: 90.479316 },
-          { x: 1739.16, y: 92.262297 },
-          { x: 2166.52, y: 93.460205 },
-          { x: 4207.09, y: 96.053674 },
-          { x: 6228.73, y: 97.061827 },
-          { x: 8166.96, y: 97.579094 }
+          { x: 425.23, y: 78.798726 },
+          { x: 936.02, y: 88.147916 },
+          { x: 1322.23, y: 90.668966 },
+          { x: 2181.56, y: 93.49464 },
+          { x: 4225.93, y: 96.049199 },
+          { x: 7221.14, y: 97.366989 }
     ]
 };
 
@@ -25797,12 +25142,12 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 673.36, y: 50.678864 },
-          { x: 952.98, y: 75.328694 },
-          { x: 1128.69, y: 81.160697 },
-          { x: 2114.51, y: 90.850009 },
-          { x: 4109.66, y: 95.061494 },
-          { x: 7088.14, y: 96.91823 }
+          { x: 731.00, y: 53.012339 },
+          { x: 1052.26, y: 77.122378 },
+          { x: 1211.87, y: 82.360134 },
+          { x: 2122.27, y: 91.672554 },
+          { x: 4124.58, y: 95.483065 },
+          { x: 7096.09, y: 97.135167 }
     ]
 };
 
@@ -25817,12 +25162,12 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 472.52, y: 58.996199 },
-          { x: 869.26, y: 79.956575 },
-          { x: 1112.70, y: 84.349772 },
-          { x: 2120.48, y: 91.120138 },
-          { x: 4133.98, y: 94.963023 },
-          { x: 7088.82, y: 96.794454 }
+          { x: 528.88, y: 61.019319 },
+          { x: 880.08, y: 80.52731 },
+          { x: 1115.06, y: 85.39487 },
+          { x: 2120.45, y: 91.957451 },
+          { x: 4136.63, y: 95.482294 },
+          { x: 7087.63, y: 97.072186 }
     ]
 };
 
@@ -25837,12 +25182,12 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 731.91, y: 72.289717 },
-          { x: 941.81, y: 83.791533 },
-          { x: 1322.98, y: 88.668885 },
-          { x: 2162.21, y: 92.420041 },
-          { x: 4218.57, y: 95.526811 },
-          { x: 7270.68, y: 96.997243 }
+          { x: 790.54, y: 73.562689 },
+          { x: 1032.15, y: 84.88571 },
+          { x: 1329.91, y: 88.992483 },
+          { x: 2167.80, y: 93.153057 },
+          { x: 4225.51, y: 96.002315 },
+          { x: 7280.26, y: 97.257381 }
     ]
 };
 
@@ -25857,12 +25202,12 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 529.70, y: 71.513976 },
-          { x: 931.36, y: 84.594449 },
-          { x: 1321.59, y: 87.617693 },
-          { x: 2155.24, y: 91.504581 },
-          { x: 4187.46, y: 94.962669 },
-          { x: 7190.83, y: 96.594554 }
+          { x: 562.30, y: 72.967229 },
+          { x: 932.58, y: 85.633735 },
+          { x: 1323.75, y: 88.555797 },
+          { x: 2155.19, y: 92.35866 },
+          { x: 4187.72, y: 95.516181 },
+          { x: 7191.69, y: 96.949094 }
     ]
 };
 
@@ -25877,12 +25222,12 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 725.10, y: 72.474454 },
-          { x: 941.94, y: 84.176724 },
-          { x: 1315.82, y: 88.982763 },
-          { x: 2162.49, y: 92.773763 },
-          { x: 4227.96, y: 95.826918 },
-          { x: 7290.64, y: 97.264569 }
+          { x: 802.81, y: 72.876122 },
+          { x: 1020.20, y: 84.201536 },
+          { x: 1327.57, y: 88.348651 },
+          { x: 2167.37, y: 92.780933 },
+          { x: 4229.05, y: 95.82606 },
+          { x: 7296.46, y: 97.263672 }
     ]
 };
 
@@ -25897,11 +25242,11 @@ const data_2_vbr_bitrate_vmaf_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 532.59, y: 71.747985 },
-          { x: 928.25, y: 85.006389 },
-          { x: 1316.67, y: 88.033825 },
-          { x: 2154.52, y: 91.816945 },
-          { x: 4205.13, y: 95.173198 },
+          { x: 549.91, y: 71.749171 },
+          { x: 930.32, y: 84.914036 },
+          { x: 1318.93, y: 87.934196 },
+          { x: 2154.29, y: 91.777235 },
+          { x: 4205.09, y: 95.175186 },
           { x: 7222.40, y: 96.84192 }
     ]
 };
@@ -25917,14 +25262,12 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 314.38, y: 44.453188 },
-          { x: 851.03, y: 77.035477 },
-          { x: 1105.54, y: 82.310789 },
-          { x: 1609.47, y: 87.383593 },
-          { x: 2114.09, y: 90.138143 },
-          { x: 4128.76, y: 94.583099 },
-          { x: 6122.00, y: 96.180418 },
-          { x: 8094.30, y: 97.001082 }
+          { x: 314.38, y: 46.513053 },
+          { x: 851.03, y: 78.59352 },
+          { x: 1105.54, y: 83.68549 },
+          { x: 2114.09, y: 91.064007 },
+          { x: 4128.76, y: 95.136988 },
+          { x: 7116.20, y: 96.931704 }
     ]
 };
 
@@ -25939,14 +25282,12 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 302.17, y: 56.130707 },
-          { x: 845.70, y: 80.603475 },
-          { x: 1098.30, y: 84.440104 },
-          { x: 1600.09, y: 88.586572 },
-          { x: 2104.45, y: 90.861798 },
-          { x: 4111.71, y: 94.814971 },
-          { x: 6083.36, y: 96.249302 },
-          { x: 8055.71, y: 96.985909 }
+          { x: 302.17, y: 57.974082 },
+          { x: 845.70, y: 81.909905 },
+          { x: 1098.30, y: 85.610741 },
+          { x: 2104.45, y: 91.709333 },
+          { x: 4111.71, y: 95.341268 },
+          { x: 7078.66, y: 96.96828 }
     ]
 };
 
@@ -25961,14 +25302,12 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 367.15, y: 71.711987 },
-          { x: 891.59, y: 85.346678 },
-          { x: 1274.59, y: 88.510976 },
-          { x: 1690.76, y: 90.541229 },
-          { x: 2108.75, y: 91.883481 },
-          { x: 4127.97, y: 94.965837 },
-          { x: 6149.08, y: 96.222763 },
-          { x: 8141.28, y: 96.90998 }
+          { x: 366.91, y: 73.054034 },
+          { x: 891.27, y: 86.427883 },
+          { x: 1275.66, y: 89.470823 },
+          { x: 2108.24, y: 92.66857 },
+          { x: 4128.88, y: 95.517913 },
+          { x: 7125.02, y: 96.951107 }
     ]
 };
 
@@ -25983,14 +25322,12 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 386.51, y: 72.549277 },
-          { x: 899.36, y: 85.262934 },
-          { x: 1276.43, y: 88.463843 },
-          { x: 1697.73, y: 90.513336 },
-          { x: 2111.79, y: 91.84049 },
-          { x: 4139.33, y: 94.957499 },
-          { x: 6140.02, y: 96.190899 },
-          { x: 8155.26, y: 96.88653 }
+          { x: 386.51, y: 73.939785 },
+          { x: 899.36, y: 86.363587 },
+          { x: 1276.43, y: 89.458938 },
+          { x: 2111.79, y: 92.625672 },
+          { x: 4139.33, y: 95.50724 },
+          { x: 7135.43, y: 96.934844 }
     ]
 };
 
@@ -26005,14 +25342,12 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 383.62, y: 68.748205 },
-          { x: 889.96, y: 84.019137 },
-          { x: 1263.72, y: 87.72287 },
-          { x: 1684.72, y: 90.047828 },
-          { x: 2102.22, y: 91.553586 },
-          { x: 4127.05, y: 94.969082 },
-          { x: 6132.19, y: 96.331788 },
-          { x: 8147.86, y: 97.07152 }
+          { x: 384.14, y: 68.742084 },
+          { x: 889.96, y: 84.020899 },
+          { x: 1262.80, y: 87.717795 },
+          { x: 2101.98, y: 91.55095 },
+          { x: 4127.09, y: 94.96792 },
+          { x: 7149.89, y: 96.754296 }
     ]
 };
 
@@ -26030,11 +25365,9 @@ const data_2_vbr_bitrate_vmaf_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
           { x: 390.48, y: 68.98708 },
           { x: 897.60, y: 84.024338 },
           { x: 1276.12, y: 87.734277 },
-          { x: 1691.21, y: 90.010861 },
           { x: 2120.32, y: 91.526258 },
           { x: 4137.68, y: 94.942881 },
-          { x: 6148.77, y: 96.315951 },
-          { x: 8149.62, y: 97.056624 }
+          { x: 7155.60, y: 96.733898 }
     ]
 };
 
@@ -26158,8 +25491,8 @@ const data_2_vbr_bitrate_vmaf_rx9070xt_VCEEncC_VBR_AV1_normal = {
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -26169,17 +25502,17 @@ const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 656.22, y: 50.42095 },
-          { x: 801.53, y: 57.384814 },
-          { x: 1196.61, y: 68.580182 },
-          { x: 1995.08, y: 78.681265 },
-          { x: 3987.23, y: 88.638973 },
-          { x: 6409.05, y: 92.887291 }
+          { x: 501.10, y: 52.422318 },
+          { x: 799.35, y: 65.092673 },
+          { x: 1193.85, y: 74.518247 },
+          { x: 1990.58, y: 82.050065 },
+          { x: 3933.94, y: 89.943265 },
+          { x: 6341.72, y: 93.36914 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -26189,17 +25522,17 @@ const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.60, y: 38.380533 },
-          { x: 799.39, y: 66.055287 },
-          { x: 1198.28, y: 76.488572 },
-          { x: 1997.30, y: 85.703637 },
-          { x: 3996.62, y: 92.906687 },
-          { x: 6982.99, y: 95.772733 }
+          { x: 420.78, y: 58.787145 },
+          { x: 801.97, y: 76.728897 },
+          { x: 1202.14, y: 84.074593 },
+          { x: 2002.60, y: 89.579376 },
+          { x: 3968.95, y: 93.944119 },
+          { x: 6998.01, y: 96.185751 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -26209,17 +25542,17 @@ const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 410.03, y: 70.420285 },
-          { x: 796.06, y: 78.661023 },
-          { x: 1194.38, y: 82.748035 },
-          { x: 1997.76, y: 87.52271 },
-          { x: 3845.36, y: 92.053513 },
-          { x: 5714.95, y: 94.187217 }
+          { x: 455.38, y: 71.642538 },
+          { x: 798.63, y: 79.828393 },
+          { x: 1198.05, y: 84.384688 },
+          { x: 1997.61, y: 89.005549 },
+          { x: 3954.96, y: 93.96484 },
+          { x: 5773.18, y: 95.858237 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -26229,12 +25562,52 @@ const data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.69, y: 67.620727 },
-          { x: 819.80, y: 79.369982 },
-          { x: 1220.45, y: 84.399143 },
-          { x: 2018.18, y: 89.076961 },
-          { x: 4012.48, y: 93.281933 },
-          { x: 7005.77, y: 95.490164 }
+          { x: 427.70, y: 72.477569 },
+          { x: 828.90, y: 83.75021 },
+          { x: 1238.81, y: 88.034676 },
+          { x: 2024.00, y: 91.72629 },
+          { x: 3940.85, y: 95.042037 },
+          { x: 7027.82, y: 96.657461 }
+    ]
+};
+
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
+    
+    data: [
+          { x: 427.46, y: 74.697696 },
+          { x: 797.70, y: 82.489782 },
+          { x: 1197.25, y: 86.180882 },
+          { x: 1999.40, y: 90.191265 },
+          { x: 4001.60, y: 94.442481 },
+          { x: 6641.71, y: 96.531611 }
+    ]
+};
+
+const data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 410.86, y: 75.76852 },
+          { x: 810.77, y: 85.459096 },
+          { x: 1184.69, y: 89.108583 },
+          { x: 1967.60, y: 92.472397 },
+          { x: 3907.65, y: 95.517769 },
+          { x: 6827.12, y: 96.964602 }
     ]
 };
 
@@ -26246,15 +25619,15 @@ const data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 399.56, y: 38.141937 },
-          { x: 799.16, y: 64.403528 },
-          { x: 1198.59, y: 75.935969 },
-          { x: 1997.39, y: 85.517989 },
-          { x: 3995.59, y: 93.011724 },
-          { x: 6979.66, y: 95.880485 }
+          { x: 399.56, y: 40.042284 },
+          { x: 799.16, y: 66.258008 },
+          { x: 1198.59, y: 77.652681 },
+          { x: 1997.39, y: 86.855847 },
+          { x: 3995.59, y: 93.623613 },
+          { x: 6979.66, y: 96.197474 }
     ]
 };
 
@@ -26266,15 +25639,15 @@ const data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.52, y: 38.1424 },
-          { x: 799.40, y: 66.050006 },
-          { x: 1198.35, y: 76.539563 },
-          { x: 1997.35, y: 85.679172 },
-          { x: 3996.77, y: 92.922071 },
-          { x: 6983.03, y: 95.777653 }
+          { x: 399.52, y: 40.033647 },
+          { x: 799.40, y: 67.924167 },
+          { x: 1198.35, y: 78.261399 },
+          { x: 1997.35, y: 86.979678 },
+          { x: 3996.77, y: 93.526461 },
+          { x: 6983.03, y: 96.102407 }
     ]
 };
 
@@ -26286,15 +25659,15 @@ const data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     
     data: [
-          { x: 423.56, y: 71.360876 },
-          { x: 823.81, y: 81.859335 },
-          { x: 1223.16, y: 86.13515 },
-          { x: 2023.62, y: 90.149278 },
-          { x: 4022.98, y: 93.975159 },
-          { x: 6595.99, y: 95.860615 }
+          { x: 423.56, y: 72.877222 },
+          { x: 823.81, y: 83.093941 },
+          { x: 1223.16, y: 87.16267 },
+          { x: 2023.62, y: 90.92734 },
+          { x: 4022.98, y: 94.537709 },
+          { x: 6595.99, y: 96.334924 }
     ]
 };
 
@@ -26306,60 +25679,20 @@ const data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.56, y: 71.360876 },
-          { x: 823.81, y: 81.859335 },
-          { x: 1223.16, y: 86.13515 },
-          { x: 2023.62, y: 90.149278 },
-          { x: 4022.98, y: 93.975159 },
-          { x: 6595.99, y: 95.860615 }
-    ]
-};
-
-const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950X VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 501.12, y: 50.29851 },
-          { x: 799.35, y: 63.059997 },
-          { x: 1193.81, y: 72.671948 },
-          { x: 1990.55, y: 80.304267 },
-          { x: 3933.99, y: 88.731138 },
-          { x: 6341.60, y: 92.496319 }
-    ]
-};
-
-const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950X VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(98, 59, 65, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 402.17, y: 49.476162 },
-          { x: 804.02, y: 70.604726 },
-          { x: 1202.39, y: 79.311711 },
-          { x: 2001.65, y: 87.258374 },
-          { x: 3628.80, y: 92.529717 },
-          { x: 6351.55, y: 95.233216 }
+          { x: 423.56, y: 72.877222 },
+          { x: 823.81, y: 83.093941 },
+          { x: 1223.16, y: 87.16267 },
+          { x: 2023.62, y: 90.92734 },
+          { x: 4022.98, y: 94.537709 },
+          { x: 6595.99, y: 96.334924 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950X VCE VBR HEVC quality",
+const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rectRot",
     hidden: false,
@@ -26369,17 +25702,17 @@ const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 158, 181, 0.9)',
     
     data: [
-          { x: 418.49, y: 67.760719 },
-          { x: 796.84, y: 77.557041 },
-          { x: 1195.77, y: 81.932304 },
-          { x: 1997.59, y: 86.832841 },
-          { x: 3940.12, y: 92.475348 },
-          { x: 5736.76, y: 94.822192 }
+          { x: 399.44, y: 41.359822 },
+          { x: 799.28, y: 68.886088 },
+          { x: 1198.25, y: 78.762098 },
+          { x: 1997.02, y: 87.36195 },
+          { x: 3995.16, y: 93.757754 },
+          { x: 6978.95, y: 96.238655 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950X VCE VBR HEVC normal",
+const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rectRot",
     hidden: true,
@@ -26389,19 +25722,19 @@ const data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 422.54, y: 67.931242 },
-          { x: 823.24, y: 79.928281 },
-          { x: 1223.89, y: 85.101193 },
-          { x: 2025.24, y: 89.881466 },
-          { x: 4020.37, y: 93.940885 },
-          { x: 7020.21, y: 95.999425 }
+          { x: 399.42, y: 40.064882 },
+          { x: 799.37, y: 67.887863 },
+          { x: 1198.40, y: 78.243242 },
+          { x: 1995.24, y: 87.000377 },
+          { x: 3996.69, y: 93.518817 },
+          { x: 6983.06, y: 96.102947 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -26409,21 +25742,19 @@ const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 7, 214, 0.9)',
     
     data: [
-          { x: 400.88, y: 39.453119 },
-          { x: 800.71, y: 67.012888 },
-          { x: 1199.68, y: 77.051515 },
-          { x: 1599.82, y: 82.544641 },
-          { x: 1998.46, y: 86.073282 },
-          { x: 3996.60, y: 93.150161 },
-          { x: 5993.80, y: 95.327517 },
-          { x: 7997.74, y: 96.367102 }
+          { x: 422.06, y: 73.256656 },
+          { x: 820.91, y: 83.125793 },
+          { x: 1220.81, y: 87.141307 },
+          { x: 2018.77, y: 90.874444 },
+          { x: 4013.12, y: 94.337952 },
+          { x: 7010.38, y: 96.161222 }
     ]
 };
 
-const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -26431,58 +25762,12 @@ const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(138, 58, 5, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 400.86, y: 38.16693 },
-          { x: 800.81, y: 66.020666 },
-          { x: 1199.84, y: 76.519508 },
-          { x: 1600.51, y: 82.046961 },
-          { x: 1996.68, y: 85.677108 },
-          { x: 3998.13, y: 92.91461 },
-          { x: 5990.85, y: 95.155786 },
-          { x: 7998.44, y: 96.231314 }
-    ]
-};
-
-const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "star",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
-    
-    data: [
-          { x: 423.70, y: 71.708675 },
-          { x: 823.32, y: 81.903886 },
-          { x: 1222.48, y: 86.158606 },
-          { x: 1621.91, y: 88.542391 },
-          { x: 2022.27, y: 90.104193 },
-          { x: 4013.96, y: 93.947735 },
-          { x: 6023.83, y: 95.517108 },
-          { x: 7094.63, y: 96.083365 }
-    ]
-};
-
-const data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "star",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.70, y: 71.708675 },
-          { x: 823.32, y: 81.903886 },
-          { x: 1222.48, y: 86.158606 },
-          { x: 1621.91, y: 88.542391 },
-          { x: 2022.27, y: 90.104193 },
-          { x: 4013.96, y: 93.947735 },
-          { x: 6023.83, y: 95.517108 },
-          { x: 7094.63, y: 96.083365 }
+          { x: 422.06, y: 73.256656 },
+          { x: 820.91, y: 83.125793 },
+          { x: 1220.81, y: 87.141307 },
+          { x: 2018.77, y: 90.874444 },
+          { x: 4013.12, y: 94.337952 },
+          { x: 7010.38, y: 96.161222 }
     ]
 };
 
@@ -27767,14 +27052,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(43, 160, 43, 0.9)',
     
     data: [
-          { x: 654.90, y: 242.94 },
-          { x: 956.02, y: 241.44 },
-          { x: 1119.60, y: 238.33 },
-          { x: 1612.85, y: 227.51 },
-          { x: 2116.43, y: 238.08 },
-          { x: 4119.49, y: 238.39 },
-          { x: 6097.63, y: 236.14 },
-          { x: 8064.90, y: 234.02 }
+          { x: 732.19, y: 235.34 },
+          { x: 1052.31, y: 232.89 },
+          { x: 1223.55, y: 228.23 },
+          { x: 2122.83, y: 230.38 },
+          { x: 4124.03, y: 232.25 },
+          { x: 7097.26, y: 227.24 }
     ]
 };
 
@@ -27789,14 +27072,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(188, 188, 33, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 486.92, y: 476.79 },
-          { x: 868.11, y: 476.89 },
-          { x: 1112.27, y: 478.14 },
-          { x: 1614.77, y: 477.94 },
-          { x: 2120.54, y: 478.65 },
-          { x: 4130.98, y: 479.76 },
-          { x: 6106.60, y: 476.94 },
-          { x: 8044.22, y: 478.39 }
+          { x: 529.64, y: 468.35 },
+          { x: 878.68, y: 474.45 },
+          { x: 1114.24, y: 473.12 },
+          { x: 2119.89, y: 470.19 },
+          { x: 4134.68, y: 468.69 },
+          { x: 7083.85, y: 469.80 }
     ]
 };
 
@@ -27811,13 +27092,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(0, 66, 1, 0.9)',
     
     data: [
-          { x: 723.20, y: 140.22 },
-          { x: 939.61, y: 140.32 },
-          { x: 1323.37, y: 140.53 },
-          { x: 1737.15, y: 140.35 },
-          { x: 2160.72, y: 139.95 },
-          { x: 4219.87, y: 140.37 },
-          { x: 6257.86, y: 140.14 }
+          { x: 781.07, y: 134.89 },
+          { x: 1024.48, y: 135.16 },
+          { x: 1330.31, y: 135.22 },
+          { x: 2167.40, y: 134.39 },
+          { x: 4225.68, y: 135.52 },
+          { x: 7281.00, y: 135.34 }
     ]
 };
 
@@ -27832,14 +27112,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(15, 255, 168, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 532.92, y: 465.19 },
-          { x: 930.11, y: 466.14 },
-          { x: 1320.86, y: 467.77 },
-          { x: 1730.89, y: 467.53 },
-          { x: 2154.46, y: 469.07 },
-          { x: 4189.68, y: 466.52 },
-          { x: 6209.32, y: 468.69 },
-          { x: 8161.33, y: 467.77 }
+          { x: 552.37, y: 456.51 },
+          { x: 931.19, y: 456.64 },
+          { x: 1323.56, y: 457.06 },
+          { x: 2154.77, y: 463.29 },
+          { x: 4188.71, y: 466.14 },
+          { x: 7189.82, y: 467.29 }
     ]
 };
 
@@ -27854,13 +27132,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(107, 100, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 727.13, y: 144.36 },
-          { x: 946.41, y: 144.18 },
-          { x: 1317.39, y: 144.21 },
-          { x: 1735.93, y: 144.05 },
-          { x: 2162.77, y: 144.06 },
-          { x: 4224.83, y: 143.79 },
-          { x: 6265.23, y: 143.84 }
+          { x: 791.48, y: 143.39 },
+          { x: 1020.66, y: 143.27 },
+          { x: 1327.77, y: 143.13 },
+          { x: 2166.67, y: 143.13 },
+          { x: 4229.16, y: 142.99 },
+          { x: 7295.41, y: 142.99 }
     ]
 };
 
@@ -27875,13 +27152,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(140, 184, 147, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 533.95, y: 316.24 },
-          { x: 927.03, y: 317.78 },
-          { x: 1317.83, y: 316.87 },
-          { x: 1729.43, y: 318.45 },
-          { x: 2154.87, y: 319.84 },
-          { x: 4206.96, y: 314.44 },
-          { x: 6225.44, y: 314.34 }
+          { x: 550.99, y: 293.13 },
+          { x: 931.08, y: 291.27 },
+          { x: 1320.43, y: 295.42 },
+          { x: 2156.07, y: 286.79 },
+          { x: 4206.15, y: 279.62 },
+          { x: 7223.11, y: 286.24 }
     ]
 };
 
@@ -27896,14 +27172,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_quality = {
     borderColor: 'rgba(144, 255, 0, 0.9)',
     
     data: [
-          { x: 379.91, y: 210.55 },
-          { x: 902.76, y: 210.84 },
-          { x: 1280.83, y: 210.17 },
-          { x: 1706.73, y: 209.50 },
-          { x: 2137.90, y: 208.71 },
-          { x: 4177.61, y: 205.21 },
-          { x: 6187.60, y: 201.37 },
-          { x: 8170.41, y: 196.87 }
+          { x: 400.82, y: 201.88 },
+          { x: 909.78, y: 203.05 },
+          { x: 1293.39, y: 203.26 },
+          { x: 2145.02, y: 201.64 },
+          { x: 4177.25, y: 199.01 },
+          { x: 7179.18, y: 191.50 }
     ]
 };
 
@@ -27918,14 +27192,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_normal = {
     borderColor: 'rgba(172, 137, 68, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 392.45, y: 558.35 },
-          { x: 924.89, y: 565.15 },
-          { x: 1309.25, y: 566.41 },
-          { x: 1742.44, y: 563.68 },
-          { x: 2173.34, y: 561.38 },
-          { x: 4212.10, y: 563.40 },
-          { x: 6237.29, y: 561.94 },
-          { x: 8171.43, y: 560.48 }
+          { x: 426.97, y: 551.52 },
+          { x: 936.08, y: 558.69 },
+          { x: 1324.90, y: 558.42 },
+          { x: 2180.28, y: 558.83 },
+          { x: 4225.63, y: 560.14 },
+          { x: 7239.43, y: 559.11 }
     ]
 };
 
@@ -27940,14 +27212,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_quality = {
     borderColor: 'rgba(91, 52, 0, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 376.38, y: 210.51 },
-          { x: 900.55, y: 210.37 },
-          { x: 1266.72, y: 210.44 },
-          { x: 1699.09, y: 209.25 },
-          { x: 2128.61, y: 208.52 },
-          { x: 4159.97, y: 205.97 },
-          { x: 6173.68, y: 203.24 },
-          { x: 8164.44, y: 200.41 }
+          { x: 397.74, y: 208.56 },
+          { x: 908.98, y: 208.05 },
+          { x: 1288.34, y: 208.05 },
+          { x: 2138.65, y: 206.52 },
+          { x: 4169.47, y: 203.85 },
+          { x: 7160.41, y: 200.41 }
     ]
 };
 
@@ -27962,14 +27232,12 @@ const data_2_vbr_bitrate_fps_rtx4080_NVEncC_VBR_AV1_10bit_normal = {
     borderColor: 'rgba(255, 191, 96, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 392.39, y: 322.92 },
-          { x: 920.27, y: 319.10 },
-          { x: 1298.67, y: 316.24 },
-          { x: 1739.16, y: 318.54 },
-          { x: 2166.52, y: 316.74 },
-          { x: 4207.09, y: 314.07 },
-          { x: 6228.73, y: 314.94 },
-          { x: 8166.96, y: 312.29 }
+          { x: 425.23, y: 305.84 },
+          { x: 936.02, y: 304.82 },
+          { x: 1322.23, y: 306.52 },
+          { x: 2181.56, y: 302.89 },
+          { x: 4225.93, y: 303.98 },
+          { x: 7221.14, y: 292.92 }
     ]
 };
 
@@ -27984,12 +27252,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(1, 112, 0, 0.9)',
     
     data: [
-          { x: 673.36, y: 192.10 },
-          { x: 952.98, y: 191.94 },
-          { x: 1128.69, y: 189.59 },
-          { x: 2114.51, y: 189.70 },
-          { x: 4109.66, y: 189.99 },
-          { x: 7088.14, y: 186.03 }
+          { x: 731.00, y: 192.04 },
+          { x: 1052.26, y: 191.72 },
+          { x: 1211.87, y: 190.39 },
+          { x: 2122.27, y: 189.34 },
+          { x: 4124.58, y: 190.39 },
+          { x: 7096.09, y: 186.24 }
     ]
 };
 
@@ -28004,12 +27272,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(28, 214, 70, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 472.52, y: 418.54 },
-          { x: 869.26, y: 417.70 },
-          { x: 1112.70, y: 419.47 },
-          { x: 2120.48, y: 419.78 },
-          { x: 4133.98, y: 420.21 },
-          { x: 7088.82, y: 419.90 }
+          { x: 528.88, y: 417.85 },
+          { x: 880.08, y: 418.51 },
+          { x: 1115.06, y: 418.01 },
+          { x: 2120.45, y: 419.51 },
+          { x: 4136.63, y: 420.67 },
+          { x: 7087.63, y: 420.63 }
     ]
 };
 
@@ -28024,12 +27292,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(110, 137, 86, 0.9)',
     
     data: [
-          { x: 731.91, y: 112.94 },
-          { x: 941.81, y: 113.08 },
-          { x: 1322.98, y: 113.13 },
-          { x: 2162.21, y: 113.01 },
-          { x: 4218.57, y: 113.14 },
-          { x: 7270.68, y: 112.94 }
+          { x: 790.54, y: 112.88 },
+          { x: 1032.15, y: 113.12 },
+          { x: 1329.91, y: 112.94 },
+          { x: 2167.80, y: 113.15 },
+          { x: 4225.51, y: 113.00 },
+          { x: 7280.26, y: 113.06 }
     ]
 };
 
@@ -28044,12 +27312,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(138, 149, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 529.70, y: 394.55 },
-          { x: 931.36, y: 390.96 },
-          { x: 1321.59, y: 390.46 },
-          { x: 2155.24, y: 388.06 },
-          { x: 4187.46, y: 386.94 },
-          { x: 7190.83, y: 386.41 }
+          { x: 562.30, y: 394.62 },
+          { x: 932.58, y: 391.03 },
+          { x: 1323.75, y: 390.12 },
+          { x: 2155.19, y: 388.03 },
+          { x: 4187.72, y: 387.73 },
+          { x: 7191.69, y: 386.94 }
     ]
 };
 
@@ -28064,12 +27332,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(253, 223, 186, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 725.10, y: 115.07 },
-          { x: 941.94, y: 115.04 },
-          { x: 1315.82, y: 114.96 },
-          { x: 2162.49, y: 114.90 },
-          { x: 4227.96, y: 114.82 },
-          { x: 7290.64, y: 114.58 }
+          { x: 802.81, y: 115.38 },
+          { x: 1020.20, y: 115.27 },
+          { x: 1327.57, y: 115.46 },
+          { x: 2167.37, y: 115.15 },
+          { x: 4229.05, y: 115.28 },
+          { x: 7296.46, y: 115.09 }
     ]
 };
 
@@ -28084,12 +27352,12 @@ const data_2_vbr_bitrate_fps_rtx2070_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(255, 219, 0, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 532.59, y: 267.16 },
-          { x: 928.25, y: 265.90 },
-          { x: 1316.67, y: 264.86 },
-          { x: 2154.52, y: 268.36 },
-          { x: 4205.13, y: 266.85 },
-          { x: 7222.40, y: 266.08 }
+          { x: 549.91, y: 266.63 },
+          { x: 930.32, y: 266.69 },
+          { x: 1318.93, y: 261.06 },
+          { x: 2154.29, y: 265.58 },
+          { x: 4205.09, y: 267.96 },
+          { x: 7222.40, y: 263.81 }
     ]
 };
 
@@ -28104,14 +27372,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_H_264_quality = {
     borderColor: 'rgba(10, 93, 61, 0.9)',
     
     data: [
-          { x: 314.38, y: 228.85 },
-          { x: 851.03, y: 221.17 },
-          { x: 1105.54, y: 219.18 },
-          { x: 1609.47, y: 216.79 },
-          { x: 2114.09, y: 214.96 },
-          { x: 4128.76, y: 210.39 },
-          { x: 6122.00, y: 207.14 },
-          { x: 8094.30, y: 204.72 }
+          { x: 314.38, y: 227.98 },
+          { x: 851.03, y: 219.92 },
+          { x: 1105.54, y: 217.86 },
+          { x: 2114.09, y: 213.07 },
+          { x: 4128.76, y: 209.33 },
+          { x: 7116.20, y: 205.08 }
     ]
 };
 
@@ -28126,14 +27392,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_H_264_normal = {
     borderColor: 'rgba(165, 226, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 302.17, y: 337.04 },
-          { x: 845.70, y: 333.04 },
-          { x: 1098.30, y: 332.02 },
-          { x: 1600.09, y: 330.98 },
-          { x: 2104.45, y: 330.64 },
-          { x: 4111.71, y: 327.57 },
-          { x: 6083.36, y: 325.14 },
-          { x: 8055.71, y: 324.12 }
+          { x: 302.17, y: 340.62 },
+          { x: 845.70, y: 335.35 },
+          { x: 1098.30, y: 334.66 },
+          { x: 2104.45, y: 332.07 },
+          { x: 4111.71, y: 331.22 },
+          { x: 7078.66, y: 327.27 }
     ]
 };
 
@@ -28148,14 +27412,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(198, 198, 137, 0.9)',
     
     data: [
-          { x: 367.15, y: 226.59 },
-          { x: 891.59, y: 211.33 },
-          { x: 1274.59, y: 202.61 },
-          { x: 1690.76, y: 193.14 },
-          { x: 2108.75, y: 185.56 },
-          { x: 4127.97, y: 160.08 },
-          { x: 6149.08, y: 141.70 },
-          { x: 8141.28, y: 131.68 }
+          { x: 366.91, y: 227.70 },
+          { x: 891.27, y: 214.53 },
+          { x: 1275.66, y: 206.13 },
+          { x: 2108.24, y: 189.46 },
+          { x: 4128.88, y: 163.39 },
+          { x: 7125.02, y: 136.79 }
     ]
 };
 
@@ -28170,14 +27432,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(216, 156, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 386.51, y: 432.10 },
-          { x: 899.36, y: 434.74 },
-          { x: 1276.43, y: 435.03 },
-          { x: 1697.73, y: 436.12 },
-          { x: 2111.79, y: 434.78 },
-          { x: 4139.33, y: 426.47 },
-          { x: 6140.02, y: 415.07 },
-          { x: 8155.26, y: 407.09 }
+          { x: 386.51, y: 431.93 },
+          { x: 899.36, y: 431.93 },
+          { x: 1276.43, y: 435.66 },
+          { x: 2111.79, y: 433.09 },
+          { x: 4139.33, y: 427.55 },
+          { x: 7135.43, y: 410.35 }
     ]
 };
 
@@ -28192,14 +27452,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_quality = {
     borderColor: 'rgba(70, 73, 12, 0.9)',
     borderDash: [12,2],
     data: [
-          { x: 383.62, y: 217.03 },
-          { x: 889.96, y: 206.38 },
-          { x: 1263.72, y: 199.33 },
-          { x: 1684.72, y: 191.72 },
-          { x: 2102.22, y: 185.99 },
-          { x: 4127.05, y: 166.19 },
-          { x: 6132.19, y: 152.78 },
-          { x: 8147.86, y: 144.71 }
+          { x: 384.14, y: 216.43 },
+          { x: 889.96, y: 205.33 },
+          { x: 1262.80, y: 198.01 },
+          { x: 2101.98, y: 184.97 },
+          { x: 4127.09, y: 165.59 },
+          { x: 7149.89, y: 148.45 }
     ]
 };
 
@@ -28214,14 +27472,12 @@ const data_2_vbr_bitrate_fps_gtx1080_NVEncC_VBR_HEVC_10bit_normal = {
     borderColor: 'rgba(124, 107, 70, 0.9)',
     borderDash: [3,1],
     data: [
-          { x: 390.48, y: 305.96 },
-          { x: 897.60, y: 304.84 },
-          { x: 1276.12, y: 307.87 },
-          { x: 1691.21, y: 304.96 },
-          { x: 2120.32, y: 304.88 },
-          { x: 4137.68, y: 303.62 },
-          { x: 6148.77, y: 287.07 },
-          { x: 8149.62, y: 296.30 }
+          { x: 390.48, y: 287.72 },
+          { x: 897.60, y: 285.86 },
+          { x: 1276.12, y: 290.49 },
+          { x: 2120.32, y: 290.25 },
+          { x: 4137.68, y: 287.05 },
+          { x: 7155.60, y: 290.64 }
     ]
 };
 
@@ -28345,8 +27601,8 @@ const data_2_vbr_bitrate_fps_rx9070xt_VCEEncC_VBR_AV1_normal = {
     ]
 };
 
-const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality = {
-    label: "rx5500xt VCE VBR H.264 quality",
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_quality = {
+    label: "rx7900xt VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -28356,17 +27612,17 @@ const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(184, 0, 128, 0.9)',
     
     data: [
-          { x: 656.22, y: 95.76 },
-          { x: 801.53, y: 96.32 },
-          { x: 1196.61, y: 96.24 },
-          { x: 1995.08, y: 96.35 },
-          { x: 3987.23, y: 95.98 },
-          { x: 6409.05, y: 96.04 }
+          { x: 501.10, y: 132.95 },
+          { x: 799.35, y: 133.97 },
+          { x: 1193.85, y: 134.74 },
+          { x: 1990.58, y: 134.03 },
+          { x: 3933.94, y: 134.26 },
+          { x: 6341.72, y: 133.68 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal = {
-    label: "rx5500xt VCE VBR H.264 normal",
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_normal = {
+    label: "rx7900xt VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -28376,17 +27632,17 @@ const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(124, 1, 0, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.60, y: 201.60 },
-          { x: 799.39, y: 201.68 },
-          { x: 1198.28, y: 201.34 },
-          { x: 1997.30, y: 201.76 },
-          { x: 3996.62, y: 201.27 },
-          { x: 6982.99, y: 201.64 }
+          { x: 420.78, y: 396.41 },
+          { x: 801.97, y: 398.53 },
+          { x: 1202.14, y: 399.05 },
+          { x: 2002.60, y: 399.05 },
+          { x: 3968.95, y: 398.49 },
+          { x: 6998.01, y: 397.24 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality = {
-    label: "rx5500xt VCE VBR HEVC quality",
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_quality = {
+    label: "rx7900xt VCE VBR HEVC quality",
     showLine: true,
     pointStyle: "crossRot",
     hidden: false,
@@ -28396,17 +27652,17 @@ const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 191, 242, 0.9)',
     
     data: [
-          { x: 410.03, y: 117.73 },
-          { x: 796.06, y: 117.73 },
-          { x: 1194.38, y: 117.74 },
-          { x: 1997.76, y: 117.04 },
-          { x: 3845.36, y: 117.44 },
-          { x: 5714.95, y: 117.52 }
+          { x: 455.38, y: 110.69 },
+          { x: 798.63, y: 110.69 },
+          { x: 1198.05, y: 110.64 },
+          { x: 1997.61, y: 110.62 },
+          { x: 3954.96, y: 110.65 },
+          { x: 5773.18, y: 110.75 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal = {
-    label: "rx5500xt VCE VBR HEVC normal",
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_normal = {
+    label: "rx7900xt VCE VBR HEVC normal",
     showLine: true,
     pointStyle: "crossRot",
     hidden: true,
@@ -28416,12 +27672,52 @@ const data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(255, 110, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 421.69, y: 211.18 },
-          { x: 819.80, y: 210.66 },
-          { x: 1220.45, y: 210.54 },
-          { x: 2018.18, y: 210.53 },
-          { x: 4012.48, y: 209.80 },
-          { x: 7005.77, y: 208.16 }
+          { x: 427.70, y: 705.75 },
+          { x: 828.90, y: 702.49 },
+          { x: 1238.81, y: 700.86 },
+          { x: 2024.00, y: 700.00 },
+          { x: 3940.85, y: 697.00 },
+          { x: 7027.82, y: 694.02 }
+    ]
+};
+
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_quality = {
+    label: "rx7900xt VCE VBR AV1 quality",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: false,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(255, 1, 140, 0.9)',
+    
+    data: [
+          { x: 427.46, y: 29.62 },
+          { x: 797.70, y: 45.52 },
+          { x: 1197.25, y: 38.28 },
+          { x: 1999.40, y: 45.52 },
+          { x: 4001.60, y: 70.47 },
+          { x: 6641.71, y: 45.54 }
+    ]
+};
+
+const data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_normal = {
+    label: "rx7900xt VCE VBR AV1 normal",
+    showLine: true,
+    pointStyle: "crossRot",
+    hidden: true,
+    lineTension: 0.4,
+    borderWidth: 1.5,
+    backgroundColor: 'rgba(255, 255, 255, 0.0)',
+    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderDash: [4,2],
+    data: [
+          { x: 410.86, y: 833.79 },
+          { x: 810.77, y: 833.64 },
+          { x: 1184.69, y: 834.71 },
+          { x: 1967.60, y: 833.49 },
+          { x: 3907.65, y: 831.96 },
+          { x: 6827.12, y: 833.49 }
     ]
 };
 
@@ -28433,15 +27729,15 @@ const data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 1, 140, 0.9)',
+    borderColor: 'rgba(165, 96, 137, 0.9)',
     
     data: [
-          { x: 399.56, y: 42.87 },
-          { x: 799.16, y: 42.88 },
-          { x: 1198.59, y: 42.87 },
-          { x: 1997.39, y: 42.87 },
-          { x: 3995.59, y: 42.86 },
-          { x: 6979.66, y: 42.83 }
+          { x: 399.56, y: 42.84 },
+          { x: 799.16, y: 42.87 },
+          { x: 1198.59, y: 42.75 },
+          { x: 1997.39, y: 42.81 },
+          { x: 3995.59, y: 42.88 },
+          { x: 6979.66, y: 42.84 }
     ]
 };
 
@@ -28453,15 +27749,15 @@ const data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(182, 86, 0, 0.9)',
+    borderColor: 'rgba(188, 124, 117, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 399.52, y: 81.82 },
-          { x: 799.40, y: 81.94 },
-          { x: 1198.35, y: 81.99 },
-          { x: 1997.35, y: 81.96 },
-          { x: 3996.77, y: 81.71 },
-          { x: 6983.03, y: 81.46 }
+          { x: 399.52, y: 81.81 },
+          { x: 799.40, y: 81.67 },
+          { x: 1198.35, y: 81.92 },
+          { x: 1997.35, y: 81.86 },
+          { x: 3996.77, y: 81.66 },
+          { x: 6983.03, y: 81.41 }
     ]
 };
 
@@ -28473,15 +27769,15 @@ const data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_quality = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(165, 96, 137, 0.9)',
+    borderColor: 'rgba(138, 40, 68, 0.9)',
     
     data: [
-          { x: 423.56, y: 81.27 },
-          { x: 823.81, y: 81.22 },
-          { x: 1223.16, y: 81.15 },
-          { x: 2023.62, y: 81.32 },
-          { x: 4022.98, y: 81.69 },
-          { x: 6595.99, y: 82.18 }
+          { x: 423.56, y: 74.04 },
+          { x: 823.81, y: 73.27 },
+          { x: 1223.16, y: 74.75 },
+          { x: 2023.62, y: 75.05 },
+          { x: 4022.98, y: 75.17 },
+          { x: 6595.99, y: 76.02 }
     ]
 };
 
@@ -28493,60 +27789,20 @@ const data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_normal = {
     lineTension: 0.4,
     borderWidth: 1.5,
     backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(188, 124, 117, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.56, y: 81.17 },
-          { x: 823.81, y: 81.16 },
-          { x: 1223.16, y: 81.10 },
-          { x: 2023.62, y: 81.32 },
-          { x: 4022.98, y: 81.69 },
-          { x: 6595.99, y: 82.13 }
-    ]
-};
-
-const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_H_264_quality = {
-    label: "r9 9950X VCE VBR H.264 quality",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(138, 40, 68, 0.9)',
-    
-    data: [
-          { x: 501.12, y: 51.01 },
-          { x: 799.35, y: 50.94 },
-          { x: 1193.81, y: 51.02 },
-          { x: 1990.55, y: 51.01 },
-          { x: 3933.99, y: 50.99 },
-          { x: 6341.60, y: 50.91 }
-    ]
-};
-
-const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_H_264_normal = {
-    label: "r9 9950X VCE VBR H.264 normal",
-    showLine: true,
-    pointStyle: "rectRot",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
     borderColor: 'rgba(98, 59, 65, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 402.17, y: 133.50 },
-          { x: 804.02, y: 133.44 },
-          { x: 1202.39, y: 133.28 },
-          { x: 2001.65, y: 133.03 },
-          { x: 3628.80, y: 132.75 },
-          { x: 6351.55, y: 132.60 }
+          { x: 423.56, y: 74.40 },
+          { x: 823.81, y: 74.73 },
+          { x: 1223.16, y: 75.07 },
+          { x: 2023.62, y: 74.70 },
+          { x: 4022.98, y: 75.33 },
+          { x: 6595.99, y: 75.09 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_quality = {
-    label: "r9 9950X VCE VBR HEVC quality",
+const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
+    label: "r3 3200G VCE VBR H.264 quality",
     showLine: true,
     pointStyle: "rectRot",
     hidden: false,
@@ -28556,17 +27812,17 @@ const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_quality = {
     borderColor: 'rgba(255, 158, 181, 0.9)',
     
     data: [
-          { x: 418.49, y: 49.77 },
-          { x: 796.84, y: 49.80 },
-          { x: 1195.77, y: 49.89 },
-          { x: 1997.59, y: 49.90 },
-          { x: 3940.12, y: 49.81 },
-          { x: 5736.76, y: 49.51 }
+          { x: 399.44, y: 74.40 },
+          { x: 799.28, y: 74.44 },
+          { x: 1198.25, y: 74.39 },
+          { x: 1997.02, y: 74.41 },
+          { x: 3995.16, y: 74.45 },
+          { x: 6978.95, y: 74.39 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_normal = {
-    label: "r9 9950X VCE VBR HEVC normal",
+const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
+    label: "r3 3200G VCE VBR H.264 normal",
     showLine: true,
     pointStyle: "rectRot",
     hidden: true,
@@ -28576,19 +27832,19 @@ const data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_normal = {
     borderColor: 'rgba(205, 79, 107, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 422.54, y: 211.23 },
-          { x: 823.24, y: 210.96 },
-          { x: 1223.89, y: 211.82 },
-          { x: 2025.24, y: 210.20 },
-          { x: 4020.37, y: 210.15 },
-          { x: 7020.21, y: 209.50 }
+          { x: 399.42, y: 118.87 },
+          { x: 799.37, y: 118.86 },
+          { x: 1198.40, y: 118.94 },
+          { x: 1995.24, y: 118.76 },
+          { x: 3996.69, y: 118.96 },
+          { x: 6983.06, y: 118.90 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
-    label: "r3 3200G VCE VBR H.264 quality",
+const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality = {
+    label: "r3 3200G VCE VBR HEVC quality",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: false,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -28596,21 +27852,19 @@ const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality = {
     borderColor: 'rgba(255, 7, 214, 0.9)',
     
     data: [
-          { x: 400.88, y: 74.98 },
-          { x: 800.71, y: 75.04 },
-          { x: 1199.68, y: 75.00 },
-          { x: 1599.82, y: 75.12 },
-          { x: 1998.46, y: 75.01 },
-          { x: 3996.60, y: 75.02 },
-          { x: 5993.80, y: 75.08 },
-          { x: 7997.74, y: 75.06 }
+          { x: 422.06, y: 132.33 },
+          { x: 820.91, y: 132.35 },
+          { x: 1220.81, y: 132.49 },
+          { x: 2018.77, y: 132.38 },
+          { x: 4013.12, y: 131.79 },
+          { x: 7010.38, y: 130.83 }
     ]
 };
 
-const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
-    label: "r3 3200G VCE VBR H.264 normal",
+const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_normal = {
+    label: "r3 3200G VCE VBR HEVC normal",
     showLine: true,
-    pointStyle: "star",
+    pointStyle: "rectRot",
     hidden: true,
     lineTension: 0.4,
     borderWidth: 1.5,
@@ -28618,58 +27872,12 @@ const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal = {
     borderColor: 'rgba(138, 58, 5, 0.9)',
     borderDash: [4,2],
     data: [
-          { x: 400.86, y: 119.66 },
-          { x: 800.81, y: 119.88 },
-          { x: 1199.84, y: 119.75 },
-          { x: 1600.51, y: 119.76 },
-          { x: 1996.68, y: 119.78 },
-          { x: 3998.13, y: 119.71 },
-          { x: 5990.85, y: 119.63 },
-          { x: 7998.44, y: 119.68 }
-    ]
-};
-
-const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality = {
-    label: "r3 3200G VCE VBR HEVC quality",
-    showLine: true,
-    pointStyle: "star",
-    hidden: false,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(126, 61, 112, 0.9)',
-    
-    data: [
-          { x: 423.70, y: 132.92 },
-          { x: 823.32, y: 133.11 },
-          { x: 1222.48, y: 133.20 },
-          { x: 1621.91, y: 133.13 },
-          { x: 2022.27, y: 133.23 },
-          { x: 4013.96, y: 132.43 },
-          { x: 6023.83, y: 131.75 },
-          { x: 7094.63, y: 131.63 }
-    ]
-};
-
-const data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_normal = {
-    label: "r3 3200G VCE VBR HEVC normal",
-    showLine: true,
-    pointStyle: "star",
-    hidden: true,
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba(255, 73, 1, 0.9)',
-    borderDash: [4,2],
-    data: [
-          { x: 423.70, y: 132.97 },
-          { x: 823.32, y: 133.14 },
-          { x: 1222.48, y: 133.18 },
-          { x: 1621.91, y: 133.11 },
-          { x: 2022.27, y: 133.07 },
-          { x: 4013.96, y: 132.37 },
-          { x: 6023.83, y: 131.98 },
-          { x: 7094.63, y: 131.77 }
+          { x: 422.06, y: 132.24 },
+          { x: 820.91, y: 132.52 },
+          { x: 1220.81, y: 132.47 },
+          { x: 2018.77, y: 132.37 },
+          { x: 4013.12, y: 131.72 },
+          { x: 7010.38, y: 130.71 }
     ]
 };
 
@@ -28766,18 +27974,16 @@ const datasets_2_vbr_bitrate_ssim = [
   data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_AV1_quality,
   data_2_vbr_bitrate_ssim_rx9070xt_VCEEncC_VBR_AV1_normal,
-  data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_ssim_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_ssim_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_quality,
   data_2_vbr_bitrate_ssim_rx550_VCEEncC_VBR_HEVC_normal,
-  data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_ssim_r9_9950X_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_ssim_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -28877,18 +28083,16 @@ const datasets_2_vbr_bitrate_vmaf = [
   data_2_vbr_bitrate_vmaf_rx9070xt_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_vmaf_rx9070xt_VCEEncC_VBR_AV1_quality,
   data_2_vbr_bitrate_vmaf_rx9070xt_VCEEncC_VBR_AV1_normal,
-  data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_vmaf_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_vmaf_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_quality,
   data_2_vbr_bitrate_vmaf_rx550_VCEEncC_VBR_HEVC_normal,
-  data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_vmaf_r9_9950X_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_vmaf_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -28988,18 +28192,16 @@ const datasets_2_vbr_bitrate_fps = [
   data_2_vbr_bitrate_fps_rx9070xt_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_fps_rx9070xt_VCEEncC_VBR_AV1_quality,
   data_2_vbr_bitrate_fps_rx9070xt_VCEEncC_VBR_AV1_normal,
-  data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_fps_rx5500xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_quality,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_H_264_normal,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_quality,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_HEVC_normal,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_quality,
+  data_2_vbr_bitrate_fps_rx7900xt_VCEEncC_VBR_AV1_normal,
   data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_quality,
   data_2_vbr_bitrate_fps_rx550_VCEEncC_VBR_HEVC_normal,
-  data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_H_264_quality,
-  data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_H_264_normal,
-  data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_quality,
-  data_2_vbr_bitrate_fps_r9_9950X_VCEEncC_VBR_HEVC_normal,
   data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_quality,
   data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_H_264_normal,
   data_2_vbr_bitrate_fps_r3_3200G_VCEEncC_VBR_HEVC_quality,
@@ -29027,7 +28229,6 @@ const encoders_2_vbr = [
       "gtx950 NVENC",
       "rx9070xt VCE",
       "rx7900xt VCE",
-      "rx5500xt VCE",
       "rx550 VCE",
       "r9 9950X VCE",
       "r3 3200G VCE"
