@@ -22,7 +22,7 @@ vq_parse.py -o vq_results.js -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -replace " FF , " ^
   ",ssim1_x264_log_RIGAYA7-PC_3932_20250707_174148.txt" ^
   ",ssim1_x265_log_RIGAYA7-PC_3932_20250707_174148.txt" ^
-  ",ssim1_svtav1_log_RIGAYA7-PC_11596_20250708_080903.txt" ^
+  ",ssim1_svtav1_log_RIGAYA7-PC_1300_20250729_122026.txt" ^
   "u7 258v,ssim1_258v_log_RIGAYA7-PC_20104_20250704_161237.txt" ^
   "u5 245k,ssim1_245k_log_RIGAYA7-PC_3704_20250705_105704.txt" ^
   "Arc B580,ssim1_b580_log_RIGAYA2-PC_19072_20250704_102255.txt" ^
@@ -72,7 +72,7 @@ vq_parse.py -o vq_results.js -target 1 -bitrate-max 8000 -bitrate-max-cut 8200 -
   -replace " FF , " ^
   ",ssim1_x264_log_RIGAYA7-PC_3932_20250707_174148.txt" ^
   ",ssim1_x265_log_RIGAYA7-PC_3932_20250707_174148.txt" ^
-  ",ssim1_svtav1_log_RIGAYA7-PC_11596_20250708_080903.txt" ^
+  ",ssim1_svtav1_log_RIGAYA7-PC_1300_20250729_122026.txt" ^
   "u7 258v,ssim1_258v_log_RIGAYA7-PC_20104_20250704_161237.txt" ^
   "u5 245k,ssim1_245k_log_RIGAYA7-PC_3704_20250705_105704.txt" ^
   "Arc B580,ssim1_b580_log_RIGAYA2-PC_19072_20250704_102255.txt" ^
@@ -121,7 +121,7 @@ vq_parse.py -o vq_results.js -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 ^
   -replace " FF , " ^
   ",ssim2_x264_log_RIGAYA7-PC_7700_20250707_203712.txt" ^
   ",ssim2_x265_log_RIGAYA7-PC_7700_20250707_203712.txt" ^
-  ",ssim2_svtav1_log_RIGAYA7-PC_17780_20250708_091911.txt" ^
+  ",ssim2_svtav1_log_RIGAYA7-PC_16236_20250729_131723.txt" ^
   "u7 258v,ssim2_258v_log_RIGAYA7-PC_14688_20250704_165905.txt" ^
   "u5 245k,ssim2_245k_log_RIGAYA7-PC_7140_20250705_113837.txt" ^
   "Arc B580,ssim2_b580_log_RIGAYA2-PC_23384_20250704_133017.txt" ^
@@ -172,7 +172,7 @@ vq_parse.py -o vq_results.js -target 2 -bitrate-max 8000 -bitrate-max-cut 8200 -
   -replace " FF , " ^
   ",ssim2_x264_log_RIGAYA7-PC_7700_20250707_203712.txt" ^
   ",ssim2_x265_log_RIGAYA7-PC_7700_20250707_203712.txt" ^
-  ",ssim2_svtav1_log_RIGAYA7-PC_17780_20250708_091911.txt" ^
+  ",ssim2_svtav1_log_RIGAYA7-PC_16236_20250729_131723.txt" ^
   "u7 258v,ssim2_258v_log_RIGAYA7-PC_14688_20250704_165905.txt" ^
   "u5 245k,ssim2_245k_log_RIGAYA7-PC_7140_20250705_113837.txt" ^
   "Arc B580,ssim2_b580_log_RIGAYA2-PC_23384_20250704_133017.txt" ^
