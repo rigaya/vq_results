@@ -7,7 +7,7 @@
   <link href="vq_results.css" rel="stylesheet" type="text/css">
   <link href="vq_results_tabs.css" rel="stylesheet" type="text/css">
   <link href="vq_results_toggle.css" rel="stylesheet" type="text/css">
-  <title>画質比較 (2025.07)</title>
+  <title>画質比較 (2025.10)</title>
   <script>
     window.onload = function() {
       const url = new URL(window.location.href);
@@ -57,6 +57,8 @@
     <li>x264 r3191</li>
     <li>x265 4.1+131</li>
     <li>SVT-AV1 3.1.0</li>
+    <li>libvpx-vp9 1.15.2</li>
+    <li>VVenC 1.13.1</li>
     <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.92</li>
     <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 8.08</li>
     <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 8.37</li>
@@ -109,6 +111,16 @@
       --crf [x] [--preset [4-10]] [--input-depth 10]
     </dd>
   
+    <dt>libvpx-vp9</dt>
+    <dd>
+        -c:v libvpx-vp9 -row-mt 1 -deadline good -g 300 -cpu-used [0,3] -crf [n] -b:v 0
+    </dd>
+  
+    <dt>VVenC</dt>
+    <dd>
+        --preset [medium,faster] --refreshsec 5 --qp [n] --qpa 1
+    </dd>
+  
     <dt>QSVEncC</dt>
     <dd>
       <div class=tableContainer>
@@ -157,7 +169,11 @@
       </div>
     </dd>
   </dl>
-
+  <p><small class="langChange" lang="ja">デフォルトのGOP長はエンコーダによって異なりますが、一般にGOP長が5秒以上になると圧縮率への影響は軽微であるため、デフォルトで5秒を超える場合は調整していません。
+    また、ソフトウェアエンコーダはキーフレームの動的挿入を行いますが、そのままにしています（これを無効化して使用することはさほどないでしょう）。</small></p>
+  <p><small class="langChange" lang="en">The default GOP length varies by encoder. In general, when the GOP length is 5 seconds or longer, 
+    the impact on compression efficiency is small enough, so values above 5 seconds are left unchanged.
+    Software encoders also perform dynamic keyframe insertion, but it is left enabled as it's impact is also small enough in this test (it is generally not turned off).</small></p>
   <h2>
     <p class="langChange" lang="ja">実行環境</p>
     <p class="langChange" lang="en">Test Environments</p>

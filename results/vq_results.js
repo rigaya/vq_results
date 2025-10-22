@@ -3,8 +3,8 @@ var aspect_ratio_bitrate_ms_ssim = 1.0;
 var aspect_ratio_bitrate_vmaf = 1.0;
 var aspect_ratio_bitrate_fps = 1.0;
 
-var ctx_t1_20250803_bitrate_ssim_data = document.getElementById('chart_t1_20250803_bitrate_ssim');
-const chart_t1_20250803_bitrate_ssim_data = new Chart(ctx_t1_20250803_bitrate_ssim_data,
+var ctx_t1_20251022_bitrate_ssim_data = document.getElementById('chart_t1_20251022_bitrate_ssim');
+const chart_t1_20251022_bitrate_ssim_data = new Chart(ctx_t1_20251022_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -80,8 +80,8 @@ const chart_t1_20250803_bitrate_ssim_data = new Chart(ctx_t1_20250803_bitrate_ss
 
 });
 
-var ctx_t1_20250803_bitrate_vmaf_data = document.getElementById('chart_t1_20250803_bitrate_vmaf');
-const chart_t1_20250803_bitrate_vmaf_data = new Chart(ctx_t1_20250803_bitrate_vmaf_data,
+var ctx_t1_20251022_bitrate_vmaf_data = document.getElementById('chart_t1_20251022_bitrate_vmaf');
+const chart_t1_20251022_bitrate_vmaf_data = new Chart(ctx_t1_20251022_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -157,8 +157,8 @@ const chart_t1_20250803_bitrate_vmaf_data = new Chart(ctx_t1_20250803_bitrate_vm
 
 });
 
-var ctx_t1_20250803_bitrate_fps_data = document.getElementById('chart_t1_20250803_bitrate_fps');
-const chart_t1_20250803_bitrate_fps_data = new Chart(ctx_t1_20250803_bitrate_fps_data,
+var ctx_t1_20251022_bitrate_fps_data = document.getElementById('chart_t1_20251022_bitrate_fps');
+const chart_t1_20251022_bitrate_fps_data = new Chart(ctx_t1_20251022_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -234,8 +234,8 @@ const chart_t1_20250803_bitrate_fps_data = new Chart(ctx_t1_20250803_bitrate_fps
 
 });
 
-var ctx_t1_20250803_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20250803_vbr_bitrate_ssim');
-const chart_t1_20250803_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250803_vbr_bitrate_ssim_data,
+var ctx_t1_20251022_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20251022_vbr_bitrate_ssim');
+const chart_t1_20251022_vbr_bitrate_ssim_data = new Chart(ctx_t1_20251022_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -311,8 +311,8 @@ const chart_t1_20250803_vbr_bitrate_ssim_data = new Chart(ctx_t1_20250803_vbr_bi
 
 });
 
-var ctx_t1_20250803_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20250803_vbr_bitrate_vmaf');
-const chart_t1_20250803_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250803_vbr_bitrate_vmaf_data,
+var ctx_t1_20251022_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20251022_vbr_bitrate_vmaf');
+const chart_t1_20251022_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20251022_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -388,8 +388,8 @@ const chart_t1_20250803_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20250803_vbr_bi
 
 });
 
-var ctx_t1_20250803_vbr_bitrate_fps_data = document.getElementById('chart_t1_20250803_vbr_bitrate_fps');
-const chart_t1_20250803_vbr_bitrate_fps_data = new Chart(ctx_t1_20250803_vbr_bitrate_fps_data,
+var ctx_t1_20251022_vbr_bitrate_fps_data = document.getElementById('chart_t1_20251022_vbr_bitrate_fps');
+const chart_t1_20251022_vbr_bitrate_fps_data = new Chart(ctx_t1_20251022_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -465,8 +465,8 @@ const chart_t1_20250803_vbr_bitrate_fps_data = new Chart(ctx_t1_20250803_vbr_bit
 
 });
 
-var ctx_t2_20250803_bitrate_ssim_data = document.getElementById('chart_t2_20250803_bitrate_ssim');
-const chart_t2_20250803_bitrate_ssim_data = new Chart(ctx_t2_20250803_bitrate_ssim_data,
+var ctx_t2_20251022_bitrate_ssim_data = document.getElementById('chart_t2_20251022_bitrate_ssim');
+const chart_t2_20251022_bitrate_ssim_data = new Chart(ctx_t2_20251022_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -542,8 +542,8 @@ const chart_t2_20250803_bitrate_ssim_data = new Chart(ctx_t2_20250803_bitrate_ss
 
 });
 
-var ctx_t2_20250803_bitrate_vmaf_data = document.getElementById('chart_t2_20250803_bitrate_vmaf');
-const chart_t2_20250803_bitrate_vmaf_data = new Chart(ctx_t2_20250803_bitrate_vmaf_data,
+var ctx_t2_20251022_bitrate_vmaf_data = document.getElementById('chart_t2_20251022_bitrate_vmaf');
+const chart_t2_20251022_bitrate_vmaf_data = new Chart(ctx_t2_20251022_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -619,8 +619,8 @@ const chart_t2_20250803_bitrate_vmaf_data = new Chart(ctx_t2_20250803_bitrate_vm
 
 });
 
-var ctx_t2_20250803_bitrate_fps_data = document.getElementById('chart_t2_20250803_bitrate_fps');
-const chart_t2_20250803_bitrate_fps_data = new Chart(ctx_t2_20250803_bitrate_fps_data,
+var ctx_t2_20251022_bitrate_fps_data = document.getElementById('chart_t2_20251022_bitrate_fps');
+const chart_t2_20251022_bitrate_fps_data = new Chart(ctx_t2_20251022_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -696,8 +696,8 @@ const chart_t2_20250803_bitrate_fps_data = new Chart(ctx_t2_20250803_bitrate_fps
 
 });
 
-var ctx_t2_20250803_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20250803_vbr_bitrate_ssim');
-const chart_t2_20250803_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250803_vbr_bitrate_ssim_data,
+var ctx_t2_20251022_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20251022_vbr_bitrate_ssim');
+const chart_t2_20251022_vbr_bitrate_ssim_data = new Chart(ctx_t2_20251022_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -773,8 +773,8 @@ const chart_t2_20250803_vbr_bitrate_ssim_data = new Chart(ctx_t2_20250803_vbr_bi
 
 });
 
-var ctx_t2_20250803_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20250803_vbr_bitrate_vmaf');
-const chart_t2_20250803_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250803_vbr_bitrate_vmaf_data,
+var ctx_t2_20251022_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20251022_vbr_bitrate_vmaf');
+const chart_t2_20251022_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20251022_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -850,8 +850,8 @@ const chart_t2_20250803_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20250803_vbr_bi
 
 });
 
-var ctx_t2_20250803_vbr_bitrate_fps_data = document.getElementById('chart_t2_20250803_vbr_bitrate_fps');
-const chart_t2_20250803_vbr_bitrate_fps_data = new Chart(ctx_t2_20250803_vbr_bitrate_fps_data,
+var ctx_t2_20251022_vbr_bitrate_fps_data = document.getElementById('chart_t2_20251022_vbr_bitrate_fps');
+const chart_t2_20251022_vbr_bitrate_fps_data = new Chart(ctx_t2_20251022_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -929,18 +929,18 @@ const chart_t2_20250803_vbr_bitrate_fps_data = new Chart(ctx_t2_20250803_vbr_bit
 
 
 window.all_charts = [
-    chart_t1_20250803_bitrate_ssim_data,
-    chart_t1_20250803_bitrate_vmaf_data,
-    chart_t1_20250803_bitrate_fps_data,
-    chart_t1_20250803_vbr_bitrate_ssim_data,
-    chart_t1_20250803_vbr_bitrate_vmaf_data,
-    chart_t1_20250803_vbr_bitrate_fps_data,
-    chart_t2_20250803_bitrate_ssim_data,
-    chart_t2_20250803_bitrate_vmaf_data,
-    chart_t2_20250803_bitrate_fps_data,
-    chart_t2_20250803_vbr_bitrate_ssim_data,
-    chart_t2_20250803_vbr_bitrate_vmaf_data,
-    chart_t2_20250803_vbr_bitrate_fps_data
+    chart_t1_20251022_bitrate_ssim_data,
+    chart_t1_20251022_bitrate_vmaf_data,
+    chart_t1_20251022_bitrate_fps_data,
+    chart_t1_20251022_vbr_bitrate_ssim_data,
+    chart_t1_20251022_vbr_bitrate_vmaf_data,
+    chart_t1_20251022_vbr_bitrate_fps_data,
+    chart_t2_20251022_bitrate_ssim_data,
+    chart_t2_20251022_bitrate_vmaf_data,
+    chart_t2_20251022_bitrate_fps_data,
+    chart_t2_20251022_vbr_bitrate_ssim_data,
+    chart_t2_20251022_vbr_bitrate_vmaf_data,
+    chart_t2_20251022_vbr_bitrate_fps_data
 ];
 
 window.all_charts.forEach(chart => {
