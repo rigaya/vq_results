@@ -45,7 +45,7 @@ function get_rule_for_checkbox(check_name) {
         keywords.push("libvpx");
         presets = enabled_presets_cpu;
     } else if (check_name == "check_vvenc") {
-        keywords.push("vvenc");
+        keywords.push("VVenC");
         presets = enabled_presets_cpu;
     } else if (check_name == "check_qsv_h264") {
         keywords.push("QSVEncC H.264", "QSVEncC VBR H.264", "QSV H.264", "QSV VBR H.264");

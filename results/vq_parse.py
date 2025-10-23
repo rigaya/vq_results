@@ -325,7 +325,9 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
 
         for set_name, set_data in enc_set_data.items():
             if ('VBR' in set_name) == vbr_mode:
-                original_label = f"{encoder} {set_name.replace('_preset_', ' P')}"
+                replaced_set_name = re.sub(r'_preset_(?=\d)', ' P', set_name)
+                replaced_set_name = replaced_set_name.replace('_preset_', ' ')
+                original_label = f"{encoder} {replaced_set_name}"
                 if check_is_target(original_label, drop_list):
                     continue
 
