@@ -13,11 +13,13 @@ class EncodeData:
     bitrate = ''
     psnr_y  = ''
     ssim    = ''
-    ms_ssim    = ''
+    ms_ssim = ''
     vmaf    = ''
+    ssimulacra2 = ''
+    butteraugli = ''
     fps     = ''
 
-    def __init__(self, encoder_, set_, quality_, bitrate_, psnr_y_, ssim_, ms_ssim_, vmaf_, fps_):
+    def __init__(self, encoder_, set_, quality_, bitrate_, psnr_y_, ssim_, ms_ssim_, vmaf_, ssimulacra2_, butteraugli_, fps_):
         self.encoder = encoder_
         self.set     = set_
         self.quality = quality_
@@ -26,6 +28,8 @@ class EncodeData:
         self.ssim    = ssim_
         self.ms_ssim = ms_ssim_
         self.vmaf    = vmaf_
+        self.ssimulacra2 = ssimulacra2_
+        self.butteraugli = butteraugli_
         self.fps     = fps_
         
     def get_value(self, param):
@@ -45,6 +49,10 @@ class EncodeData:
             return self.ms_ssim
         if param == 'vmaf':
             return self.vmaf
+        if param == 'ssimulacra2':
+            return self.ssimulacra2
+        if param == 'butteraugli':
+            return self.butteraugli
         if param == 'fps':
             return self.fps
         return ''
@@ -53,7 +61,9 @@ def read_file(dataname, filename, dict_enc_set_data):
     with open(filename,'r') as f:
         for line in f.readlines():
             line_data = line.split(',')
-            if len(line_data) >= 7 and len(line_data[0].strip()) > 0:
+            # 期待する列:
+            # 0:encoder,1:set,2:quality,3:bitrate,4:psnr_y,5:ssim,6:ms_ssim,7:vmaf,8:ssimulacra2,9:butteraugli,10:fps
+            if len(line_data) >= 11 and len(line_data[0].strip()) > 0:
                 encoder = dataname + ' ' + line_data[0].strip()
                 set     = line_data[1].strip()
                 quality = line_data[2].strip()
@@ -62,7 +72,9 @@ def read_file(dataname, filename, dict_enc_set_data):
                 ssim    = line_data[5].strip()
                 ms_ssim = line_data[6].strip()
                 vmaf    = line_data[7].strip()
-                fps     = line_data[8].strip()
+                ssimulacra2 = line_data[8].strip()
+                butteraugli = line_data[9].strip()
+                fps     = line_data[10].strip()
 
                 if not encoder in dict_enc_set_data:
                     dict_enc_set_data[encoder] = dict()
@@ -72,7 +84,7 @@ def read_file(dataname, filename, dict_enc_set_data):
                     enc_set_data[set] = []
                     
                 set_data = enc_set_data[set]
-                set_data.append(EncodeData(encoder, set, quality, bitrate, psnr_y, ssim, ms_ssim, vmaf, fps))
+                set_data.append(EncodeData(encoder, set, quality, bitrate, psnr_y, ssim, ms_ssim, vmaf, ssimulacra2, butteraugli, fps))
             
     return dict_enc_set_data
 
@@ -86,6 +98,8 @@ def create_aspect_ratio_stg():
         'var aspect_ratio_bitrate_ssim = 1.0;\n' + \
         'var aspect_ratio_bitrate_ms_ssim = 1.0;\n' + \
         'var aspect_ratio_bitrate_vmaf = 1.0;\n' + \
+        'var aspect_ratio_bitrate_ssimulacra2 = 1.0;\n' + \
+        'var aspect_ratio_bitrate_butteraugli = 1.0;\n' + \
         'var aspect_ratio_bitrate_fps = 1.0;\n' + \
         '\n'
 
@@ -420,6 +434,32 @@ def create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue,
     
     return name, chart_body, data_defs, datasets_array_name, datasets_array_def
 
+def create_scatter_bitrate_ssimulacra2(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
+    vbr_data_prefix = '_vbr' if vbr_mode else ''
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_ssimulacra2'
+    data_defs, var_names, datasets_array_name, datasets_array_def = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'ssimulacra2', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+
+    chart_body = f"""  data: {{
+    datasets: {datasets_array_name}
+  }},
+"""
+    chart_body += get_chart_options('bitrate - ssimulacra2', 'aspect_ratio_bitrate_ssimulacra2', 'bitrate (kbps)', 0, bitrate_max, 'ssimulacra2', 0, 100)
+
+    return name, chart_body, data_defs, datasets_array_name, datasets_array_def
+
+def create_scatter_bitrate_butteraugli(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
+    vbr_data_prefix = '_vbr' if vbr_mode else ''
+    name = get_date_prefix() + vbr_data_prefix + '_bitrate_butteraugli'
+    data_defs, var_names, datasets_array_name, datasets_array_def = create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, 'bitrate', 'butteraugli', quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+
+    chart_body = f"""  data: {{
+    datasets: {datasets_array_name}
+  }},
+"""
+    chart_body += get_chart_options('bitrate - butteraugli', 'aspect_ratio_bitrate_butteraugli', 'bitrate (kbps)', 0, bitrate_max, 'butteraugli', 0, None)
+
+    return name, chart_body, data_defs, datasets_array_name, datasets_array_def
+
 def create_scatter_bitrate_fps(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     vbr_data_prefix = '_vbr' if vbr_mode else ''
     name = get_date_prefix() + vbr_data_prefix + '_bitrate_fps'
@@ -585,6 +625,18 @@ if __name__ == '__main__':
 
     # VMAF
     name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_vmaf(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    all_datasets_arrays.append(datasets_array_def)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
+
+    # SSIMULACRA2
+    name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_ssimulacra2(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    all_data_definitions.extend(data_defs)
+    all_datasets_arrays.append(datasets_array_def)
+    chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
+
+    # BUTTERAUGLI
+    name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_butteraugli(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
     all_data_definitions.extend(data_defs)
     all_datasets_arrays.append(datasets_array_def)
     chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
