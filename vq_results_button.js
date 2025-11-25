@@ -1,21 +1,20 @@
 const check_button_names = [
-    "check_x264", "check_x265", "check_svt_av1", "check_libvpx", "check_vvenc",
+    "check_x264", "check_x265", "check_svt_av1", "check_vvenc",
     "check_qsv_h264", "check_qsv_hevc", "check_qsv_av1",
     "check_nvenc_h264", "check_nvenc_hevc", "check_nvenc_av1",
     "check_vce_h264", "check_vce_hevc", "check_vce_av1",
     "check_cpu", "check_qsv", "check_nvenc", "check_vce",
-    "check_h264", "check_hevc", "check_av1", "check_vp9", "check_vvc",
+    "check_h264", "check_hevc", "check_av1", "check_vvc",
 ];
 
 const check_groups = {
-    "check_cpu":   [ "check_x264", "check_x265", "check_svt_av1", "check_libvpx", "check_vvenc" ],
+    "check_cpu":   [ "check_x264", "check_x265", "check_svt_av1", "check_vvenc" ],
     "check_qsv":   [ "check_qsv_h264", "check_qsv_hevc", "check_qsv_av1" ],
     "check_nvenc": [ "check_nvenc_h264", "check_nvenc_hevc", "check_nvenc_av1" ],
     "check_vce":   [ "check_vce_h264", "check_vce_hevc", "check_vce_av1" ],
     "check_h264":  [ "check_x264", "check_qsv_h264", "check_nvenc_h264", "check_vce_h264" ],
     "check_hevc":  [ "check_x265", "check_qsv_hevc", "check_nvenc_hevc", "check_vce_hevc" ],
     "check_av1":   [ "check_svt_av1", "check_qsv_av1", "check_nvenc_av1", "check_vce_av1"],
-    "check_vp9":   [ "check_libvpx" ],
     "check_vvc":   [ "check_vvenc" ],
 };
 
@@ -24,11 +23,12 @@ function get_rule_for_checkbox(check_name) {
     let presets = [];
     let devices = [];
 
-    const enabled_presets_cpu = [ "veryslow", "P4" ];
+    const enabled_presets_cpu = [ "veryslow", "P3" ];
+    const enabled_presets_cpu_vvenc = [ "medium" ];
     const enabled_presets_gpu = [ "quality" ];
     const enabled_devices_qsv = [ "Arc B580", "u7 258v", "u5 245k" ];
     const enabled_devices_nvenc = [ "rtx4080" ];
-    const enabled_devices_vce = [ "rx7900xt", "rx9070xt" ];
+    const enabled_devices_vce = [ "rx7900xt" ];
 
     presets = enabled_presets_gpu;
 
@@ -41,12 +41,9 @@ function get_rule_for_checkbox(check_name) {
     } else if (check_name == "check_svt_av1") {
         keywords.push("svtav1");
         presets = enabled_presets_cpu;
-    } else if (check_name == "check_libvpx") {
-        keywords.push("libvpx");
-        presets = enabled_presets_cpu;
     } else if (check_name == "check_vvenc") {
         keywords.push("VVenC");
-        presets = enabled_presets_cpu;
+        presets = enabled_presets_cpu_vvenc;
     } else if (check_name == "check_qsv_h264") {
         keywords.push("QSVEncC H.264", "QSVEncC VBR H.264", "QSV H.264", "QSV VBR H.264");
         devices = enabled_devices_qsv;
