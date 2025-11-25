@@ -7,7 +7,7 @@
   <link href="vq_results.css" rel="stylesheet" type="text/css">
   <link href="vq_results_tabs.css" rel="stylesheet" type="text/css">
   <link href="vq_results_toggle.css" rel="stylesheet" type="text/css">
-  <title>画質比較 (2025.10)</title>
+  <title>画質比較 (2025.11)</title>
   <script>
     window.onload = function() {
       const url = new URL(window.location.href);
@@ -31,8 +31,8 @@
 <div class="main_block">
   <div>
   <h1>
-    <p class="langChange" lang="ja">画質比較 (2025.10)</p>
-    <p class="langChange" lang="en">Video Qualities (2025.10)</p>
+    <p class="langChange" lang="ja">画質比較 (2025.11)</p>
+    <p class="langChange" lang="en">Video Qualities (2025.11)</p>
   </h1>
   <h2>
     言語切り替え / Switch Language
@@ -54,14 +54,13 @@
     <p class="langChange" lang="en">Applications Used</p>
   </h2>
   <ul>
-    <li>x264 r3191</li>
-    <li>x265 4.1+131</li>
-    <li>SVT-AV1 3.1.0</li>
-    <li>libvpx-vp9 1.15.2</li>
+    <li>x264 r3223</li>
+    <li>x265 4.1+200</li>
+    <li>SVT-AV1 3.1.0-185</li>
     <li>VVenC 1.13.1</li>
-    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 7.92</li>
-    <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 8.08</li>
-    <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 8.37</li>
+    <li><a href="https://github.com/rigaya/QSVEnc">QSVEncC</a> 8.03</li>
+    <li><a href="https://github.com/rigaya/NVEnc">NVEncC</a> 9.07</li>
+    <li><a href="https://github.com/rigaya/VCEEnc">VCEEncC</a> 9.02</li>
   </ul>
   
   <h2>
@@ -111,11 +110,6 @@
       --crf [x] [--preset [4-10]] [--input-depth 10]
     </dd>
   
-    <dt>libvpx-vp9</dt>
-    <dd>
-        -c:v libvpx-vp9 -row-mt 1 -deadline good -g 300 -cpu-used [0,3] -crf [n] -b:v 0
-    </dd>
-  
     <dt>VVenC</dt>
     <dd>
         --preset [medium,faster] --refreshsec 5 --qp [n] --qpa 1
@@ -143,10 +137,10 @@
       <table class=simpleBlue width=100%>
         <tr><th rowspan=2 width=40px>Mode</th><td width=90px>Const. Quality</td><td>--qvbr [x]</td></tr>
         <tr>                     <td>VBR</td>           <td>--vbr [x]</td></tr>
-        <tr><th rowspan=3>Codec</th><td>H.264</td><td>-c h264 --level 5.1</td></tr>
-        <tr>                      <td>HEVC</td><td>-c hevc --level 6</td></tr>
-        <tr>                      <td>AV1</td><td>-c av1 --max-bitrate 60000</td></tr>
-        <tr><th rowspan=2>Preset</th><td>quality</td><td>--preset quality --multipass 2pass-full --lookahead 32 --weightp --bref-mode each</td></tr>
+        <tr><th rowspan=3>Codec</th><td>H.264</td><td>-c h264 --level 5.1 -b 3</td></tr>
+        <tr>                      <td>HEVC</td><td>-c hevc --level 6 -b 8</td></tr>
+        <tr>                      <td>AV1</td><td>-c av1 -b 8 --max-bitrate 60000</td></tr>
+        <tr><th rowspan=2>Preset</th><td>quality</td><td>--preset quality --tune uhq --multipass 2pass-full --lookahead 32 --weightp --bref-mode each</td></tr>
         <tr>                       <td>normal</td><td></td></tr>
         <tr><th colspan=2>10bit</th><td>--output-depth 10</td></tr>
       </table>
@@ -181,53 +175,41 @@
 
 <section>
     <div class="env-tab-wrap">
-        <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" checked="checked" /><label
-            class="env-tab-label" for="TAB-01">i9 12900K / Arc B580 / RTX4080</label>
+        <input id="TAB-01" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-01">Ryzen9 7950X / Arc B580 / RTX4080 / GTX1060</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
                     <td>CPU</td>
-                    <td>i9 12900K</td>
+                    <td>Ryzen9 7950X</td>
                 </tr>
                 <tr>
                     <td>コア数</td>
-                    <td>8P+8E/24T</td>
+                    <td>16C/32T</td>
                 </tr>
                 <tr>
                     <td>L2</td>
-                    <td>14MB</td>
+                    <td>16MB</td>
                 </tr>
                 <tr>
                     <td>L3</td>
-                    <td>30MB</td>
-                </tr>
-                <tr>
-                    <td>Boost</td>
-                    <td>5.2GHz</td>
+                    <td>64MB</td>
                 </tr>
                 <tr>
                     <td>メモリ</td>
-                    <td>G.Skill F4-3600C16D-16GTZNC</td>
+                    <td>Crucial CP2K48G56C46U5</td>
                 </tr>
                 <tr>
-                    <td>速度</td>
-                    <td>DDR4-3600</td>
+                    <td>速度/電圧</td>
+                    <td>DDR5-5600 @ 1.1V</td>
                 </tr>
                 <tr>
                     <td>容量</td>
-                    <td>8GBx4</td>
+                    <td>48GBx2</td>
                 </tr>
                 <tr>
                     <td>タイミング</td>
-                    <td>16-19-19-39-1</td>
-                </tr>
-                <tr>
-                    <td>メモリFCLK</td>
-                    <td>Gear1</td>
-                </tr>
-                <tr>
-                    <td>iGPU</td>
-                    <td>Intel UHD Graphics 770</td>
+                    <td>46-45-45</td>
                 </tr>
                 <tr>
                     <td>dGPU0</td>
@@ -242,20 +224,20 @@
                     <td>ZOTAC GTX 1060 Mini</td>
                 </tr>
                 <tr>
+                    <td>SSD0</td>
+                    <td>KIOXIA EXCERIA PLUS G4 2TB PCIe Gen5</td>
+                </tr>
+                <tr>
                     <td>SSD1</td>
-                    <td>Plextor M10PGN 1TB NVMe PCIe Gen4</td>
-                </tr>
-                <tr>
-                    <td>SSD2</td>
-                    <td>Plextor M8PeG 1TB NVMe PCIe Gen3</td>
-                </tr>
-                <tr>
-                    <td>SSD3</td>
                     <td>KIOXIA EXCERIA Pro 2TB PCIe Gen4</td>
                 </tr>
                 <tr>
+                    <td>SSD2</td>
+                    <td>SanDisk UltraII 960GB SATA3</td>
+                </tr>
+                <tr>
                     <td>マザー</td>
-                    <td>MSI MAG Z690 TOMAHAWK WIFI DDR4</td>
+                    <td>ASRock B650 LiveMixer</td>
                 </tr>
                 <tr>
                     <td>冷却</td>
@@ -271,11 +253,11 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>NVIDIA 565.90<br>Intel 32.0.101.6913</td>
+                    <td>Intel 32.0.101.8250 / NVIDIA 581.80 / AMD 25.11.1</td>
                 </tr>
             </table>
         </div>
@@ -329,16 +311,66 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 32.0.101.6913</td>
+                    <td>Intel 32.0.101.8250</td>
                 </tr>
             </table>
         </div>
         <input id="TAB-03" type="radio" name="TAB" class="env-tab-switch" /><label
-            class="env-tab-label" for="TAB-03">Core U5 245K</label>
+            class="env-tab-label" for="TAB-03">Ryzen 7 AI 350</label>
+        <div class="env-tab-content">
+            <table class=simpleBlue>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ryzen 7 AI 350</td>
+                </tr>
+                <tr>
+                    <td>コア数</td>
+                    <td>Zen5x4 + Zen5cx4/16T</td>
+                </tr>
+                <tr>
+                    <td>L2</td>
+                    <td>8MB</td>
+                </tr>
+                <tr>
+                    <td>L3</td>
+                    <td>16MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>5.05GHz</td>
+                </tr>
+                <tr>
+                    <td>メモリ</td>
+                    <td>LPDDR5 8533</td>
+                </tr>
+                <tr>
+                    <td>容量</td>
+                    <td>32GB</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Radeon 860M</td>
+                </tr>
+                <tr>
+                    <td>SSD1</td>
+                    <td>PSENN001TA87QC0 1TB PCIe Gen4</td>
+                </tr>
+                <tr>
+                    <td>PC型番</td>
+                    <td>HP OmniBook Ultra Flip Laptop 14-fk</td>
+                </tr>
+                <tr>
+                    <td>OS</td>
+                    <td>Windows 11 25H2</td>
+                </tr>
+            </table>
+        </div>
+        <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label
+            class="env-tab-label" for="TAB-04">Core U5 245K</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -394,6 +426,14 @@
                     <td>Sandisk SDSSDH3 4T00 4TB x3</td>
                 </tr>
                 <tr>
+                    <td>SSD4</td>
+                    <td>KIOXIA EXCERIA with Heatsink 4TB Gen4</td>
+                </tr>
+                <tr>
+                    <td>SSD5</td>
+                    <td>Plextor M8PeG 1TB NVMe PCIe Gen3</td>
+                </tr>
+                <tr>
                     <td>マザー</td>
                     <td>ASUS PRIME Z890M-PLUS WIFI-CSM</td>
                 </tr>
@@ -407,16 +447,16 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 32.0.101.6913</td>
+                    <td>Intel 32.0.101.8250</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-04" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
-            for="TAB-04">Ryzen9 9950X / RX7900XT / GTX950 / x264 / x265 / svtav1</label>
+        <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
+            for="TAB-05">Ryzen9 9950X / RX7900XT / RTX2070 / x264 / x265 / svtav1</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -457,19 +497,19 @@
                 </tr>
                 <tr>
                     <td>dGPU2</td>
-                    <td>GIGABYTE GV-N950OC-2GD GTX950/2GB</td>
+                    <td>EVGA GeForce RTX 2070 XC Gaming</td>
                 </tr>
                 <tr>
-                    <td>SSD1</td>
+                    <td>SSD0</td>
                     <td>KIOXIA EXCERIA Pro 1TB PCIe Gen4</td>
                 </tr>
                 <tr>
-                    <td>SSD2</td>
-                    <td>KIOXIA EXCERIA PLUS G3 1TB PCIe Gen4</td>
+                    <td>SSD1</td>
+                    <td>Plextor M9P 1TB NVMe PCIe Gen3</td>
                 </tr>
                 <tr>
                     <td>マザー</td>
-                    <td>MSI Pro X670-P WIFI</td>
+                    <td>MSI Pro X670-P WIFI 7D67v1J</td>
                 </tr>
                 <tr>
                     <td>冷却</td>
@@ -485,49 +525,65 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>NVIDIA 566.03<br>AMD 24.12.1</td>
+                    <td>NVIDIA 581.80<br>AMD 25.11.1</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-05" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label"
-            for="TAB-05">Ryzen9 7950X / Arc B380 / Arc A310 / RTX 2070 / RX5500XT / RX550</label>
+        <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" checked="checked" /><label
+            class="env-tab-label" for="TAB-06">i9 12900K / RTX 5050 / Arc A380 / RX5500XT</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
                     <td>CPU</td>
-                    <td>Ryzen9 7950X</td>
+                    <td>i9 12900K</td>
                 </tr>
                 <tr>
                     <td>コア数</td>
-                    <td>16C/32T</td>
+                    <td>8P+8E/24T</td>
                 </tr>
                 <tr>
                     <td>L2</td>
-                    <td>16MB</td>
+                    <td>14MB</td>
                 </tr>
                 <tr>
                     <td>L3</td>
-                    <td>64MB</td>
+                    <td>30MB</td>
+                </tr>
+                <tr>
+                    <td>Boost</td>
+                    <td>5.2GHz</td>
                 </tr>
                 <tr>
                     <td>メモリ</td>
-                    <td>Crucial CP2K48G56C46U5</td>
+                    <td>G.Skill F4-3600C16D-16GTZNC</td>
                 </tr>
                 <tr>
-                    <td>速度/電圧</td>
-                    <td>DDR5-5600 @ 1.1V</td>
+                    <td>速度</td>
+                    <td>DDR4-3600</td>
                 </tr>
                 <tr>
                     <td>容量</td>
-                    <td>48GBx2</td>
+                    <td>8GBx4</td>
                 </tr>
                 <tr>
                     <td>タイミング</td>
-                    <td>46-45-45</td>
+                    <td>16-19-19-39-1</td>
+                </tr>
+                <tr>
+                    <td>メモリFCLK</td>
+                    <td>Gear1</td>
+                </tr>
+                <tr>
+                    <td>iGPU</td>
+                    <td>Intel UHD Graphics 770</td>
+                </tr>
+                <tr>
+                    <td>dGPU0</td>
+                    <td>GIGABYTE GeForce RTX 5050 OC Low Profile 8G</td>
                 </tr>
                 <tr>
                     <td>dGPU1</td>
@@ -535,27 +591,19 @@
                 </tr>
                 <tr>
                     <td>dGPU2</td>
-                    <td>EVGA GeForce RTX 2070 XC Gaming</td>
+                    <td>SPARKLE Intel Arc A310 ECO</td>
                 </tr>
                 <tr>
                     <td>dGPU3</td>
                     <td>玄人志向 RD-RX5500XT-E8GB
                 </tr>
                 <tr>
-                    <td>dGPU4</td>
-                    <td>玄人志向 RD-RX550-E4GB/LP</td>
-                </tr>
-                <tr>
-                    <td>dGPU5</td>
-                    <td>SPARKLE Intel Arc A310 ECO</td>
-                </tr>
-                <tr>
                     <td>SSD1</td>
-                    <td>Plextor M9P 1TB NVMe PCIe Gen3</td>
+                    <td>Plextor M10PGN 1TB NVMe PCIe Gen4</td>
                 </tr>
                 <tr>
                     <td>マザー</td>
-                    <td>ASRock B650 LiveMixer</td>
+                    <td>MSI MAG Z690 TOMAHAWK WIFI DDR4</td>
                 </tr>
                 <tr>
                     <td>冷却</td>
@@ -571,15 +619,15 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 32.0.101.6913 / NVIDIA 566.36 / AMD 24.12.1</td>
+                    <td>NVIDIA 581.80<br>Intel 32.0.101.8250</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-06" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-06">i7 11700K / GTX1080</label>
+        <input id="TAB-07" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-07">i7 11700K / GTX1080</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -656,11 +704,15 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
+                </tr>
+                <tr>
+                    <td>ドライバ</td>
+                    <td>NVIDIA 581.80</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-07" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-07">i5 1035G7</label>
+        <input id="TAB-08" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-08">i5 1035G7</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -705,15 +757,15 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows 11 24H2</td>
+                    <td>Windows 11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 32.0.101.6913</td>
+                    <td>Intel 32.0.101.8250</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-08" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-08">i5 7500</label>
+        <input id="TAB-09" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-09">i5 7500 / RX550</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -753,6 +805,10 @@
                     <td>16-16-16-39-2</td>
                 </tr>
                 <tr>
+                    <td>dGPU1</td>
+                    <td>玄人志向 RD-RX550-E4GB/LP</td>
+                </tr>
+                <tr>
                     <td>iGPU</td>
                     <td>Intel UHD Graphics 630</td>
                 </tr>
@@ -778,11 +834,11 @@
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>Intel 31.0.101.2135</td>
+                    <td>Intel 31.0.101.2135<br>AMD 25.11.1</td>
                 </tr>
             </table>
         </div>
-        <input id="TAB-09" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-09">i5 5500U</label>
+        <input id="TAB-10" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-10">i5 5500U</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -827,7 +883,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-10" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-10">i3 4170</label>
+        <input id="TAB-11" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-11">i3 4170</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -904,7 +960,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-11" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-11">i5 2410M</label>
+        <input id="TAB-12" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-12">i5 2410M</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -961,7 +1017,7 @@
                 </tr>
             </table>
         </div>
-        <input id="TAB-12" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-12">R3 3200G</label>
+        <input id="TAB-13" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-13">R3 3200G</label>
         <div class="env-tab-content">
             <table class=simpleBlue>
                 <tr>
@@ -1018,76 +1074,11 @@
                 </tr>
                 <tr>
                     <td>OS</td>
-                    <td>Windows11 24H2</td>
+                    <td>Windows11 25H2</td>
                 </tr>
                 <tr>
                     <td>ドライバ</td>
-                    <td>AMD 24.12.1</td>
-                </tr>
-            </table>
-        </div>
-        <input id="TAB-13" type="radio" name="TAB" class="env-tab-switch" /><label class="env-tab-label" for="TAB-13">RX9070XT</label>
-        <div class="env-tab-content">
-            <table class=simpleBlue>
-                <tr>
-                    <td>CPU</td>
-                    <td>R7 9800X3D</td>
-                </tr>
-                <tr>
-                    <td>コア数</td>
-                    <td>8C/16T</td>
-                </tr>
-                <tr>
-                    <td>L2</td>
-                    <td>8MB</td>
-                </tr>
-                <tr>
-                    <td>L3</td>
-                    <td>96MB</td>
-                </tr>
-                <tr>
-                    <td>メモリ</td>
-                    <td>G.Skill F5-6400J3239G32GX2-RS5K</td>
-                </tr>
-                <tr>
-                    <td>速度</td>
-                    <td>DDR5-6400</td>
-                </tr>
-                <tr>
-                    <td>容量</td>
-                    <td>32GBx2</td>
-                </tr>
-                <tr>
-                    <td>タイミング</td>
-                    <td>28-34-34-96-1</td>
-                </tr>
-                <tr>
-                    <td>dGPU0</td>
-                    <td>POWERCOLOR Reaper Radeon RX9070XT 16GB</td>
-                </tr>
-                <tr>
-                    <td>SSD1</td>
-                    <td>Western Digital SN850X 4TB PCIe Gen4</td>
-                </tr>
-                <tr>
-                    <td>マザー</td>
-                    <td>Asrock B650E PG-ITX WiFi</td>
-                </tr>
-                <tr>
-                    <td>冷却</td>
-                    <td>Lian Li Galahad II Trinity Performance 360</td>
-                </tr>
-                <tr>
-                    <td>電源</td>
-                    <td>Corsair SF1000 (2024)</td>
-                </tr>
-                <tr>
-                    <td>OS</td>
-                    <td>Windows 10 22H2</td>
-                </tr>
-                <tr>
-                    <td>ドライバ</td>
-                    <td>AMD Adrenalin 25.3.2</td>
+                    <td>AMD 25.11.1</td>
                 </tr>
             </table>
         </div>
