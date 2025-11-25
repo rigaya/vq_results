@@ -369,21 +369,21 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
                 elif dotted_line:
                     border_dash = 'borderDash: [4,2],'
 
-                points = ',\n'.join([f"          {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut])
+                points = ',\n'.join([f"    {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut])
                 
                 data_object_str = f"""const {variable_name} = {{
-    label: "{label}",
-    showLine: true,
-    pointStyle: "{point_style}",
-    hidden: {hidden},
-    lineTension: 0.4,
-    borderWidth: 1.5,
-    backgroundColor: 'rgba(255, 255, 255, 0.0)',
-    borderColor: 'rgba({int(color[0]*255)}, {int(color[1]*255)}, {int(color[2]*255)}, 0.9)',
-    {border_dash}
-    data: [
+  label: "{label}",
+  showLine: true,
+  pointStyle: "{point_style}",
+  hidden: {hidden},
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba({int(color[0]*255)}, {int(color[1]*255)}, {int(color[2]*255)}, 0.9)',
+  {border_dash}
+  data: [
 {points}
-    ]
+  ]
 }};"""
                 data_definitions.append(data_object_str)
 
@@ -630,10 +630,10 @@ if __name__ == '__main__':
     chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
 
     # SSIMULACRA2
-    name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_ssimulacra2(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
-    all_data_definitions.extend(data_defs)
-    all_datasets_arrays.append(datasets_array_def)
-    chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
+    # name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_ssimulacra2(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
+    # all_data_definitions.extend(data_defs)
+    # all_datasets_arrays.append(datasets_array_def)
+    # chart_info_list.append({'name': name, 'chart_body': chart_body, 'datasets_array_name': datasets_array_name})
 
     # BUTTERAUGLI
     name, chart_body, data_defs, datasets_array_name, datasets_array_def = create_scatter_bitrate_butteraugli(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, bitrate_max, bitrate_max_cut, quality_only, hidden_list, dashed_list, dotted_list, drop_list, replace_list)
