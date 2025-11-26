@@ -331,6 +331,9 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
     datasets_array_name = f"datasets_{target_id}_{vbr_str}_{label_x}_{label_y}"
 
     for encoder, enc_set_data in dict_enc_set_data.items():
+        if (label_y == 'butteraugli' or label_y == 'ssimulacra2') and 'VVenC' == encoder.strip():
+            continue
+
         enc_colorhue = None
         for colorenc_name in dict_enc_colorhue:
             if colorenc_name in encoder:
@@ -369,7 +372,7 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
                 elif dotted_line:
                     border_dash = 'borderDash: [4,2],'
 
-                points = ',\n'.join([f"    {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut])
+                points = ',\n'.join([f"    {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut and float(d.get_value(label_y)) != 0.0])
                 
                 data_object_str = f"""const {variable_name} = {{
   label: "{label}",
@@ -456,7 +459,7 @@ def create_scatter_bitrate_butteraugli(target_id, dict_enc_set_data, dict_enc_co
     datasets: {datasets_array_name}
   }},
 """
-    chart_body += get_chart_options('bitrate - butteraugli', 'aspect_ratio_bitrate_butteraugli', 'bitrate (kbps)', 0, bitrate_max, 'butteraugli', 0, None)
+    chart_body += get_chart_options('bitrate - butteraugli', 'aspect_ratio_bitrate_butteraugli', 'bitrate (kbps)', 0, bitrate_max, 'butteraugli', 0, 4)
 
     return name, chart_body, data_defs, datasets_array_name, datasets_array_def
 
