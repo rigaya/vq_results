@@ -1,0 +1,77 @@
+/* Axis sliders UI for Chart.js charts */
+.axis-slider-host {
+  position: relative;
+  /* スライダーのための余白を確保して軸と重ならないようにする */
+  padding-left: 40px;   /* yスライダー分の余白 */
+  padding-bottom: 36px; /* xスライダー分の余白 */
+  padding-right: 18px;     /* グラフは右へ寄せたまま、スライダーのみ内側に寄せる */
+}
+
+.axis-slider {
+  position: absolute;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.axis-slider--y {
+  left: 0;
+  top: 0;
+  bottom: 30px; /* keep space for x slider */
+  width: 16px;  /* スライダーバー周辺の占有幅 */
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.axis-slider--x {
+  left: 80px;  /* yスライダーやツールチップと重ならないよう更に内側へ */
+  right: 72px; /* Resetボタンとx軸目盛と重ならないよう内側へ */
+  bottom: 0;
+  height: 16px; /* スライダーバー周辺の占有高さ */
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.axis-slider__reset {
+  position: absolute;
+  right: 8px;
+  bottom: 4px;
+  z-index: 3;
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px 6px;
+  border: 1px solid #bbb;
+  background: rgba(255,255,255,0.9);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* スライダーバー(レール)の太さを半分程度に */
+.axis-slider--y .noUi-target {
+  width: 8px;           /* 縦スライダーのバー太さ */
+  margin: 0 auto;
+}
+.axis-slider--x .noUi-target {
+  height: 8px;          /* 横スライダーのバー太さ */
+  margin: 0 auto;
+}
+
+/* yスライダーのツールチップが見切れないように右側へ出す */
+.axis-slider--y .noUi-handle .noUi-tooltip {
+  left: 100% !important;
+  right: auto !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin-left: 8px;
+}
+
+/* Ensure sliders don't overflow small canvases */
+@media (max-width: 600px) {
+  .axis-slider-host { padding-left: 32px; padding-bottom: 28px; padding-right: 0; }
+  .axis-slider--y { width: 20px; }
+  .axis-slider--x { left: 64px; right: 60px; height: 20px; }
+  .axis-slider__reset { font-size: 11px; }
+}
+
+
