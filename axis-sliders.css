@@ -41,10 +41,11 @@
   font-size: 12px;
   line-height: 1;
   padding: 4px 6px;
-  border: 1px solid #bbb;
-  background: rgba(255,255,255,0.9);
+  border: 1px solid var(--axis-slider-reset-border-color);
+  background: var(--axis-slider-reset-bg-color);
   border-radius: 4px;
   cursor: pointer;
+  color: var(--axis-slider-reset-text-color);
 }
 
 /* スライダーバー(レール)の太さを半分程度に */

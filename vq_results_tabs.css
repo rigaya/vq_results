@@ -10,7 +10,7 @@ section.resultTabs::after {
     height: 3px;
     display: block;
     order: -1;
-    background: rgba(0,0,0,.1);
+    background: var(--tabs-border-line-color);
 }
 section.resultTabs .tabLabel {
     margin-right: 3px;
@@ -18,8 +18,8 @@ section.resultTabs .tabLabel {
     flex: 1;
     order: -1;
     border-radius: 3px 3px 0 0;
-    color: #444;
-    background: rgba(0,137,167,.3);
+    color: var(--tabs-label-text-color);
+    background: var(--tabs-label-bg-color);
     position: relative;
     transition: .5s ;
     font-weight: bold;
@@ -33,7 +33,7 @@ section.resultTabs .tabLabel::after {
     pointer-events: none;
     transform: translateX(100%);
     transition: cubic-bezier(0.4, 0, 0.2, 1) .2s 80ms;
-    background: #EFBB24;
+    background: var(--tabs-indicator-color);
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -58,7 +58,7 @@ section.resultTabs .content > div {
 }
 section.resultTabs input:checked + .tabLabel {
     color: #fff;
-    background: rgba(0,137,167,.7);
+    background: var(--tabs-label-bg-active-color);
 }
 section.resultTabs input:checked ~ .tabLabel::after {
     transform: translateX(-100%);
@@ -84,7 +84,7 @@ section.resultTabs input:checked + .tabLabel + .content > div {
 
 
 .tab-wrap {
-    background: White;
+    background: var(--tab-wrap-bg-color);
     box-shadow: 0 0 5px rgba(0,0,0,.1);
     display: flex;
     flex-wrap: wrap;
@@ -93,7 +93,7 @@ section.resultTabs input:checked + .tabLabel + .content > div {
 }
 
 .tab-label {
-    color: Gray;
+    color: var(--tab-label-color);
     cursor: pointer;
     flex: 1;
     font-weight: bold;
@@ -108,15 +108,15 @@ section.resultTabs input:checked + .tabLabel + .content > div {
 }
 
 .tab-label:hover {
-    background: rgba(0, 191, 255,.1);
+    background: var(--tab-label-hover-bg-color);
 }
 
 .tab-switch:checked + .tab-label {
-    color: DeepSkyBlue;
+    color: var(--tab-label-active-color);
 }
 
 .tab-label::after {
-    background: DeepSkyBlue;
+    background: var(--tab-label-underline-color);
     bottom: 0;
     content: '';
     display: block;
@@ -178,12 +178,12 @@ section.resultTabs input:checked + .tabLabel + .content > div {
 /*-----------------------------------------------------------------*/
 .env-tab-label {
   color: White;
-  background: LightGray;
+  background: var(--env-tab-label-bg-color);
   font-weight: bold;
   text-shadow: 0 -1px 0 rgba(0,0,0,.2);
   margin-bottom: -1px;
   padding: 10px .5em;
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid var(--env-tab-border-color);
   cursor: pointer;
   display: block;
 }
@@ -203,7 +203,7 @@ section.resultTabs input:checked + .tabLabel + .content > div {
   opacity: 0;
 }
 .env-tab-switch:checked+.env-tab-label {
-  background: rgba(0,137,167,.3);
+  background: var(--env-tab-label-active-bg-color);
 }
 .env-tab-switch:checked+.env-tab-label+.env-tab-content {
   height: auto;
@@ -212,7 +212,7 @@ section.resultTabs input:checked + .tabLabel + .content > div {
   padding: 15px;
   opacity: 1;
   transition: .5s;
-  border: 1px solid LightGray;
+  border: 1px solid var(--env-tab-border-color);
 }
 .env-tab-switch {
   display: none;

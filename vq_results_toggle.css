@@ -12,7 +12,7 @@
 .toggle-label {
   width: 75px;
   height: 42px;
-  background: #ccc;
+  background: var(--toggle-track-off-bg-color);
   position: relative;
   display: inline-block;
   border-radius: 46px;
@@ -28,13 +28,13 @@
   left: 0;
   top: 0;
   z-index: 2;
-  background: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background: var(--toggle-knob-bg-color);
+  box-shadow: var(--toggle-knob-shadow);
   transition: 0.4s;
 }
 
 .toggle-input:checked + .toggle-label {
-  background-color: #4BD865;
+  background-color: var(--toggle-track-on-bg-color);
 }
 .toggle-input:checked + .toggle-label:after {
   left: 40px;
