@@ -1,3 +1,17 @@
+function applyTheme(theme) {
+    const root = document.documentElement;
+    if (!root) return;
+
+    if (theme === 'light') {
+        root.setAttribute('data-theme', 'light');
+    } else if (theme === 'dark') {
+        root.setAttribute('data-theme', 'dark');
+    } else {
+        // auto: OS/ブラウザの prefers-color-scheme に任せる
+        root.removeAttribute('data-theme');
+    }
+}
+
 const check_button_names = [
     "check_x264", "check_x265", "check_svt_av1", "check_vvenc",
     "check_qsv_h264", "check_qsv_hevc", "check_qsv_av1",
@@ -177,11 +191,6 @@ function sync_checkboxes(clicked_id, is_checked) {
 }
 
 
-function on_check_change() {
-    sync_checkboxes(this.id, this.checked);
-    update_charts(true);
-}
-
 function on_toggle_change() {
     update_charts(true);
 }
@@ -192,18 +201,41 @@ window.addEventListener('load', function() {
         langSet(wDef);
     }
     
-    check_button_names.forEach(function(check_name){
-        const check = document.getElementById(check_name);
-        if(check) {
-            check.addEventListener("click", on_check_change);
+    const el_max_quality = document.getElementById('toggle_show_max_quality');
+    const el_std_quality = document.getElementById('toggle_show_std_quality');
+    const el_8bit = document.getElementById('toggle_show_8bit');
+    const el_10bit = document.getElementById('toggle_show_10bit');
+    const el_latest_gpu_only = document.getElementById('toggle_only_latest_gpu');
+
+    if (el_max_quality) {
+        el_max_quality.addEventListener('change', on_toggle_change);
+    }
+    if (el_std_quality) {
+        el_std_quality.addEventListener('change', on_toggle_change);
+    }
+    if (el_8bit) {
+        el_8bit.addEventListener('change', on_toggle_change);
+    }
+    if (el_10bit) {
+        el_10bit.addEventListener('change', on_toggle_change);
+    }
+    if (el_latest_gpu_only) {
+        el_latest_gpu_only.addEventListener('change', on_toggle_change);
+    }
+
+    // 念のため、change イベントでもグローバルに拾って更新する（クリックイベント取りこぼし対策）
+    document.addEventListener('change', function (e) {
+        const target = e.target;
+        if (!target || target.type !== 'checkbox') return;
+        const id = target.id;
+        if (!id) return;
+
+        // check_button_names に含まれるチェックボックスのみ同期＆更新
+        if (check_button_names.indexOf(id) !== -1) {
+            sync_checkboxes(id, target.checked);
+            update_charts(true);
         }
     });
-
-    document.getElementById('toggle_show_max_quality').addEventListener('change', on_toggle_change);
-    document.getElementById('toggle_show_std_quality').addEventListener('change', on_toggle_change);
-    document.getElementById('toggle_show_8bit').addEventListener('change', on_toggle_change);
-    document.getElementById('toggle_show_10bit').addEventListener('change', on_toggle_change);
-    document.getElementById('toggle_only_latest_gpu').addEventListener('change', on_toggle_change);
 
     check_button_names.forEach(check_id => {
         const check = document.getElementById(check_id);
@@ -212,4 +244,41 @@ window.addEventListener('load', function() {
         }
     });
     update_charts(false);
+
+    // テーマ切り替えラジオボタンの初期化
+    (function initThemeSwitch() {
+        const themeAuto = document.getElementById('themeAuto');
+        const themeLight = document.getElementById('themeLight');
+        const themeDark = document.getElementById('themeDark');
+
+        if (!themeAuto || !themeLight || !themeDark) {
+            return;
+        }
+        
+
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        if (currentTheme === 'light') {
+            themeLight.checked = true;
+        } else if (currentTheme === 'dark') {
+            themeDark.checked = true;
+        } else {
+            themeAuto.checked = true;
+        }
+
+        themeAuto.addEventListener('change', function () {
+            if (this.checked) {
+                applyTheme('auto');
+            }
+        });
+        themeLight.addEventListener('change', function () {
+            if (this.checked) {
+                applyTheme('light');
+            }
+        });
+        themeDark.addEventListener('change', function () {
+            if (this.checked) {
+                applyTheme('dark');
+            }
+        });
+    })();
 }); 
