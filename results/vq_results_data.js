@@ -18,6 +18,26 @@ const data_1__bitrate_ssim__x264_medium_crf = {
   ]
 };
 
+const data_1__bitrate_ssim__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 5864.46, y: 0.991459 },
+    { x: 3739.87, y: 0.987833 },
+    { x: 2417.55, y: 0.982327 },
+    { x: 1572.95, y: 0.97434 },
+    { x: 1061.48, y: 0.963633 },
+    { x: 735.36, y: 0.94932 }
+  ]
+};
+
 const data_1__bitrate_ssim__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -26,7 +46,7 @@ const data_1__bitrate_ssim__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 7955.54, y: 0.993343 },
@@ -47,7 +67,7 @@ const data_1__bitrate_ssim__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7812.86, y: 0.995674 },
@@ -68,7 +88,7 @@ const data_1__bitrate_ssim__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 8071.96, y: 0.994158 },
@@ -89,7 +109,7 @@ const data_1__bitrate_ssim__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 8055.91, y: 0.996316 },
@@ -110,7 +130,7 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 5973.65, y: 0.992728 },
@@ -132,7 +152,7 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6225.94, y: 0.995039 },
@@ -154,7 +174,7 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 6548.53, y: 0.992232 },
@@ -176,7 +196,7 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6831.82, y: 0.994743 },
@@ -198,7 +218,7 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5931.81, y: 0.99061 },
@@ -219,7 +239,7 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6107.52, y: 0.993393 },
@@ -240,7 +260,7 @@ const data_1__bitrate_ssim__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6402.15, y: 0.987676 },
@@ -261,7 +281,7 @@ const data_1__bitrate_ssim__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6404.61, y: 0.989838 },
@@ -282,7 +302,7 @@ const data_1__bitrate_ssim__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7870.61, y: 0.996131 },
@@ -302,7 +322,7 @@ const data_1__bitrate_ssim__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7626.61, y: 0.996468 },
@@ -2304,7 +2324,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 2099.17, y: 0.968277 },
@@ -2323,7 +2343,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.85, y: 0.967768 },
@@ -2342,7 +2362,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 1542.23, y: 0.973572 },
@@ -2363,7 +2383,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1585.03, y: 0.973761 },
@@ -2384,7 +2404,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1646.50, y: 0.976206 },
@@ -2405,7 +2425,7 @@ const data_1__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.35, y: 0.97521 },
@@ -2425,7 +2445,7 @@ const data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 2176.99, y: 0.969694 },
@@ -2444,7 +2464,7 @@ const data_1__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2228.92, y: 0.968958 },
@@ -2463,7 +2483,7 @@ const data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 1430.28, y: 0.970826 },
@@ -2484,7 +2504,7 @@ const data_1__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1549.56, y: 0.970944 },
@@ -2505,7 +2525,7 @@ const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 2099.13, y: 0.968276 },
@@ -2524,7 +2544,7 @@ const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.90, y: 0.967763 },
@@ -2543,7 +2563,7 @@ const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 1413.41, y: 0.970342 },
@@ -2564,7 +2584,7 @@ const data_1__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1436.21, y: 0.970301 },
@@ -2585,7 +2605,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 2099.13, y: 0.968276 },
@@ -2604,7 +2624,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.83, y: 0.967767 },
@@ -2623,7 +2643,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 1542.20, y: 0.973568 },
@@ -2644,7 +2664,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1584.93, y: 0.973755 },
@@ -2665,7 +2685,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1646.19, y: 0.976205 },
@@ -2686,7 +2706,7 @@ const data_1__bitrate_ssim_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.33, y: 0.975209 },
@@ -2706,7 +2726,7 @@ const data_1__bitrate_ssim_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 2234.61, y: 0.96907 },
@@ -2725,7 +2745,7 @@ const data_1__bitrate_ssim_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2234.61, y: 0.96907 },
@@ -2756,6 +2776,26 @@ const data_1__bitrate_vmaf__x264_medium_crf = {
   ]
 };
 
+const data_1__bitrate_vmaf__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 5864.46, y: 98.353918 },
+    { x: 3739.87, y: 96.988954 },
+    { x: 2417.55, y: 93.841345 },
+    { x: 1572.95, y: 87.726046 },
+    { x: 1061.48, y: 78.260342 },
+    { x: 735.36, y: 65.519686 }
+  ]
+};
+
 const data_1__bitrate_vmaf__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -2764,7 +2804,7 @@ const data_1__bitrate_vmaf__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 7955.54, y: 98.749147 },
@@ -2785,7 +2825,7 @@ const data_1__bitrate_vmaf__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7812.86, y: 98.714522 },
@@ -2806,7 +2846,7 @@ const data_1__bitrate_vmaf__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 8071.96, y: 98.977169 },
@@ -2827,7 +2867,7 @@ const data_1__bitrate_vmaf__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 8055.91, y: 99.003905 },
@@ -2848,7 +2888,7 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 5973.65, y: 98.717514 },
@@ -2870,7 +2910,7 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6225.94, y: 98.706668 },
@@ -2892,7 +2932,7 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 6548.53, y: 98.686113 },
@@ -2914,7 +2954,7 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6831.82, y: 98.655115 },
@@ -2936,7 +2976,7 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5931.81, y: 98.311176 },
@@ -2957,7 +2997,7 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6107.52, y: 98.199346 },
@@ -2978,7 +3018,7 @@ const data_1__bitrate_vmaf__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6402.15, y: 97.461609 },
@@ -2999,7 +3039,7 @@ const data_1__bitrate_vmaf__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6404.61, y: 97.149615 },
@@ -3020,7 +3060,7 @@ const data_1__bitrate_vmaf__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7870.61, y: 99.003739 },
@@ -3040,7 +3080,7 @@ const data_1__bitrate_vmaf__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7626.61, y: 99.111754 },
@@ -5042,7 +5082,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 2099.17, y: 75.953568 },
@@ -5061,7 +5101,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.85, y: 75.342127 },
@@ -5080,7 +5120,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 1542.23, y: 86.784864 },
@@ -5101,7 +5141,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1585.03, y: 86.809837 },
@@ -5122,7 +5162,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1646.50, y: 89.474495 },
@@ -5143,7 +5183,7 @@ const data_1__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.35, y: 88.941802 },
@@ -5163,7 +5203,7 @@ const data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 2176.99, y: 78.035979 },
@@ -5182,7 +5222,7 @@ const data_1__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2228.92, y: 77.374003 },
@@ -5201,7 +5241,7 @@ const data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 1430.28, y: 83.589902 },
@@ -5222,7 +5262,7 @@ const data_1__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1549.56, y: 83.492016 },
@@ -5243,7 +5283,7 @@ const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 2099.13, y: 75.952801 },
@@ -5262,7 +5302,7 @@ const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.90, y: 75.337674 },
@@ -5281,7 +5321,7 @@ const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 1413.41, y: 83.287429 },
@@ -5302,7 +5342,7 @@ const data_1__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1436.21, y: 83.222347 },
@@ -5323,7 +5363,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 2099.13, y: 75.952801 },
@@ -5342,7 +5382,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.83, y: 75.34157 },
@@ -5361,7 +5401,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 1542.20, y: 86.774976 },
@@ -5382,7 +5422,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1584.93, y: 86.78308 },
@@ -5403,7 +5443,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1646.19, y: 89.472389 },
@@ -5424,7 +5464,7 @@ const data_1__bitrate_vmaf_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.33, y: 88.932316 },
@@ -5444,7 +5484,7 @@ const data_1__bitrate_vmaf_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 2234.61, y: 77.474356 },
@@ -5463,7 +5503,7 @@ const data_1__bitrate_vmaf_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2234.61, y: 77.474356 },
@@ -5494,6 +5534,26 @@ const data_1__bitrate_butteraugli__x264_medium_crf = {
   ]
 };
 
+const data_1__bitrate_butteraugli__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 5864.46, y: 0.775582 },
+    { x: 3739.87, y: 1.062839 },
+    { x: 2417.55, y: 1.466165 },
+    { x: 1572.95, y: 2.044626 },
+    { x: 1061.48, y: 2.841428 },
+    { x: 735.36, y: 3.954148 }
+  ]
+};
+
 const data_1__bitrate_butteraugli__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -5502,7 +5562,7 @@ const data_1__bitrate_butteraugli__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 7955.54, y: 0.919889 },
@@ -5523,7 +5583,7 @@ const data_1__bitrate_butteraugli__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7812.86, y: 0.649891 },
@@ -5544,7 +5604,7 @@ const data_1__bitrate_butteraugli__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 8071.96, y: 0.86026 },
@@ -5565,7 +5625,7 @@ const data_1__bitrate_butteraugli__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 8055.91, y: 0.600434 },
@@ -5586,7 +5646,7 @@ const data_1__bitrate_butteraugli__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 5973.65, y: 0.95766 },
@@ -5608,7 +5668,7 @@ const data_1__bitrate_butteraugli__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6225.94, y: 0.718361 },
@@ -5630,7 +5690,7 @@ const data_1__bitrate_butteraugli__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 6548.53, y: 1.279922 },
@@ -5652,7 +5712,7 @@ const data_1__bitrate_butteraugli__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6831.82, y: 1.026379 },
@@ -5674,7 +5734,7 @@ const data_1__bitrate_butteraugli__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5931.81, y: 1.395695 },
@@ -5695,7 +5755,7 @@ const data_1__bitrate_butteraugli__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6107.52, y: 1.082058 },
@@ -5716,7 +5776,7 @@ const data_1__bitrate_butteraugli__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6402.15, y: 1.370917 },
@@ -5737,7 +5797,7 @@ const data_1__bitrate_butteraugli__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6404.61, y: 1.426258 },
@@ -7740,7 +7800,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   
   data: [
     { x: 2099.17, y: 2.581686 },
@@ -7759,7 +7819,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.85, y: 2.598646 },
@@ -7778,7 +7838,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   
   data: [
     { x: 1542.23, y: 2.056145 },
@@ -7799,7 +7859,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1585.03, y: 2.046916 },
@@ -7820,7 +7880,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   
   data: [
     { x: 1646.50, y: 6.726872 },
@@ -7841,7 +7901,7 @@ const data_1__bitrate_butteraugli_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.35, y: 6.726012 },
@@ -7861,7 +7921,7 @@ const data_1__bitrate_butteraugli_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   
   data: [
     { x: 2176.99, y: 2.528911 },
@@ -7880,7 +7940,7 @@ const data_1__bitrate_butteraugli_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2228.92, y: 2.55484 },
@@ -7899,7 +7959,7 @@ const data_1__bitrate_butteraugli_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   
   data: [
     { x: 1430.28, y: 2.222984 },
@@ -7920,7 +7980,7 @@ const data_1__bitrate_butteraugli_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1549.56, y: 2.221246 },
@@ -7941,7 +8001,7 @@ const data_1__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   
   data: [
     { x: 2099.13, y: 2.581703 },
@@ -7960,7 +8020,7 @@ const data_1__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.90, y: 2.598726 },
@@ -7979,7 +8039,7 @@ const data_1__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   
   data: [
     { x: 1413.41, y: 2.215214 },
@@ -8000,7 +8060,7 @@ const data_1__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1436.21, y: 2.218075 },
@@ -8021,7 +8081,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   
   data: [
     { x: 2099.13, y: 2.581703 },
@@ -8040,7 +8100,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.83, y: 2.598664 },
@@ -8059,7 +8119,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   
   data: [
     { x: 1542.20, y: 2.05656 },
@@ -8080,7 +8140,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1584.93, y: 2.047639 },
@@ -8101,7 +8161,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   
   data: [
     { x: 1646.19, y: 6.726881 },
@@ -8122,7 +8182,7 @@ const data_1__bitrate_butteraugli_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.33, y: 6.725992 },
@@ -8142,7 +8202,7 @@ const data_1__bitrate_butteraugli_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   
   data: [
     { x: 2234.61, y: 2.535625 },
@@ -8161,7 +8221,7 @@ const data_1__bitrate_butteraugli_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2234.61, y: 2.535625 },
@@ -8192,6 +8252,26 @@ const data_1__bitrate_fps__x264_medium_crf = {
   ]
 };
 
+const data_1__bitrate_fps__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 5864.46, y: 38.36 },
+    { x: 3739.87, y: 34.02 },
+    { x: 2417.55, y: 37.51 },
+    { x: 1572.95, y: 40.49 },
+    { x: 1061.48, y: 43.38 },
+    { x: 735.36, y: 46.13 }
+  ]
+};
+
 const data_1__bitrate_fps__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -8200,7 +8280,7 @@ const data_1__bitrate_fps__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 7955.54, y: 75.34 },
@@ -8221,7 +8301,7 @@ const data_1__bitrate_fps__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7812.86, y: 60.34 },
@@ -8242,7 +8322,7 @@ const data_1__bitrate_fps__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 8071.96, y: 3.53 },
@@ -8263,7 +8343,7 @@ const data_1__bitrate_fps__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 8055.91, y: 2.74 },
@@ -8284,7 +8364,7 @@ const data_1__bitrate_fps__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 5973.65, y: 48.589 },
@@ -8306,7 +8386,7 @@ const data_1__bitrate_fps__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6225.94, y: 42.593 },
@@ -8328,7 +8408,7 @@ const data_1__bitrate_fps__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 6548.53, y: 126.243 },
@@ -8350,7 +8430,7 @@ const data_1__bitrate_fps__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6831.82, y: 97.457 },
@@ -8372,7 +8452,7 @@ const data_1__bitrate_fps__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5931.81, y: 205.607 },
@@ -8393,7 +8473,7 @@ const data_1__bitrate_fps__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6107.52, y: 126.688 },
@@ -8414,7 +8494,7 @@ const data_1__bitrate_fps__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6402.15, y: 379.628 },
@@ -8435,7 +8515,7 @@ const data_1__bitrate_fps__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6404.61, y: 149.277 },
@@ -8456,7 +8536,7 @@ const data_1__bitrate_fps__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7870.61, y: 8.113 },
@@ -8476,7 +8556,7 @@ const data_1__bitrate_fps__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 7626.61, y: 1.023 },
@@ -10478,7 +10558,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 2099.17, y: 210.59 },
@@ -10497,7 +10577,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.85, y: 366.20 },
@@ -10516,7 +10596,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 1542.23, y: 470.12 },
@@ -10537,7 +10617,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1585.03, y: 464.18 },
@@ -10558,7 +10638,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1646.50, y: 116.16 },
@@ -10579,7 +10659,7 @@ const data_1__bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.35, y: 431.97 },
@@ -10599,7 +10679,7 @@ const data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 2176.99, y: 117.93 },
@@ -10618,7 +10698,7 @@ const data_1__bitrate_fps_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2228.92, y: 210.57 },
@@ -10637,7 +10717,7 @@ const data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 1430.28, y: 193.14 },
@@ -10658,7 +10738,7 @@ const data_1__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1549.56, y: 213.57 },
@@ -10679,7 +10759,7 @@ const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 2099.13, y: 64.06 },
@@ -10698,7 +10778,7 @@ const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.90, y: 118.03 },
@@ -10717,7 +10797,7 @@ const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 1413.41, y: 134.83 },
@@ -10738,7 +10818,7 @@ const data_1__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1436.21, y: 136.02 },
@@ -10759,7 +10839,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 2099.13, y: 169.12 },
@@ -10778,7 +10858,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2128.83, y: 188.85 },
@@ -10797,7 +10877,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 1542.20, y: 233.29 },
@@ -10818,7 +10898,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1584.93, y: 236.47 },
@@ -10839,7 +10919,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1646.19, y: 107.30 },
@@ -10860,7 +10940,7 @@ const data_1__bitrate_fps_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1740.33, y: 220.98 },
@@ -10880,7 +10960,7 @@ const data_1__bitrate_fps_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 2234.61, y: 106.63 },
@@ -10899,7 +10979,7 @@ const data_1__bitrate_fps_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 2234.61, y: 107.34 },
@@ -10912,6 +10992,7 @@ const data_1__bitrate_fps_r3_3200G_VCEEncC_H_264_normal = {
 
 const datasets_1__bitrate_ssim = [
   data_1__bitrate_ssim__x264_medium_crf,
+  data_1__bitrate_ssim__x264_veryslow_crf,
   data_1__bitrate_ssim__x265_medium_crf,
   data_1__bitrate_ssim__x265_medium_10bit_crf,
   data_1__bitrate_ssim__x265_veryslow_crf,
@@ -11052,6 +11133,7 @@ const datasets_1__bitrate_ssim = [
 
 const datasets_1__bitrate_vmaf = [
   data_1__bitrate_vmaf__x264_medium_crf,
+  data_1__bitrate_vmaf__x264_veryslow_crf,
   data_1__bitrate_vmaf__x265_medium_crf,
   data_1__bitrate_vmaf__x265_medium_10bit_crf,
   data_1__bitrate_vmaf__x265_veryslow_crf,
@@ -11192,6 +11274,7 @@ const datasets_1__bitrate_vmaf = [
 
 const datasets_1__bitrate_butteraugli = [
   data_1__bitrate_butteraugli__x264_medium_crf,
+  data_1__bitrate_butteraugli__x264_veryslow_crf,
   data_1__bitrate_butteraugli__x265_medium_crf,
   data_1__bitrate_butteraugli__x265_medium_10bit_crf,
   data_1__bitrate_butteraugli__x265_veryslow_crf,
@@ -11330,6 +11413,7 @@ const datasets_1__bitrate_butteraugli = [
 
 const datasets_1__bitrate_fps = [
   data_1__bitrate_fps__x264_medium_crf,
+  data_1__bitrate_fps__x264_veryslow_crf,
   data_1__bitrate_fps__x265_medium_crf,
   data_1__bitrate_fps__x265_medium_10bit_crf,
   data_1__bitrate_fps__x265_veryslow_crf,
@@ -22426,6 +22510,27 @@ const data_2__bitrate_ssim__x264_medium_crf = {
   ]
 };
 
+const data_2__bitrate_ssim__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 7505.08, y: 0.988884 },
+    { x: 5105.97, y: 0.987459 },
+    { x: 2958.09, y: 0.984728 },
+    { x: 1618.20, y: 0.980553 },
+    { x: 935.76, y: 0.974506 },
+    { x: 567.84, y: 0.965822 },
+    { x: 374.83, y: 0.953907 }
+  ]
+};
+
 const data_2__bitrate_ssim__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -22434,7 +22539,7 @@ const data_2__bitrate_ssim__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6979.82, y: 0.987482 },
@@ -22455,7 +22560,7 @@ const data_2__bitrate_ssim__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6950.50, y: 0.996057 },
@@ -22476,7 +22581,7 @@ const data_2__bitrate_ssim__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 7535.91, y: 0.988558 },
@@ -22497,7 +22602,7 @@ const data_2__bitrate_ssim__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7541.61, y: 0.996931 },
@@ -22518,7 +22623,7 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 4484.13, y: 0.986871 },
@@ -22540,7 +22645,7 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 4714.71, y: 0.995273 },
@@ -22562,7 +22667,7 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 4750.87, y: 0.986521 },
@@ -22584,7 +22689,7 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 5022.97, y: 0.995072 },
@@ -22606,7 +22711,7 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5744.97, y: 0.985753 },
@@ -22628,7 +22733,7 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6357.42, y: 0.994835 },
@@ -22650,7 +22755,7 @@ const data_2__bitrate_ssim__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 4807.01, y: 0.983816 },
@@ -22672,7 +22777,7 @@ const data_2__bitrate_ssim__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 4896.82, y: 0.992294 },
@@ -22694,7 +22799,7 @@ const data_2__bitrate_ssim__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6386.93, y: 0.996216 },
@@ -22713,7 +22818,7 @@ const data_2__bitrate_ssim__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6769.78, y: 0.996576 },
@@ -24728,7 +24833,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 1199.95, y: 0.969371 },
@@ -24748,7 +24853,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.81, y: 0.968939 },
@@ -24768,7 +24873,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 932.95, y: 0.970578 },
@@ -24789,7 +24894,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.82, y: 0.970769 },
@@ -24810,7 +24915,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1037.38, y: 0.973255 },
@@ -24831,7 +24936,7 @@ const data_2__bitrate_ssim_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.93, y: 0.972641 },
@@ -24852,7 +24957,7 @@ const data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 1428.09, y: 0.969546 },
@@ -24872,7 +24977,7 @@ const data_2__bitrate_ssim_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.89, y: 0.968855 },
@@ -24892,7 +24997,7 @@ const data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 799.98, y: 0.968214 },
@@ -24913,7 +25018,7 @@ const data_2__bitrate_ssim_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 889.01, y: 0.968417 },
@@ -24934,7 +25039,7 @@ const data_2__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 1199.91, y: 0.969374 },
@@ -24954,7 +25059,7 @@ const data_2__bitrate_ssim_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.76, y: 0.968946 },
@@ -24974,7 +25079,7 @@ const data_2__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 909.53, y: 0.968061 },
@@ -24995,7 +25100,7 @@ const data_2__bitrate_ssim_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 909.90, y: 0.968036 },
@@ -25016,7 +25121,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 1199.91, y: 0.969374 },
@@ -25036,7 +25141,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.56, y: 0.968939 },
@@ -25056,7 +25161,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 932.96, y: 0.970591 },
@@ -25077,7 +25182,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.76, y: 0.970761 },
@@ -25098,7 +25203,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1037.40, y: 0.973251 },
@@ -25119,7 +25224,7 @@ const data_2__bitrate_ssim_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.76, y: 0.972642 },
@@ -25140,7 +25245,7 @@ const data_2__bitrate_ssim_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 1450.90, y: 0.969288 },
@@ -25160,7 +25265,7 @@ const data_2__bitrate_ssim_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.90, y: 0.969288 },
@@ -25192,6 +25297,27 @@ const data_2__bitrate_vmaf__x264_medium_crf = {
   ]
 };
 
+const data_2__bitrate_vmaf__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 7505.08, y: 97.64991 },
+    { x: 5105.97, y: 96.44561 },
+    { x: 2958.09, y: 93.526901 },
+    { x: 1618.20, y: 88.857963 },
+    { x: 935.76, y: 82.024168 },
+    { x: 567.84, y: 72.159636 },
+    { x: 374.83, y: 59.06474 }
+  ]
+};
+
 const data_2__bitrate_vmaf__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -25200,7 +25326,7 @@ const data_2__bitrate_vmaf__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6979.82, y: 96.97903 },
@@ -25221,7 +25347,7 @@ const data_2__bitrate_vmaf__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6950.50, y: 96.658887 },
@@ -25242,7 +25368,7 @@ const data_2__bitrate_vmaf__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 7535.91, y: 97.768907 },
@@ -25263,7 +25389,7 @@ const data_2__bitrate_vmaf__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7541.61, y: 97.747519 },
@@ -25284,7 +25410,7 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 4484.13, y: 96.599219 },
@@ -25306,7 +25432,7 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 4714.71, y: 96.326104 },
@@ -25328,7 +25454,7 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 4750.87, y: 96.485696 },
@@ -25350,7 +25476,7 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 5022.97, y: 96.169712 },
@@ -25372,7 +25498,7 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5744.97, y: 96.03475 },
@@ -25394,7 +25520,7 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6357.42, y: 95.710946 },
@@ -25416,7 +25542,7 @@ const data_2__bitrate_vmaf__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 4807.01, y: 94.304483 },
@@ -25438,7 +25564,7 @@ const data_2__bitrate_vmaf__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 4896.82, y: 93.528453 },
@@ -25460,7 +25586,7 @@ const data_2__bitrate_vmaf__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6386.93, y: 96.757967 },
@@ -25479,7 +25605,7 @@ const data_2__bitrate_vmaf__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6769.78, y: 97.407375 },
@@ -27494,7 +27620,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 1199.95, y: 75.875393 },
@@ -27514,7 +27640,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.81, y: 75.330444 },
@@ -27534,7 +27660,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 932.95, y: 83.958631 },
@@ -27555,7 +27681,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.82, y: 84.025894 },
@@ -27576,7 +27702,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1037.38, y: 86.206156 },
@@ -27597,7 +27723,7 @@ const data_2__bitrate_vmaf_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.93, y: 85.854606 },
@@ -27618,7 +27744,7 @@ const data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 1428.09, y: 77.270712 },
@@ -27638,7 +27764,7 @@ const data_2__bitrate_vmaf_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.89, y: 76.651131 },
@@ -27658,7 +27784,7 @@ const data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 799.98, y: 81.652215 },
@@ -27679,7 +27805,7 @@ const data_2__bitrate_vmaf_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 889.01, y: 81.650254 },
@@ -27700,7 +27826,7 @@ const data_2__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 1199.91, y: 75.876987 },
@@ -27720,7 +27846,7 @@ const data_2__bitrate_vmaf_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.76, y: 75.345085 },
@@ -27740,7 +27866,7 @@ const data_2__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 909.53, y: 81.728395 },
@@ -27761,7 +27887,7 @@ const data_2__bitrate_vmaf_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 909.90, y: 81.716955 },
@@ -27782,7 +27908,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 1199.91, y: 75.876987 },
@@ -27802,7 +27928,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.56, y: 75.328613 },
@@ -27822,7 +27948,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 932.96, y: 83.941235 },
@@ -27843,7 +27969,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.76, y: 84.016532 },
@@ -27864,7 +27990,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1037.40, y: 86.210849 },
@@ -27885,7 +28011,7 @@ const data_2__bitrate_vmaf_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.76, y: 85.85788 },
@@ -27906,7 +28032,7 @@ const data_2__bitrate_vmaf_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 1450.90, y: 76.805494 },
@@ -27926,7 +28052,7 @@ const data_2__bitrate_vmaf_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.90, y: 76.805494 },
@@ -27958,6 +28084,27 @@ const data_2__bitrate_butteraugli__x264_medium_crf = {
   ]
 };
 
+const data_2__bitrate_butteraugli__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 7505.08, y: 0.489331 },
+    { x: 5105.97, y: 0.689614 },
+    { x: 2958.09, y: 1.004264 },
+    { x: 1618.20, y: 1.395176 },
+    { x: 935.76, y: 1.909009 },
+    { x: 567.84, y: 2.628639 },
+    { x: 374.83, y: 3.564944 }
+  ]
+};
+
 const data_2__bitrate_butteraugli__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -27966,7 +28113,7 @@ const data_2__bitrate_butteraugli__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6979.82, y: 0.802369 },
@@ -27987,7 +28134,7 @@ const data_2__bitrate_butteraugli__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6950.50, y: 0.727103 },
@@ -28008,7 +28155,7 @@ const data_2__bitrate_butteraugli__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 7535.91, y: 0.627356 },
@@ -28029,7 +28176,7 @@ const data_2__bitrate_butteraugli__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7541.61, y: 0.603781 },
@@ -28050,7 +28197,7 @@ const data_2__bitrate_butteraugli__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 4484.13, y: 0.887956 },
@@ -28072,7 +28219,7 @@ const data_2__bitrate_butteraugli__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 4714.71, y: 0.846418 },
@@ -28094,7 +28241,7 @@ const data_2__bitrate_butteraugli__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 4750.87, y: 0.92505 },
@@ -28116,7 +28263,7 @@ const data_2__bitrate_butteraugli__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 5022.97, y: 0.845307 },
@@ -28138,7 +28285,7 @@ const data_2__bitrate_butteraugli__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5744.97, y: 1.431511 },
@@ -28160,7 +28307,7 @@ const data_2__bitrate_butteraugli__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6357.42, y: 0.810185 },
@@ -28182,7 +28329,7 @@ const data_2__bitrate_butteraugli__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 4807.01, y: 1.572567 },
@@ -28204,7 +28351,7 @@ const data_2__bitrate_butteraugli__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 4896.82, y: 1.160959 },
@@ -30233,7 +30380,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   
   data: [
     { x: 1199.95, y: 2.411338 },
@@ -30253,7 +30400,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.81, y: 2.42408 },
@@ -30273,7 +30420,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   
   data: [
     { x: 932.95, y: 1.97462 },
@@ -30294,7 +30441,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.82, y: 1.955633 },
@@ -30315,7 +30462,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   
   data: [
     { x: 1037.38, y: 4.484441 },
@@ -30336,7 +30483,7 @@ const data_2__bitrate_butteraugli_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.93, y: 4.479527 },
@@ -30357,7 +30504,7 @@ const data_2__bitrate_butteraugli_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   
   data: [
     { x: 1428.09, y: 2.388538 },
@@ -30377,7 +30524,7 @@ const data_2__bitrate_butteraugli_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.89, y: 2.409046 },
@@ -30397,7 +30544,7 @@ const data_2__bitrate_butteraugli_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   
   data: [
     { x: 799.98, y: 2.101744 },
@@ -30418,7 +30565,7 @@ const data_2__bitrate_butteraugli_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 889.01, y: 2.074939 },
@@ -30439,7 +30586,7 @@ const data_2__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   
   data: [
     { x: 1199.91, y: 2.411082 },
@@ -30459,7 +30606,7 @@ const data_2__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.76, y: 2.423418 },
@@ -30479,7 +30626,7 @@ const data_2__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   
   data: [
     { x: 909.53, y: 2.083254 },
@@ -30500,7 +30647,7 @@ const data_2__bitrate_butteraugli_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 909.90, y: 2.083605 },
@@ -30521,7 +30668,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   
   data: [
     { x: 1199.91, y: 2.411082 },
@@ -30541,7 +30688,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.56, y: 2.423682 },
@@ -30561,7 +30708,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   
   data: [
     { x: 932.96, y: 1.973956 },
@@ -30582,7 +30729,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.76, y: 1.955326 },
@@ -30603,7 +30750,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   
   data: [
     { x: 1037.40, y: 4.484834 },
@@ -30624,7 +30771,7 @@ const data_2__bitrate_butteraugli_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.76, y: 4.479584 },
@@ -30645,7 +30792,7 @@ const data_2__bitrate_butteraugli_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   
   data: [
     { x: 1450.90, y: 2.407862 },
@@ -30665,7 +30812,7 @@ const data_2__bitrate_butteraugli_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.90, y: 2.407862 },
@@ -30697,6 +30844,27 @@ const data_2__bitrate_fps__x264_medium_crf = {
   ]
 };
 
+const data_2__bitrate_fps__x264_veryslow_crf = {
+  label: " x264 veryslow crf",
+  showLine: true,
+  pointStyle: "circle",
+  hidden: false,
+  lineTension: 0.4,
+  borderWidth: 1.5,
+  backgroundColor: 'rgba(255, 255, 255, 0.0)',
+  borderColor: 'rgba(255, 126, 14, 0.9)',
+  
+  data: [
+    { x: 7505.08, y: 48.14 },
+    { x: 5105.97, y: 54.57 },
+    { x: 2958.09, y: 63.29 },
+    { x: 1618.20, y: 75.00 },
+    { x: 935.76, y: 84.45 },
+    { x: 567.84, y: 74.58 },
+    { x: 374.83, y: 77.14 }
+  ]
+};
+
 const data_2__bitrate_fps__x265_medium_crf = {
   label: " x265 medium crf",
   showLine: true,
@@ -30705,7 +30873,7 @@ const data_2__bitrate_fps__x265_medium_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 126, 14, 0.9)',
+  borderColor: 'rgba(43, 160, 43, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 6979.82, y: 86.70 },
@@ -30726,7 +30894,7 @@ const data_2__bitrate_fps__x265_medium_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(43, 160, 43, 0.9)',
+  borderColor: 'rgba(214, 38, 40, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6950.50, y: 69.47 },
@@ -30747,7 +30915,7 @@ const data_2__bitrate_fps__x265_veryslow_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(214, 38, 40, 0.9)',
+  borderColor: 'rgba(147, 103, 188, 0.9)',
   
   data: [
     { x: 7535.91, y: 3.59 },
@@ -30768,7 +30936,7 @@ const data_2__bitrate_fps__x265_veryslow_10bit_crf = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(147, 103, 188, 0.9)',
+  borderColor: 'rgba(140, 86, 75, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 7541.61, y: 2.88 },
@@ -30789,7 +30957,7 @@ const data_2__bitrate_fps__svtav1_8bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(140, 86, 75, 0.9)',
+  borderColor: 'rgba(226, 119, 193, 0.9)',
   
   data: [
     { x: 4484.13, y: 49.889 },
@@ -30811,7 +30979,7 @@ const data_2__bitrate_fps__svtav1_10bit_preset_3 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(226, 119, 193, 0.9)',
+  borderColor: 'rgba(126, 126, 126, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 4714.71, y: 44.051 },
@@ -30833,7 +31001,7 @@ const data_2__bitrate_fps__svtav1_8bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 126, 126, 0.9)',
+  borderColor: 'rgba(188, 188, 33, 0.9)',
   
   data: [
     { x: 4750.87, y: 133.523 },
@@ -30855,7 +31023,7 @@ const data_2__bitrate_fps__svtav1_10bit_preset_5 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 33, 0.9)',
+  borderColor: 'rgba(22, 189, 207, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 5022.97, y: 99.894 },
@@ -30877,7 +31045,7 @@ const data_2__bitrate_fps__svtav1_8bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(22, 189, 207, 0.9)',
+  borderColor: 'rgba(58, 1, 130, 0.9)',
   
   data: [
     { x: 5744.97, y: 217.782 },
@@ -30899,7 +31067,7 @@ const data_2__bitrate_fps__svtav1_10bit_preset_7 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(58, 1, 130, 0.9)',
+  borderColor: 'rgba(0, 66, 1, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6357.42, y: 131.482 },
@@ -30921,7 +31089,7 @@ const data_2__bitrate_fps__svtav1_8bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(0, 66, 1, 0.9)',
+  borderColor: 'rgba(15, 255, 168, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 4807.01, y: 397.328 },
@@ -30943,7 +31111,7 @@ const data_2__bitrate_fps__svtav1_10bit_preset_10 = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(15, 255, 168, 0.9)',
+  borderColor: 'rgba(93, 0, 63, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 4896.82, y: 162.202 },
@@ -30965,7 +31133,7 @@ const data_2__bitrate_fps__VVenC_10bit_preset_faster = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 63, 0.9)',
+  borderColor: 'rgba(188, 188, 255, 0.9)',
   borderDash: [12,2],
   data: [
     { x: 6386.93, y: 7.567 },
@@ -30984,7 +31152,7 @@ const data_2__bitrate_fps__VVenC_10bit_preset_medium = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 188, 255, 0.9)',
+  borderColor: 'rgba(216, 175, 161, 0.9)',
   borderDash: [3,1],
   data: [
     { x: 6769.78, y: 1.038 },
@@ -33011,7 +33179,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(216, 175, 161, 0.9)',
+  borderColor: 'rgba(184, 0, 128, 0.9)',
   
   data: [
     { x: 1199.95, y: 208.77 },
@@ -33031,7 +33199,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(184, 0, 128, 0.9)',
+  borderColor: 'rgba(124, 1, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.81, y: 346.43 },
@@ -33051,7 +33219,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(124, 1, 0, 0.9)',
+  borderColor: 'rgba(255, 191, 242, 0.9)',
   
   data: [
     { x: 932.95, y: 424.92 },
@@ -33072,7 +33240,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 191, 242, 0.9)',
+  borderColor: 'rgba(255, 110, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.82, y: 418.35 },
@@ -33093,7 +33261,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 110, 117, 0.9)',
+  borderColor: 'rgba(255, 1, 140, 0.9)',
   
   data: [
     { x: 1037.38, y: 112.09 },
@@ -33114,7 +33282,7 @@ const data_2__bitrate_fps_rx7900xt_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 1, 140, 0.9)',
+  borderColor: 'rgba(182, 86, 0, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.93, y: 452.69 },
@@ -33135,7 +33303,7 @@ const data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(182, 86, 0, 0.9)',
+  borderColor: 'rgba(165, 96, 137, 0.9)',
   
   data: [
     { x: 1428.09, y: 117.35 },
@@ -33155,7 +33323,7 @@ const data_2__bitrate_fps_rx5500xt_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(165, 96, 137, 0.9)',
+  borderColor: 'rgba(188, 124, 117, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.89, y: 215.27 },
@@ -33175,7 +33343,7 @@ const data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 124, 117, 0.9)',
+  borderColor: 'rgba(138, 40, 68, 0.9)',
   
   data: [
     { x: 799.98, y: 194.67 },
@@ -33196,7 +33364,7 @@ const data_2__bitrate_fps_rx5500xt_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 40, 68, 0.9)',
+  borderColor: 'rgba(98, 59, 65, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 889.01, y: 217.18 },
@@ -33217,7 +33385,7 @@ const data_2__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(98, 59, 65, 0.9)',
+  borderColor: 'rgba(255, 158, 181, 0.9)',
   
   data: [
     { x: 1199.91, y: 62.91 },
@@ -33237,7 +33405,7 @@ const data_2__bitrate_fps_r9_9950x_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 158, 181, 0.9)',
+  borderColor: 'rgba(205, 79, 107, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.76, y: 122.14 },
@@ -33257,7 +33425,7 @@ const data_2__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(205, 79, 107, 0.9)',
+  borderColor: 'rgba(255, 7, 214, 0.9)',
   
   data: [
     { x: 909.53, y: 151.13 },
@@ -33278,7 +33446,7 @@ const data_2__bitrate_fps_r9_9950x_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 7, 214, 0.9)',
+  borderColor: 'rgba(138, 58, 5, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 909.90, y: 153.10 },
@@ -33299,7 +33467,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(138, 58, 5, 0.9)',
+  borderColor: 'rgba(126, 61, 112, 0.9)',
   
   data: [
     { x: 1199.91, y: 160.31 },
@@ -33319,7 +33487,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(126, 61, 112, 0.9)',
+  borderColor: 'rgba(255, 73, 1, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1202.56, y: 212.02 },
@@ -33339,7 +33507,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_HEVC_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 73, 1, 0.9)',
+  borderColor: 'rgba(255, 154, 117, 0.9)',
   
   data: [
     { x: 932.96, y: 253.85 },
@@ -33360,7 +33528,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_HEVC_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(255, 154, 117, 0.9)',
+  borderColor: 'rgba(188, 0, 73, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1000.76, y: 271.14 },
@@ -33381,7 +33549,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_AV1_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(188, 0, 73, 0.9)',
+  borderColor: 'rgba(93, 0, 24, 0.9)',
   
   data: [
     { x: 1037.40, y: 107.12 },
@@ -33402,7 +33570,7 @@ const data_2__bitrate_fps_ai7_350_igpu_VCEEncC_AV1_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(93, 0, 24, 0.9)',
+  borderColor: 'rgba(218, 109, 66, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1054.76, y: 280.81 },
@@ -33423,7 +33591,7 @@ const data_2__bitrate_fps_r3_3200G_VCEEncC_H_264_quality = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(218, 109, 66, 0.9)',
+  borderColor: 'rgba(170, 21, 0, 0.9)',
   
   data: [
     { x: 1450.90, y: 111.31 },
@@ -33443,7 +33611,7 @@ const data_2__bitrate_fps_r3_3200G_VCEEncC_H_264_normal = {
   lineTension: 0.4,
   borderWidth: 1.5,
   backgroundColor: 'rgba(255, 255, 255, 0.0)',
-  borderColor: 'rgba(170, 21, 0, 0.9)',
+  borderColor: 'rgba(255, 42, 86, 0.9)',
   borderDash: [4,2],
   data: [
     { x: 1450.90, y: 111.83 },
@@ -33457,6 +33625,7 @@ const data_2__bitrate_fps_r3_3200G_VCEEncC_H_264_normal = {
 
 const datasets_2__bitrate_ssim = [
   data_2__bitrate_ssim__x264_medium_crf,
+  data_2__bitrate_ssim__x264_veryslow_crf,
   data_2__bitrate_ssim__x265_medium_crf,
   data_2__bitrate_ssim__x265_medium_10bit_crf,
   data_2__bitrate_ssim__x265_veryslow_crf,
@@ -33597,6 +33766,7 @@ const datasets_2__bitrate_ssim = [
 
 const datasets_2__bitrate_vmaf = [
   data_2__bitrate_vmaf__x264_medium_crf,
+  data_2__bitrate_vmaf__x264_veryslow_crf,
   data_2__bitrate_vmaf__x265_medium_crf,
   data_2__bitrate_vmaf__x265_medium_10bit_crf,
   data_2__bitrate_vmaf__x265_veryslow_crf,
@@ -33737,6 +33907,7 @@ const datasets_2__bitrate_vmaf = [
 
 const datasets_2__bitrate_butteraugli = [
   data_2__bitrate_butteraugli__x264_medium_crf,
+  data_2__bitrate_butteraugli__x264_veryslow_crf,
   data_2__bitrate_butteraugli__x265_medium_crf,
   data_2__bitrate_butteraugli__x265_medium_10bit_crf,
   data_2__bitrate_butteraugli__x265_veryslow_crf,
@@ -33875,6 +34046,7 @@ const datasets_2__bitrate_butteraugli = [
 
 const datasets_2__bitrate_fps = [
   data_2__bitrate_fps__x264_medium_crf,
+  data_2__bitrate_fps__x264_veryslow_crf,
   data_2__bitrate_fps__x265_medium_crf,
   data_2__bitrate_fps__x265_medium_10bit_crf,
   data_2__bitrate_fps__x265_veryslow_crf,
