@@ -5,6 +5,7 @@ import datetime
 import colorsys
 import re
 import os
+import json
 
 class EncodeData:
     encoder = ''
@@ -143,7 +144,15 @@ def get_chart_options(name, aspect_ratio, x_label, x_min, x_max, y_label, y_min,
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': $X_LABEL$ = ' + value.x + ', $Y_LABEL$ = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('$X_LABEL$ = ' + value.x + ', $Y_LABEL$ = ' + value.y);
+            return lines;
           },
         },
       },
@@ -315,6 +324,10 @@ def get_point_style(label, used_point_style):
 
     return default_point_style
 
+def format_scatter_point(d, label_x, label_y):
+    set_str = json.dumps(d.set)
+    quality_str = json.dumps(d.quality)
+    return f"    {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)}, set: {set_str}, quality: {quality_str} }}"
 
 def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, label_x, label_y, quality_only, bitrate_max_cut, hidden_list, dashed_list, dotted_list, drop_list, replace_list):
     color_list = cc.glasbey_category10
@@ -372,7 +385,7 @@ def create_chart_js(target_id, dict_enc_set_data, dict_enc_colorhue, vbr_mode, l
                 elif dotted_line:
                     border_dash = 'borderDash: [4,2],'
 
-                points = ',\n'.join([f"    {{ x: {d.get_value(label_x)}, y: {d.get_value(label_y)} }}" for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut and float(d.get_value(label_y)) != 0.0])
+                points = ',\n'.join([format_scatter_point(d, label_x, label_y) for d in set_data if float(d.get_value(label_x)) < bitrate_max_cut and float(d.get_value(label_y)) != 0.0])
                 
                 data_object_str = f"""const {variable_name} = {{
   label: "{label}",

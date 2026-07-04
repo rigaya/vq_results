@@ -5,8 +5,8 @@ var aspect_ratio_bitrate_ssimulacra2 = 1.0;
 var aspect_ratio_bitrate_butteraugli = 1.0;
 var aspect_ratio_bitrate_fps = 1.0;
 
-var ctx_t1_20251201_bitrate_ssim_data = document.getElementById('chart_t1_20251201_bitrate_ssim');
-const chart_t1_20251201_bitrate_ssim_data = new Chart(ctx_t1_20251201_bitrate_ssim_data,
+var ctx_t1_20260704_bitrate_ssim_data = document.getElementById('chart_t1_20260704_bitrate_ssim');
+const chart_t1_20260704_bitrate_ssim_data = new Chart(ctx_t1_20260704_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -43,7 +43,15 @@ const chart_t1_20251201_bitrate_ssim_data = new Chart(ctx_t1_20251201_bitrate_ss
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ssim = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', ssim = ' + value.y);
+            return lines;
           },
         },
       },
@@ -82,8 +90,8 @@ const chart_t1_20251201_bitrate_ssim_data = new Chart(ctx_t1_20251201_bitrate_ss
 
 });
 
-var ctx_t1_20251201_bitrate_vmaf_data = document.getElementById('chart_t1_20251201_bitrate_vmaf');
-const chart_t1_20251201_bitrate_vmaf_data = new Chart(ctx_t1_20251201_bitrate_vmaf_data,
+var ctx_t1_20260704_bitrate_vmaf_data = document.getElementById('chart_t1_20260704_bitrate_vmaf');
+const chart_t1_20260704_bitrate_vmaf_data = new Chart(ctx_t1_20260704_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -120,7 +128,15 @@ const chart_t1_20251201_bitrate_vmaf_data = new Chart(ctx_t1_20251201_bitrate_vm
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y);
+            return lines;
           },
         },
       },
@@ -159,8 +175,8 @@ const chart_t1_20251201_bitrate_vmaf_data = new Chart(ctx_t1_20251201_bitrate_vm
 
 });
 
-var ctx_t1_20251201_bitrate_butteraugli_data = document.getElementById('chart_t1_20251201_bitrate_butteraugli');
-const chart_t1_20251201_bitrate_butteraugli_data = new Chart(ctx_t1_20251201_bitrate_butteraugli_data,
+var ctx_t1_20260704_bitrate_butteraugli_data = document.getElementById('chart_t1_20260704_bitrate_butteraugli');
+const chart_t1_20260704_bitrate_butteraugli_data = new Chart(ctx_t1_20260704_bitrate_butteraugli_data,
 {
   type: 'scatter',
   parsing: false,
@@ -197,7 +213,15 @@ const chart_t1_20251201_bitrate_butteraugli_data = new Chart(ctx_t1_20251201_bit
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y);
+            return lines;
           },
         },
       },
@@ -236,8 +260,8 @@ const chart_t1_20251201_bitrate_butteraugli_data = new Chart(ctx_t1_20251201_bit
 
 });
 
-var ctx_t1_20251201_bitrate_fps_data = document.getElementById('chart_t1_20251201_bitrate_fps');
-const chart_t1_20251201_bitrate_fps_data = new Chart(ctx_t1_20251201_bitrate_fps_data,
+var ctx_t1_20260704_bitrate_fps_data = document.getElementById('chart_t1_20260704_bitrate_fps');
+const chart_t1_20260704_bitrate_fps_data = new Chart(ctx_t1_20260704_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -274,7 +298,15 @@ const chart_t1_20251201_bitrate_fps_data = new Chart(ctx_t1_20251201_bitrate_fps
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', fps = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', fps = ' + value.y);
+            return lines;
           },
         },
       },
@@ -313,8 +345,8 @@ const chart_t1_20251201_bitrate_fps_data = new Chart(ctx_t1_20251201_bitrate_fps
 
 });
 
-var ctx_t1_20251201_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20251201_vbr_bitrate_ssim');
-const chart_t1_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t1_20251201_vbr_bitrate_ssim_data,
+var ctx_t1_20260704_vbr_bitrate_ssim_data = document.getElementById('chart_t1_20260704_vbr_bitrate_ssim');
+const chart_t1_20260704_vbr_bitrate_ssim_data = new Chart(ctx_t1_20260704_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -351,7 +383,15 @@ const chart_t1_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t1_20251201_vbr_bi
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ssim = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', ssim = ' + value.y);
+            return lines;
           },
         },
       },
@@ -390,8 +430,8 @@ const chart_t1_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t1_20251201_vbr_bi
 
 });
 
-var ctx_t1_20251201_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20251201_vbr_bitrate_vmaf');
-const chart_t1_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20251201_vbr_bitrate_vmaf_data,
+var ctx_t1_20260704_vbr_bitrate_vmaf_data = document.getElementById('chart_t1_20260704_vbr_bitrate_vmaf');
+const chart_t1_20260704_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20260704_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -428,7 +468,15 @@ const chart_t1_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20251201_vbr_bi
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y);
+            return lines;
           },
         },
       },
@@ -467,8 +515,8 @@ const chart_t1_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t1_20251201_vbr_bi
 
 });
 
-var ctx_t1_20251201_vbr_bitrate_butteraugli_data = document.getElementById('chart_t1_20251201_vbr_bitrate_butteraugli');
-const chart_t1_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t1_20251201_vbr_bitrate_butteraugli_data,
+var ctx_t1_20260704_vbr_bitrate_butteraugli_data = document.getElementById('chart_t1_20260704_vbr_bitrate_butteraugli');
+const chart_t1_20260704_vbr_bitrate_butteraugli_data = new Chart(ctx_t1_20260704_vbr_bitrate_butteraugli_data,
 {
   type: 'scatter',
   parsing: false,
@@ -505,7 +553,15 @@ const chart_t1_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t1_20251201
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y);
+            return lines;
           },
         },
       },
@@ -544,8 +600,8 @@ const chart_t1_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t1_20251201
 
 });
 
-var ctx_t1_20251201_vbr_bitrate_fps_data = document.getElementById('chart_t1_20251201_vbr_bitrate_fps');
-const chart_t1_20251201_vbr_bitrate_fps_data = new Chart(ctx_t1_20251201_vbr_bitrate_fps_data,
+var ctx_t1_20260704_vbr_bitrate_fps_data = document.getElementById('chart_t1_20260704_vbr_bitrate_fps');
+const chart_t1_20260704_vbr_bitrate_fps_data = new Chart(ctx_t1_20260704_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -582,7 +638,15 @@ const chart_t1_20251201_vbr_bitrate_fps_data = new Chart(ctx_t1_20251201_vbr_bit
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', fps = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', fps = ' + value.y);
+            return lines;
           },
         },
       },
@@ -621,8 +685,8 @@ const chart_t1_20251201_vbr_bitrate_fps_data = new Chart(ctx_t1_20251201_vbr_bit
 
 });
 
-var ctx_t2_20251201_bitrate_ssim_data = document.getElementById('chart_t2_20251201_bitrate_ssim');
-const chart_t2_20251201_bitrate_ssim_data = new Chart(ctx_t2_20251201_bitrate_ssim_data,
+var ctx_t2_20260704_bitrate_ssim_data = document.getElementById('chart_t2_20260704_bitrate_ssim');
+const chart_t2_20260704_bitrate_ssim_data = new Chart(ctx_t2_20260704_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -659,7 +723,15 @@ const chart_t2_20251201_bitrate_ssim_data = new Chart(ctx_t2_20251201_bitrate_ss
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ssim = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', ssim = ' + value.y);
+            return lines;
           },
         },
       },
@@ -698,8 +770,8 @@ const chart_t2_20251201_bitrate_ssim_data = new Chart(ctx_t2_20251201_bitrate_ss
 
 });
 
-var ctx_t2_20251201_bitrate_vmaf_data = document.getElementById('chart_t2_20251201_bitrate_vmaf');
-const chart_t2_20251201_bitrate_vmaf_data = new Chart(ctx_t2_20251201_bitrate_vmaf_data,
+var ctx_t2_20260704_bitrate_vmaf_data = document.getElementById('chart_t2_20260704_bitrate_vmaf');
+const chart_t2_20260704_bitrate_vmaf_data = new Chart(ctx_t2_20260704_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -736,7 +808,15 @@ const chart_t2_20251201_bitrate_vmaf_data = new Chart(ctx_t2_20251201_bitrate_vm
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y);
+            return lines;
           },
         },
       },
@@ -775,8 +855,8 @@ const chart_t2_20251201_bitrate_vmaf_data = new Chart(ctx_t2_20251201_bitrate_vm
 
 });
 
-var ctx_t2_20251201_bitrate_butteraugli_data = document.getElementById('chart_t2_20251201_bitrate_butteraugli');
-const chart_t2_20251201_bitrate_butteraugli_data = new Chart(ctx_t2_20251201_bitrate_butteraugli_data,
+var ctx_t2_20260704_bitrate_butteraugli_data = document.getElementById('chart_t2_20260704_bitrate_butteraugli');
+const chart_t2_20260704_bitrate_butteraugli_data = new Chart(ctx_t2_20260704_bitrate_butteraugli_data,
 {
   type: 'scatter',
   parsing: false,
@@ -813,7 +893,15 @@ const chart_t2_20251201_bitrate_butteraugli_data = new Chart(ctx_t2_20251201_bit
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y);
+            return lines;
           },
         },
       },
@@ -852,8 +940,8 @@ const chart_t2_20251201_bitrate_butteraugli_data = new Chart(ctx_t2_20251201_bit
 
 });
 
-var ctx_t2_20251201_bitrate_fps_data = document.getElementById('chart_t2_20251201_bitrate_fps');
-const chart_t2_20251201_bitrate_fps_data = new Chart(ctx_t2_20251201_bitrate_fps_data,
+var ctx_t2_20260704_bitrate_fps_data = document.getElementById('chart_t2_20260704_bitrate_fps');
+const chart_t2_20260704_bitrate_fps_data = new Chart(ctx_t2_20260704_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -890,7 +978,15 @@ const chart_t2_20251201_bitrate_fps_data = new Chart(ctx_t2_20251201_bitrate_fps
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', fps = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', fps = ' + value.y);
+            return lines;
           },
         },
       },
@@ -929,8 +1025,8 @@ const chart_t2_20251201_bitrate_fps_data = new Chart(ctx_t2_20251201_bitrate_fps
 
 });
 
-var ctx_t2_20251201_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20251201_vbr_bitrate_ssim');
-const chart_t2_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t2_20251201_vbr_bitrate_ssim_data,
+var ctx_t2_20260704_vbr_bitrate_ssim_data = document.getElementById('chart_t2_20260704_vbr_bitrate_ssim');
+const chart_t2_20260704_vbr_bitrate_ssim_data = new Chart(ctx_t2_20260704_vbr_bitrate_ssim_data,
 {
   type: 'scatter',
   parsing: false,
@@ -967,7 +1063,15 @@ const chart_t2_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t2_20251201_vbr_bi
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', ssim = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', ssim = ' + value.y);
+            return lines;
           },
         },
       },
@@ -1006,8 +1110,8 @@ const chart_t2_20251201_vbr_bitrate_ssim_data = new Chart(ctx_t2_20251201_vbr_bi
 
 });
 
-var ctx_t2_20251201_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20251201_vbr_bitrate_vmaf');
-const chart_t2_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20251201_vbr_bitrate_vmaf_data,
+var ctx_t2_20260704_vbr_bitrate_vmaf_data = document.getElementById('chart_t2_20260704_vbr_bitrate_vmaf');
+const chart_t2_20260704_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20260704_vbr_bitrate_vmaf_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1044,7 +1148,15 @@ const chart_t2_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20251201_vbr_bi
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', vmaf = ' + value.y);
+            return lines;
           },
         },
       },
@@ -1083,8 +1195,8 @@ const chart_t2_20251201_vbr_bitrate_vmaf_data = new Chart(ctx_t2_20251201_vbr_bi
 
 });
 
-var ctx_t2_20251201_vbr_bitrate_butteraugli_data = document.getElementById('chart_t2_20251201_vbr_bitrate_butteraugli');
-const chart_t2_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t2_20251201_vbr_bitrate_butteraugli_data,
+var ctx_t2_20260704_vbr_bitrate_butteraugli_data = document.getElementById('chart_t2_20260704_vbr_bitrate_butteraugli');
+const chart_t2_20260704_vbr_bitrate_butteraugli_data = new Chart(ctx_t2_20260704_vbr_bitrate_butteraugli_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1121,7 +1233,15 @@ const chart_t2_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t2_20251201
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', butteraugli = ' + value.y);
+            return lines;
           },
         },
       },
@@ -1160,8 +1280,8 @@ const chart_t2_20251201_vbr_bitrate_butteraugli_data = new Chart(ctx_t2_20251201
 
 });
 
-var ctx_t2_20251201_vbr_bitrate_fps_data = document.getElementById('chart_t2_20251201_vbr_bitrate_fps');
-const chart_t2_20251201_vbr_bitrate_fps_data = new Chart(ctx_t2_20251201_vbr_bitrate_fps_data,
+var ctx_t2_20260704_vbr_bitrate_fps_data = document.getElementById('chart_t2_20260704_vbr_bitrate_fps');
+const chart_t2_20260704_vbr_bitrate_fps_data = new Chart(ctx_t2_20260704_vbr_bitrate_fps_data,
 {
   type: 'scatter',
   parsing: false,
@@ -1198,7 +1318,15 @@ const chart_t2_20251201_vbr_bitrate_fps_data = new Chart(ctx_t2_20251201_vbr_bit
         callbacks: {
           label: function(context) {
             var value = context.parsed;
-            return context.dataset.label + ': bitrate (kbps) = ' + value.x + ', fps = ' + value.y;
+            var raw = context.raw;
+            var lines = [];
+            if (raw.quality != null) {
+              lines.push(context.dataset.label + ' = ' + raw.quality);
+            } else {
+              lines.push(context.dataset.label);
+            }
+            lines.push('bitrate (kbps) = ' + value.x + ', fps = ' + value.y);
+            return lines;
           },
         },
       },
@@ -1239,22 +1367,22 @@ const chart_t2_20251201_vbr_bitrate_fps_data = new Chart(ctx_t2_20251201_vbr_bit
 
 
 window.all_charts = [
-    chart_t1_20251201_bitrate_ssim_data,
-    chart_t1_20251201_bitrate_vmaf_data,
-    chart_t1_20251201_bitrate_butteraugli_data,
-    chart_t1_20251201_bitrate_fps_data,
-    chart_t1_20251201_vbr_bitrate_ssim_data,
-    chart_t1_20251201_vbr_bitrate_vmaf_data,
-    chart_t1_20251201_vbr_bitrate_butteraugli_data,
-    chart_t1_20251201_vbr_bitrate_fps_data,
-    chart_t2_20251201_bitrate_ssim_data,
-    chart_t2_20251201_bitrate_vmaf_data,
-    chart_t2_20251201_bitrate_butteraugli_data,
-    chart_t2_20251201_bitrate_fps_data,
-    chart_t2_20251201_vbr_bitrate_ssim_data,
-    chart_t2_20251201_vbr_bitrate_vmaf_data,
-    chart_t2_20251201_vbr_bitrate_butteraugli_data,
-    chart_t2_20251201_vbr_bitrate_fps_data
+    chart_t1_20260704_bitrate_ssim_data,
+    chart_t1_20260704_bitrate_vmaf_data,
+    chart_t1_20260704_bitrate_butteraugli_data,
+    chart_t1_20260704_bitrate_fps_data,
+    chart_t1_20260704_vbr_bitrate_ssim_data,
+    chart_t1_20260704_vbr_bitrate_vmaf_data,
+    chart_t1_20260704_vbr_bitrate_butteraugli_data,
+    chart_t1_20260704_vbr_bitrate_fps_data,
+    chart_t2_20260704_bitrate_ssim_data,
+    chart_t2_20260704_bitrate_vmaf_data,
+    chart_t2_20260704_bitrate_butteraugli_data,
+    chart_t2_20260704_bitrate_fps_data,
+    chart_t2_20260704_vbr_bitrate_ssim_data,
+    chart_t2_20260704_vbr_bitrate_vmaf_data,
+    chart_t2_20260704_vbr_bitrate_butteraugli_data,
+    chart_t2_20260704_vbr_bitrate_fps_data
 ];
 
 window.all_charts.forEach(chart => {
